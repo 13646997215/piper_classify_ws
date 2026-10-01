@@ -1,0 +1,29 @@
+TRIAL_START: baseline_a
+VERIFY_TASK_OK: red/blue inside bins; green displacement 0.000 mm; feedback 0/2 -> 1/2 -> 2/2; home restored
+TRIAL_OK: baseline_a
+Stopping workspace launch groups: 694110
+Classification simulation stopped; next launch loads the initial world.
+TRIAL_START: baseline_b
+Captured 6 RGB-D samples and CameraInfo; missing TF transforms: 0
+VERIFY_TASK_OK: red/blue inside bins; green displacement 0.000 mm; feedback 0/2 -> 1/2 -> 2/2; home restored
+TRIAL_OK: baseline_b
+Stopping workspace launch groups: 695497
+Classification simulation stopped; next launch loads the initial world.
+TRIAL_START: clutter_stress
+VERIFY_TASK_OK: red/blue inside bins; green displacement 0.000 mm; feedback 0/2 -> 1/2 -> 2/2; home restored
+TRIAL_OK: clutter_stress
+Stopping workspace launch groups: 697448
+Classification simulation stopped; next launch loads the initial world.
+TRIAL_START: occlusion_cancel
+Stopping workspace launch groups: 699510
+Classification simulation stopped; next launch loads the initial world.
+Traceback (most recent call last):
+  File "/home/hanhan/Desktop/piper_classify_ws/scripts/tools/verify_robustness.py", line 179, in <module>
+    if __name__=='__main__':main()
+  File "/home/hanhan/Desktop/piper_classify_ws/scripts/tools/verify_robustness.py", line 156, in main
+    if name=='occlusion_cancel':result=check.visibility_cancel(directory)
+  File "/home/hanhan/Desktop/piper_classify_ws/scripts/tools/verify_robustness.py", line 114, in visibility_cancel
+    self.wait(lambda:self.scene.ready,10)
+  File "/home/hanhan/Desktop/piper_classify_ws/scripts/tools/verify_robustness.py", line 57, in wait
+    raise AssertionError('Timed out waiting for trial condition')
+AssertionError: Timed out waiting for trial condition

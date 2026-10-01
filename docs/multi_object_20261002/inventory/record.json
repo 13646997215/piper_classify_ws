@@ -1,0 +1,130 @@
+{
+  "scene": {
+    "header": {
+      "stamp": {
+        "sec": 2,
+        "nanosec": 300000000
+      },
+      "frame_id": "base_link"
+    },
+    "ready": false,
+    "camera_stable": true,
+    "fresh_colors": [],
+    "stale_colors": [
+      "red",
+      "green",
+      "blue"
+    ],
+    "detail": "Vision scene unavailable; stale/unconfirmed: red green blue unexpected extra workpieces; Reliable visible top surfaces; expected counts checked by scene bridge",
+    "object_ids": [
+      "blue_block",
+      "green_block",
+      "red_block"
+    ],
+    "object_colors": [
+      "blue",
+      "green",
+      "red"
+    ],
+    "fresh_objects": [],
+    "stale_objects": [
+      "blue_block",
+      "green_block",
+      "red_block"
+    ]
+  },
+  "detections": {
+    "header": {
+      "stamp": {
+        "sec": 2,
+        "nanosec": 185000000
+      },
+      "frame_id": "base_link"
+    },
+    "camera_stable": true,
+    "status": "Reliable visible top surfaces; expected counts checked by scene bridge",
+    "blocks": [
+      {
+        "color": "red",
+        "center": {
+          "x": 0.40032269378893054,
+          "y": 0.0007105871652098585,
+          "z": 0.028344145493732174
+        },
+        "top_z": 0.05334414541721344,
+        "visible_points": 2610,
+        "confidence": 1.0,
+        "top_width": 0.04931621626019478,
+        "top_depth": 0.04937869310379028,
+        "plane_error": 0.0005809160065837204,
+        "yaw": 0.0004922906518913805
+      },
+      {
+        "color": "red",
+        "center": {
+          "x": 0.49999440171261744,
+          "y": 0.073531411769,
+          "z": 0.028346338312977525
+        },
+        "top_z": 0.053346339613199234,
+        "visible_points": 2055,
+        "confidence": 1.0,
+        "top_width": 0.04937814548611641,
+        "top_depth": 0.04915618151426315,
+        "plane_error": 0.0007118088542483747,
+        "yaw": 0.37754306197166443
+      },
+      {
+        "color": "green",
+        "center": {
+          "x": 0.40002156328352895,
+          "y": 0.14035715272070576,
+          "z": 0.028356359986160616
+        },
+        "top_z": 0.0533563606441021,
+        "visible_points": 2965,
+        "confidence": 1.0,
+        "top_width": 0.04944628104567528,
+        "top_depth": 0.049330927431583405,
+        "plane_error": 0.0005817632772959769,
+        "yaw": 0.0030246535316109657
+      },
+      {
+        "color": "blue",
+        "center": {
+          "x": 0.39970069886434856,
+          "y": -0.1390322825451267,
+          "z": 0.02836594900892233
+        },
+        "top_z": 0.05336594954133034,
+        "visible_points": 3097,
+        "confidence": 1.0,
+        "top_width": 0.049334608018398285,
+        "top_depth": 0.04947337880730629,
+        "plane_error": 0.0007382994517683983,
+        "yaw": 0.007240609265863895
+      }
+    ]
+  },
+  "max_joint_change_rad": 7.6102348627278e-07,
+  "passed": true,
+  "result": {
+    "header": {
+      "stamp": {
+        "sec": 5,
+        "nanosec": 300000000
+      },
+      "frame_id": "base_link"
+    },
+    "success": false,
+    "succeeded": 0,
+    "failed": 0,
+    "elapsed_sec": 3.047794541,
+    "detail": "Task cancelled; gripper retained; reset required before retry",
+    "objects": [],
+    "bins": [],
+    "final_poses": [],
+    "physical_objects": []
+  },
+  "no_arm_goals": true
+}

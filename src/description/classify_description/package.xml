@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>classify_description</name>
+  <version>1.0.0</version>
+  <description>
+    松灵 Piper 机械臂描述 + 工件分类搬运场景。
+    基于官方 agilexrobotics/piper_ros humble 分支的 piper_description，
+    做了以下修正：
+      1. collision 几何由 STL mesh 改为内缩 box（ODE 对 mesh 支持差，link2 有 73166 面）
+      2. 修正 link6 失真的 inertial（官方质心落在网格外，惯量大 600 倍）
+      3. 新增 world 连杆 + 固定关节
+      4. ros2_control 块删除官方所有关节的 min/max 钳位（否则 joint2 只能到 57°）
+      5. 控制器配置用参数传入，不写死 $(find piper_gazebo)
+      6. 夹爪两镜像关节合并为单个 JointTrajectoryController
+         （Gazebo Classic 11 不支持 SDF 的 mimic 元素，无法用 mimic 实现物理联动）
+    运动学与 visual 与官方逐项一致。
+  </description>
+
+  <maintainer email="hanhan@example.com">hanhan</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>classify_camera_sim</exec_depend>
+  <exec_depend>classify_grasp_sim</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>gazebo_ros2_control</exec_depend>
+  <exec_depend>gazebo_ros_pkgs</exec_depend>
+  <exec_depend>joint_state_broadcaster</exec_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher_gui</exec_depend>
+  <exec_depend>joint_trajectory_controller</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>ros2_control</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>rviz_common</exec_depend>
+  <exec_depend>rviz_default_plugins</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>xacro</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,49 @@
+{
+  "detections": {
+    "header": {
+      "stamp": {
+        "sec": 309,
+        "nanosec": 150000000
+      },
+      "frame_id": "base_link"
+    },
+    "camera_stable": true,
+    "status": "Incomplete visibility; unreliable surfaces rejected",
+    "blocks": [
+      {
+        "color": "green",
+        "center": {
+          "x": 0.40007844908237056,
+          "y": 0.140343276698917,
+          "z": 0.02840535583760547
+        },
+        "top_z": 0.05340535566210747,
+        "visible_points": 2799,
+        "confidence": 1.0,
+        "top_width": 0.04988570511341095,
+        "top_depth": 0.04926237091422081,
+        "plane_error": 0.000621800369117409
+      }
+    ]
+  },
+  "rgb": true,
+  "scene_status": {
+    "header": {
+      "stamp": {
+        "sec": 863,
+        "nanosec": 700000000
+      },
+      "frame_id": "base_link"
+    },
+    "ready": true,
+    "camera_stable": true,
+    "fresh_colors": [
+      "green"
+    ],
+    "stale_colors": [
+      "red",
+      "blue"
+    ],
+    "detail": "Vision scene ready; Incomplete visibility; unreliable surfaces rejected"
+  }
+}

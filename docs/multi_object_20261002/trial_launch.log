@@ -1,0 +1,316 @@
+[INFO] [launch]: All log files can be found below /home/hanhan/Desktop/piper_classify_ws/log/classify_runtime/2026-10-02-02-09-53-964326-hanhan-732717
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [gzserver-1]: process started with pid [732898]
+[INFO] [align_rgbd-2]: process started with pid [732900]
+[INFO] [robot_state_publisher-3]: process started with pid [732902]
+[INFO] [spawn_entity.py-4]: process started with pid [732904]
+[INFO] [move_group-5]: process started with pid [732906]
+[INFO] [scene_bridge-6]: process started with pid [732908]
+[INFO] [detect_blocks-7]: process started with pid [732910]
+[INFO] [classify_task_node-8]: process started with pid [732912]
+[robot_state_publisher-3] [INFO] [1790878195.832799184] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-3] [INFO] [1790878195.833555247] [robot_state_publisher]: got segment camera_color_frame
+[robot_state_publisher-3] [INFO] [1790878195.833606357] [robot_state_publisher]: got segment camera_color_optical_frame
+[robot_state_publisher-3] [INFO] [1790878195.833622579] [robot_state_publisher]: got segment camera_depth_frame
+[robot_state_publisher-3] [INFO] [1790878195.833636669] [robot_state_publisher]: got segment camera_depth_optical_frame
+[robot_state_publisher-3] [INFO] [1790878195.833650525] [robot_state_publisher]: got segment camera_link
+[robot_state_publisher-3] [INFO] [1790878195.833664308] [robot_state_publisher]: got segment camera_optical_frame
+[robot_state_publisher-3] [INFO] [1790878195.833677582] [robot_state_publisher]: got segment gripper_base
+[robot_state_publisher-3] [INFO] [1790878195.833690164] [robot_state_publisher]: got segment link1
+[robot_state_publisher-3] [INFO] [1790878195.833702935] [robot_state_publisher]: got segment link2
+[robot_state_publisher-3] [INFO] [1790878195.833715494] [robot_state_publisher]: got segment link3
+[robot_state_publisher-3] [INFO] [1790878195.833729182] [robot_state_publisher]: got segment link4
+[robot_state_publisher-3] [INFO] [1790878195.833743270] [robot_state_publisher]: got segment link5
+[robot_state_publisher-3] [INFO] [1790878195.833756851] [robot_state_publisher]: got segment link6
+[robot_state_publisher-3] [INFO] [1790878195.833769967] [robot_state_publisher]: got segment link7
+[robot_state_publisher-3] [INFO] [1790878195.833782297] [robot_state_publisher]: got segment link8
+[robot_state_publisher-3] [INFO] [1790878195.833794393] [robot_state_publisher]: got segment world
+[move_group-5] [INFO] [1790878195.911911790] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[move_group-5] [INFO] [1790878195.912134722] [moveit_robot_model.robot_model]: Loading robot model 'piper'...
+[move_group-5] [INFO] [1790878195.912160640] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[move_group-5] [INFO] [1790878196.000917308] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-5] [INFO] [1790878196.001384525] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-5] [INFO] [1790878196.003705568] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-5] [INFO] [1790878196.004617105] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-5] [INFO] [1790878196.004664586] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[move_group-5] [INFO] [1790878196.005331762] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-5] [INFO] [1790878196.005362325] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-5] [INFO] [1790878196.005945533] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-5] [INFO] [1790878196.009321757] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-5] [WARN] [1790878196.009830059] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-5] [ERROR] [1790878196.009859202] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[move_group-5] [INFO] [1790878196.013674248] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[move_group-5] [INFO] [1790878196.082435691] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[move_group-5] [INFO] [1790878196.088003237] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[move_group-5] [INFO] [1790878196.088063697] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[move_group-5] [INFO] [1790878196.088078880] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[move_group-5] [INFO] [1790878196.088126242] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-5] [INFO] [1790878196.088164989] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[move_group-5] [INFO] [1790878196.088179176] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-5] [INFO] [1790878196.088220615] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-5] [INFO] [1790878196.088235887] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[move_group-5] [INFO] [1790878196.088250817] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[move_group-5] [INFO] [1790878196.088278031] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-5] [INFO] [1790878196.088287921] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[move_group-5] [INFO] [1790878196.088296312] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-5] [INFO] [1790878196.088303995] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-5] [INFO] [1790878196.088311937] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-5] [INFO] [1790878196.088320046] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-5] [WARN] [1790878196.098396780] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[move_group-5] [INFO] [1790878196.198749772] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for piper_arm_controller
+[move_group-5] [INFO] [1790878196.206956431] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for piper_gripper_controller
+[move_group-5] [INFO] [1790878196.207387622] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790878196.207470680] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790878196.208849326] [moveit_ros.trajectory_execution_manager]: Trajectory execution is not managing controllers
+[move_group-5] [INFO] [1790878196.208896554] [move_group.move_group]: MoveGroup debug mode is ON
+[align_rgbd-2] [INFO] [1790878196.225308499] [gemini335_registration]: Gemini 335 D2C: separate optical centres, 16UC1 mm, nominal intrinsics; exact sensor pairing
+[move_group-5] [INFO] [1790878196.301771871] [move_group.move_group]: 
+[move_group-5] 
+[move_group-5] ********************************************************
+[move_group-5] * MoveGroup using: 
+[move_group-5] *     - ApplyPlanningSceneService
+[move_group-5] *     - ClearOctomapService
+[move_group-5] *     - CartesianPathService
+[move_group-5] *     - ExecuteTrajectoryAction
+[move_group-5] *     - GetPlanningSceneService
+[move_group-5] *     - KinematicsService
+[move_group-5] *     - MoveAction
+[move_group-5] *     - MotionPlanService
+[move_group-5] *     - QueryPlannersService
+[move_group-5] *     - StateValidationService
+[move_group-5] ********************************************************
+[move_group-5] 
+[move_group-5] [INFO] [1790878196.301886715] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[move_group-5] [INFO] [1790878196.301907116] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[move_group-5] [96mLoading 'move_group/ApplyPlanningSceneService'...
+[move_group-5] [0m[96mLoading 'move_group/ClearOctomapService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupCartesianPathService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupGetPlanningSceneService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupKinematicsService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupMoveAction'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupPlanService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupQueryPlannersService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupStateValidationService'...
+[move_group-5] [0m[92m
+[move_group-5] You can start planning now!
+[move_group-5] 
+[scene_bridge-6] [INFO] [1790878196.335364763] [scene_bridge]: Planning scene ready: table top, four legs, red and blue bins
+[spawn_entity.py-4] [INFO] [1790878197.157616622] [spawn_piper]: Spawn Entity started
+[spawn_entity.py-4] [INFO] [1790878197.159260098] [spawn_piper]: Loading entity published on topic robot_description
+[spawn_entity.py-4] [INFO] [1790878197.169208682] [spawn_piper]: Waiting for entity xml on robot_description
+[spawn_entity.py-4] [INFO] [1790878197.190780401] [spawn_piper]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-4] [INFO] [1790878197.193947483] [spawn_piper]: Waiting for service /spawn_entity
+[spawn_entity.py-4] [INFO] [1790878198.720094157] [spawn_piper]: Calling service /spawn_entity
+[gzserver-1] [INFO] [1790878198.799318271] [gazebo.classify_entity_state]: Publishing states of gazebo models at [/gazebo/model_states]
+[gzserver-1] [INFO] [1790878198.801856920] [gazebo.classify_entity_state]: Publishing states of gazebo links at [/gazebo/link_states]
+[gzserver-1] [INFO] [1790878199.986949243] [camera.gemini335_color_controller]: Publishing camera info to [/camera/color/gazebo_camera_info]
+[spawn_entity.py-4] [INFO] [1790878200.015913664] [spawn_piper]: Spawn status: SpawnEntity: Successfully spawned entity [piper]
+[gzserver-1] [INFO] [1790878200.068526365] [camera.gemini335_depth_controller]: Publishing camera info to [/camera/native/gazebo_camera_info]
+[gzserver-1] [INFO] [1790878200.077590672] [camera.gemini335_depth_controller]: Publishing depth camera info to [/camera/native/depth/gazebo_camera_info]
+[gzserver-1] [INFO] [1790878200.079710365] [camera.gemini335_depth_controller]: Publishing pointcloud to [/camera/native/points]
+[gzserver-1] [INFO] [1790878200.175761360] [classify_contact_grasp]: Contact grasp active: both fingers, side normals, 50 ms contact; release on opening
+[gzserver-1] [INFO] [1790878200.235614908] [gazebo_ros2_control]: Loading gazebo_ros2_control plugin
+[gzserver-1] [INFO] [1790878200.266485671] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in namespace: /
+[gzserver-1] [INFO] [1790878200.266631047] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in ros 2 node: gazebo_ros2_control
+[INFO] [spawn_entity.py-4]: process has finished cleanly [pid 732904]
+[gzserver-1] [INFO] [1790878200.285915704] [gazebo_ros2_control]: connected to service!! robot_state_publisher
+[gzserver-1] [INFO] [1790878200.288879991] [gazebo_ros2_control]: Received urdf from param server, parsing...
+[gzserver-1] [INFO] [1790878200.289111179] [gazebo_ros2_control]: Loading parameter files /home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/config/ros2_controllers.yaml
+[INFO] [spawner-9]: process started with pid [733290]
+[INFO] [spawner-10]: process started with pid [733292]
+[INFO] [spawner-11]: process started with pid [733294]
+[gzserver-1] [INFO] [1790878200.361403393] [gazebo_ros2_control]: Loading joint: joint1
+[gzserver-1] [INFO] [1790878200.361529762] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790878200.361568117] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790878200.361605804] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790878200.361645006] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790878200.361672264] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790878200.361696787] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790878200.363229048] [gazebo_ros2_control]: Loading joint: joint2
+[gzserver-1] [INFO] [1790878200.363317954] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790878200.363345897] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790878200.363374128] [gazebo_ros2_control]: 			 found initial value: 0.872660
+[gzserver-1] [INFO] [1790878200.363406652] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790878200.363429060] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790878200.363451860] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790878200.368032074] [gazebo_ros2_control]: Loading joint: joint3
+[gzserver-1] [INFO] [1790878200.368140496] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790878200.368161403] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790878200.368185860] [gazebo_ros2_control]: 			 found initial value: -1.221730
+[gzserver-1] [INFO] [1790878200.368259030] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790878200.368277875] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790878200.368291280] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790878200.368678766] [gazebo_ros2_control]: Loading joint: joint4
+[gzserver-1] [INFO] [1790878200.368717475] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790878200.368736263] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790878200.368755534] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790878200.368778702] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790878200.368794390] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790878200.368810552] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790878200.370075298] [gazebo_ros2_control]: Loading joint: joint5
+[gzserver-1] [INFO] [1790878200.370144048] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790878200.370163986] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790878200.370217233] [gazebo_ros2_control]: 			 found initial value: 1.220000
+[gzserver-1] [INFO] [1790878200.370241223] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790878200.370259453] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790878200.370276872] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790878200.371219876] [gazebo_ros2_control]: Loading joint: joint6
+[gzserver-1] [INFO] [1790878200.371279119] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790878200.371395363] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790878200.371420041] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790878200.371443377] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790878200.371459553] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790878200.371476256] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790878200.371959329] [gazebo_ros2_control]: Loading joint: joint7
+[gzserver-1] [INFO] [1790878200.372186108] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790878200.372223403] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790878200.372244257] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790878200.372269475] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790878200.372287483] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790878200.372304778] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790878200.373561376] [gazebo_ros2_control]: Loading joint: joint8
+[gzserver-1] [INFO] [1790878200.373627437] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790878200.373644950] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790878200.373660954] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790878200.373684219] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790878200.373698691] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790878200.373713206] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790878200.374429332] [resource_manager]: Initialize hardware 'GazeboSystem' 
+[gzserver-1] [INFO] [1790878200.374953584] [resource_manager]: Successful initialization of hardware 'GazeboSystem'
+[gzserver-1] [INFO] [1790878200.375266800] [resource_manager]: 'configure' hardware 'GazeboSystem' 
+[gzserver-1] [INFO] [1790878200.375994709] [resource_manager]: Successful 'configure' of hardware 'GazeboSystem'
+[gzserver-1] [INFO] [1790878200.376051646] [resource_manager]: 'activate' hardware 'GazeboSystem' 
+[gzserver-1] [INFO] [1790878200.376094035] [resource_manager]: Successful 'activate' of hardware 'GazeboSystem'
+[gzserver-1] [INFO] [1790878200.376355200] [gazebo_ros2_control]: Loading controller_manager
+[gzserver-1] [WARN] [1790878200.507678225] [gazebo_ros2_control]:  Desired controller update period (0.01 s) is slower than the gazebo simulation period (0.001 s).
+[gzserver-1] [INFO] [1790878200.510180484] [gazebo_ros2_control]: Loaded gazebo_ros2_control.
+[spawner-11] [INFO] [1790878201.352330006] [spawner_piper_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [INFO] [1790878201.606594709] [spawner_piper_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [INFO] [1790878201.612186533] [spawner_piper_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[gzserver-1] [INFO] [1790878202.243392119] [controller_manager]: Loading controller 'piper_arm_controller'
+[gzserver-1] [WARN] [1790878202.347685870] [piper_arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[gzserver-1] [INFO] [1790878202.352906899] [controller_manager]: Loading controller 'piper_joint_state_broadcaster'
+[spawner-10] [INFO] [1790878202.360843796] [spawner_piper_arm_controller]: [94mLoaded [1mpiper_arm_controller[0m
+[gzserver-1] [INFO] [1790878202.397317523] [controller_manager]: Configuring controller 'piper_arm_controller'
+[gzserver-1] [INFO] [1790878202.398429664] [piper_arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-1] [INFO] [1790878202.398527581] [piper_arm_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[gzserver-1] [INFO] [1790878202.398662921] [piper_arm_controller]: Using 'splines' interpolation method.
+[spawner-9] [INFO] [1790878202.399921061] [spawner_piper_joint_state_broadcaster]: [94mLoaded [1mpiper_joint_state_broadcaster[0m
+[gzserver-1] [INFO] [1790878202.403882280] [piper_arm_controller]: Controller state will be published at 50.00 Hz.
+[gzserver-1] [INFO] [1790878202.422715624] [piper_arm_controller]: Action status changes will be monitored at 20.00 Hz.
+[gzserver-1] [INFO] [1790878202.455014750] [controller_manager]: Configuring controller 'piper_joint_state_broadcaster'
+[gzserver-1] [INFO] [1790878202.455262417] [piper_joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[spawner-10] [INFO] [1790878202.489962186] [spawner_piper_arm_controller]: [92mConfigured and activated [1mpiper_arm_controller[0m
+[spawner-9] [INFO] [1790878202.586386952] [spawner_piper_joint_state_broadcaster]: [92mConfigured and activated [1mpiper_joint_state_broadcaster[0m
+[INFO] [spawner-10]: process has finished cleanly [pid 733292]
+[INFO] [spawner-9]: process has finished cleanly [pid 733290]
+[gzserver-1] [INFO] [1790878203.865334579] [controller_manager]: Loading controller 'piper_gripper_controller'
+[gzserver-1] [WARN] [1790878203.904185658] [piper_gripper_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[spawner-11] [INFO] [1790878203.910841338] [spawner_piper_gripper_controller]: [94mLoaded [1mpiper_gripper_controller[0m
+[gzserver-1] [INFO] [1790878203.913771641] [controller_manager]: Configuring controller 'piper_gripper_controller'
+[gzserver-1] [INFO] [1790878203.914078404] [piper_gripper_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-1] [INFO] [1790878203.914123429] [piper_gripper_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[gzserver-1] [INFO] [1790878203.914156432] [piper_gripper_controller]: Using 'splines' interpolation method.
+[gzserver-1] [INFO] [1790878203.915112085] [piper_gripper_controller]: Controller state will be published at 50.00 Hz.
+[gzserver-1] [INFO] [1790878203.918024279] [piper_gripper_controller]: Action status changes will be monitored at 20.00 Hz.
+[spawner-11] [INFO] [1790878203.953391972] [spawner_piper_gripper_controller]: [92mConfigured and activated [1mpiper_gripper_controller[0m
+[INFO] [spawner-11]: process has finished cleanly [pid 733294]
+[detect_blocks-7] [INFO] [1790878204.219060095] [detect_blocks]: Detected 3 reliable blocks: red=(0.400019,0.000642243,0.0283742) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139151,0.0283523)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878206.683566203] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283561)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878209.236548982] [detect_blocks]: Detected 3 reliable blocks: red=(0.400019,0.000642245,0.0283747) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139151,0.0283517)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878211.358526005] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283561)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878213.322881895] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283711) green=(0.400126,0.14033,0.0283274) blue=(0.40004,-0.139144,0.0283499)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878215.532100845] [detect_blocks]: Detected 3 reliable blocks: red=(0.400019,0.000642245,0.0283762) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139151,0.0283517)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878217.768451559] [detect_blocks]: Detected 3 reliable blocks: red=(0.400019,0.000642243,0.0283762) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139151,0.0283517)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878219.933281505] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283711) green=(0.400126,0.14033,0.0283274) blue=(0.40004,-0.139144,0.0283497)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878222.267579624] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283561)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878224.220534049] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283707) green=(0.400126,0.14033,0.0283274) blue=(0.40004,-0.139144,0.0283497)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878226.389961278] [detect_blocks]: Detected 3 reliable blocks: red=(0.400019,0.000642245,0.0283762) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139151,0.0283517)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878228.457082748] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283707) green=(0.400126,0.14033,0.0283274) blue=(0.40004,-0.139144,0.0283497)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878230.488118656] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283707) green=(0.400126,0.14033,0.0283274) blue=(0.40004,-0.139144,0.0283497)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878232.586907697] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283561)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878234.873517405] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283707) green=(0.400126,0.14033,0.0283274) blue=(0.40004,-0.139144,0.0283497)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878236.892957819] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283707) green=(0.400126,0.14033,0.0283274) blue=(0.40004,-0.139144,0.0283497)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878239.065011962] [detect_blocks]: Detected 3 reliable blocks: red=(0.400019,0.000642245,0.0283762) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139151,0.02835)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878241.151663620] [detect_blocks]: Detected 3 reliable blocks: red=(0.400019,0.000642245,0.0283762) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139151,0.02835)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878243.342804669] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139151,0.0283556)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878245.416715595] [detect_blocks]: Detected 3 reliable blocks: red=(0.400019,0.000642243,0.0283762) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139151,0.0283523)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878247.713511005] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139151,0.0283561)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878249.985434100] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139151,0.0283557)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878252.463731614] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139151,0.0283557)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878255.205243841] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139151,0.0283557)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878257.670126272] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647135,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139151,0.0283557)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878260.413592533] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283497)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878262.955863024] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139151,0.0283557)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878265.281523014] [detect_blocks]: Detected 3 reliable blocks: red=(0.400019,0.000642243,0.0283762) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139151,0.0283523)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878267.520761394] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139151,0.0283556)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878269.844125024] [detect_blocks]: Detected 3 reliable blocks: red=(0.400019,0.000642245,0.0283762) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878272.392003541] [detect_blocks]: Detected 3 reliable blocks: red=(0.400019,0.000642243,0.0283762) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878274.433517050] [detect_blocks]: Detected 3 reliable blocks: red=(0.400019,0.000642245,0.0283762) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878276.618375321] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878278.724644847] [detect_blocks]: Detected 3 reliable blocks: red=(0.400019,0.000642245,0.0283762) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878280.828854488] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878282.927785355] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283711) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878285.019397814] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878287.267284343] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878289.331441470] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878291.475489255] [detect_blocks]: Detected 3 reliable blocks: red=(0.400019,0.000642243,0.0283762) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878293.802638701] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283711) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878295.831277686] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878297.924282158] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878299.876681865] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878302.053964094] [detect_blocks]: Detected 3 reliable blocks: red=(0.400019,0.000642243,0.0283759) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878304.266854828] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283803) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878306.571401614] [detect_blocks]: Detected 3 reliable blocks: red=(0.400019,0.000642245,0.0283759) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878308.743191701] [detect_blocks]: Detected 3 reliable blocks: red=(0.400019,0.000642243,0.0283759) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878310.808061547] [detect_blocks]: Detected 3 reliable blocks: red=(0.400019,0.000642243,0.0283759) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878313.130481881] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878315.347676105] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878317.466853786] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878319.522902811] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878321.585675465] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878323.823619569] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647135,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878325.872327847] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878327.977438583] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878330.122544419] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878332.160934211] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878334.251198954] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878336.376073186] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878338.503110174] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878340.566473359] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878342.870972633] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878345.177095887] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878347.355255259] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878349.415681141] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878351.643214899] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878353.928226128] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878356.008541238] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878358.063769993] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878360.165909544] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878362.231110746] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647135,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878364.342997587] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878366.402166178] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878368.583581271] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878370.692667287] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878372.916626541] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878374.998621500] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878377.162210798] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878379.172387224] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878381.262161757] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878383.369820142] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878385.563506406] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878387.712999659] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878389.669707595] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878391.759327990] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878393.712841977] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878396.072849811] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878398.101046480] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878400.199976542] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878402.240819756] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878404.352369439] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878406.331538418] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878408.485963902] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878410.655444393] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878412.730878228] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647136,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790878415.102912764] [detect_blocks]: Detected 3 reliable blocks: red=(0.399999,0.000647134,0.0283733) green=(0.400126,0.14033,0.0283274) blue=(0.400046,-0.139145,0.0283494)  (Reliable visible top surfaces; expected counts checked by scene bridge)

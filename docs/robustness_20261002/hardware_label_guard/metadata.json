@@ -1,0 +1,163 @@
+{
+  "source_label": "hardware",
+  "serial_label": "not_recorded",
+  "source_label_is_not_device_authentication": true,
+  "camera_info": {},
+  "pairs": [],
+  "latest_transforms": {},
+  "missing_transforms": [
+    {
+      "target": "link6",
+      "source": "camera_color_optical_frame",
+      "reason": "\"link6\" passed to lookupTransform argument target_frame does not exist. "
+    },
+    {
+      "target": "base_link",
+      "source": "camera_color_optical_frame",
+      "reason": "\"base_link\" passed to lookupTransform argument target_frame does not exist. "
+    },
+    {
+      "target": "camera_depth_optical_frame",
+      "source": "camera_color_optical_frame",
+      "reason": "\"camera_depth_optical_frame\" passed to lookupTransform argument target_frame does not exist. "
+    }
+  ],
+  "topic_types": {
+    "/camera/color/camera_info": [
+      "sensor_msgs/msg/CameraInfo"
+    ],
+    "/camera/color/gazebo_camera_info": [
+      "sensor_msgs/msg/CameraInfo"
+    ],
+    "/camera/color/image_raw": [
+      "sensor_msgs/msg/Image"
+    ],
+    "/camera/color/image_raw/compressed": [
+      "sensor_msgs/msg/CompressedImage"
+    ],
+    "/camera/color/image_raw/compressedDepth": [
+      "sensor_msgs/msg/CompressedImage"
+    ],
+    "/camera/color/image_raw/theora": [
+      "theora_image_transport/msg/Packet"
+    ],
+    "/camera/depth/camera_info": [
+      "sensor_msgs/msg/CameraInfo"
+    ],
+    "/camera/depth/image_raw": [
+      "sensor_msgs/msg/Image"
+    ],
+    "/camera/native/depth/gazebo_camera_info": [
+      "sensor_msgs/msg/CameraInfo"
+    ],
+    "/camera/native/depth/image_raw": [
+      "sensor_msgs/msg/Image"
+    ],
+    "/camera/native/depth/image_raw/compressed": [
+      "sensor_msgs/msg/CompressedImage"
+    ],
+    "/camera/native/depth/image_raw/compressedDepth": [
+      "sensor_msgs/msg/CompressedImage"
+    ],
+    "/camera/native/depth/image_raw/theora": [
+      "theora_image_transport/msg/Packet"
+    ],
+    "/camera/native/gazebo_camera_info": [
+      "sensor_msgs/msg/CameraInfo"
+    ],
+    "/camera/native/image_raw": [
+      "sensor_msgs/msg/Image"
+    ],
+    "/camera/native/image_raw/compressed": [
+      "sensor_msgs/msg/CompressedImage"
+    ],
+    "/camera/native/image_raw/compressedDepth": [
+      "sensor_msgs/msg/CompressedImage"
+    ],
+    "/camera/native/image_raw/theora": [
+      "theora_image_transport/msg/Packet"
+    ],
+    "/camera/native/points": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/classify/grasped_object": [
+      "std_msgs/msg/String"
+    ],
+    "/clock": [
+      "rosgraph_msgs/msg/Clock"
+    ],
+    "/dynamic_joint_states": [
+      "control_msgs/msg/DynamicJointState"
+    ],
+    "/gazebo/link_states": [
+      "gazebo_msgs/msg/LinkStates"
+    ],
+    "/gazebo/model_states": [
+      "gazebo_msgs/msg/ModelStates"
+    ],
+    "/joint_states": [
+      "sensor_msgs/msg/JointState"
+    ],
+    "/parameter_events": [
+      "rcl_interfaces/msg/ParameterEvent"
+    ],
+    "/performance_metrics": [
+      "gazebo_msgs/msg/PerformanceMetrics"
+    ],
+    "/piper_arm_controller/controller_state": [
+      "control_msgs/msg/JointTrajectoryControllerState"
+    ],
+    "/piper_arm_controller/follow_joint_trajectory/_action/feedback": [
+      "control_msgs/action/FollowJointTrajectory_FeedbackMessage"
+    ],
+    "/piper_arm_controller/follow_joint_trajectory/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/piper_arm_controller/joint_trajectory": [
+      "trajectory_msgs/msg/JointTrajectory"
+    ],
+    "/piper_arm_controller/state": [
+      "control_msgs/msg/JointTrajectoryControllerState"
+    ],
+    "/piper_arm_controller/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/piper_gripper_controller/controller_state": [
+      "control_msgs/msg/JointTrajectoryControllerState"
+    ],
+    "/piper_gripper_controller/follow_joint_trajectory/_action/feedback": [
+      "control_msgs/action/FollowJointTrajectory_FeedbackMessage"
+    ],
+    "/piper_gripper_controller/follow_joint_trajectory/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/piper_gripper_controller/joint_trajectory": [
+      "trajectory_msgs/msg/JointTrajectory"
+    ],
+    "/piper_gripper_controller/state": [
+      "control_msgs/msg/JointTrajectoryControllerState"
+    ],
+    "/piper_gripper_controller/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/piper_joint_state_broadcaster/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/rosout": [
+      "rcl_interfaces/msg/Log"
+    ],
+    "/tf": [
+      "tf2_msgs/msg/TFMessage"
+    ],
+    "/tf_static": [
+      "tf2_msgs/msg/TFMessage"
+    ]
+  },
+  "failure": "Simulation clock is present; isolate hardware in another ROS_DOMAIN_ID",
+  "successful_stream_capture": false,
+  "limitations": [
+    "CameraInfo/TF reflect this running driver; original hand-eye raw samples still required",
+    "Aligned depth CameraInfo may equal RGB; native depth intrinsics need native topic",
+    "No measured noise or calibration is automatically imported into the simulator"
+  ]
+}

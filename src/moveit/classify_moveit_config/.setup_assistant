@@ -1,0 +1,6 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: classify_description
+    relative_path: urdf/piper_sim.urdf
+  srdf:
+    relative_path: config/piper.srdf

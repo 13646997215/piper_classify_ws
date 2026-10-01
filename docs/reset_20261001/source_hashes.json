@@ -1,0 +1,6 @@
+{
+  "scripts/run_classify.sh": "8932a7401c9578e91b301dc59f8d127932d06a6b52b9f8ed82f64bf45411d38e",
+  "scripts/stop_classify.sh": "92436ceed6979a0c6688bf06ebd021b3093cc91c4becb5269a26c6736ecf794e",
+  "scripts/reset_classify.sh": "3fb2b60433f4b47f419d5e65ed943745b647b50b2588ea8e732dade9182becaa",
+  "scripts/tools/classify_lifecycle.py": "aa51cbcaa1de625035349e97083c2322ac9cd7d5f96e9f1dcdf51bb37db7ab39"
+}

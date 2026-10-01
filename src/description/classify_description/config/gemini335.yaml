@@ -1,0 +1,74 @@
+model: Orbbec Gemini 335
+profile_source: Official Gemini 330 USB datasheet V1.7, tables 4-4-1/4-5-2/4-5-3/MinZ
+hand_eye:
+  source: /home/hanhan/Desktop/toy_pick_ws/src/perception/toy_grasp/toy_grasp/grasp_config.py
+  source_sha256: f249afb15cbd5f41ff8a58ac0d6ffcf01f460d2c42f482e49f7019632d8acba0
+  original_result_available: false
+  date: '2026-06-22'
+  samples: 31
+  reference_frame: link6
+  calibrated_frame: camera_color_optical_frame
+  convention_evidence: grasp_config.T_CAM_EE is applied directly to RGB optical XYZ
+    in visual_grasp.py
+  xyz_m:
+  - -0.09294
+  - 0.01914
+  - 0.02915
+  rpy_rad:
+  - -0.05907
+  - 0.00275
+  - -1.58335
+  body_rpy_rad:
+  - 0.04654848803256901
+  - -1.5116624227964832
+  - -0.059020916311401
+  body_xyz_m:
+  - -0.09288342686859524
+  - 0.03314588579724646
+  - 0.0271720307092139
+  original_result_file: result/2026-06-22_18-56-28_calibration.json
+color:
+  width: 640
+  height: 480
+  fps: 15
+  hfov_deg: 70.0
+  vfov_deg: 55.0
+  fx: 457.0073621574767
+  fy: 461.03571047307986
+  cx: 320.0
+  cy: 240.0
+  intrinsics_source: Nominal FOV-derived; NOT unit-specific CameraInfo
+  distortion:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+depth:
+  width: 640
+  height: 480
+  fps: 15
+  fx: 372.0
+  fy: 372.0
+  cx: 320.0
+  cy: 240.0
+  min_z_m: 0.17
+  far_m: 20.0
+  stereo_baseline_m: 0.05
+  intrinsics_source: Official typical 640x480 intrinsics; NOT unit-specific CameraInfo
+  color_origin_in_depth_optical_m:
+  - 0.014
+  - 0.0
+  - 0.00202
+  extrinsics_source: Official nominal origin offsets; inter-sensor rotation approximated
+    identity
+simulation_limits:
+- No rolling shutter, stereo matching, measured distortion or empirical noise model
+- D2C uses nominal optical centres and z-buffer; hardware hole filling differs
+stream_mode: rgb_4_3
+datasheet_url: https://orbbec-debian-repos-aws.s3.amazonaws.com/product/Gemini%20330%20series%20Datasheet-V1.7.pdf
+hardware_reference_streams:
+  color: 640x480@15fps
+  depth: 640x480@15fps
+  note: Recorded toy_pick_ws launch settings; current physical device stream has not
+    been measured

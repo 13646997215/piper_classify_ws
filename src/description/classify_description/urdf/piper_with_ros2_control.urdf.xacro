@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<!--
+================================================================================
+piper_with_ros2_control.urdf.xacro : arm model + ros2_control + Gazebo physics
+================================================================================
+
+CRITICAL CONSTRAINT 1  ASCII only, no Chinese
+================================================================================
+  gazebo_ros2_control loads robot_description from the robot_state_publisher
+  node and splices the whole URDF into ONE command line argument shaped like
+  "robot_description:=<entire urdf text>", then calls rcl_parse_arguments.
+
+CRITICAL CONSTRAINT 2  no "colon space" sequence inside comments
+================================================================================
+  Because the URDF text is parsed as a YAML value, any line inside an XML
+  comment that contains a colon followed by a space is interpreted by the
+  YAML parser as a key/value pair. That makes rcl_parse_arguments fail with
+
+      parser error Couldn't parse parameter override rule
+
+  Verified experimentally on this machine with a small C program that calls
+  rcl_parse_arguments directly:
+      comment containing "a: b"   -> FAIL
+      comment containing "a:b"    -> PASS
+      comment containing "ab"     -> PASS
+      comment containing "x = 1"  -> PASS
+      all XML comments removed     -> PASS
+
+  So: inside these comments always write "=" instead of ": ".
+  Do NOT reintroduce colon space pairs.
+
+================================================================================
+Changes vs the official piper_description_gazebo.xacro
+================================================================================
+  1. REMOVED the per-joint min/max command clamps. The official file has 8 of
+     them, written as param name="min" value="-1" and name="max" value="1".
+     GazeboSystem clamps command writes into that range, so piper_joint2 whose
+     true range is 0 to 3.14 rad got limited to 0 to 1 rad (57 degrees) and the
+     arm physically could not lift itself.
+  2. Controllers config is injected as controllers_file instead of hardcoding
+     $(find piper_gazebo), which is a separate package we do not build.
+  3. Collision geometry comes from piper.urdf where it is already a box, not a
+     triangle mesh. ODE handles boxes efficiently. link2.STL has 73166 faces.
+  4. Friction added to the finger links link7 and link8. Without it the grasped
+     block is squeezed out instead of being held.
+
+================================================================================
+Gripper linkage
+================================================================================
+  The two fingers are driven by ONE motor. In URDF they are two mirrored
+  prismatic joints.
+
+      joint7 range   0      to  0.035   slides along minus Y in gripper_base
+      joint8 range   minus 0.035 to 0    slides along plus  Y in gripper_base
+
+  Their positive directions are OPPOSITE, so the correct relation is
+
+      joint8 = minus joint7        (equal magnitude, opposite sign)
+
+  Forcing the same sign moves both fingers to the same side and the opening
+  collapses to 0 mm.
+
+      fully open  = ( 0.035, minus 0.035)   -> 70 mm gap
+      fully close = ( 0.0005, minus 0.0005) -> 1 mm gap
+
+  The 1 mm gap on close avoids the two finger origins landing on exactly the
+  same point, which trips self collision.
+
+  Gazebo Classic 11.10.2 does NOT support the SDF mimic element so physical
+  linkage cannot be declared in the model. Verified on this machine
+    - the joint.sdf schema files under /usr/share/sdformat9 contain no mimic
+      element in any version
+    - gz sdf -k reports "Check complete" even for deliberately bogus element
+      names, so it silently ignores unknown elements
+    - libgazebo_ros2_control.so contains zero occurrences of the word mimic
+
+  Therefore both joints live in ONE JointTrajectoryController. A single
+  trajectory message carries both values so the fingers can never desync.
+  See config/ros2_controllers.yaml, controller piper_gripper_controller.
+================================================================================
+-->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="piper">
+
+  <!-- Injected by the launch file -->
+  <xacro:arg name="control_name" default="GazeboSystem"/>
+  <xacro:arg name="controllers_file"
+             default="$(find classify_description)/config/ros2_controllers.yaml"/>
+  <xacro:arg name="initial_positions_file"
+             default="$(find classify_description)/config/gazebo_initial_positions.yaml"/>
+
+  <!-- Arm model with visual meshes and box collision geometry -->
+  <xacro:include filename="$(find classify_description)/urdf/piper.urdf"/>
+
+  <!-- Bolt the arm to the workbench. Gazebo treats the named world link as
+       fixed to its inertial world; robot_state_publisher publishes the same
+       world-to-base transform for perception and MoveIt. -->
+  <link name="world"/>
+  <joint name="world_to_base" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0.347" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Finger friction. High mu1 and mu2 keep the block from slipping out. -->
+  <gazebo reference="link7">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <kp>1000000.0</kp>
+    <kd>10.0</kd>
+  </gazebo>
+  <gazebo reference="link8">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <kp>1000000.0</kp>
+    <kd>10.0</kd>
+  </gazebo>
+
+  <gazebo reference="gripper_base">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <!-- Gemini 335 model. Calibration is link6 to RGB OPTICAL, not camera body.
+       camera_link is the left IR/depth origin with ROS body axes.
+       Configuration and provenance live in config/gemini335.yaml. -->
+  <xacro:arg name="camera_profile_file" default="$(find classify_description)/config/gemini335.yaml"/>
+  <xacro:property name="gemini" value="${xacro.load_yaml('$(arg camera_profile_file)')}"/>
+  <link name="camera_link">
+    <inertial>
+      <origin xyz="-0.01587 -0.025 -0.0125"/>
+      <mass value="0.097"/>
+      <inertia ixx="0.000070532" iyy="0.000012327" izz="0.00007275" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <visual name="camera_visual">
+      <origin xyz="-0.01587 -0.025 -0.0125"/>
+      <geometry><box size="0.03 0.09 0.025"/></geometry>
+      <material name="camera_body"><color rgba="0.12 0.12 0.14 1"/></material>
+    </visual>
+    <collision name="camera_collision">
+      <origin xyz="-0.01587 -0.025 -0.0125"/>
+      <geometry><box size="0.03 0.09 0.025"/></geometry>
+    </collision>
+  </link>
+  <joint name="link6_to_camera" type="fixed">
+    <parent link="link6"/><child link="camera_link"/>
+    <origin xyz="${' '.join(str(v) for v in gemini['hand_eye']['body_xyz_m'])}"
+            rpy="${' '.join(str(v) for v in gemini['hand_eye']['body_rpy_rad'])}"/>
+  </joint>
+  <link name="camera_depth_frame"/>
+  <joint name="camera_to_depth" type="fixed">
+    <parent link="camera_link"/><child link="camera_depth_frame"/><origin xyz="0 0 0"/>
+  </joint>
+  <link name="camera_depth_optical_frame"/>
+  <joint name="depth_to_optical" type="fixed">
+    <parent link="camera_depth_frame"/><child link="camera_depth_optical_frame"/>
+    <origin rpy="-1.5707963267948966 0 -1.5707963267948966"/>
+  </joint>
+  <link name="camera_color_frame"/>
+  <joint name="camera_to_color" type="fixed">
+    <parent link="camera_link"/><child link="camera_color_frame"/>
+    <origin xyz="${gemini['depth']['color_origin_in_depth_optical_m'][2]} ${-gemini['depth']['color_origin_in_depth_optical_m'][0]} ${-gemini['depth']['color_origin_in_depth_optical_m'][1]}"/>
+  </joint>
+  <link name="camera_color_optical_frame"/>
+  <joint name="color_to_optical" type="fixed">
+    <parent link="camera_color_frame"/><child link="camera_color_optical_frame"/>
+    <origin rpy="-1.5707963267948966 0 -1.5707963267948966"/>
+  </joint>
+  <!-- Legacy frame alias retains compatibility with previous RViz/test setups. -->
+  <link name="camera_optical_frame"/>
+  <joint name="legacy_optical_alias" type="fixed">
+    <parent link="camera_color_optical_frame"/><child link="camera_optical_frame"/>
+  </joint>
+  <xacro:macro name="gemini_sensor" params="reference sensor_name sensor_type camera_name frame_name profile near">
+    <gazebo reference="${reference}">
+      <sensor name="${sensor_name}" type="${sensor_type}">
+        <always_on>true</always_on><update_rate>${profile['fps']}</update_rate><visualize>false</visualize>
+        <camera name="${sensor_name}">
+          <horizontal_fov>${2*atan(profile['width']/(2*profile['fx']))}</horizontal_fov>
+          <image><width>${profile['width']}</width><height>${profile['height']}</height><format>R8G8B8</format></image>
+          <clip><near>${near}</near><far>${gemini['depth']['far_m']}</far></clip>
+          <lens><intrinsics>
+            <fx>${profile['fx']}</fx><fy>${profile['fy']}</fy>
+            <cx>${profile['cx']}</cx><cy>${profile['cy']}</cy><s>0</s>
+          </intrinsics></lens>
+        </camera>
+        <plugin name="${sensor_name}_controller" filename="libgazebo_ros_camera.so">
+          <ros><namespace>/camera</namespace>
+            <remapping>${camera_name}/camera_info:=${camera_name}/gazebo_camera_info</remapping>
+            <remapping>${camera_name}/depth/camera_info:=${camera_name}/depth/gazebo_camera_info</remapping>
+          </ros>
+          <camera_name>${camera_name}</camera_name><frame_name>${frame_name}</frame_name>
+          <min_depth>${gemini['depth']['min_z_m']}</min_depth><max_depth>${gemini['depth']['far_m']}</max_depth>
+        </plugin>
+      </sensor>
+    </gazebo>
+  </xacro:macro>
+  <xacro:gemini_sensor reference="camera_color_frame" sensor_name="gemini335_color" sensor_type="camera"
+    camera_name="color" frame_name="camera_color_optical_frame" profile="${gemini['color']}" near="0.01"/>
+  <xacro:gemini_sensor reference="camera_depth_frame" sensor_name="gemini335_depth" sensor_type="depth"
+    camera_name="native" frame_name="camera_depth_optical_frame" profile="${gemini['depth']}" near="${gemini['depth']['min_z_m']}"/>
+
+  <xacro:macro name="piper_ros2_control"
+               params="name initial_positions_file controllers_file">
+
+    <xacro:property name="initial_positions"
+                     value="${xacro.load_yaml(initial_positions_file)['initial_positions']}"/>
+
+    <ros2_control name="${name}" type="system">
+      <hardware>
+        <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+      </hardware>
+
+      <!-- Arm, 6 revolute joints, no clamps on any command_interface -->
+      <joint name="joint1">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">${initial_positions['joint1']}</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+      <joint name="joint2">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">${initial_positions['joint2']}</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+      <joint name="joint3">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">${initial_positions['joint3']}</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+      <joint name="joint4">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">${initial_positions['joint4']}</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+      <joint name="joint5">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">${initial_positions['joint5']}</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+      <joint name="joint6">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">${initial_positions['joint6']}</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+
+      <!-- Gripper, 2 mirrored prismatic joints in one controller.
+           Always command symmetric values, joint7 then minus joint7. -->
+      <joint name="joint7">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">${initial_positions['joint7']}</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+      <joint name="joint8">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">${initial_positions['joint8']}</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+    </ros2_control>
+
+    <gazebo>
+      <plugin name="classify_contact_grasp" filename="libclassify_contact_grasp.so"/>
+      <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+        <parameters>${controllers_file}</parameters>
+      </plugin>
+    </gazebo>
+  </xacro:macro>
+
+  <!--
+    The macro MUST be called here.
+
+    xacro macro only DEFINES a block. Without this call the ros2_control
+    element and the gazebo plugin are absent from the expanded output.
+
+    Failure symptom if this line is missing
+      xacro still exits successfully with no warning
+      Gazebo spawns the entity fine
+      but no /controller_manager exists
+      controller_manager spawner reports "Could not contact service"
+  -->
+  <xacro:piper_ros2_control
+      name="$(arg control_name)"
+      initial_positions_file="$(arg initial_positions_file)"
+      controllers_file="$(arg controllers_file)"/>
+
+</robot>

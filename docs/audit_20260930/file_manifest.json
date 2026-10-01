@@ -1,0 +1,2034 @@
+[
+  {
+    "path": "$3",
+    "bytes": 11920,
+    "sha256": "cad27bf3401dfb4dd701f19dbe81b41ea08eeefe0650c8361f7b0c64d428c74b",
+    "kind": "text",
+    "lines": 352
+  },
+  {
+    "path": "Screenshot from 2026-09-29 16-31-56.png",
+    "bytes": 123492,
+    "sha256": "21e1be7b948610bff9bc993b64484cd94dccc07e942a2d786cf15534d6aa619c",
+    "kind": "binary"
+  },
+  {
+    "path": "build/.built_by",
+    "bytes": 7,
+    "sha256": "d16cd6e1ca1feefc1e7897d9357700f5f509e530b5b76b031c635e02eccdca12",
+    "kind": "text",
+    "lines": 1
+  },
+  {
+    "path": "build/COLCON_IGNORE",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "build/classify_description/.cmake/api/v1/query/client-colcon-cmake/codemodel-v2",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "build/classify_description/.cmake/api/v1/reply/codemodel-v2-861d20edabd7aff035ba.json",
+    "bytes": 1318,
+    "sha256": "e529e985734aa52dc509c668090c61b82e4169e6454dde2e929b8abffe6f3b7c",
+    "kind": "text",
+    "lines": 70
+  },
+  {
+    "path": "build/classify_description/.cmake/api/v1/reply/directory-.-b4e295d617c08fb6e1ba.json",
+    "bytes": 1582,
+    "sha256": "09bbe70d23806ecc371139dc29f1b1eb9aff080c9dec2361dc03bed6937c60de",
+    "kind": "text",
+    "lines": 93
+  },
+  {
+    "path": "build/classify_description/.cmake/api/v1/reply/index-2026-09-29T13-12-29-0747.json",
+    "bytes": 794,
+    "sha256": "9433b9aba1afbdd222be1b5b2fe662a3328a503b7eda921262efb393b93c1e59",
+    "kind": "text",
+    "lines": 54
+  },
+  {
+    "path": "build/classify_description/.cmake/api/v1/reply/target-classify_description_uninstall-5487c089397f531d26eb.json",
+    "bytes": 1903,
+    "sha256": "425d87eaffa94978f55d320f0ae050be16ce2656ac13136143aa9707dbafe6ff",
+    "kind": "text",
+    "lines": 112
+  },
+  {
+    "path": "build/classify_description/.cmake/api/v1/reply/target-uninstall-1dab0072d8a06c7ee5a1.json",
+    "bytes": 1509,
+    "sha256": "5fd0ea508e09f334d6033a877b7742003c1fd4cb67dcc69eb2b73191a9d20960",
+    "kind": "text",
+    "lines": 95
+  },
+  {
+    "path": "build/classify_description/CMakeCache.txt",
+    "bytes": 20433,
+    "sha256": "b2fc7f7810b613756ab0c833ec71da3e719af4765551961ef66405aed1932979",
+    "kind": "text",
+    "lines": 502
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/3.22.1/CMakeCCompiler.cmake",
+    "bytes": 2441,
+    "sha256": "e226df1b454d69c8a4cdf53fc6c03ccdd621608d14eefe53d00aba36b1490d9c",
+    "kind": "text",
+    "lines": 72
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake",
+    "bytes": 5439,
+    "sha256": "2b45b213952e8ff33366da3750a3a8ccdc914d32dde4b4cbb2051e959ab192ee",
+    "kind": "text",
+    "lines": 83
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_C.bin",
+    "bytes": 15968,
+    "sha256": "000517d39b33bfa2d18f7be65e111759f2752b449855c32370eb4264fb29e244",
+    "kind": "binary"
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_CXX.bin",
+    "bytes": 15992,
+    "sha256": "e2e968bb6ffef2f6cdb281d8fbf6964dac7ad65ca39384d46fcaa1f6107870b7",
+    "kind": "binary"
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/3.22.1/CMakeSystem.cmake",
+    "bytes": 402,
+    "sha256": "d4ab78dec65371debf381837e24ed1110bb190e0df942eaabe673de66cfd8b79",
+    "kind": "text",
+    "lines": 15
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c",
+    "bytes": 24853,
+    "sha256": "f88399a39d56b310a14aa58ca95c614022a5899dc39317b98006d9f8dc71cbee",
+    "kind": "text",
+    "lines": 803
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/3.22.1/CompilerIdC/a.out",
+    "bytes": 16088,
+    "sha256": "558a82cee9297d551564deca8dcd059b5fa51cfa599e87596a7fa9c3c45cd06c",
+    "kind": "binary"
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp",
+    "bytes": 24597,
+    "sha256": "bd1f2250416e16ed26d6db1890f822a01d487df29d20e87407ef4ce72c314ba0",
+    "kind": "text",
+    "lines": 791
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/3.22.1/CompilerIdCXX/a.out",
+    "bytes": 16096,
+    "sha256": "33335d5a7d9ec56e273ddf34d3cf56c2c06255523d4f4ec29f9589e039a77eb9",
+    "kind": "binary"
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/CMakeDirectoryInformation.cmake",
+    "bytes": 716,
+    "sha256": "3f0c5deacf50f9b297897d0b7872540fd7a56a5f1abdcb7e7a82ead1fa37b31d",
+    "kind": "text",
+    "lines": 16
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/CMakeOutput.log",
+    "bytes": 47747,
+    "sha256": "2d0d08723662a055e0ced3359a92f7ae3aef4437470f18095471bf4b6bb805b8",
+    "kind": "text",
+    "lines": 449
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/CMakeRuleHashes.txt",
+    "bytes": 105,
+    "sha256": "fc48f2ba2d3e762311633338d524128d3caa371f3eb3e479a99baa7f0d54c19e",
+    "kind": "text",
+    "lines": 2
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/Makefile.cmake",
+    "bytes": 18835,
+    "sha256": "35fcd1d4e9f0032ecdaa5e62252379e2d47343fcdea4baae4629e87ebadb6412",
+    "kind": "text",
+    "lines": 240
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/Makefile2",
+    "bytes": 5539,
+    "sha256": "15196adfda78f7e0f75d7c413775ddf9074102ec2f27661e097228be62f6d2e2",
+    "kind": "text",
+    "lines": 139
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/TargetDirectories.txt",
+    "bytes": 860,
+    "sha256": "e676b23326a1f618c5325611b7470073747e937625d0422dfaca6fb80384fcfd",
+    "kind": "text",
+    "lines": 9
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/classify_description_uninstall.dir/DependInfo.cmake",
+    "bytes": 423,
+    "sha256": "be55c7517e44d606499d3e136ed00c5504f78c2c2db34126515040d1341a1429",
+    "kind": "text",
+    "lines": 18
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/classify_description_uninstall.dir/build.make",
+    "bytes": 3252,
+    "sha256": "9b4a4546d6731128b776743d0982f1f18caddd5411eef2e9d8943b256cd24ffc",
+    "kind": "text",
+    "lines": 87
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/classify_description_uninstall.dir/cmake_clean.cmake",
+    "bytes": 242,
+    "sha256": "2a39dd0cf419be34a3bb2b59c424dd4ec25e83162fd80c4ba17c284d0b053fc1",
+    "kind": "text",
+    "lines": 8
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/classify_description_uninstall.dir/compiler_depend.make",
+    "bytes": 140,
+    "sha256": "48a9fa94e1287769bb6ccdf77bf9a279de6902563657c73b8e887ae8b0857873",
+    "kind": "text",
+    "lines": 2
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/classify_description_uninstall.dir/compiler_depend.ts",
+    "bytes": 134,
+    "sha256": "42c49a3a1e4eb63185ec70eb654f1c052fee74f6f27071f3dc16ba595e558345",
+    "kind": "text",
+    "lines": 2
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/classify_description_uninstall.dir/progress.make",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "kind": "text",
+    "lines": 1
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/cmake.check_cache",
+    "bytes": 85,
+    "sha256": "a26189e394421da57f45706a07713c5720acd200a41711b0c0c590c3c63371c4",
+    "kind": "text",
+    "lines": 1
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/progress.marks",
+    "bytes": 2,
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "kind": "text",
+    "lines": 1
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/uninstall.dir/DependInfo.cmake",
+    "bytes": 423,
+    "sha256": "be55c7517e44d606499d3e136ed00c5504f78c2c2db34126515040d1341a1429",
+    "kind": "text",
+    "lines": 18
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/uninstall.dir/build.make",
+    "bytes": 2670,
+    "sha256": "905ebe6cb011435bca48fe6ff6fbee743ccb966b4b977c8baa98d1ab7f01acac",
+    "kind": "text",
+    "lines": 83
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/uninstall.dir/cmake_clean.cmake",
+    "bytes": 153,
+    "sha256": "e51440eea639df67acafb145cd82e07a0d47a18935f82ef48527ded743c08d36",
+    "kind": "text",
+    "lines": 5
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/uninstall.dir/compiler_depend.make",
+    "bytes": 119,
+    "sha256": "544b5020e80145b8265862c76a0811c3dd31a0820e2834b26038f646fa99c80b",
+    "kind": "text",
+    "lines": 2
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/uninstall.dir/compiler_depend.ts",
+    "bytes": 113,
+    "sha256": "5f7329b918c868b9e2549e3175c8cab0d6c02deccfa5f2700ee294575108f150",
+    "kind": "text",
+    "lines": 2
+  },
+  {
+    "path": "build/classify_description/CMakeFiles/uninstall.dir/progress.make",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "kind": "text",
+    "lines": 1
+  },
+  {
+    "path": "build/classify_description/CTestConfiguration.ini",
+    "bytes": 2425,
+    "sha256": "3d7b563a3c3dea4468a56e7c44d0b4a64ac8488468eb6752568c5a4deb52e350",
+    "kind": "text",
+    "lines": 105
+  },
+  {
+    "path": "build/classify_description/CTestCustom.cmake",
+    "bytes": 104,
+    "sha256": "604987db904b472a78182f761db384fc8115f0ade6bb2cfed0d2242259f36bf0",
+    "kind": "text",
+    "lines": 2
+  },
+  {
+    "path": "build/classify_description/CTestTestfile.cmake",
+    "bytes": 9279,
+    "sha256": "aaebc2be99c999e41cf760445aadf4837f57e4a8d3acffe5d2ee8c06e6f02212",
+    "kind": "text",
+    "lines": 16
+  },
+  {
+    "path": "build/classify_description/Makefile",
+    "bytes": 7579,
+    "sha256": "effbe82a79c15c8e3c9d88391a6ad424fd5f3e788f9f746fc214b1efc3bad752",
+    "kind": "text",
+    "lines": 228
+  },
+  {
+    "path": "build/classify_description/ament_cmake_core/classify_descriptionConfig-version.cmake",
+    "bytes": 432,
+    "sha256": "c7c259c1826cda1af1238f0f825314536cda29b079ceaf36a8ba6f7dbe1575e5",
+    "kind": "text",
+    "lines": 14
+  },
+  {
+    "path": "build/classify_description/ament_cmake_core/classify_descriptionConfig.cmake",
+    "bytes": 1385,
+    "sha256": "183e3ca022bab438957364a22b1412ff41442de6848a32f6369aca54211334fa",
+    "kind": "text",
+    "lines": 42
+  },
+  {
+    "path": "build/classify_description/ament_cmake_core/package.cmake",
+    "bytes": 1026,
+    "sha256": "cba3f784f316ec746ae8935d450b17735a8f4ba5ffa1ac6f5279fd7f0d19a5ee",
+    "kind": "text",
+    "lines": 14
+  },
+  {
+    "path": "build/classify_description/ament_cmake_core/stamps/ament_prefix_path.sh.stamp",
+    "bytes": 160,
+    "sha256": "6658f14efe913e291c0bf2c74059a9e14fb8abdb5a31628bef61d3b41e206679",
+    "kind": "text",
+    "lines": 4
+  },
+  {
+    "path": "build/classify_description/ament_cmake_core/stamps/nameConfig-version.cmake.in.stamp",
+    "bytes": 444,
+    "sha256": "0d535f3b3ada62eb97bee9c38dc8fab0cab97ff8d690cdca0b88a731fcd7669d",
+    "kind": "text",
+    "lines": 14
+  },
+  {
+    "path": "build/classify_description/ament_cmake_core/stamps/nameConfig.cmake.in.stamp",
+    "bytes": 1407,
+    "sha256": "5d236fb9d497eb7f37c1cd88e2a6c468d870402362fae926c9d03f5c86a13ad8",
+    "kind": "text",
+    "lines": 42
+  },
+  {
+    "path": "build/classify_description/ament_cmake_core/stamps/package.xml.stamp",
+    "bytes": 2022,
+    "sha256": "78b657d0f4e03abdd3af192c1380ee10ee14eddbb8e10706aaf088ed1b855634",
+    "kind": "text",
+    "lines": 48
+  },
+  {
+    "path": "build/classify_description/ament_cmake_core/stamps/package_xml_2_cmake.py.stamp",
+    "bytes": 5315,
+    "sha256": "859f5201d2902e2ac6d014cf07dde11d25497b2cf7d498cfad6fc74dddf02ff5",
+    "kind": "text",
+    "lines": 150
+  },
+  {
+    "path": "build/classify_description/ament_cmake_core/stamps/path.sh.stamp",
+    "bytes": 185,
+    "sha256": "abe10a0452bc4b93f665fc343a7e6d32fe3f3a2b6beb90d338044a71d2583f18",
+    "kind": "text",
+    "lines": 5
+  },
+  {
+    "path": "build/classify_description/ament_cmake_core/stamps/templates_2_cmake.py.stamp",
+    "bytes": 3691,
+    "sha256": "696037d4de7b593bce6ca467480ee35076eb3efc49a94fa0af7e909fe0c96ebb",
+    "kind": "text",
+    "lines": 112
+  },
+  {
+    "path": "build/classify_description/ament_cmake_environment_hooks/ament_prefix_path.dsv",
+    "bytes": 41,
+    "sha256": "c4797d0a0670c70b4d3bcb5b7d47563635c7950595603f3af66f70af546ad57e",
+    "kind": "text",
+    "lines": 1
+  },
+  {
+    "path": "build/classify_description/ament_cmake_environment_hooks/local_setup.bash",
+    "bytes": 1594,
+    "sha256": "41b30b6c107da94a2478e43953b8cbd0d920f5e8fc1ea847c61a213623d623b0",
+    "kind": "text",
+    "lines": 46
+  },
+  {
+    "path": "build/classify_description/ament_cmake_environment_hooks/local_setup.dsv",
+    "bytes": 121,
+    "sha256": "f6fc2086a8b02332119a9309cdec45287fe721452169f9f699432d60bc9e7c81",
+    "kind": "text",
+    "lines": 2
+  },
+  {
+    "path": "build/classify_description/ament_cmake_environment_hooks/local_setup.sh",
+    "bytes": 5057,
+    "sha256": "c7f1d452ecfd8c1db1fcb5ee6ba7bf2e6db83edea98035c4cddc5022ac68fede",
+    "kind": "text",
+    "lines": 184
+  },
+  {
+    "path": "build/classify_description/ament_cmake_environment_hooks/local_setup.zsh",
+    "bytes": 1957,
+    "sha256": "56942873096201f4e7fe5e7b9bd87e56cc42ced33fadb53fbc25766fd9149c81",
+    "kind": "text",
+    "lines": 59
+  },
+  {
+    "path": "build/classify_description/ament_cmake_environment_hooks/package.dsv",
+    "bytes": 200,
+    "sha256": "9f73c8dc6a2f31777676a0e683dfe70619252327f7b74589f97af4ea3559f35b",
+    "kind": "text",
+    "lines": 4
+  },
+  {
+    "path": "build/classify_description/ament_cmake_environment_hooks/path.dsv",
+    "bytes": 41,
+    "sha256": "3f2cdf6234ea2525c1670c140b6a03700d98a2408e7a232107791fa96c08b58b",
+    "kind": "text",
+    "lines": 1
+  },
+  {
+    "path": "build/classify_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/classify_description",
+    "bytes": 305,
+    "sha256": "c7dea4ac1a5f8cdc3621a37e97eee8fc67cf00f42b379c6e3b1cd4bc83dd9bd8",
+    "kind": "text",
+    "lines": 1
+  },
+  {
+    "path": "build/classify_description/ament_cmake_index/share/ament_index/resource_index/packages/classify_description",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "build/classify_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/classify_description",
+    "bytes": 828,
+    "sha256": "90abe8df581f7f241eeb535c90f9b14e82f6baca0ac16aef39035db90abb920e",
+    "kind": "text",
+    "lines": 1
+  },
+  {
+    "path": "build/classify_description/ament_cmake_package_templates/templates.cmake",
+    "bytes": 1996,
+    "sha256": "dcb3eca620474fc2b1109edbb1cde9087a95a8610643b8eb8b543a8236e3e758",
+    "kind": "text",
+    "lines": 14
+  },
+  {
+    "path": "build/classify_description/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake",
+    "bytes": 19373,
+    "sha256": "0f65019579b4136c38ef4b62f982a770f590e83ba26bc2a8a3c3b5af75595167",
+    "kind": "text",
+    "lines": 373
+  },
+  {
+    "path": "build/classify_description/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake",
+    "bytes": 1025,
+    "sha256": "3fa2e8a4b2c1e265478437683939cb5b75088de48daba5adb28c8fdc2286cfac",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "path": "build/classify_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake",
+    "bytes": 2419,
+    "sha256": "56d94bfaa6da5474336bcbe8ad1653c932c2d789d08f1558cce731fe3dbe2ad4",
+    "kind": "text",
+    "lines": 60
+  },
+  {
+    "path": "build/classify_description/cmake_args.last",
+    "bytes": 35,
+    "sha256": "dc5c9a866a45253af1d33d378ae80d8afffd8e007aeb5aea10b2b49751898e8b",
+    "kind": "text",
+    "lines": 1
+  },
+  {
+    "path": "build/classify_description/cmake_install.cmake",
+    "bytes": 2008,
+    "sha256": "d29fcf80acb38a9531b24436ed331c07b567a84bc49b4cf6ca8f796266ba6fb0",
+    "kind": "text",
+    "lines": 58
+  },
+  {
+    "path": "build/classify_description/colcon_build.rc",
+    "bytes": 2,
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "kind": "text",
+    "lines": 1
+  },
+  {
+    "path": "build/classify_description/colcon_command_prefix_build.sh",
+    "bytes": 65,
+    "sha256": "025a07cb442dfaedc93a955d89fdf6d1b21420ad6f4257ab63d3d853f9e5e176",
+    "kind": "text",
+    "lines": 1
+  },
+  {
+    "path": "build/classify_description/colcon_command_prefix_build.sh.env",
+    "bytes": 7246,
+    "sha256": "1b1f8ce97f2b3b7beceb0030cf913a5b80dfe740c906635040b737ca56d4fa93",
+    "kind": "text",
+    "lines": 88
+  },
+  {
+    "path": "build/classify_description/install_manifest.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "build/classify_description/symlink_install_manifest.txt",
+    "bytes": 4176,
+    "sha256": "b6cc37bd59cdb1c5c887e70daaa30251118e980acac2fd556ff1f790209d6c40",
+    "kind": "text",
+    "lines": 35
+  },
+  {
+    "path": "docs/01_规划目标.md",
+    "bytes": 13859,
+    "sha256": "193148da92867d0488a4a49aa3880ea7c70eada821ce357bc2bfb02ef7d08a02",
+    "kind": "text",
+    "lines": 250
+  },
+  {
+    "path": "docs/02_开发进程记录.md",
+    "bytes": 21990,
+    "sha256": "33655cd0691879710a26f470404bce2b46e1cdc33395c9d410c858158123119e",
+    "kind": "text",
+    "lines": 353
+  },
+  {
+    "path": "docs/03_任务要求与背景.md",
+    "bytes": 13467,
+    "sha256": "4de2402964ad7781bcf0a3c5c9769f876c1d8202a8f1083c1c136edfaaff5a23",
+    "kind": "text",
+    "lines": 191
+  },
+  {
+    "path": "docs/05_交接说明.md",
+    "bytes": 12986,
+    "sha256": "a2fb95989ed46935e59b386f445dc2509ec517d89f481da017de99bb5dbc913d",
+    "kind": "text",
+    "lines": 227
+  },
+  {
+    "path": "docs/4_输出.md",
+    "bytes": 45433,
+    "sha256": "ed5b4e48fcfc09d17ca22da907d9a3d374e2ab307d983a59cd70a220cabc1288",
+    "kind": "text",
+    "lines": 1090
+  },
+  {
+    "path": "docs/gz_shot.png",
+    "bytes": 731340,
+    "sha256": "e6bb865d6e4db4b4517acfd0cabba963e0cc57a634fa936a95f2873c38091bd2",
+    "kind": "binary"
+  },
+  {
+    "path": "install/.colcon_install_layout",
+    "bytes": 9,
+    "sha256": "9b8d77949b6e468746790cc1ada9432ca9984c51533a086544c8d0c01f18cc66",
+    "kind": "text",
+    "lines": 1
+  },
+  {
+    "path": "install/COLCON_IGNORE",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "install/_local_setup_util_ps1.py",
+    "bytes": 14818,
+    "sha256": "6bd62f5634832008b01eb0ccf38600512b7ee47c735ca53af22f92319f7e5a60",
+    "kind": "text",
+    "lines": 406
+  },
+  {
+    "path": "install/_local_setup_util_sh.py",
+    "bytes": 14872,
+    "sha256": "3f6e8b7fae1039cdc824678256f56160cb425ac6fd4e17e441b98d5cefab9f57",
+    "kind": "text",
+    "lines": 406
+  },
+  {
+    "path": "install/classify_description/share/ament_index/resource_index/package_run_dependencies/classify_description",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/classify_description",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/classify_description"
+  },
+  {
+    "path": "install/classify_description/share/ament_index/resource_index/packages/classify_description",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_index/share/ament_index/resource_index/packages/classify_description",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_index/share/ament_index/resource_index/packages/classify_description"
+  },
+  {
+    "path": "install/classify_description/share/ament_index/resource_index/parent_prefix_path/classify_description",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/classify_description",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/classify_description"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/cmake/classify_descriptionConfig-version.cmake",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_core/classify_descriptionConfig-version.cmake",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_core/classify_descriptionConfig-version.cmake"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/cmake/classify_descriptionConfig.cmake",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_core/classify_descriptionConfig.cmake",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_core/classify_descriptionConfig.cmake"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/config/gazebo_initial_positions.yaml",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/config/gazebo_initial_positions.yaml",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/config/gazebo_initial_positions.yaml"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/config/ros2_controllers.yaml",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/config/ros2_controllers.yaml",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/config/ros2_controllers.yaml"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/environment/ament_prefix_path.dsv",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_environment_hooks/ament_prefix_path.dsv",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_environment_hooks/ament_prefix_path.dsv"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/environment/ament_prefix_path.sh",
+    "symlink": "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh",
+    "exists": true,
+    "resolved": "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/environment/path.dsv",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_environment_hooks/path.dsv",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_environment_hooks/path.dsv"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/environment/path.sh",
+    "symlink": "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh",
+    "exists": true,
+    "resolved": "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/hook/cmake_prefix_path.dsv",
+    "bytes": 41,
+    "sha256": "7ab2eb0a25c282f9a5bf62596b4c098865cd3a8aa5740601a9efa8620acd69d3",
+    "kind": "text",
+    "lines": 1
+  },
+  {
+    "path": "install/classify_description/share/classify_description/hook/cmake_prefix_path.ps1",
+    "bytes": 152,
+    "sha256": "0c7394c1d89765deec81cb10e59a36d0d98867690b4b8781d5bc9186fc67885a",
+    "kind": "text",
+    "lines": 3
+  },
+  {
+    "path": "install/classify_description/share/classify_description/hook/cmake_prefix_path.sh",
+    "bytes": 142,
+    "sha256": "ee9849def404b669097010f38735aa521e0731366a319b6e1abe996c793494b2",
+    "kind": "text",
+    "lines": 3
+  },
+  {
+    "path": "install/classify_description/share/classify_description/launch/__pycache__/display.launch.cpython-310.pyc",
+    "bytes": 2540,
+    "sha256": "f02d05564e07454420e13ca7a4a8007dd427222026d17bc955a5d4a240270241",
+    "kind": "binary"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/launch/__pycache__/gazebo.launch.cpython-310.pyc",
+    "bytes": 5359,
+    "sha256": "6ccb9497dc1ca8a145dd361670863ba7f636c0495ecfe707328a3097b1aaf6d9",
+    "kind": "binary"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/launch/display.launch.py",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/launch/display.launch.py",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/launch/display.launch.py"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/launch/gazebo.launch.py",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/launch/gazebo.launch.py",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/launch/gazebo.launch.py"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/local_setup.bash",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_environment_hooks/local_setup.bash",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_environment_hooks/local_setup.bash"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/local_setup.dsv",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_environment_hooks/local_setup.dsv",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_environment_hooks/local_setup.dsv"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/local_setup.sh",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_environment_hooks/local_setup.sh",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_environment_hooks/local_setup.sh"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/local_setup.zsh",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_environment_hooks/local_setup.zsh",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/build/classify_description/ament_cmake_environment_hooks/local_setup.zsh"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/meshes/base_link.STL",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/base_link.STL",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/base_link.STL"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/meshes/gripper_base.STL",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/gripper_base.STL",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/gripper_base.STL"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/meshes/link1.STL",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/link1.STL",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/link1.STL"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/meshes/link2.STL",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/link2.STL",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/link2.STL"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/meshes/link3.STL",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/link3.STL",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/link3.STL"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/meshes/link4.STL",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/link4.STL",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/link4.STL"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/meshes/link5.STL",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/link5.STL",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/link5.STL"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/meshes/link6.STL",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/link6.STL",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/link6.STL"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/meshes/link7.STL",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/link7.STL",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/link7.STL"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/meshes/link8.STL",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/link8.STL",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/meshes/link8.STL"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/package.bash",
+    "bytes": 1390,
+    "sha256": "7972b7af978d48da4945b1566d1ba6c05235b28a83317c7a9f624cea9a47a51b",
+    "kind": "text",
+    "lines": 39
+  },
+  {
+    "path": "install/classify_description/share/classify_description/package.dsv",
+    "bytes": 432,
+    "sha256": "56bdeb2124ec2e644dd5e26dc24ba66cf90a6f08ee8e5cf38420cd84e23aaa2f",
+    "kind": "text",
+    "lines": 8
+  },
+  {
+    "path": "install/classify_description/share/classify_description/package.ps1",
+    "bytes": 3269,
+    "sha256": "ae1c61d9e2516a70a3c9aadfced58a39866b2bc24a757ba8b6658cae21aeea58",
+    "kind": "text",
+    "lines": 116
+  },
+  {
+    "path": "install/classify_description/share/classify_description/package.sh",
+    "bytes": 2903,
+    "sha256": "257a3b2965f3586ec7d32489e9476922d1a6cd3f14abeee04d49367b8c5ac2ba",
+    "kind": "text",
+    "lines": 87
+  },
+  {
+    "path": "install/classify_description/share/classify_description/package.xml",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/package.xml",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/package.xml"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/package.zsh",
+    "bytes": 1674,
+    "sha256": "063b50d50a474fc403f9c938a6458534355d726b1b43b912c6ae028f9734c031",
+    "kind": "text",
+    "lines": 50
+  },
+  {
+    "path": "install/classify_description/share/classify_description/rviz/piper.rviz",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/rviz/piper.rviz",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/rviz/piper.rviz"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/urdf/piper.urdf",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/urdf/piper.urdf",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/urdf/piper.urdf"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/urdf/piper_sim.urdf",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/urdf/piper_sim.urdf",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/urdf/piper_sim.urdf"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/urdf/piper_sim_rviz.urdf",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/urdf/piper_sim_rviz.urdf",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/urdf/piper_sim_rviz.urdf"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/urdf/piper_with_ros2_control.urdf.xacro",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/urdf/piper_with_ros2_control.urdf.xacro",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/urdf/piper_with_ros2_control.urdf.xacro"
+  },
+  {
+    "path": "install/classify_description/share/classify_description/worlds/classify.world",
+    "symlink": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/worlds/classify.world",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/worlds/classify.world"
+  },
+  {
+    "path": "install/classify_description/share/colcon-core/packages/classify_description",
+    "bytes": 271,
+    "sha256": "f3675642bcd0a4d12d187fea96a90a8ae7ac7082c3c1be729b00cd23e1a5ab42",
+    "kind": "text",
+    "lines": 1
+  },
+  {
+    "path": "install/local_setup.bash",
+    "bytes": 3760,
+    "sha256": "0e10d666bbf43cf559467b11b75cf6d26cf8d210e7f94e79dfe5a7dddb2fe91c",
+    "kind": "text",
+    "lines": 121
+  },
+  {
+    "path": "install/local_setup.ps1",
+    "bytes": 2045,
+    "sha256": "79cfdc40aa006498cb2a008f05efe6563f311dcc1ab5b1c385c9c84f128feacb",
+    "kind": "text",
+    "lines": 55
+  },
+  {
+    "path": "install/local_setup.sh",
+    "bytes": 4350,
+    "sha256": "5a5dc00e504e101f87ee239055d5d57f4bb416c5f703cdebfec6059e98dd5af9",
+    "kind": "text",
+    "lines": 137
+  },
+  {
+    "path": "install/local_setup.zsh",
+    "bytes": 4155,
+    "sha256": "5fc7b5cfa0b484f14c21854fdcbb31653d831dc235e214b8ed88a63f6d2c4c02",
+    "kind": "text",
+    "lines": 134
+  },
+  {
+    "path": "install/setup.bash",
+    "bytes": 1369,
+    "sha256": "366f80216a871d066544396474943b99fc8f2c20f0b4a15db24f46c63208b12e",
+    "kind": "text",
+    "lines": 34
+  },
+  {
+    "path": "install/setup.ps1",
+    "bytes": 1269,
+    "sha256": "3e4ce3bbb4acea4c44c64961a8a88ff6a2a9121f72bc622ad7ea9566e7b707d9",
+    "kind": "text",
+    "lines": 31
+  },
+  {
+    "path": "install/setup.sh",
+    "bytes": 2159,
+    "sha256": "bf6a2938b92f0aa671d450baebf38145d04d3207123a3f9171dd780c2f09be15",
+    "kind": "text",
+    "lines": 49
+  },
+  {
+    "path": "install/setup.zsh",
+    "bytes": 1355,
+    "sha256": "4d639c46ecea810a1b42cf7f577f83c23bdd575098cc3705faf201a3d81b5b2d",
+    "kind": "text",
+    "lines": 34
+  },
+  {
+    "path": "log/COLCON_IGNORE",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "log/build_2026-09-29_20-29-19/classify_description/command.log",
+    "bytes": 2362,
+    "sha256": "a672c2465bc09cd81f32f315b87ff21d74a394a0a8573d7c7b4657e7cf883e51",
+    "kind": "text",
+    "lines": 6
+  },
+  {
+    "path": "log/build_2026-09-29_20-29-19/classify_description/stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "log/build_2026-09-29_20-29-19/classify_description/stdout.log",
+    "bytes": 5140,
+    "sha256": "d3f62988120ee50fc30a9ba05497775f5d9ee4cca844af162e5e6586a060b46f",
+    "kind": "text",
+    "lines": 54
+  },
+  {
+    "path": "log/build_2026-09-29_20-29-19/classify_description/stdout_stderr.log",
+    "bytes": 5140,
+    "sha256": "d3f62988120ee50fc30a9ba05497775f5d9ee4cca844af162e5e6586a060b46f",
+    "kind": "text",
+    "lines": 54
+  },
+  {
+    "path": "log/build_2026-09-29_20-29-19/classify_description/streams.log",
+    "bytes": 8042,
+    "sha256": "34781449e3e99c227ebf7db859eda3d3837f58383867b828c8da8eace60e58a4",
+    "kind": "text",
+    "lines": 60
+  },
+  {
+    "path": "log/build_2026-09-29_20-29-19/events.log",
+    "bytes": 35116,
+    "sha256": "be51097f9b0de402d703d2f9640a8c4fe6def10fc3ad232f4aeef8419c04131b",
+    "kind": "text",
+    "lines": 89
+  },
+  {
+    "path": "log/build_2026-09-29_20-29-19/logger_all.log",
+    "bytes": 35543,
+    "sha256": "a256a8eaeaf4689b38b45f47861dff0c239d402518432507c5d415451c041213",
+    "kind": "text",
+    "lines": 267
+  },
+  {
+    "path": "log/build_2026-09-29_20-44-04/classify_description/command.log",
+    "bytes": 1418,
+    "sha256": "03b6caca812b692ef6e0fabc2e73f0dcc7b6ec9b1554aa92274fd5e6f3fc8369",
+    "kind": "text",
+    "lines": 4
+  },
+  {
+    "path": "log/build_2026-09-29_20-44-04/classify_description/stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "log/build_2026-09-29_20-44-04/classify_description/stdout.log",
+    "bytes": 4012,
+    "sha256": "3bd97b5d6062507c9c6dda85d9115aefeaee4afbf939dc015af5c3147fc3ac61",
+    "kind": "text",
+    "lines": 30
+  },
+  {
+    "path": "log/build_2026-09-29_20-44-04/classify_description/stdout_stderr.log",
+    "bytes": 4012,
+    "sha256": "3bd97b5d6062507c9c6dda85d9115aefeaee4afbf939dc015af5c3147fc3ac61",
+    "kind": "text",
+    "lines": 30
+  },
+  {
+    "path": "log/build_2026-09-29_20-44-04/classify_description/streams.log",
+    "bytes": 5736,
+    "sha256": "e644e8dcb0ca3b9642976470464320f34f781151689b578c9636f8e10f3b2890",
+    "kind": "text",
+    "lines": 34
+  },
+  {
+    "path": "log/build_2026-09-29_20-44-04/events.log",
+    "bytes": 23365,
+    "sha256": "9eaae6fe484cf37dffa16f7d6f0135d4aa09731feacc9925c8ac45a7f57392ae",
+    "kind": "text",
+    "lines": 44
+  },
+  {
+    "path": "log/build_2026-09-29_20-44-04/logger_all.log",
+    "bytes": 39932,
+    "sha256": "72fe0b0c7f05b0a3af3ee1ebc0c3d8aa929b637f2bd88f18f7a55033e516e833",
+    "kind": "text",
+    "lines": 265
+  },
+  {
+    "path": "log/build_2026-09-29_20-53-11/classify_description/command.log",
+    "bytes": 1418,
+    "sha256": "03b6caca812b692ef6e0fabc2e73f0dcc7b6ec9b1554aa92274fd5e6f3fc8369",
+    "kind": "text",
+    "lines": 4
+  },
+  {
+    "path": "log/build_2026-09-29_20-53-11/classify_description/stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "log/build_2026-09-29_20-53-11/classify_description/stdout.log",
+    "bytes": 4012,
+    "sha256": "3bd97b5d6062507c9c6dda85d9115aefeaee4afbf939dc015af5c3147fc3ac61",
+    "kind": "text",
+    "lines": 30
+  },
+  {
+    "path": "log/build_2026-09-29_20-53-11/classify_description/stdout_stderr.log",
+    "bytes": 4012,
+    "sha256": "3bd97b5d6062507c9c6dda85d9115aefeaee4afbf939dc015af5c3147fc3ac61",
+    "kind": "text",
+    "lines": 30
+  },
+  {
+    "path": "log/build_2026-09-29_20-53-11/classify_description/streams.log",
+    "bytes": 5736,
+    "sha256": "40dc91bfc18e316284cdda2bb5f0d92cf6a3dbc90277b9041a35221ff7ef46dc",
+    "kind": "text",
+    "lines": 34
+  },
+  {
+    "path": "log/build_2026-09-29_20-53-11/events.log",
+    "bytes": 23421,
+    "sha256": "bd332eb545455286b88fd5edb2a7e92a3222341154dc000e81573fc42b699816",
+    "kind": "text",
+    "lines": 44
+  },
+  {
+    "path": "log/build_2026-09-29_20-53-11/logger_all.log",
+    "bytes": 34479,
+    "sha256": "46f6d07cf7cee7e80fe6eddda2653422ceb3fdcf58f141174e3b98526fd18c76",
+    "kind": "text",
+    "lines": 265
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-07/classify_description/command.log",
+    "bytes": 554,
+    "sha256": "af810b44eaf8d68df4889b6a56e1c601de8f08f62866f798320dae2bb1b30583",
+    "kind": "text",
+    "lines": 2
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-07/classify_description/stderr.log",
+    "bytes": 2285,
+    "sha256": "85f3fd90ac2dad8fd9453e859cef99c5644f8ede322c81b7824f90b76b1be2f3",
+    "kind": "text",
+    "lines": 38
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-07/classify_description/stdout.log",
+    "bytes": 405,
+    "sha256": "f79f08fbaee5ef52a46f6b3970307a1243adbefa1dfb61423f0b57a2272f7a11",
+    "kind": "text",
+    "lines": 5
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-07/classify_description/stdout_stderr.log",
+    "bytes": 2690,
+    "sha256": "29f902306eb115d4a0a469a967a11d529765ae14e36144f0b603aa1bd6b75061",
+    "kind": "text",
+    "lines": 43
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-07/classify_description/streams.log",
+    "bytes": 3649,
+    "sha256": "16c5ea6cbe3ceba288db34af5566e97dab128e15b03113631bc408aad32661b4",
+    "kind": "text",
+    "lines": 45
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-07/events.log",
+    "bytes": 14367,
+    "sha256": "baa4f61f584f2558679184e014be40ec21dd93de33abd72717648939eb6b3fd2",
+    "kind": "text",
+    "lines": 58
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-07/logger_all.log",
+    "bytes": 28513,
+    "sha256": "eedd4b6d403e1a05a82ee5639e23ae245a56a6e2ce7f92c892953a0f265a50e9",
+    "kind": "text",
+    "lines": 234
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-17/classify_description/command.log",
+    "bytes": 554,
+    "sha256": "af810b44eaf8d68df4889b6a56e1c601de8f08f62866f798320dae2bb1b30583",
+    "kind": "text",
+    "lines": 2
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-17/classify_description/stderr.log",
+    "bytes": 2285,
+    "sha256": "85f3fd90ac2dad8fd9453e859cef99c5644f8ede322c81b7824f90b76b1be2f3",
+    "kind": "text",
+    "lines": 38
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-17/classify_description/stdout.log",
+    "bytes": 405,
+    "sha256": "f79f08fbaee5ef52a46f6b3970307a1243adbefa1dfb61423f0b57a2272f7a11",
+    "kind": "text",
+    "lines": 5
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-17/classify_description/stdout_stderr.log",
+    "bytes": 2690,
+    "sha256": "29f902306eb115d4a0a469a967a11d529765ae14e36144f0b603aa1bd6b75061",
+    "kind": "text",
+    "lines": 43
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-17/classify_description/streams.log",
+    "bytes": 3649,
+    "sha256": "474c0d5f9c92168b5ec4e1117950273d64775301bddf7f8d777b2f5b19f9688c",
+    "kind": "text",
+    "lines": 45
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-17/events.log",
+    "bytes": 14367,
+    "sha256": "d305dbcfded2455790d67e70b0284062ef32463f8b1726d1ccdbada81e9f7274",
+    "kind": "text",
+    "lines": 58
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-17/logger_all.log",
+    "bytes": 28513,
+    "sha256": "e841a260e7ac192eaf9cc8d3bf3321869d32e1163682a9015da16a6515832cab",
+    "kind": "text",
+    "lines": 234
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-28/classify_description/command.log",
+    "bytes": 2362,
+    "sha256": "a672c2465bc09cd81f32f315b87ff21d74a394a0a8573d7c7b4657e7cf883e51",
+    "kind": "text",
+    "lines": 6
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-28/classify_description/stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-28/classify_description/stdout.log",
+    "bytes": 5461,
+    "sha256": "9907d12336c69256fc9a770ff61ab88c57ab1a62613a36cd623070cf56676490",
+    "kind": "text",
+    "lines": 46
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-28/classify_description/stdout_stderr.log",
+    "bytes": 5461,
+    "sha256": "9907d12336c69256fc9a770ff61ab88c57ab1a62613a36cd623070cf56676490",
+    "kind": "text",
+    "lines": 46
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-28/classify_description/streams.log",
+    "bytes": 8291,
+    "sha256": "3df5dd99c53cf08562ee251d3921ac417916ca585e4bb2293eae1a573ed75ca4",
+    "kind": "text",
+    "lines": 52
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-28/events.log",
+    "bytes": 34589,
+    "sha256": "a1e1e02aa3f6897baee6d60ba601feb1476c334d73269e55c2b93cc8e04fe279",
+    "kind": "text",
+    "lines": 69
+  },
+  {
+    "path": "log/build_2026-09-29_21-12-28/logger_all.log",
+    "bytes": 35543,
+    "sha256": "0ca1ccfcca10d3b4feee4d99cd6bf80e112b02b961db2409cf7e045f0f4fd911",
+    "kind": "text",
+    "lines": 267
+  },
+  {
+    "path": "log/build_2026-09-29_21-46-46/classify_description/command.log",
+    "bytes": 1418,
+    "sha256": "03b6caca812b692ef6e0fabc2e73f0dcc7b6ec9b1554aa92274fd5e6f3fc8369",
+    "kind": "text",
+    "lines": 4
+  },
+  {
+    "path": "log/build_2026-09-29_21-46-46/classify_description/stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "log/build_2026-09-29_21-46-46/classify_description/stdout.log",
+    "bytes": 4884,
+    "sha256": "91edba82a3014e8babdb6dc7d17c2ec4d81607b464d437c65ff5405adcd4cbab",
+    "kind": "text",
+    "lines": 36
+  },
+  {
+    "path": "log/build_2026-09-29_21-46-46/classify_description/stdout_stderr.log",
+    "bytes": 4884,
+    "sha256": "91edba82a3014e8babdb6dc7d17c2ec4d81607b464d437c65ff5405adcd4cbab",
+    "kind": "text",
+    "lines": 36
+  },
+  {
+    "path": "log/build_2026-09-29_21-46-46/classify_description/streams.log",
+    "bytes": 6662,
+    "sha256": "f9f26b3639cf0eb98ee2a5066a7b69c22feb32f907c12a4d1573747e270e51c4",
+    "kind": "text",
+    "lines": 40
+  },
+  {
+    "path": "log/build_2026-09-29_21-46-46/events.log",
+    "bytes": 24659,
+    "sha256": "6d75e472fb6d2e51a72ba3ce078372c002a098c44f7d4456bd61e9adae295d0c",
+    "kind": "text",
+    "lines": 50
+  },
+  {
+    "path": "log/build_2026-09-29_21-46-46/logger_all.log",
+    "bytes": 34479,
+    "sha256": "251575735d0b74e969c11bbb987e74153bbc1c6964de402814e661257df6e4eb",
+    "kind": "text",
+    "lines": 265
+  },
+  {
+    "path": "log/build_2026-09-29_22-01-41/classify_description/command.log",
+    "bytes": 1418,
+    "sha256": "03b6caca812b692ef6e0fabc2e73f0dcc7b6ec9b1554aa92274fd5e6f3fc8369",
+    "kind": "text",
+    "lines": 4
+  },
+  {
+    "path": "log/build_2026-09-29_22-01-41/classify_description/stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "log/build_2026-09-29_22-01-41/classify_description/stdout.log",
+    "bytes": 4892,
+    "sha256": "db19283225437deba7a4a5a992ae178c90cb376ab54457b99438692d58320153",
+    "kind": "text",
+    "lines": 36
+  },
+  {
+    "path": "log/build_2026-09-29_22-01-41/classify_description/stdout_stderr.log",
+    "bytes": 4892,
+    "sha256": "db19283225437deba7a4a5a992ae178c90cb376ab54457b99438692d58320153",
+    "kind": "text",
+    "lines": 36
+  },
+  {
+    "path": "log/build_2026-09-29_22-01-41/classify_description/streams.log",
+    "bytes": 6670,
+    "sha256": "7bdc3002ef60542b43e113d65f5b01fdf08e7d8126351b8feca5355afdb54db8",
+    "kind": "text",
+    "lines": 40
+  },
+  {
+    "path": "log/build_2026-09-29_22-01-41/events.log",
+    "bytes": 24611,
+    "sha256": "09067efa83674f8eadf2e2fe6fc150458feb2e6413d698bf87eeb5193ca6fde9",
+    "kind": "text",
+    "lines": 50
+  },
+  {
+    "path": "log/build_2026-09-29_22-01-41/logger_all.log",
+    "bytes": 39932,
+    "sha256": "9824113a330cbcf2515670692b0a7210f61567b717aa03d9fc4ab567128b5563",
+    "kind": "text",
+    "lines": 265
+  },
+  {
+    "path": "log/build_2026-09-29_22-12-39/classify_description/command.log",
+    "bytes": 1418,
+    "sha256": "03b6caca812b692ef6e0fabc2e73f0dcc7b6ec9b1554aa92274fd5e6f3fc8369",
+    "kind": "text",
+    "lines": 4
+  },
+  {
+    "path": "log/build_2026-09-29_22-12-39/classify_description/stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "log/build_2026-09-29_22-12-39/classify_description/stdout.log",
+    "bytes": 5027,
+    "sha256": "1cbdeeec715fb737d148a23ef4ac11beb4ba0023c121327d388a39a4cc283aa4",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_22-12-39/classify_description/stdout_stderr.log",
+    "bytes": 5027,
+    "sha256": "1cbdeeec715fb737d148a23ef4ac11beb4ba0023c121327d388a39a4cc283aa4",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_22-12-39/classify_description/streams.log",
+    "bytes": 6814,
+    "sha256": "8dc0b21c8fc654bcb0c6baa76c8f203445b7aacf2d6353c303c61076d102f954",
+    "kind": "text",
+    "lines": 41
+  },
+  {
+    "path": "log/build_2026-09-29_22-12-39/events.log",
+    "bytes": 24863,
+    "sha256": "bd5cff2b437abeec6e13637b070d8377fcab069cf390ac70a21b790fec7638e2",
+    "kind": "text",
+    "lines": 51
+  },
+  {
+    "path": "log/build_2026-09-29_22-12-39/logger_all.log",
+    "bytes": 34479,
+    "sha256": "2baf1fc31e6679a38a294da182ce0634597672b8da63896d608c8692aded9b62",
+    "kind": "text",
+    "lines": 265
+  },
+  {
+    "path": "log/build_2026-09-29_22-16-03/classify_description/command.log",
+    "bytes": 1418,
+    "sha256": "03b6caca812b692ef6e0fabc2e73f0dcc7b6ec9b1554aa92274fd5e6f3fc8369",
+    "kind": "text",
+    "lines": 4
+  },
+  {
+    "path": "log/build_2026-09-29_22-16-03/classify_description/stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "log/build_2026-09-29_22-16-03/classify_description/stdout.log",
+    "bytes": 5035,
+    "sha256": "9996d14a4e49c2eed540b7954366785c2c3ecfbec38e83ecbe2762a2f9547286",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_22-16-03/classify_description/stdout_stderr.log",
+    "bytes": 5035,
+    "sha256": "9996d14a4e49c2eed540b7954366785c2c3ecfbec38e83ecbe2762a2f9547286",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_22-16-03/classify_description/streams.log",
+    "bytes": 6822,
+    "sha256": "b1a17191ea69ad5a9ccee9668349d12aeda2acd8f3235cbc6f6473bcc914eff3",
+    "kind": "text",
+    "lines": 41
+  },
+  {
+    "path": "log/build_2026-09-29_22-16-03/events.log",
+    "bytes": 24871,
+    "sha256": "1ede557095506c19b7660e1ec0c253ec1f7b067473c3a1d34b011d0d43f08564",
+    "kind": "text",
+    "lines": 51
+  },
+  {
+    "path": "log/build_2026-09-29_22-16-03/logger_all.log",
+    "bytes": 34479,
+    "sha256": "e0606e34d801cb6ce1021e0e8559a0669605bb7d268868a30d3a3d1957c4f037",
+    "kind": "text",
+    "lines": 265
+  },
+  {
+    "path": "log/build_2026-09-29_22-29-22/classify_description/command.log",
+    "bytes": 1418,
+    "sha256": "03b6caca812b692ef6e0fabc2e73f0dcc7b6ec9b1554aa92274fd5e6f3fc8369",
+    "kind": "text",
+    "lines": 4
+  },
+  {
+    "path": "log/build_2026-09-29_22-29-22/classify_description/stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "log/build_2026-09-29_22-29-22/classify_description/stdout.log",
+    "bytes": 5035,
+    "sha256": "9996d14a4e49c2eed540b7954366785c2c3ecfbec38e83ecbe2762a2f9547286",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_22-29-22/classify_description/stdout_stderr.log",
+    "bytes": 5035,
+    "sha256": "9996d14a4e49c2eed540b7954366785c2c3ecfbec38e83ecbe2762a2f9547286",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_22-29-22/classify_description/streams.log",
+    "bytes": 6822,
+    "sha256": "06614baad5c1956250e93a23ed67e0404d5e80058e77d5e5009c085221c7870e",
+    "kind": "text",
+    "lines": 41
+  },
+  {
+    "path": "log/build_2026-09-29_22-29-22/events.log",
+    "bytes": 24871,
+    "sha256": "a5fdd756eb705bae526416b677a66465c4a70d663f203d00dca5fd77b57a8f8b",
+    "kind": "text",
+    "lines": 51
+  },
+  {
+    "path": "log/build_2026-09-29_22-29-22/logger_all.log",
+    "bytes": 34479,
+    "sha256": "76b6639eacd41824ca888405991ae350071fefd1a7bcb3abc3718b0fbd0329f0",
+    "kind": "text",
+    "lines": 265
+  },
+  {
+    "path": "log/build_2026-09-29_22-30-28/classify_description/command.log",
+    "bytes": 1418,
+    "sha256": "03b6caca812b692ef6e0fabc2e73f0dcc7b6ec9b1554aa92274fd5e6f3fc8369",
+    "kind": "text",
+    "lines": 4
+  },
+  {
+    "path": "log/build_2026-09-29_22-30-28/classify_description/stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "log/build_2026-09-29_22-30-28/classify_description/stdout.log",
+    "bytes": 5035,
+    "sha256": "9996d14a4e49c2eed540b7954366785c2c3ecfbec38e83ecbe2762a2f9547286",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_22-30-28/classify_description/stdout_stderr.log",
+    "bytes": 5035,
+    "sha256": "9996d14a4e49c2eed540b7954366785c2c3ecfbec38e83ecbe2762a2f9547286",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_22-30-28/classify_description/streams.log",
+    "bytes": 6822,
+    "sha256": "46c9c91f140f29edd11ffba4c697658347edb804447e33984b6802cfe505a953",
+    "kind": "text",
+    "lines": 41
+  },
+  {
+    "path": "log/build_2026-09-29_22-30-28/events.log",
+    "bytes": 24871,
+    "sha256": "124150341d50aac321f38d774fc19f2b3db653a66859586b92d62eb6c990fb59",
+    "kind": "text",
+    "lines": 51
+  },
+  {
+    "path": "log/build_2026-09-29_22-30-28/logger_all.log",
+    "bytes": 34479,
+    "sha256": "e2ad402b8ed311282d6996ea761b399158e3a2bfd88d799f1d397199598287c4",
+    "kind": "text",
+    "lines": 265
+  },
+  {
+    "path": "log/build_2026-09-29_23-00-24/classify_description/command.log",
+    "bytes": 1418,
+    "sha256": "03b6caca812b692ef6e0fabc2e73f0dcc7b6ec9b1554aa92274fd5e6f3fc8369",
+    "kind": "text",
+    "lines": 4
+  },
+  {
+    "path": "log/build_2026-09-29_23-00-24/classify_description/stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "log/build_2026-09-29_23-00-24/classify_description/stdout.log",
+    "bytes": 5035,
+    "sha256": "9996d14a4e49c2eed540b7954366785c2c3ecfbec38e83ecbe2762a2f9547286",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_23-00-24/classify_description/stdout_stderr.log",
+    "bytes": 5035,
+    "sha256": "9996d14a4e49c2eed540b7954366785c2c3ecfbec38e83ecbe2762a2f9547286",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_23-00-24/classify_description/streams.log",
+    "bytes": 6822,
+    "sha256": "1e871d674d16365aa72d709b7256d94dcced1aebe81a2efce524878ccdf26b44",
+    "kind": "text",
+    "lines": 41
+  },
+  {
+    "path": "log/build_2026-09-29_23-00-24/events.log",
+    "bytes": 24871,
+    "sha256": "f2a6d1f8c765d46de27ce93d16bface299817cdebd72b36c20d3043214cba003",
+    "kind": "text",
+    "lines": 51
+  },
+  {
+    "path": "log/build_2026-09-29_23-00-24/logger_all.log",
+    "bytes": 34479,
+    "sha256": "fe1b92bd3d0906604bb0946c76f7936fe6b0e075981f611664c18cffd205e80c",
+    "kind": "text",
+    "lines": 265
+  },
+  {
+    "path": "log/build_2026-09-29_23-05-53/classify_description/command.log",
+    "bytes": 1418,
+    "sha256": "03b6caca812b692ef6e0fabc2e73f0dcc7b6ec9b1554aa92274fd5e6f3fc8369",
+    "kind": "text",
+    "lines": 4
+  },
+  {
+    "path": "log/build_2026-09-29_23-05-53/classify_description/stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "log/build_2026-09-29_23-05-53/classify_description/stdout.log",
+    "bytes": 5035,
+    "sha256": "9996d14a4e49c2eed540b7954366785c2c3ecfbec38e83ecbe2762a2f9547286",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_23-05-53/classify_description/stdout_stderr.log",
+    "bytes": 5035,
+    "sha256": "9996d14a4e49c2eed540b7954366785c2c3ecfbec38e83ecbe2762a2f9547286",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_23-05-53/classify_description/streams.log",
+    "bytes": 6822,
+    "sha256": "86539ca53787be0f23ed97d8ffb7f2f39b5f2565b120d3e8daa505cc0de6e533",
+    "kind": "text",
+    "lines": 41
+  },
+  {
+    "path": "log/build_2026-09-29_23-05-53/events.log",
+    "bytes": 24871,
+    "sha256": "61980aa120462b2ccbc7f106c59ce782402e80422622d50d27ca4a91f3a61cc4",
+    "kind": "text",
+    "lines": 51
+  },
+  {
+    "path": "log/build_2026-09-29_23-05-53/logger_all.log",
+    "bytes": 34479,
+    "sha256": "4d35af970c319c652bd18acf3a4b176e590694ec6d1310687ca1d692bfffc454",
+    "kind": "text",
+    "lines": 265
+  },
+  {
+    "path": "log/build_2026-09-29_23-10-56/classify_description/command.log",
+    "bytes": 1418,
+    "sha256": "03b6caca812b692ef6e0fabc2e73f0dcc7b6ec9b1554aa92274fd5e6f3fc8369",
+    "kind": "text",
+    "lines": 4
+  },
+  {
+    "path": "log/build_2026-09-29_23-10-56/classify_description/stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "log/build_2026-09-29_23-10-56/classify_description/stdout.log",
+    "bytes": 5035,
+    "sha256": "9996d14a4e49c2eed540b7954366785c2c3ecfbec38e83ecbe2762a2f9547286",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_23-10-56/classify_description/stdout_stderr.log",
+    "bytes": 5035,
+    "sha256": "9996d14a4e49c2eed540b7954366785c2c3ecfbec38e83ecbe2762a2f9547286",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_23-10-56/classify_description/streams.log",
+    "bytes": 6822,
+    "sha256": "788807dc6504cdbdd5e5394c0390d9f4b979f38cb133c6fc441f3deb5f33ccc4",
+    "kind": "text",
+    "lines": 41
+  },
+  {
+    "path": "log/build_2026-09-29_23-10-56/events.log",
+    "bytes": 24841,
+    "sha256": "644a6bed1d771307cf366855188614ef907686702651b6ce85b96b4164d7bd23",
+    "kind": "text",
+    "lines": 50
+  },
+  {
+    "path": "log/build_2026-09-29_23-10-56/logger_all.log",
+    "bytes": 34479,
+    "sha256": "921ccc07e7af724157c322c5e2dd288658639753d50cc0f28cd3611ec5e1dbd8",
+    "kind": "text",
+    "lines": 265
+  },
+  {
+    "path": "log/build_2026-09-29_23-19-36/classify_description/command.log",
+    "bytes": 1418,
+    "sha256": "03b6caca812b692ef6e0fabc2e73f0dcc7b6ec9b1554aa92274fd5e6f3fc8369",
+    "kind": "text",
+    "lines": 4
+  },
+  {
+    "path": "log/build_2026-09-29_23-19-36/classify_description/stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "log/build_2026-09-29_23-19-36/classify_description/stdout.log",
+    "bytes": 5035,
+    "sha256": "9996d14a4e49c2eed540b7954366785c2c3ecfbec38e83ecbe2762a2f9547286",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_23-19-36/classify_description/stdout_stderr.log",
+    "bytes": 5035,
+    "sha256": "9996d14a4e49c2eed540b7954366785c2c3ecfbec38e83ecbe2762a2f9547286",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_23-19-36/classify_description/streams.log",
+    "bytes": 6822,
+    "sha256": "38bb075ed049c68a6c15a0ff21efb84d4d1243b87f6038b79fa16d5c5640cc0f",
+    "kind": "text",
+    "lines": 41
+  },
+  {
+    "path": "log/build_2026-09-29_23-19-36/events.log",
+    "bytes": 24841,
+    "sha256": "4a5f505222fc55d74d9b661c4b2cce85c2e9f3b4db87d82a5966d7b2c119b392",
+    "kind": "text",
+    "lines": 50
+  },
+  {
+    "path": "log/build_2026-09-29_23-19-36/logger_all.log",
+    "bytes": 34479,
+    "sha256": "ebe22921555c4a19aae7bac842c5b6b18e7c1bf02bb80ae352b03b44c6d725e9",
+    "kind": "text",
+    "lines": 265
+  },
+  {
+    "path": "log/build_2026-09-29_23-34-33/classify_description/command.log",
+    "bytes": 1418,
+    "sha256": "03b6caca812b692ef6e0fabc2e73f0dcc7b6ec9b1554aa92274fd5e6f3fc8369",
+    "kind": "text",
+    "lines": 4
+  },
+  {
+    "path": "log/build_2026-09-29_23-34-33/classify_description/stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "log/build_2026-09-29_23-34-33/classify_description/stdout.log",
+    "bytes": 5035,
+    "sha256": "9996d14a4e49c2eed540b7954366785c2c3ecfbec38e83ecbe2762a2f9547286",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_23-34-33/classify_description/stdout_stderr.log",
+    "bytes": 5035,
+    "sha256": "9996d14a4e49c2eed540b7954366785c2c3ecfbec38e83ecbe2762a2f9547286",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_23-34-33/classify_description/streams.log",
+    "bytes": 6822,
+    "sha256": "e165a6d631b1331f30f91e0bb06a09fa9161450492425ac00b915e39153b40ab",
+    "kind": "text",
+    "lines": 41
+  },
+  {
+    "path": "log/build_2026-09-29_23-34-33/events.log",
+    "bytes": 24841,
+    "sha256": "32c3c284eac3213f1c3fa4ff10d7889f825534b2cd863043fa3ba28b7de6aaa5",
+    "kind": "text",
+    "lines": 50
+  },
+  {
+    "path": "log/build_2026-09-29_23-34-33/logger_all.log",
+    "bytes": 34479,
+    "sha256": "496f3e8a5b45649f72992818aa537210a1b2557d12e891e6e01bdcc9430c9d77",
+    "kind": "text",
+    "lines": 265
+  },
+  {
+    "path": "log/build_2026-09-29_23-49-48/classify_description/command.log",
+    "bytes": 1418,
+    "sha256": "03b6caca812b692ef6e0fabc2e73f0dcc7b6ec9b1554aa92274fd5e6f3fc8369",
+    "kind": "text",
+    "lines": 4
+  },
+  {
+    "path": "log/build_2026-09-29_23-49-48/classify_description/stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "text",
+    "lines": 0
+  },
+  {
+    "path": "log/build_2026-09-29_23-49-48/classify_description/stdout.log",
+    "bytes": 5035,
+    "sha256": "9996d14a4e49c2eed540b7954366785c2c3ecfbec38e83ecbe2762a2f9547286",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_23-49-48/classify_description/stdout_stderr.log",
+    "bytes": 5035,
+    "sha256": "9996d14a4e49c2eed540b7954366785c2c3ecfbec38e83ecbe2762a2f9547286",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "path": "log/build_2026-09-29_23-49-48/classify_description/streams.log",
+    "bytes": 6822,
+    "sha256": "afb30223775c204d089d0fd5a75ee1af5774c8dc175a1f76dad2ca5c68b6e03d",
+    "kind": "text",
+    "lines": 41
+  },
+  {
+    "path": "log/build_2026-09-29_23-49-48/events.log",
+    "bytes": 24841,
+    "sha256": "88cfd29081aceb180089b34b539bc668f2c0b12c8cc6ecd2f10d8240bc9bb904",
+    "kind": "text",
+    "lines": 50
+  },
+  {
+    "path": "log/build_2026-09-29_23-49-48/logger_all.log",
+    "bytes": 34479,
+    "sha256": "87b1773d89e28b3fc4d769fc590a191cea529c80bd0480c040dd208abd28424f",
+    "kind": "text",
+    "lines": 265
+  },
+  {
+    "path": "log/latest",
+    "symlink": "latest_build",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/log/build_2026-09-29_23-49-48"
+  },
+  {
+    "path": "log/latest_build",
+    "symlink": "build_2026-09-29_23-49-48",
+    "exists": true,
+    "resolved": "/home/hanhan/Desktop/piper_classify_ws/log/build_2026-09-29_23-49-48"
+  },
+  {
+    "path": "scripts/check_env.sh",
+    "bytes": 5940,
+    "sha256": "714ce5f03c0b1262f9212ef0635c53fae9eb69b9469ef2ac1b0dba59ec708625",
+    "kind": "text",
+    "lines": 112
+  },
+  {
+    "path": "scripts/run_sim.sh",
+    "bytes": 1859,
+    "sha256": "263a7b11b37664313c864faf2905b4f8745320e3a43e33c55ee7355c887b020c",
+    "kind": "text",
+    "lines": 58
+  },
+  {
+    "path": "scripts/stop_sim.sh",
+    "bytes": 4374,
+    "sha256": "82d9a82ce319add6221f58e20f800095c06f6c32da6dbf23af38867e5238c0b3",
+    "kind": "text",
+    "lines": 93
+  },
+  {
+    "path": "scripts/tools/build_urdf.sh",
+    "bytes": 14963,
+    "sha256": "79ca76174cc19aa0ef4210e93aabce59039e06b1eceb0750070196139f3f5377",
+    "kind": "text",
+    "lines": 352
+  },
+  {
+    "path": "scripts/tools/check_ik.py",
+    "bytes": 4667,
+    "sha256": "62d12ed30602f1b04c823dd35281c251e8f28a3d72bfc10eeab3c9cf5ac2f429",
+    "kind": "text",
+    "lines": 118
+  },
+  {
+    "path": "scripts/tools/check_scene.py",
+    "bytes": 12499,
+    "sha256": "c1d137580d22c464ab9a2b08b74ed3b85eab3e1a9ef10a4c9d9b0adda3c48b03",
+    "kind": "text",
+    "lines": 309
+  },
+  {
+    "path": "scripts/tools/measure_scene.py",
+    "bytes": 5325,
+    "sha256": "6792be66e05950bb2d8e46090e4926354f00970ce17a806cc43c036d6f9f2e7a",
+    "kind": "text",
+    "lines": 155
+  },
+  {
+    "path": "scripts/tools/rotate_scene.py",
+    "bytes": 5694,
+    "sha256": "0c590048936accdb8264f19d4d08ae5e6045c21ef5ed496e477f9cab7ec15cfa",
+    "kind": "text",
+    "lines": 157
+  },
+  {
+    "path": "scripts/tools/upgrade_urdf.py",
+    "bytes": 7143,
+    "sha256": "c7c0ada5ccce466e8ed7aa1fbcf09633b38c327d2ce3cd06df3ed2c736f825e3",
+    "kind": "text",
+    "lines": 169
+  },
+  {
+    "path": "src/description/classify_description/CMakeLists.txt",
+    "bytes": 2059,
+    "sha256": "7a161b2f5e90a49bd0ddeaca3f1e8bb6889a4d28b761796525a3b1c36b6ed4bd",
+    "kind": "text",
+    "lines": 57
+  },
+  {
+    "path": "src/description/classify_description/config/gazebo_initial_positions.yaml",
+    "bytes": 2329,
+    "sha256": "e90f80ef6c45c41ab78ac555ac5c78256669350315d61a1e30a3a21aaeecf86b",
+    "kind": "text",
+    "lines": 45
+  },
+  {
+    "path": "src/description/classify_description/config/ros2_controllers.yaml",
+    "bytes": 3669,
+    "sha256": "c610d492eeb58179d158a064512a65c99e94e6d55e711f46e29c29d32eec0929",
+    "kind": "text",
+    "lines": 108
+  },
+  {
+    "path": "src/description/classify_description/launch/display.launch.py",
+    "bytes": 4789,
+    "sha256": "94fa527b0aee45dbb03ca990ddc04aaabc3916cca4fc3dedf45737b27ad7ab5f",
+    "kind": "text",
+    "lines": 108
+  },
+  {
+    "path": "src/description/classify_description/launch/gazebo.launch.py",
+    "bytes": 10659,
+    "sha256": "bdec445165baeda53eb9b7e0ebddd2c59a5ee694edad4dc9a2039e2861cd2579",
+    "kind": "text",
+    "lines": 226
+  },
+  {
+    "path": "src/description/classify_description/meshes/base_link.STL",
+    "bytes": 607384,
+    "sha256": "fd4a3d6d0266205fe3f725f048645be66592c23564db22e08b0807d5569b2c64",
+    "kind": "binary"
+  },
+  {
+    "path": "src/description/classify_description/meshes/gripper_base.STL",
+    "bytes": 649484,
+    "sha256": "2895bfa6f1eef2d0ad2cb9dfdedd5f6c760ec07388bcde2b4d1e412e1189c9cb",
+    "kind": "binary"
+  },
+  {
+    "path": "src/description/classify_description/meshes/link1.STL",
+    "bytes": 447784,
+    "sha256": "9ee6e1d67c0241f42a0dbaf5c676d19230375ed078ee1943bb8c4c37ab303d14",
+    "kind": "binary"
+  },
+  {
+    "path": "src/description/classify_description/meshes/link2.STL",
+    "bytes": 3658384,
+    "sha256": "0d37675b699b643f2e15348de99aed535fac10dc5f09a79b8e4b0acfaf4e0378",
+    "kind": "binary"
+  },
+  {
+    "path": "src/description/classify_description/meshes/link3.STL",
+    "bytes": 1845784,
+    "sha256": "e8ae51f17c0c7f6d67b753922e2cc269f5e8372a65734f859231639a64fe8fad",
+    "kind": "binary"
+  },
+  {
+    "path": "src/description/classify_description/meshes/link4.STL",
+    "bytes": 877984,
+    "sha256": "efa33022976218f246f736a6133494b5d0e5486e8b50b52900c42f285ae85558",
+    "kind": "binary"
+  },
+  {
+    "path": "src/description/classify_description/meshes/link5.STL",
+    "bytes": 833684,
+    "sha256": "a1c69d1c7f6f8c60e2c82331c0f444725200ed4053d3e5ec23aa82cb5db5b29f",
+    "kind": "binary"
+  },
+  {
+    "path": "src/description/classify_description/meshes/link6.STL",
+    "bytes": 58884,
+    "sha256": "88374973bc3bd9e7389b5853cd6e555af9731c30b658b1ee6f85be34a126cb92",
+    "kind": "binary"
+  },
+  {
+    "path": "src/description/classify_description/meshes/link7.STL",
+    "bytes": 104384,
+    "sha256": "475a7d8db056524d7659fadf5a2c307d62791047b6214d733dfc7846ed1c613d",
+    "kind": "binary"
+  },
+  {
+    "path": "src/description/classify_description/meshes/link8.STL",
+    "bytes": 104384,
+    "sha256": "3f88d534a85e28a33ef7d2061adacbd1d25214aa9325f9e464aad0f9e4b74606",
+    "kind": "binary"
+  },
+  {
+    "path": "src/description/classify_description/package.xml",
+    "bytes": 2022,
+    "sha256": "78b657d0f4e03abdd3af192c1380ee10ee14eddbb8e10706aaf088ed1b855634",
+    "kind": "text",
+    "lines": 48
+  },
+  {
+    "path": "src/description/classify_description/rviz/piper.rviz",
+    "bytes": 2697,
+    "sha256": "722f98251777f7ec99b179a30bdd4b1847954c432737422695d82d74853e4b57",
+    "kind": "text",
+    "lines": 116
+  },
+  {
+    "path": "src/description/classify_description/urdf/piper.urdf",
+    "bytes": 9903,
+    "sha256": "ae072759759892adb1da2ddbe1981d0f4fb41638637313e8b69bcae2cb796518",
+    "kind": "text",
+    "lines": 284
+  },
+  {
+    "path": "src/description/classify_description/urdf/piper_sim.urdf",
+    "bytes": 14608,
+    "sha256": "d46ec520139009d5d091c3b8df58833ed016f4949ea04aaa7ce50436267dce59",
+    "kind": "text",
+    "lines": 427
+  },
+  {
+    "path": "src/description/classify_description/urdf/piper_sim_rviz.urdf",
+    "bytes": 14088,
+    "sha256": "6be32cdf27e9af2101f1818c64e80e2424caac6a2758f1fbc54eff78297a3657",
+    "kind": "text",
+    "lines": 427
+  },
+  {
+    "path": "src/description/classify_description/urdf/piper_with_ros2_control.urdf.xacro",
+    "bytes": 13064,
+    "sha256": "14a87bba85aafd582f50836bc0966d274e44f262cab7a27d8fdf06f7647294b6",
+    "kind": "text",
+    "lines": 313
+  },
+  {
+    "path": "src/description/classify_description/worlds/classify.world",
+    "bytes": 12554,
+    "sha256": "4e3c33c0b11fc21f658f508dfb67a7e1952abdcb6eb4b313453681593333d31d",
+    "kind": "text",
+    "lines": 426
+  }
+]

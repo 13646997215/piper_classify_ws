@@ -1,0 +1,25 @@
+[
+  {
+    "case": "baseline_a",
+    "passed": true,
+    "green_displacement_mm": 0.0,
+    "elapsed_sec": 81.656905473
+  },
+  {
+    "case": "baseline_b",
+    "passed": true,
+    "green_displacement_mm": 0.0,
+    "elapsed_sec": 81.407171773
+  },
+  {
+    "case": "clutter_stress",
+    "passed": true,
+    "green_displacement_mm": 0.0,
+    "elapsed_sec": 80.862265844
+  },
+  {
+    "case": "occlusion_cancel",
+    "passed": false,
+    "error": "Timed out waiting for trial condition"
+  }
+]

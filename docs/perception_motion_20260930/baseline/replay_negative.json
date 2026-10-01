@@ -1,0 +1,4 @@
+{
+  "mismatched_nanosecond_stamps_rejected": true,
+  "paused_clock_sensor_timeout": true
+}

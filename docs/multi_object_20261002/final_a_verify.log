@@ -1,0 +1,3 @@
+VERIFY_MULTI_FAILED: MTC planning failed: Failing stage(s):
+approach object (0/1): CartesianPath: min_fraction not met. Achieved: 0.461538
+

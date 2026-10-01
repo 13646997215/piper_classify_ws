@@ -1,0 +1,3253 @@
+                sync
+
+
+
+
+ Gemini 330 Series
+ Datasheet for USB Devices
+ Version 1.7
+
+
+Copyright Orbbec Inc. All rights reserved. The product described may contain defects or errors or deviations from the
+published specifications. Contact your sales representative to obtain the latest Orbbec product specifications. Orbbec is not
+responsible for any users infringing on third party copyright or other rights in the use of Orbbec products. In addition, Orbbec
+does not assume any liability for damages or any losses resulting from the use of this product. All information provided here
+is subject to change without notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+Revision History
+
+
+ Version                                       Description                                        Revision Date
+
+    V1.0       ⚫    Initial release                                                               2024-04-28
+     V1.1      ⚫    Add specifications for Gemini 336/336L                                        2024-06-05
+               ⚫    Add RGB resolution by 10fps.
+               ⚫    Add frame rates of 6, 10, 15 for Depth 640x360 resolution
+                    under USB2.0 for Gemini 335/336
+               ⚫    Add frame rates of 5, 10, 15 for Depth 640x360 resolution
+                    under USB2.0 for Gemini 335L/336L
+               ⚫    Add 90fps for RGB resolutions of 640x480 and below for
+                    Gemini 335L/336L.
+     V1.2      ⚫    Add 10fps for all Depth/IR resolutions on the USB3.0                           2024-08-12
+               ⚫    Add hardware D2C function
+               ⚫    Add disparity search ranges of 256 and 64 for Gemini
+                    330L/335L/336L, See 4.7 for a detailed description.
+               ⚫    Add environmental certifications： TSCA, TPCH, and
+                    94/62/EC.
+               ⚫    Update the 5.4 Ingress Protection
+               ⚫    Update the glossary of terms
+               ⚫    Update the datasheet templates
+    V1.3                                                                                           2024-12-12
+               ⚫    Refine and improve the content of the datasheet.
+               ⚫    Update the firmware version to V1.4.00 and reduce the
+                    peak power consumption from 6.5W to 6.0W for Gemini
+    V1.4            335L and Gemini 336L                                                           2025-01-24
+               ⚫    Add a depth resolution of 424x266 for the Gemini 330
+                    series.
+               ⚫    Update section 3.4.8: Transmittance vs. Wavelength for
+    V1.5                                                                                           2025-02-11
+                    Depth Camera
+               ⚫     Update the product images to remove the rubber feet
+    V1.6             from the Gemini 335/336                                                       2025-04-10
+               ⚫     Update section 5.1.1
+               ⚫     Update section 4.12.1: Added requirements for
+                     synchronization signals.
+               ⚫     Update section 4.13: Updated and added descriptions for
+     V1.7            camera control parameters, including optional depth                           2025-10-31
+                     presets and alternating sequence functionality.
+               ⚫     Update section 4.11: Added configurable exposure
+                     alignment methods for trigger mode.
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                              2
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                                                       Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+                                                                    Contents
+     0.Glossary ............................................................................................................................................ 7
+
+     1. Product Brief..................................................................................................................................... 9
+
+     2. Product Specifications .............................................................................................................. 10
+
+     3. Product Information ................................................................................................................... 12
+
+            3.1 Product Pictures ................................................................................................................. 12
+
+            3.2 Product Drawings ............................................................................................................. 13
+
+                   3.2.1 Product Drawings for Gemini 335/336 ............................................................ 13
+
+                   3.2.2 Product Drawings for Gemini 335L/336L ........................................................ 14
+
+                   3.2.3 Product Dimensions & Weight for Gemini 330 series ................................ 15
+
+            3.3 Product Interfaces ............................................................................................................ 15
+
+            3.4 Product Components ...................................................................................................... 16
+
+                   3.4.1 Overview of Product Components for Gemini 335/336 ............................ 16
+
+                   3.4.2 Overview of Product Components for Gemini 335L/336L ........................ 17
+
+                   3.4.3 Laser Diode Module .............................................................................................. 18
+
+                   3.4.4 Infrared Module...................................................................................................... 19
+
+                   3.4.5 RGB Module ............................................................................................................. 19
+
+                   3.4.6 Laser Ranging Module ......................................................................................... 20
+
+                   3.4.7 IR-pass filter cover（Gemini 336 &336L cover glass） ............................. 21
+
+                   3.4.8 Transmittance vs. Wavelength for Depth Camera.................................... 21
+
+                   3.4.9 IMU .............................................................................................................................. 22
+
+     4. Functional Specifications ......................................................................................................... 23
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                                                                     3
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                                                   Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+            4.1 Vendor Identifier (VID) and Product Identifier (PID)............................................... 23
+
+            4.2 Platform and System Requirements .......................................................................... 23
+
+            4.3 Camera system Framework ......................................................................................... 24
+
+            4.4 Image Data Stream ......................................................................................................... 25
+
+            4.5 Field of View........................................................................................................................ 29
+
+                   4.5.1 Definition of Depth Field of View ........................................................................ 29
+
+                   4.5.2 Typical Depth Intrinsics ....................................................................................... 30
+
+                   4.5.3 Overview of Stream FOV ..................................................................................... 31
+
+                   4.5.4 FOV Illustrations for Gemini 335/336 .............................................................. 32
+
+                   4.5.5 FOV Illustrations for Gemini 335L/336L........................................................... 33
+
+            4.6 Depth to Color Alignment .............................................................................................. 34
+
+            4.7 Minimum-Z Depth ............................................................................................................ 37
+
+            4.8 Coordinate System .......................................................................................................... 38
+
+            4.9 Camera Start Point Reference ..................................................................................... 41
+
+            4.10 Streaming Mode .............................................................................................................. 42
+
+            4.11 Triggering Mode ................................................................................................................ 42
+
+            4.12 Multi-Camera Synchronization .................................................................................. 44
+
+            4.13 Camera Functions .......................................................................................................... 48
+
+                   4.13.1 Depth Camera Functions ................................................................................... 48
+
+                   4.13.2 Color Camera Functions ................................................................................... 50
+
+     5. Performance ................................................................................................................................. 52
+
+            5.1 Depth Performance .......................................................................................................... 52
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                                                               4
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                                                         Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+                    5.1.1 Depth Quality Assessment ................................................................................... 52
+
+                    5.1.2 Typical depth performance for Gemini 330 Series ..................................... 53
+
+            5.2 Electrical Performance.................................................................................................... 57
+
+                    5.2.1 Power Supply............................................................................................................ 57
+
+                    5.2.2 Power Consumption ............................................................................................. 57
+
+                    5.2.3 Storage and Powered Conditions .................................................................... 58
+
+                    5.2.4 ESD Performance ................................................................................................... 58
+
+            5.3 Physical Performance ..................................................................................................... 59
+
+                    5.3.1 Ingress Protection................................................................................................... 59
+
+     6. Firmware ........................................................................................................................................ 60
+
+            6.1 Firmware Update & Cautions ........................................................................................ 60
+
+            6.2 How to Update Firmware ............................................................................................... 60
+
+            6.3 Recovery .............................................................................................................................. 60
+
+     7. SDK ................................................................................................................................................... 61
+
+            7.1 Temperature Sensor and Recording ........................................................................... 61
+
+     8. Use Guidance ............................................................................................................................... 62
+
+            8.1 Packing List .......................................................................................................................... 62
+
+            8.2 Initialization and Operation........................................................................................... 63
+
+     9. Regulatory Compliance............................................................................................................ 64
+
+            9.1 Laser Safety certification................................................................................................. 64
+
+            9.2 EMC Regulatory Compliance........................................................................................ 64
+
+            9.3 Environment Regulatory Compliance ....................................................................... 65
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                                                                         5
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                                                      Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+     10. System Integration Guide ....................................................................................................... 66
+
+            10.1 Installation Recommendations ................................................................................... 66
+
+            10.2 Heat Dissipation ............................................................................................................... 66
+
+            10.3 Cable Design Guide........................................................................................................ 66
+
+     11. Cautions......................................................................................................................................... 67
+
+     Appendix A Multi-Camera Sync Interface Mechanical Diagram ................................... 68
+
+     Appendix B Gemini 335 2D Mechanical Diagram ................................................................ 69
+
+     Appendix C Gemini 336 2D Mechanical Diagram ................................................................ 70
+
+     Appendix D Gemini 335L 2D Mechanical Diagram .............................................................. 71
+
+     Appendix E Gemini 336L 2D Mechanical Diagram ............................................................... 72
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                                                                    6
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+
+0.Glossary
+
+      Terms                                                 Descriptions
+
+                       Autonomous Mobile Robot（AMRs） refer to a type of robots that
+                       can navigate and perform tasks autonomously. Equipped with
+        AMR
+                       sensors and control systems, AMRs can move and operate in
+                       complex environments without human intervention.
+
+        ASIC           Application-specific Integrated Circuit.
+
+                       The distance between the optical centers of the two cameras used
+     Baseline
+                       for depth calculation.
+                       Depth to Color maps each pixel on a depth map to the
+        D2C            corresponding color image according to the intrinsic and extrinsic
+                       parameters of the depth camera and color camera.
+                       Depth video streams are similar to color video streams except each
+       Depth           pixel has a value representing the distance away from the sensor
+                       instead of color information.
+              Includes depth imaging module and external interface, of which the
+ Depth Camera former is generally composed of an infrared projector, infrared
+              camera, and depth computing processor.
+                       Field of View describes the angular extent of a given scene that is
+         FOV           captured by a camera, which can be measured in the horizontal,
+                       vertical, and diagonal.
+                       Refers to a simple bi-directional two-wire synchronous serial bus
+         I2C
+                       developed by Philips.
+
+         IMU           Inertial measurement unit.
+
+                       Light in the infrared spectrum, which ranges from 700 nm and
+          IR
+                       above.
+
+    IR Camera          A camera capable of seeing light in the IR spectrum.
+
+
+         ISP           Image signal processor, which is used for image post-processing.
+
+                       The Laser Diode Module (LDM) projects an infrared (IR) speckle
+                       pattern onto the scene, providing artificial texture for the 3D
+        LDM
+                       camera. This enables accurate depth measurement, even on low-
+                       texture surfaces or under challenging lighting conditions.
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        7
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+                       The Laser Ranging Module (LRM) provides short-distance, single-
+         LRM           point ranging, enabling precise measurement of the distance to a
+                       specific target point.
+                       Mobile Industry Processor Interface (MIPI) Alliance. MIPI is an open
+         MIPI          standard and specification formulated by the MIPI Alliance for
+                       mobile application processors.
+                       PCBA (Printed Circuit Board Assembly) refers to a fully assembled
+        PCBA           printed circuit board (PCB) that includes all the electronic
+                       components mounted and soldered onto it.
+   Point Cloud         A discrete set of data points in space.
+    RGBM/RGB
+                       Color Camera
+     Module
+                       Region of Interest(ROI) in image processing refers to a specific area
+         ROI
+                       selected from the entire image.
+                       A System on Module (SoM) provides various core components of an
+                       embedded processing system on a single printed circuit board,
+        SOM            including the processor core, communication interfaces, and
+                       memory modules. A typical example of this is the NVIDIA Jetson
+                       series products.
+                       A Single Board Computer (SBC) is a microcomputer where all the
+                       logic circuits, timing circuits, internal memory, and external
+         SBC
+                       interfaces are integrated onto a single printed circuit board. A
+                       typical example is the Raspberry Pi.
+                       System on Chip, an integrated circuit (IC) that integrates all
+        SoC
+                       components of a computing system.
+                       USB Video Class (UVC) is a protocol standard defined for USB video
+        UVC
+                       capture devices and has become one of the USB.org standards.
+                       Vertical-Cavity Surface-Emitting Laser (VCSEL) is a type of
+       VCSEL           semiconductor laser where the laser light is emitted perpendicular
+                       to the surface of the device.
+                       Degree of Freedom, In an Inertial Measurement Unit(IMU), 6DoF
+         DoF
+                       means the device can measure all six degrees of freedom.
+                       Direct Time-of-Flight(dToF) achieves high-precision distance
+        dToF
+                       measurement by directly tracking light pulse travel time.
+
+         TBD           To Be Determined. Information will be provided in a later revision.
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        8
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+
+1. Product Brief
+
+Integrating Orbbec’s latest custom ASIC, the Gemini 330 series of Depth + RGB cameras
+
+combine active and passive stereo vision technologies for seamless operation in both indoor
+
+and outdoor conditions. The depth image computation and the depth to color spatial
+
+alignment functions are processed inside the camera providing for minimal latency and
+
+reduced dependency on expensive and power-hungry external compute. The cameras are
+
+programmable for a variety of depth operating modes to adapt to different application
+
+scenarios. A flexible and rich frame synchronization mechanism makes multi-camera
+
+operations simple and scalable.
+
+
+The Gemini 330 series is easy to set up and operate with the Orbbec SDK, and the camera
+
+delivers extremely accurate and reliable data in various lighting conditions, ranging from pitch
+
+black to full sunshine.
+
+
+
+
+    •    Wide field of view at 90° horizontal and 65° vertical
+
+
+    •    High quality depth data output in both indoor and outdoor environments
+
+
+    •    Up to 30 fps at 1280 x 800 depth resolution
+
+
+    •    USB Type-C for power and data connectivity
+
+
+    •    Multi-camera synchronization and IMU supported
+
+
+
+
+Detailed Product Documentation: Gemini 330 series documentation
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        9
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                              Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+
+2. Product Specifications
+       Parameter                       Gemini 335/336                             Gemini 335L/336L
+
+Use Environment             Indoor & Outdoor                           Indoor & Outdoor
+
+Technology                  Stereo Vision                              Stereo Vision
+
+Baseline                    50mm                                       95mm
+
+LDM Wavelength              850nm                                      850nm
+
+Working Range[1]            0.1 - 20m+                                 0.17 -20m+
+
+Ideal Range                 0.26 - 3m                                  0.25 - 6m
+
+                            0.26m @ 1280 x 800 / 1280 x 720 / 0.25m @ 1280 x 800 / 1280 x 720 /
+                                         640 x 400/ 424 x 266                      640 x 400/ 424 x 266
+Minimum Depth
+                            0.18m @ 848 x 480                          0.34m @ 848 x 480
+Distance
+                            0.17m @ 640 x 480                          0.30m @ 640 x 480
+(Min-Z)
+                            0.14m @ 640 x 360                          0.26m @ 640 x 360
+                            0.11m @ 480 x 270                          0.19m @ 480 x 270
+                            0.10m @ 424 x 240                          0.17m @ 424 x 240
+                                                                       ≤ 0.8% (1280 x 800 @ 2 m & 90% x
+                            ≤ 1.5% (1280 x 800 @ 2 m & 90% x           90% ROI)
+Spatial Precision[2]
+                            90% ROI)                                   ≤ 1.6% (1280 x 800 @ 4 m & 80% x 80%
+                                                                       ROI)
+Depth Resolution
+                            Up to 1280 x 800 @ 30fps                   Up to 1280 x 800 @ 30fps
+@ Frame Rate
+Depth FOV                   90° x 65° ± 3° @ 2m (1280 x 800)           90° x 65° ± 3° @ 2m (1280 x 800)
+Depth Filter                All-Pass / IR-Pass                         Visible + NIR-Pass / IR-Pass
+                            IR: Global Shutter                         IR: Global Shutter
+Sensor Type
+                            Color: Rolling Shutter                     Color: Global Shutter
+RGBM Resolution
+                            Up to 1920 x 1080 @ 30fps                  Up to 1280 x 800 @ 60fps
+@ Frame Rate
+                                                                       Aspect Ratio 16:10 94° x 68° ± 3°
+                            Aspect Ratio 16:9 86° x 55° ± 3°
+RGB Module FOV                                                         Aspect Ratio 16:9 94° x 62° ± 3°
+                            Aspect Ratio 4:3 70° x 55° ± 3°
+                                                                       Aspect Ratio 4:3 82° x 68° ± 3°
+IMU                         6 DoF; Gyroscope/Accelerometer Sample range: 50 - 1,000Hz
+Depth Processing            In-camera processing using Orbbec MX6800 ASIC
+Data Connection             USB 3.0 & USB 2.0 Type-C for data and power
+
+HDR Depth                   Supported
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                         10
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                              Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+ESD                         Contact discharge: ± 8KV, Air discharge : ± 15KV Class A
+
+RE                                              ≥6 dB                                        ≥6 dB
+
+Power Consumption Average < 3.0W (Peak <6.5W)                          Average < 3.0W (Peak <6.0W)
+
+                            -10℃ - 45℃ @ 15fps,                        -10℃ - 50℃ @ 15/30fps,
+Operating
+                            -10℃ -40℃ @ 30/60fps,                      -10℃ -45℃ @ 60fps,
+Environment
+                            5% ~ 90% RH (non-condensing)               5% ~ 90 % RH (non-condensing)
+Storage                     Short Term: -20℃ - 70℃,5%~90% RH (non-condensing)
+Environment                 Long Term: 0℃ - 60℃, 5%~90% RH (non-condensing)
+Operating Backside
+                            -10℃ - 55℃                                 -10℃ - 60℃
+Case Temperature
+
+Protection                  IP5X                                       IP65
+
+                            Hardware spatial alignment of depth to color
+                            Hardware Timestamps,
+Supported Functions
+                            Multi-camera Sync
+                            UVC camera
+                            90mm x 25mm x 30 mm /                      124mm x 29mm x 27mm /
+Dimensions
+                            90mm x 25mm x 30.7mm                       124mm x 29mm x 27.7mm
+
+Weight                      97g / 99g                                  133g / 135g
+
+                            Bottom:1x 1/4-20 UNC, Max                  Bottom：1x 1/4-20 UNC, Max Torque:
+Installation                Torque: 4.0 N.m                            4.0 N.m
+                            Back :2x M3,Max Torque:0.4 N.m             Back：2x M4,Max Torque: 0.4 N.m
+
+                            5 Years:                                   5 Years:
+Lifespan   [3]
+                            Default Operating Mode &                   Default Operating Mode &Operating
+                            Operating Environment                      Environment
+
+Notes:
+[1] Measure object reflectivity > 10%, up to 20m distance depth data. Theoretical maximum depth range
+up to 65 meters, but the actual accuracy varies with the distance and the object to be measured.
+[2] The depth performance of each 3D camera is validated at the production line before shipping to
+customers. The metrics reflect the depth performance under typical conditions. External impact factors
+over 3D cameras’ whole lifespan may have significant impacts on their depth performance. For more
+detailed depth performance metrics, please refer to section 5.1.2.
+[3] No more than 16h working per day.
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                         11
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+
+3. Product Information
+3.1 Product Pictures
+                             Table 3-1-1 Product pictures for Gemini 335 & Gemini 336
+
+ Name                             Gemini 335                                        Gemini 336
+
+
+
+
+ Front View
+
+
+
+
+ Rear View
+
+
+
+
+                            Table 3-1-2 Product pictures for Gemini 335L & Gemini 336L
+
+ Name                            Gemini 335L                                       Gemini 336L
+
+
+
+
+ Front View
+
+
+
+
+ Rear View
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        12
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+3.2 Product Drawings
+
+3.2.1 Product Drawings for Gemini 335/336
+                         Table 3-2-1 Product drawings for Gemini 335 & Gemini 336
+
+ Name                             Gemini 335                                        Gemini 336
+
+
+
+
+ Front View
+
+
+
+
+ Rear View
+
+
+
+
+ Top View
+
+
+
+
+ Bottom
+ View
+
+
+
+
+ Side View
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        13
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+3.2.2 Product Drawings for Gemini 335L/336L
+                        Table 3-2-2 Product drawings for Gemini 335L & Gemini 336L
+
+ Name                            Gemini 335L                                       Gemini 336L
+
+
+
+
+ Front View
+
+
+
+
+ Rear View
+
+
+
+
+ Top View
+
+
+
+
+ Bottom
+ View
+
+
+
+
+ Side View
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        14
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+3.2.3 Product Dimensions & Weight for Gemini 330 series
+                      Table 3-2-3 Product dimensions & weight for Gemini 330 series
+
+Name                    Gemini 335              Gemini 336              Gemini 335L               Gemini 336L
+
+      Width/mm                                 90                                                 124
+
+
+      Height/mm                                25                                                 29
+
+
+      Depth/mm                     30                      30.7                     27                  27.7
+
+
+         N.W/g                      97                     99                      133                   135
+
+
+
+
+3.3 Product Interfaces
+
+
+                            Table 3-3-1 Product interfaces for Gemini 330seriese
+
+ Name                          Gemini 335/336                                   Gemini 335L/336L
+
+
+
+
+ USB Type-C
+
+
+
+
+ 8-pin
+ Sync Port
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                            15
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+
+3.4 Product Components
+
+3.4.1 Overview of Product Components for Gemini 335/336
+                     Table 3-4-1 Overview of product components for Gemini 335/336
+
+                        Gemini 335                                                 Gemini 336
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        16
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+
+3.4.2 Overview of Product Components for Gemini 335L/336L
+                    Table 3-4-2 Overview of product components for Gemini 335L/336L
+
+                      Gemini 335L                                                Gemini 336L
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        17
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+3.4.3 Laser Diode Module
+
+The laser module (LDM) comprises an array of vertical cavity surface emitting lasers
+
+and other optic components. It enhances the depth camera system's ability to detect
+
+depth information by projecting static infrared patterns onto the scene, adding
+
+texture to low- texture scenes. The Gemini 330 Series laser module is a Class 1 Laser
+
+Product under normal conditions.
+
+                                             Table 3-4-3 LDM parameters
+
+                LDM                                         Gemini 335/336/335L/336L
+
+ Type                                                                    Infrared
+
+ Component                                  Vertical Cavity Surface Laser Emitter(VCSEL) + Optics
+
+ Laser Controller                                                         Pulse
+
+ Wavelength                                                         850nm ± 6nm
+
+                                      Class 1, IEC 60825-1:2007 Edition 2, IEC 60825-1:2014 Edition 3
+ Laser Compliance*
+                                      FDA number: 2420619-000
+ Laser Power-down
+                                                                          73℃
+ Temperature*
+
+ Horizontal FOV                                                            101°
+
+ Vertical FOV                                                             72.5°
+
+ FOV tolerance                                                            ± 3.0°
+
+Note: * LDM is considered Class 1 when integrated into Orbbec‘s 3D Cameras.
+       * LDM will power down while the NTC tested temperature is ≥73℃.
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        18
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+3.4.4 Infrared Module
+                                      Table 3-4-4 Infrared module parameters
+
+ IR Module                                  Gemini 335 /336/336L                         Gemini 335L
+
+ Filter Type                                     All-pass Filter                   Visible + NIR-pass Filter
+
+ Active Pixels                                     1280 x 800                              1280 x 800
+
+ Sensor Aspect Ratio                                   16:10                                      16:10
+
+ Focus Type                                            Fixed                                  Fixed
+
+ Shutter Type                                    Global Shutter                         Global Shutter
+
+ Horizontal FOV                                        94°                                        94°
+
+ Vertical FOV                                          68°                                        68°
+
+ Diagonal FOV                                          104°                                       104°
+
+ FOV tolerance                                         ± 3.0°                                 ± 3.0°
+
+ Distortion                                            <1.5%                                  <1.5%
+
+
+
+
+3.4.5 RGB Module
+                                      Table 3-4-5 RGB module parameters
+
+            RGB Module                          Gemini 335/336                        Gemini 335L/336L
+
+ Filter Type                                           IR-cut                                 IR-cut
+
+ Active Pixels                                      1920 x 1080                            1280 x 800
+
+ Sensor Aspect Ratio                                    16:9                                      16:10
+
+ Focus Type                                            Fixed                                  Fixed
+
+ Shutter Type                                    Rolling Shutter                         Global Shutter
+
+ Horizontal FOV                                         86°                                       94°
+
+ Vertical FOV                                           55°                                       68°
+
+ Diagonal FOV                                           94°                                       104°
+
+ FOV tolerance                                         ± 3.0°                                 ± 3.0°
+
+ Distortion                                            <1.5%                                  <1.5%
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                           19
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+3.4.6 Laser Ranging Module
+
+The Gemini 335/336 and 335L/336L 3D cameras come equipped with a single-point
+laser ranging module (LRM). Essentially, it is a single-point dToF (direct time-of-flight)
+
+sensor that calculates relative distance by measuring the time it takes for light to
+travel from emission to reception. It is used for close-range ranging, helping the 3D
+camera to fill in blind spots at short distances and enhances the overall ranging
+
+performance of the depth camera.
+                                         Table 3-4-6a LRM parameters
+
+                          LRM                                               Gemini 330 series
+
+                         Type                                                       Infrared
+
+                    Wavelength                                               940nm（Typical）
+
+                      Tx DFOV                                                         19°
+
+                      Rx DFOV                                                         37°
+
+                   FOV tolerance                                                     ±2.0°
+
+                         Table 3-4-6b LRM Ranging Accuracy Reference Value
+                                  Distance                                Value                   Unit
+                                1mm — 100mm                                 ± 15                  mm
+     LRM
+                             100mm — 200mm                                  ± 10                  mm
+  Accuracy
+                            200 mm — 400mm                                 ± 5%                   N/A
+
+                                       Table 3-4-6c LRM Ranging FOV
+
+    Name                        Gemini 335/336                                     Gemini 335L/336L
+
+
+
+
+ Rear View
+
+
+
+
+ Side View
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        20
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+
+3.4.7 IR-pass filter cover（Gemini 336 &336L cover glass）
+
+The Gemini 336 adds an IR-Pass filter to the base model of the Gemini 335 and the
+
+Gemini 336L is also add an IR-Pass filter to the base model of the Gemini 335L. About
+
+the optical filter details introduction Please see Optical filters for stereo vision 3D
+
+cameras
+
+
+
+
+3.4.8 Transmittance vs. Wavelength for Depth Camera
+
+
+
+
+                    Figure 3-4-8 Transmittance vs. Wavelength for Depth Camera
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        21
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+3.4.9 IMU
+
+                          Table 3-4-9 Gemini 330series IMU Specifications
+
+            IMU Parameters                                              Specifications
+
+                                              us (Same source hardware timestamp is used for IMU,
+            Timestamp Unit
+                                              IR, RGB and Depth stream)
+
+       Transmittance Protocol                 I2C
+
+                                              The X, Y, and Z axis point right, downward, and forward
+                X/Y/Z Axis
+                                              relative to the camera front
+
+                        Format                3 x 16-bit
+
+
+    Gyroscope           Range                 ± 17.45 rad/s (1000dps)
+
+
+                        Frequency (Hz)        50/100/200/500/1000
+
+
+                        Format                3 x 16-bit
+
+
+  Accelerometer         Range                 ± 39.2m/s² (4g)
+
+
+                        Frequency (Hz)        50/100/200/500/1000
+
+
+                        Format                1 x 16-bit
+
+
+   Temperature          Range                 -40 ~ 85℃
+
+
+                        Frequency (Hz)        Follows the gyroscope and accelerometer frequency
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        22
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+
+4. Functional Specifications
+
+4.1 Vendor Identifier (VID) and Product Identifier (PID)
+
+                                            Table 4-1-1 VID & PID table
+
+       Name                  Gemini 335              Gemini 336             Gemini 335L              Gemini 336L
+
+       Model                 G40155-170             G40155-180             G40055-170               G40055-180
+
+       PID                     0x0800                   0x0803                0x0804                  0x0807
+
+
+       VID                                                        0x2BC5
+
+
+4.2 Platform and System Requirements
+
+Gemini 330 series connect to the host computer using USB, which is compatible with
+
+various platforms and system requirements.
+
+               Table 4-2-1 Gemini 330 series Recommended Platforms and Systems
+
+    Chip                            x86/x64                                             ARM
+
+                                        Ubuntu 20.04 /            Android OS 8 and          Ubuntu 20.04 /
+ OS              Windows 10/11
+                                        22.04                     above                     22.04
+
+ USB             USB 3.0                USB 3.0                   USB 3.0                   USB 3.0
+                                                                  Quad-core
+                 Quad-core,
+ CPU                                    Quad-core, 2.9GHz         Cortex-A73, dual-         Quad-core, A57
+                 2.9GHz
+                                                                  core Cortex-A53
+
+                                                                                            NVIDIA Jetson Orin
+ Reference       Intel i3 10100 /       Intel i3 10100 /          Qualcomm
+                                                                                            Nano / Raspberry
+ model           Intel i5 8400          Intel i5 8400             Snapdragon RB5
+                                                                                            Pi 5
+
+                 8GB RAM and            4GB RAM and               4GB RAM and               4GB RAM and
+ RAM
+                 above                  above                     above                     above
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                             23
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+
+4.3 Camera system Framework
+
+
+
+
+                        Figure 4-3-1 Gemini 330 Series System Framework Diagram
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        24
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+4.4 Image Data Stream
+The Gemini 330 series provide high-quality, multi-resolution depth stream data, as well
+as high-definition color stream data. The camera outputs depth stream data in Y16
+format. The color stream data output by the camera is in MJPEG/YUYV format. The SDK
+supports output in MJPEG / YUYV / RGB8 / BGR8 / RGBA8 / BGRA8 / Y16 formats. The
+camera outputs IR image data in Y8 format, and the SDK also supports outputting data
+in Y16/Y12 formats at maximum resolution.
+                 Table 4-4-1 Output data streams (USB3.0)-Gemini 335/336
+    Gemini 335/336       Data
+                                 Aspect Ratio     Resolution          Frame Rate
+      (USB 3.0)         Format
+                                                                  1280 x 800        6, 10, 15, 30
+                                                 16:10            640 x 400         6, 10, 15, 30
+                                                                  424 x 266         6, 10, 15, 30
+                                                                  1280 x 720        6, 10, 15, 30
+                                                                  848 x 480         6, 10, 15, 30, 60
+          Depth                  Y16
+                                                 16:9             640 x 360         6, 10, 15, 30, 60,90
+                                                                  480 x 270         6, 10, 15, 30, 60,90
+                                                                  424 x 240         6, 10, 15, 30, 60,90
+                                                  4:3             640 x 480         6, 10, 15, 30, 60,90
+                                                Other             848 x 100         100
+                                                                  1280 x 800        6, 10, 15, 30
+                                                 16:10            640 x 400         6, 10, 15, 30
+                                                                  424 x 266         6, 10, 15, 30
+                                                                  1280 x 720        6, 10, 15, 30
+                                                                  848 x 480         6, 10, 15, 30, 60
+             IR                  Y8
+                                                 16:9             640 x 360         6, 10, 15, 30, 60,90
+                                                                  480 x 270         6, 10, 15, 30, 60,90
+                                                                  424 x 240         6, 10, 15, 30, 60,90
+                                                  4:3             640 x 480         6, 10, 15, 30, 60,90
+                                                Other             848 x 100         100
+                                                                 1920 x 1080        6, 10, 15, 30
+                                                                  1280 x 720        6, 10, 15, 30, 60
+                                                                  960 x 540         6, 10, 15, 30, 60
+                              MJPEG              16:9             848 x 480         6, 10, 15, 30, 60
+           RGB                                                    640 x 360         6, 10, 15, 30, 60
+                              & YUYV                              424 x 240         6, 10, 15, 30, 60
+                                                                  320 x 180         6, 30, 60
+                                                                  640 x 480         6, 10, 15, 30, 60
+                                                  4:3
+                                                                  320 x 240         6, 30, 60
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        25
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+                      Table 4-4-2 Output data streams (USB2.0)-Gemini 335/336
+ Gemini 335/336                 Data
+                                           Aspect Ratio        Resolution           Frame Rate
+ (USB 2.0)                    Format
+
+                                                                  1280 x 800        6
+
+                                                 16:10            640 x 400         6, 10, 15, 30
+
+                                                                  424 x 266         6, 10, 15, 30
+
+                                                                  1280 x 720        6
+
+          Depth                  Y16
+                                                                  848 x 480         6, 8, 10
+                                                 16:9
+                                                                  640 x 360         6, 10, 15, 30
+
+                                                                  480 x 270         6, 10, 15, 30, 60
+
+
+                                                  4:3             640 x 360         6, 10, 15, 30
+
+
+                                                                  1280 x 800        6
+
+                                                 16:10            640 x 400         6, 10, 15, 30
+
+                                                                  424 x 266         6, 10, 15, 30
+
+                                                                  1280 x 720        6
+             IR                   Y8
+                                                                  848 x 480         6, 8, 10
+                                                 16:9
+                                                                  640 x 360         6, 10, 15, 30
+
+                                                                  480 x 270         6, 10, 15, 30, 60
+
+                                                  4:3             640 x 480         6, 10, 15, 30
+
+                                                                 1920 x 1080        8
+                               MJPEG             16:9
+                                                                  1280 x 720        6, 10, 15
+           RGB
+                                                 16:9             424 x 240         6, 15, 30, 60
+                              MJPEG &
+                                YUYV
+                                                  4:3             640 x 480         6, 15, 30
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        26
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+                     Table 4-4-3 Output data streams (USB3.0)-Gemini 335L/336L
+ Gemini 335L /336L            Data
+                                            Aspect Ratio       Resolution            Frame Rate
+  (USB 3.0)                   Format
+
+                                                                  1280 x 800         5, 10, 15, 30
+
+                                                  16:10            640 x 400         5, 10, 15, 30
+
+                                                                   424 x 266         5, 10, 15, 30
+
+                                                                   1280 x 720        5, 10, 15, 30
+
+                                                                   848 x 480         5, 10, 15, 30, 60
+          Depth                   Y16
+                                                  16:9             640 x 360         5, 10, 15, 30, 60, 90
+
+                                                                   480 x 270         5, 10, 15, 30, 60, 90
+
+                                                                   424 x 240         5, 10, 15, 30, 60, 90
+                                                   4:3             640 x 480         5, 10, 15, 30, 60, 90
+                                                 other             848 x 100         100
+
+                                                                  1280 x 800         5, 10, 15, 30
+
+                                                  16:10            640 x 400         5, 10, 15, 30
+
+                                                                   424 x 266         5, 10, 15, 30
+
+                                                                   1280 x 720        5, 10, 15, 30
+
+                                                                   848 x 480         5, 10, 15, 30, 60
+             IR                   Y8
+                                                  16:9             640 x 360         5, 10, 15, 30, 60, 90
+
+                                                                   480 x 270         5, 10, 15, 30, 60, 90
+
+                                                                   424 x 240         5, 10, 15, 30, 60, 90
+                                                   4:3             640 x 480         5, 10, 15, 30, 60, 90
+                                                 other             848 x 100         100
+
+                                                                  1280 x 800         5, 10, 15, 30, 60
+                                                  16:10
+                                                                   640 x 400         5, 10, 15, 30, 60, 90
+
+                                                                   1280 x 720        5, 10, 15, 30, 60
+
+                               MJPEG &                             848 x 480         5, 10, 15, 30, 60
+            RGB
+                                 YUYV             16:9             640 x 360         5, 10, 15, 30, 60, 90
+
+                                                                   480 x 270         5, 10, 15, 30, 60, 90
+
+                                                                   424 x 240         5, 10, 15, 30, 60, 90
+
+                                                   4:3             640 x 480         5, 10, 15, 30, 60, 90
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                         27
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+                     Table 4-4-4 Output data streams (USB2.0)-Gemini 335L/336L
+
+   Gemini 335L / 336L            Data           Aspect
+                                                                 Resolution                     Frame Rate
+         (USB 2.0)              Format           Ratio
+
+                                                                  1280 x 800        5
+
+                                                  16:10           640 x 400         5, 10, 15, 30
+
+                                                                  424 x 266         5, 10, 15, 30
+
+                                                                  1280 x 720        5
+           Depth                  Y16
+                                                                  848 x 480         5, 10
+                                                  16:9
+                                                                  640 x 360         5, 10, 15, 30
+
+                                                                  480 x 270         5, 10, 15, 30, 60
+
+                                                  4:3             640 x 480         5, 10, 15, 30
+
+                                                                  1280 x 800        5
+
+                                                  16:10           640 x 400         5, 10, 15, 30
+
+                                                                  424 x 266         5, 10, 15, 30
+
+                                                                  1280 x 720        5
+              IR                   Y8
+                                                                  848 x 480         5, 10
+                                                  16:9
+                                                                  640 x 360         5, 10, 15, 30
+
+                                                                  480 x 270         5, 10, 15, 30, 60
+
+                                                  4:3             640 x 480         5, 10, 15, 30
+
+                                                  16:10           1280 x 800        8
+                                MJPEG
+                                                  16:9            1280 x 720        5, 10, 15
+
+            RGB                                   16:10           640 x 400         5, 10, 15, 30
+                               MJPEG &
+                                                  16:9            424 x 240         5, 10, 15, 30, 60
+                                 YUYV
+                                                  4:3             640 x 480         5, 10, 15, 30
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                         28
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+4.5 Field of View
+
+4.5.1 Definition of Depth Field of View
+The image below shows the depth camera field-of-view, or the angles that the sensors
+"see". We use the IR cameras for illustration.
+
+
+
+
+                          Figure 4-5-1 Depth Field of View to Depth Map illustration
+Depth Field of View (Depth FOV) at any depth (Z) can be calculated using the following
+equation:
+                               Table 4-5-1 Depth FOV calculation formulas
+
+                             Calculation Formulas                                            Definitions
+
+                                                                                    1. cx = X-direction image
+                                  cx B         width − 1 − cx                     coordinates of the
+          Depth H − FOV = arctan −  + arctan                                    principle point of the
+                                  fx Z              fx
+                                                                                    depth image
+                                                                                    2. fx= Depth camera
+                                                                                    focal length
+                                       cx        width − 1 − cx                     3. cy= Y-direction image
+          Depth Active H − FoV = arctan + arctan
+                                       fx             fx                            coordinates of the
+                                                                                    principle point of the
+                                                                                    depth image
+
+                            Z0 = 2*tan( DepthBActiveH −FOV )                        4. fy=Depth camera focal
+                                                                                    length
+                                                       2
+                                                                                    5. width= Depth image
+                                                                                    width
+                                                                                    6. Height=Depth image
+                                  cy          height-1-cy
+           Depth V - FOV = arctan  + arctan                                     height
+                                   fy             fy                              7. Depth active H-FOV
+                                                                                    =Left    IR H-FOV
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                            29
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+Note:
+    1. cx, fx, and width parameters are obtained through the SDK Depth Intrinsic for the relevant
+camera parameters, and each depth camera parameters are not the same.
+   2. At different depth values, the depth FOV is different. The farther the depth, the greater the
+depth FOV.
+
+
+
+
+4.5.2 Typical Depth Intrinsics
+
+                    Table 4-5-2 Typical Depth Intrinsics of Gemini 330series
+
+                       Resolution：Width x Height
+ Baseline/mm                                                    cx/pixel        cy /pixel         Fx & fy/pixel
+                       Width/pixel         Height/pixel
+
+                            1280                 800                 640             400          620.0 & 620.0
+ Gemini335:
+                            1280                 720                 640             360          620.0 & 620.0
+ 50mm
+                            848                  480                 424             240          410.7 & 410.7
+
+ Gemini 336:
+                            848                  100                 424             50           410.7 & 410.7
+ 50mm
+                            640                  480                 320             240          372.0 & 372.0
+
+ Gemini 335L:               640                  400                 320             200          310.0 & 310.0
+ 95mm
+                            640                  360                 320             180          310.0 & 310.0
+
+ Gemini 336L:               480                  270                 240             135          232.5 & 232.5
+ 95mm
+                            424                  240                 212             120          205.4 & 205.4
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                              30
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+4.5.3 Overview of Stream FOV
+
+                              Table 4-5-3 Stream FOV for Gemini 330 Series
+
+                                                                                     Gemini          Gemini
+      FOV            Aspect Ratio                    Resolutions
+                                                                                    335/336        335L/336L
+                             16:10        1280x800/640x400/424x266                H 90° V 65°     H 90° V 65°
+
+                                          1280x720/848x480/640x360/
+  Depth FoV                  16:9                                                 H 90° V 60°     H 90° V 60°
+  Before D2C                              480x270/424x240
+     @ 2m
+                              4:3         640x480                                 H 81° V 65°     H 81° V 65°
+
+
+                    Other(848x100)        848x100                                 H 90° V 14°     H 90° V 14°
+
+
+                             16:10        1280x800/640x400/424x266                H 91° V 65°     H 91° V 65°
+
+                                          1280x720/848x480/640x360/
+                             16:9                                                 H 91° V 60°     H 91° V 60°
+        IR                                480x270/424x240
+
+                              4:3         640x480                                 H 81° V 65°     H 81° V 65°
+
+
+                    Other(848x100)        848x100                                 H 91° V 14°     H 91° V 14°
+
+
+                           16:10          1280x800/640x400                        N/A             H 94° V 68°
+
+                                          1920x1080/1280x720/960x540/
+      RGB                  16:9           848x480/640x360/480x270/                H 86° V 55°     H 94° V 62°
+
+                                          424x240/320x180
+
+                           4:3            640x480/320x240                         H 70° V 55°     H 82° V 68°
+
+
+                           16:10          1280x800/640x400                        N/A             H 90° V 65°
+
+
+  Depth FoV                               1920x1080/1280x720/960x540/
+      After                16:9           848x480/640x360/480x270/                H 86° V 55°     H 90° V 60°
+ D2C @ 2m
+                                          424x240/320x180
+
+                           4:3            640x480/320x240                         H 70° V 55°     H 81° V 65°
+
+
+[Note] Gemini 335/336 RGB camera do not support the resolutions marked in red, and Gemini
+335L/336L RGB camera do not support the resolutions marked in blue.
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                            31
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+4.5.4 FOV Illustrations for Gemini 335/336
+
+                                  Table 4-5-4 Gemini 335/336 Depth FOV
+
+ Aspect
+                          Depth FoV Before D2C                                  Depth FOV After D2C
+  ratio
+
+
+
+
+   16:10                                                                                  N/A
+
+
+
+
+   16:9
+
+
+
+
+   4:3
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        32
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+4.5.5 FOV Illustrations for Gemini 335L/336L
+
+                                 Table 4-5-5 Gemini 335L/336L Depth FOV
+
+ Aspect
+                          Depth FoV Before D2C                                  Depth FOV After D2C
+  ratio
+
+
+
+
+   16:10
+
+
+
+
+   16:9
+
+
+
+
+   4:3
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        33
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+4.6 Depth to Color Alignment
+
+Depth to Color, a pixel-by-pixel geometric transformation of a depth image, results in
+
+the spatial alignment of a depth image with its corresponding color image through the
+
+D2C transformation, allowing us to locate any pixel of a color image by its image
+
+coordinates in the depth image after D2C by the same image coordinates. The depth
+
+information of the color pixel can be located in the depth image after D2C by using the
+
+same image coordinates. We generate a depth image of the same size as the target
+
+color image after D2C, and the image content is the depth data in the color camera
+
+coordinate system. In other words, a depth image is reconstructed that is "taken" using
+
+the origin and size of the color camera, where each pixel matches the coordinates of
+
+the corresponding pixel of the color camera.
+
+            Table 4-6-1 Gemini 335 & Gemini 336 Depth to Color Alignment by software
+
+                                                                                Depth Image After     Aspect
+         Depth Image before D2C                         Color Image
+                                                                                          D2C          Ratio
+
+                                                         1920 x 1080                 1920 x 1080
+
+                                                         1280 x 720                   1280 x 720
+
+                                                          960 x 540                   960 x 540
+ 1280 x 800 / 1280 x 720 / 848 x 480 /
+ 640 x 480 / 640 x 400 / 640 x 360 /                      848 x 480                   848 x 480         16:9
+ 480 x 270 / 424 x 266 / 424 x 240
+                                                          640 x 360                   640 x 360
+
+                                                          424 x 240                   424 x 240
+
+                                                          320 x 180                    320 x 180
+
+
+ 1280 x 800 / 1280 x 720 / 848 x 480 /                    640 x 480                   640 x 480
+ 640 x 480 / 640 x 400 / 640 x 360 /                                                                     4:3
+ 480 x 270 / 424 x 266 / 424 x 240                        320 x 240                   320 x 240
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                           34
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+           Table 4-6-2 Gemini 335 & Gemini 336 Depth to Color Alignment by hardware
+
+                                                                               Depth Image After         Aspect
+         Depth Image before D2C                        Color Image
+                                                                                         D2C               Ratio
+ 848 x 480 / 640 x 480 / 640 x 400 /
+                                                         640 x 360                   640 x 360
+ 640 x 360
+ 848 x 480 / 640 x 480 / 640 x 400 /
+ 640 x 360 / 480 x 270 / 424 x 266 /                     424 x 240                   424 x 240
+                                                                                                            16:9
+ 424 x 240
+ 848 x 480 / 640 x 480 / 640 x 400 /
+ 640 x 360 / 480 x 270 / 424 x 266 /                     320 x 180                    320 x 180
+ 424 x 240
+
+ 848 x 480 / 640 x 480 / 640 x 400 /
+                                                         640 x 480                   640 x 480
+ 640 x 360
+                                                                                                            4:3
+ 848 x 480 / 640 x 480 / 640 x 400 / 640
+ x 360 / 480 x 270 / 424 x 266 / 424 x                   320 x 240                   320 x 240
+ 240
+                          *The depth resolution of 640x400/424x266 only supports color alignment at 30fps or lower.
+
+
+
+
+          Table 4-6-3 Gemini 335L & Gemini 336L Depth to Color Alignment by software
+
+                                                                               Depth Image After          Aspect
+         Depth Image before D2C                        Color Image
+                                                                                        D2C                Ratio
+
+ 1280 x 800 / 1280 x 720 / 848 x 480 /                   1280 x 800                  1280 x 800
+ 640 x 480 / 640 x 400 / 640 x 360 /                                                                        16:10
+ 480 x 270 / 424 x 266 / 424 x 240                       640 x 400                   640 x 400
+
+                                                         1280 x 720                  1280 x 720
+
+                                                         848 x 480                   848 x 480
+
+ 1280 x 800 / 1280 x 720 / 848 x 480 /                   640 x 360                   640 x 360
+ 640 x 480 / 640 x 400 / 640 x 360 /                                                                        16:9
+ 480 x 270 / 424 x 266 / 424 x 240                       480 x 270                   480 x 270
+
+                                                         424 x 240                   424 x 240
+
+                                                         320 x 180                    320 x 180
+
+ 1280 x 800 /1280 x 720 / 848 x 480 /
+ 640 x 480 / 640 x 400 / 640 x 360 /                     640 x 480                   640 x 480               4:3
+ 480 x 270 / 424 x 266 / 424 x 240
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                                35
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+
+          Table 4-6-4 Gemini 335L & Gemini 336L Depth to Color Alignment by hardware
+
+                                                                                Depth Image After           Aspect
+         Depth Image before D2C                        Color Image
+                                                                                         D2C                 Ratio
+ 848 x 480 / 640 x 480 / 640 x 400 /
+ 640 x 360 / 480 x 270 / 424 x 266 /                     640 x 400                    640 x 400               16:10
+ 424 x 240
+
+ 848 x 480 / 640 x 480 / 640 x 400 /
+                                                         640 x 360                    640 x 360
+ 640 x 360
+
+ 848 x 480 / 640 x 480 / 640 x 400 /
+ 640 x 360 / 480 x 270 / 424 x 266 /                     480 x 270                    480 x 270               16:9
+
+ 424 x 240
+ 848 x 480 / 640 x 480 / 640 x 400 /
+ 640 x 360 / 480 x 270 / 424 x 266 /                     424 x 240                    424 x 240
+ 424 x 240
+ 848 x 480 / 640 x 480 / 640 x 400 /
+ 640 x 360 / 480 x 270 / 424 x 266 /                     640 x 480                    640 x 480                4:3
+ 424 x 240
+                                  *1. The depth resolution of 848x480 only supports color alignment at 60fps or lower.
+                        *2. The depth resolution of 640x400/424x266 only supports color alignment at 30fps or lower.
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                                  36
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+4.7 Minimum-Z Depth
+
+The Minimum-Z Depth is the minimum distance from the depth camera to the scene.
+
+                           Table 4-6-1 Minimum-Z Depth for Gemini 330series
+
+                 Cameras                  Gemini 335/336                       Gemini 335L/336L
+
+
+ Disparity search range                           128                 256               128          64
+
+
+                      1280 x 800
+
+
+ H / V-FOV:
+                       640 x 400                0.26m               0.25m              0.5m          1m
+ 90° / 65°
+
+
+                       424 x 266
+
+
+                       1280 x 720               0.26m               0.25m              0.5m          1m
+
+
+                       848 x 480                0.18m                 N/A             0.34m          N/A
+
+
+ H / V-FOV:
+                       640 x 360                0.14m                 N/A             0.26m          N/A
+ 90° / 60°
+
+
+                       480 x 270                 0.11m                N/A             0.19m          N/A
+
+
+                       424 x 240                 0.1m                 N/A             0.17m          N/A
+
+
+ H / V-FOV:
+                       640 x 480                0.17m                 N/A              0.3m          N/A
+ 81° / 65°
+
+ H / V-FOV:
+                       848 x 100                0.18m                 N/A             0.34m          N/A
+ 90° / 14°
+
+Note: The larger the disparity search range, the closer the minimum working distance becomes, and the
+
+higher the power consumption. Conversely, the smaller the disparity search range, the farther the
+
+minimum working distance extends, the lower the camera's power consumption, and the higher the
+
+ambient temperature it can withstand.
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        37
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+4.8 Coordinate System
+For the Gemini 330 series 3D camera, the plane where the 1/4 screw hole is located is
+defined as the bottom side, the glass cover surface is the front side, and the RGB module
+
+is positioned to the left of the LDM module.
+The origin of the IMU coordinate system is situated at the physical sensor center point.
+The accelerometer and gyroscope coordinate systems are located at the back of the
+
+left IR. The positive X-axis of the coordinate system points to the right, the positive Y-
+axis points downwards, and the positive Z-axis points forwards.
+The origin of the depth image coordinate system is at the optical center of the left IR
+
+module, while the origin of the color image coordinate system is at the optical center of
+the RGB module. The direction of the coordinate systems is the same: the positive X-
+axis points to the right, the positive Y-axis points downward, and the positive Z-axis
+
+points forward. The depth camera coordinate system origin is the default origin of the
+3D camera, with coordinates (0,0,0). The reference positions of the depth origin, color
+origin, and IMU origin in the 3D camera coordinate system are shown in the chart below:
+
+                Table 4-8-1 Gemini 330 series Coordinate System Position Reference
+
+                                                    Position in the 3D camera coordinate system
+  Camera         Coordinate System
+                                                    X（mm）                    Y（mm）                Z(mm)
+
+                          Depth                           0                        0                0
+
+   Gemini
+  335/336                 Color                        14.00                       0               2.02
+
+
+                           IMU                         -0.246                  -0.065             -16.948
+
+
+   Gemini                 Depth                           0                        0                0
+
+   335L &
+                          Color                        23.75                       0                0
+   Gemini
+
+    336L                   IMU                         7.866                    1.068             -14.248
+
+
+
+
+三井
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        38
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+                    Table 4-8-2 Gemini 330 Series Coordinate System Schematic
+
+                               Gemini 335/336                                    Gemini 335L/336L
+
+
+
+
+     IMU
+
+
+
+
+   Depth
+
+
+
+
+     RGB
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        39
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                               Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+The relative coordinate system relationship between the installation positions and
+Depth/Color/IMU of Gemini 335/336.
+                 Table 4-8-3 Gemini 335/336 Coordinate System Position Reference
+
+                         Coordinate                 Position in the 3D camera coordinate system
+    Camera
+                           System                  X（mm）                       Y（mm）              Z(mm)
+                       Mounting hole                     0                        0                   0
+
+                            Depth                      -2.5                       0                 25.77
+
+                             Color                      11.5                      0                 27.79
+
+                              IMU                      -2.5                     0.07                8.82
+     Gemini
+     335/336
+
+
+
+
+Note：All reference points are at the centers of the components or positions.
+
+The relative coordinate system relationship between the installation positions and
+Depth/Color/IMU of Gemini 335L/336L.
+                Table 4-8-4 Gemini 335L/336L Coordinate System Position Reference
+
+                        Coordinate                  Position in the 3D camera coordinate system
+    Camera
+                           System                  X（mm）                       Y（mm）              Z(mm)
+                       Mounting hole                     0                       0                   0
+
+                            Depth                        0                       0                 22.92
+
+                            Color                      23.75                     0                 22.92
+
+     Gemini                  IMU                       7.87                     -1.07               8.67
+   335L/336L
+
+
+
+
+Note：All reference points are at the centers of the components or positions.
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                          40
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+4.9 Camera Start Point Reference
+The camera start point, or ground zero datum can be described as a start point or plane
+with depth = 0. For the Gemini 330 series 3D camera, the distance of the depth/RGB/LRM
+zero point relative to the front cover glass of the camera are listed in the table below.
+
+                             Table 4-9-1 Camera Start Point Illustrations
+
+ Camera             Gemini 335              Gemini 336               Gemini 335L                  Gemini 336L
+
+ Depth (Z’)             4.230mm                  4.930mm                  4.080mm                    4.780mm
+
+   RGB (Z’)              2.210mm                 2.910mm                  4.080mm                    4.780mm
+
+
+   LRM (Z’)                0mm                    0.7mm                      0mm                      0.7mm
+
+
+
+
+  Camera
+ Start Point
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                            41
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+4.10 Streaming Mode
+The Gemini 330 Series offers users flexible methods for acquiring IR, Depth, and RGB
+image data, with the most common being the specific frame rate streaming mode. In
+this mode, users set a target frame rate, resolution, and image format for each type of
+data, and then activate the corresponding data streams in sequence. The camera
+captures and outputs image data at the user-defined target frame rate, resolution,
+and image format. The user can select a specific frame rate for the current scene
+from predefined fixed frame rate values of 5fps/6fps, 10fps, 15fps, 30fps, 60fps, 90fps
+and 100fps depending on the camera's currently configured depth mode and
+resolution, and capture image data at that frame rate.
+In data stream mode, the Gemini 330 series cameras support passive
+synchronization. The requirements for the external synchronization signal are as
+follows:
+           Table 4-10-1 Table of Frame Rates Allowed to Be Used as Passive Sync Signals
+ Frame                          Maximum                                  Minimum
+             Minimum                                 Maximum                                  Supported
+ Rate                           Frame                                    Frame
+             Frame (fps)                             Frame(fps)                               Device
+ (fps)                          Interval (ms)                            Interval (ms)
+                                                                                              Gemini 335/336
+    60           ≥ 59.88              ≤ 16.7            ≤ 59.958             ≥ 16.679
+                                                                                              Gemini 335L/336L
+                                                                                              Gemini 335/336
+    30          ≥ 29.892            ≤ 33.453               ≤ 30              ≥ 33.334
+                                                                                              Gemini 335L/336L
+                                                                                              Gemini 335/336
+     15          ≥ 14.973           ≤ 66.786             ≤ 14.998            ≥ 66.676
+                                                                                              Gemini 335L/336L
+                                                                                              Gemini 335/336
+     10           ≥ 9.99              ≤ 100.1            ≤ 9.997             ≥ 100.031
+                                                                                              Gemini 335L/336L
+     6           ≥ 5.996            ≤ 166.777               ≤6              ≥ 166.667         Gemini 335/336
+     5           ≥ 4.997             ≤ 200.12               ≤5                 ≥ 200          Gemini 335L/336L
+
+
+
+4.11 Triggering Mode
+The Gemini 330 Series supports image data acquisition methods based on specific
+frame rates, as well as a free triggering mode that supports arbitrary frequencies. In
+this mode, the camera waits for an external input trigger signal and only completes
+an image data acquisition after receiving a valid external trigger signal, as configured
+by the camera. The camera then continues to wait for the next external trigger signal.
+As there is no set time limit between two consecutive triggers, but only a single
+acquisition time greater than that of the camera, it is possible to control the time
+interval between two consecutive triggers to achieve any desired frequency. This
+allows for passive acquisition of image data. The camera can be triggered through a
+soft signal sent by the host computer via USB command or an external device through
+the 8-Pin synchronous interface. This allows for passive triggering mode at any
+frequency.
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                           42
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+In free triggering mode, the camera's IR, Depth, and RGB fixed frame rates must be set
+to a uniform value of 5fps/6fps, 10fps, 15fps, 30fps, 60fps, or 90fps upon request. This is
+necessary to determine the minimum time interval between two consecutive active
+triggers. Table 4-11-1 shows the relationship between the fixed frame rate, the
+minimum time interval, and the upper frequency limit for passive triggering. In
+summary, the camera will only respond to trigger signals within the allowable range.
+This means that the trigger frequency can be any value within the valid frequency
+range for passive triggering.
+              Table 4-11-1 Table of Arbitrary Frame Rates Allowed to be Passively Triggered
+         Set The Camera’s Fixed                  Supportable Passive                   Supportable Passive
+          Frame Rate(fps)                      Trigger Interval (ms)               Trigger Frequency (Hz)
+                     90                                    ≥22.3                              0 - 45
+                     60                                    ≥33.4                              0 - 30
+                     30                                    ≥ 66.7                             0 - 15
+                      15                                   ≥ 133.4                            0 - 7.5
+                      10                                    ≥200                                  0–5
+                      6                                    ≥333.4                                 0-3
+                      5                                    ≥ 400                              0 – 2.5
+
+The Gemini 330 series cameras support three exposure alignment modes in trigger
+mode: exposure start, exposure center, and exposure end. These options enable precise
+synchronization between the camera and external devices. The following describes the
+
+supported exposure alignment modes:
+
+ exposure                  Gemini 335/336                       Gemini 335L/336L
+ alignment                                                                                                Remark
+                           Depth            Color               Depth              Color
+ mode
+
+ exposure                                                                                          The Gemini
+                        Support               N/A             Support            Support
+ start                                                                                                  335/336
+
+ exposure                                                                                                color
+                        Support            Support            Support            Support
+ center                                                                                            cameras do
+
+                                                                                                   not support
+
+ exposure                                                                                               trigger
+                        Support               N/A             Support            Support
+ end                                                                                                     mode.
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                               43
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+4.12 Multi-Camera Synchronization
+
+For a multi-camera use case, one camera can be initialized as primary, and the rest
+configured as secondary. Alternatively, an external signal generator can also be used
+as the primary trigger with all cameras set to secondary mode. When applying an
+external sync pulse, the HW SYNC input requires a 100-microsecond positive pulse at
+the nominal camera frame rate, e.g. 33.33 ms for a 30 Hz frame rate. Inputs are high
+impedance, 1.8V CMOS voltage levels. However, it is important to make sure to use a
+high-resolution signal generator. The frequency of the signal generator needs to
+exactly match the sensor frame rate. For example, if the sensor is set up as 30 FPS, the
+real frame rate may be 30.015 FPS. You may need to use an oscilloscope to measure
+the real frame rate and configure the signal generator to the same frequency. For this
+reason, it may be better to just use one additional camera as the primary sync signal
+generator.
+In addition to multi-camera synchronization, the camera also supports two trigger
+methods: software triggering and hardware triggering, which are used to control the
+timing of image acquisition.
+4.12.2 相机同步模式及说明
+       设置名称                                                       设置效果说明
+
+                                         • 支持不同帧率设定（无同步功能）
+       Free Run
+                                         • 8-pin 同步接口不支持对外输出同步相关信号
+
+
+                                         • 默认同 Primary
+       Standalone
+                                         • 机内 RGBD 帧同步
+ （默认）
+                                         • 8-pin 同步接口默认不对外输出信号
+
+                                         • 设置为主机
+       Primary
+                                         • 8-pin 同步接口默认对外输出信号
+
+                                         • 设置为从机同步（被动同步；有硬件连续触发信号从外部输入、
+
+       Secondary-                   且连续触发信号与当前设置帧率匹配时，按照外部触发信号采集图
+ synced                             像；无外部触发信号时，按照设定帧率下的内部触发信号采集图像）
+                                         • 8-pin 同步接口默认对外输出信号
+
+                                         • 设置为硬件触发（被动触发；有硬件触发信号从外部输入、且
+       Hardware
+                                    触发信号时间间隔不小于当前设置上限时，按照外部触发信号采集
+ Triggering
+                                    图像；无外部触发信号时，不采集图像）
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        44
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+                                         • 8-pin 同步接口默认对外输出信号
+
+
+
+
+                                         • 设置为软件触发（被动触发；有触发指令从上位机输入、且触
+
+       Software                     发指令时间间隔不小于当前设置上限时，按照触发指令采集图像；
+
+ Triggering                         无触发指令时，不采集图像）
+                                         • 8-pin 同步接口默认对外输出信号
+
+
+
+
+Advantages of multi-camera setup：
+      o Increase camera coverage in a given space and fill in the occlusions where a
+         single camera may have blind spots
+      o Capture multiple images of the same scene and scan objects from different
+         angles
+      o Increase the effective frame rate to greater than 30 FPS
+Using an 8-pin connector and matching cable, a multi-camera and multi-sensor
+network can be designed. (Please follow the instructions in the SDK).
+Multi-camera frame synchronization in two topologies is supported, including depth
+image synchronization and RGB image synchronization (time difference ≤ 5ms, when
+auto exposure off), using the multi-camera synchronization function.
+
+                                 Table 4-12-2 Topologies schematic diagram
+
+                    Star Topology                                        Daisy-chain Topology
+
+
+
+
+                     Table 4-12-3 Synchronization Interfaces of Gemini 330 Series
+        Pin               Definitions                                     Description
+                                               The default electrical level setting is 1.8V; when 3.3V or
+                                               5V drive voltage is provided on the VCC interface, the
+     Pin_1                    VCC
+                                               I/O level setting can be adjusted to 3.3V or 5V as
+                                               required.
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        45
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+                                               Synchronization drive signal: Active high. The high-level
+         Pin_2               GPIO_OUT          interval coincides with the IR exposure time. Typical
+                                               application is to drive external fill light.
+                                               Synchronous trigger signal: Active high. The high level
+         Pin_3           VSYNC_OUT             provides the triggering signal for the secondary
+                                               devices.
+                                               Pulse signal source, reset hardware timestamp of
+         Pin_4        TIMER_SYNC_OUT
+                                               secondary devices.
+                                               Hardware reset signal: Triggers the camera to power
+                                               down and automatically power up and reset. Detect
+                                               the input signal: 20 Hz / 50% duty cycle / more than 5
+         Pin_5                RESET_IN
+                                               consecutive cycles, that is, judged as normal input
+                                               signal, other signals filtered out; allowed fluctuations
+                                               for frequency ± 1 Hz, duty cycle ± 2%.
+                                               Synchronous trigger signal: Active high, used for the
+         Pin_6               VSYNC_IN          triggering/sync signal from primary device, with a
+                                               duration of 1 ms.
+                                               Hardware timestamp reset signal input, hardware
+         Pin_7         TIMER_SYNC_IN
+                                               timestamp clearing.
+         Pin_8                  GND            Ground
+
+
+Table 4-12-4 Electrical Specifications of the Multi-Camera Synchronization Interface for the
+Gemini 330 Series
+
+   Pin           Definition                             Electrical Specifications Description
+                                   Input voltage: min 1.75 V, max 5.25 V, typical 1.8 V / 3.3 V / 5.0 V, default 1.8 V
+    1              VCC             Input current: ≥ 100 mA
+                                   Power ripple: ≤ 50 mV (AC)
+                                   Output drive level: equal to VCC voltage
+    2            GPIO_OUT          Output drive current: 1.8 V @ 4 mA, 3.3 V @ 24 mA, 5.0 V @ 32 mA
+                                   Rise/Fall rate: 1.8 V @ ≤ 20 ns/V, 3.3 V @ ≤ 10 ns/V, 5.0 V @ ≤ 6 ns/V
+                                   Output drive level: equal to VCC voltage
+    3            VSYNC_OUT         Output drive current: 1.8 V @ 4 mA, 3.3 V @ 24 mA, 5.0 V @ 32 mA
+                                   Rise/Fall rate: 1.8 V @ ≤ 20 ns/V, 3.3 V @ ≤ 10 ns/V, 5.0 V @ ≤ 6 ns/V
+                                   Output drive level: equal to VCC voltage
+    4       TIMER_SYNC_OUT         Output drive current: 1.8 V @ 4 mA, 3.3 V @ 24 mA, 5.0 V @ 32 mA
+                                   Rise/Fall rate: 1.8 V @ ≤ 20 ns/V, 3.3 V @ ≤ 10 ns/V, 5.0 V @ ≤ 6 ns/V
+                                   Input drive level: equal to VCC voltage
+                                   Valid input level: VIH = VCC × 0.65, VIL ≤ 0.7 V
+                                   Input drive current: ≥ 4 mA for 1.8 V – 5.0 V levels; can be increased
+    5             RESET_IN
+                                   appropriately depending on cable length
+                                   Signal rise rate: 1.8 V ≤ 30 ns/V, 3.3 V ≤ 20 ns/V, 5.0 V ≤ 8 ns/V
+                                   Signal fall rate: 1.8 V ≤ 90 ns/V, 3.3 V ≤ 90 ns/V, 5.0 V ≤ 50 ns/V
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                              46
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+                                  Modulation signal requirements: frequency = 20 Hz ± 1 Hz, duty cycle = 50%
+                                  ± 2%, period ≥ 8T
+                                  Input drive level: equal to VCC voltage
+                                  Valid input level: VIH = VCC × 0.65, VIL ≤ 0.7 V
+                                  Input drive current: ≥4 mA for 1.8 V – 5.0 V levels; can be increased
+                                  appropriately depending on cable length
+    6          VSYNC_IN
+                                  Signal rise rate: 1.8 V ≤ 30 ns/V, 3.3 V ≤ 20 ns/V, 5.0 V ≤ 8 ns/V
+                                  Signal fall rate: 1.8 V ≤ 90 ns/V, 3.3 V ≤ 90 ns/V, 5.0 V ≤ 50 ns/V
+                                  Signal trigger mode: rising-edge trigger
+                                  Signal adjustment requirement: single-pulse trigger
+                                  Input drive level: equal to VCC voltage
+                                  Valid input level: VIH = VCC × 0.65, VIL ≤ 0.7 V
+                                  Input drive current: ≥4 mA for 1.8 V – 5.0 V levels; can be increased
+                                  appropriately depending on cable length
+    7       TIMER_SYNC_IN
+                                  Signal rise rate: 1.8 V ≤ 30 ns/V, 3.3 V ≤ 20 ns/V, 5.0 V ≤ 8 ns/V
+                                  Signal fall rate: 1.8 V ≤ 90 ns/V, 3.3 V ≤ 90 ns/V, 5.0 V ≤ 50 ns/V
+                                  Signal trigger mode: rising-edge trigger
+                                  Signal adjustment requirement: single-pulse trigger
+    8              GND            Reliable grounding (common ground connection)
+
+
+
+
+              Table 4-12-5 Gemini 330 series Multi-camera Synchronization Pin Placement
+                      Gemini 335/336                                           Gemini 335L/336L
+
+
+
+
+Detailed operating instructions for multi-camera synchronization, please refer the
+
+document of Set up cameras for external synchronization
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        47
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+4.13 Camera Functions
+
+4.13.1 Depth Camera Functions
+
+Gemini 330 series expose the following Depth image settings.
+
+                                       Table 4-13-1 Depth camera control
+        Control                          Description                           Settings              Default Setting
+
+                          Auto Exposure Mode. When Auto
+                          Exposure is enabled, Exposure and Gain
+     Auto Exposure                                                          Disable, Enable              Enable
+                          are set based on the environment
+                          condition.
+
+                          Maximum correction value for AE
+                                                                      Gemini 335/336: 1 - 165000
+  AE Max Exposure(us)     exposure that limits the corresponding                                     30458(30fps)
+                                                                      Gemini 335L/336L: 1 - 199000
+                          frame rate.
+                                                                                                     Gemini 335: 70
+   Mean Intensity Set
+                          Mean Intensity Set Point for Gemini                   0 - 255               Gemini 336 /
+          Point
+                                                                                                     335L/336L : 60
+                                                                                                        T:0, B:479
+                                                                           T:0 - 799, B:0 -799
+                                                                                                        L:0, R:847
+         AE ROI           Perform Auto Exposure on a selected ROI         L:0 - 1279, R:0 -1279
+                                                                                                      (Resolution:
+                                                                        (Resolution:1280 x 800)
+                                                                                                       848 x 480)
+
+                          Effective only in Free Run mode. When
+                          exposure priority is enabled, exposure is
+ Auto Exposure Priority                                                     Enable, Disable             Disable
+                          prioritized, and frame rate reduction is
+                          allowed.
+
+   Manual Exposure(1)     Sets the absolute exposure time when        Gemini 335/336: 1 - 165000
+                                                                                                          3000
+          (us)            auto-exposure is disabled                   Gemini 335L/336L: 1 - 199000
+
+    Gain(Gain 1.0=16)     Control sensor digital gain                           16 -248                    16
+
+ Depth Unit(millimeter)   Depth Measurement Standard Units                     0.001 - 10                   1
+      Laser control       Controls laser on/off                                 On, Off                    Off
+                          Laser emission power level, the higher
+    Laser Power Level                                                         0,1,2,3,4,5,6                 6
+                          the level, the greater the laser power.
+
+                          Controls different depth parameter
+                          settings for two consecutive frames,
+ Alternating Sequence                                                              On/Off                       Off
+                          typically used in depth HDR or laser
+                          on/off alternation.
+                          Allows selecting different sequence
+                          indices to configure the corresponding
+    Sequence index                                                                   0/1                        0
+                          depth parameters after the Alternating
+                          Sequence function is enabled.
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                                  48
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                              Gemini 330 Series ｜ Datasheet V1.7
+
+
+                                                                            Disable, Hardware,
+   Disparity to Depth        Disable, Hardware, Software                                            Hardware
+                                                                                Software
+
+                             Allows configuring different disparity
+                             search ranges after the depth stream is
+                                                                                                       128
+                             enabled. The disparity search range
+  Disparity Rang Mode                                                           256,128,64         （Resolution:
+                             defines the maximum pixel
+                                                                                                    848x480）
+                             displacement for matching, determining
+                             the measurable depth range
+
+                             Specifies the starting position of the
+                             disparity search range. The disparity
+                             search offset is supported only at                256：0-255
+    Disparity Search
+                             resolutions of 1280×800, 1280×720, 640             128：0-127               0
+          Offset
+                             ×400, and 424×266, and must be set                 64：0-63
+                             based on the corresponding disparity
+                             search range.
+
+                             Denoising and filtering are performed on
+     Hardware Noise           the camera chip at the hardware level,
+                                                                                 On, Off               Off
+        Removal                     reducing host-side resource
+                              consumption and lowering CPU usage.
+                             The camera presets different depth
+                                                                              Default /High
+                             parameters based on various usage
+                                                                             Accuracy/High
+      Depth Preset           scenarios. For detailed instructions,                                   Default
+                                                                         Density/Medium Density/
+                             please refer to the documentation: Use
+                                                                          Factory Calib/Custom
+                             Depth Preset
+                             Users can update the depth presets to
+                                                                         Supports updating up to
+                             the camera according to their needs.
+ Optional Depth Preset                                                     three optional depth        N/A
+                             Optional depth presets can be obtained
+                                                                                 presets.
+                             from the website: Depth Preset Release
+
+                             Parameter information attached to each
+                             frame of image. For detailed information,
+        Metadata                                                                 Enable              Enable
+                             please refer to the metadata
+                             documentation.
+Note: (1) Not supported in Auto Exposure Mode
+Definitions:   T = Top, L = Left, B = Bottom, R = Right
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                              49
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                              Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+4.13.2 Color Camera Functions
+
+Gemini 330 series expose the following Color image settings.
+
+                                        Table 4-13-2 Color camera control
+        Control                      Description                            Settings               Default setting
+
+                      Automatically sets the exposure time and
+ Auto Exposure                                                          Disable, Enable                Enable
+                      gain for the frame
+
+                      Maximum correction value for AE
+ AE Max Exposure                                                    Gemini 335/336: 1 – 1665
+                      exposure that limits the corresponding                                         332(30fps)
+ (100us)                                                           Gemini 335L/336L:1 - 1999
+                      frame rate
+
+                      Effective only in Free Run mode. When
+ Auto Exposure        exposure priority is enabled, exposure is
+                                                                        Disable, Enable                Enable
+ Priority             prioritized, and frame rate reduction is
+                      allowed.
+
+                                                                                                      T:0, B:719
+                                                                      T:0 - 1079, B:0 -1079
+                      Perform Auto Exposure on a selected ROI                                         L:0, R:1279
+ AE ROI                                                                L:0 - 1919, R:0 -1919
+                      for Gemini 335/336                                                          (Resolution:1280 x
+                                                                    (Resolution:1920 x 1080)
+                                                                                                        720)
+                                                                                                      T:0, B:719
+                                                                       T:0 - 779, B:0 -779
+                      Perform Auto Exposure on a selected ROI                                         L:0, R:1279
+ AE ROI                                                                L:0 - 1279, R:0 -1279
+                      for Gemini 335L/336L                                                        (Resolution:1280 x
+                                                                    (Resolution:1280 x 800)
+                                                                                                        720)
+
+ Manual
+                      Sets the absolute exposure time when          Gemini 335/336: 1 – 1665
+ Exposure(1)                                                                                             156
+                      auto-exposure is disabled                    Gemini 335L/336L:1 - 1999
+ (100us)
+                      Sets the denoising level of the image.The
+                      default setting is Auto mode, with manual
+                      configuration available from level 1 to 8.
+                      When set to a fixed level, the camera
+ Denoising Level                                                      Auto,1,2,3,4,5,6,7,8          Auto
+                      applies denoising according to the
+                      selected level; higher levels provide
+                      stronger noise reduction but may slightly
+                      reduce image sharpness.
+
+                      Sets the amount of gain applied to the
+ Gain                                                                        0 – 128                       16
+                      frame if auto-exposure is disabled
+
+                      Sets the amount of brightness applied
+ Brightness                                                                 -64 – 64                       0
+                      when auto-exposure is enabled
+
+ Auto White
+                      Enables or disables the AWB algorithm             Disable, Enable                Disable
+ Balance
+
+                      Sets the white balance when AWB is
+ White Balance/ K                                                         2800 – 6500                   4600
+                      disabled
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                                 50
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+                        Sets the amount of sharpening
+ Sharpness                                                                  0 – 100                 50
+                        adjustment applied to the frame
+
+                        Sets amount of gamma correction
+ Gamma                                                                     100 - 500               300
+                        applied to the frame
+
+                        Sets the amount of saturation adjustment
+ Saturation                                                                 0 - 100                 64
+                        applied to the frame
+
+                        Sets the amount of contrast based on the
+ Contrast                                                                   0 - 100                 50
+                        brightness of the scene
+
+                        Sets the amount of hue adjustment
+ Hue                                                                       -180 – 180               0
+                        applied to the frame
+
+ Backlight              Sets a weighting amount based on
+                                                                             0-6                    3
+ Compensation           brightness to the frame
+
+ Powerline              Specified based on the local power line
+                                                                     Auto, 50, 60, Disabled        Auto
+ Frequency              frequency for flicker avoidance
+
+Note: (1) Not supported in Auto Exposure Mode
+Definitions:   T = Top, L = Left, B = Bottom, R = Right
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        51
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+
+5. Performance
+
+5.1 Depth Performance
+
+5.1.1 Depth Quality Assessment
+Calculation of Depth Accuracy (Z-accuracy):
+Depth accuracy (Z-accuracy) measures the per-pixel depth accuracy relative to the
+GT in a single frame depth image, excluding errors due to camera placement. GT is
+obtained by measuring the distance from depth origin to the reference target. Depth
+accuracy can be calculated using the following formula:
+Depth_accuracy_Signed = Median (CP_Length – GT + PP_Dist)
+where CP_Length represents the actual length between the depth origin and a fitted
+plane along the GT measuring direction, and PP_Dist denotes the per-pixel distance of
+the point cloud to the fitted plane.
+
+Calculation of Spatial Precision:
+The spatial precision is calculated as the percentage of the root mean square error
+(RMS Error) between each valid pixel and the optimal fitting plane compared to the true
+value (GT).
+
+
+
+Calculation of Temporal Precision:
+
+The temporal precision measures the variation in depth values over time within a ROI. The
+quality of a depth image can be assessed based on its temporal consistency, high-quality
+depth images should exhibit smooth and stable over time. This method is defined as the
+STD of depth values across a specific number of frames (for example, 30). The quantification
+of temporal noise is carried out on a per-pixel basis, followed by calculating the STD of each
+pixel over a specified time.
+
+
+
+Depth Fill Rate Calculation:
+The fill rate is used to calculate the proportion of valid pixels to total pixels within the
+target area (ROI region), primarily used to measure the completeness of depth.
+
+
+
+Detailed calculation principle can be found in document “Depth Quality Metrics”.
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        52
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+5.1.2 Typical depth performance for Gemini 330 Series
+Typical depth performance for Gemini 330 series is shown in the table below:
+
+                       Table 5-1-1 Typical Depth Performance for Gemini 330 Series
+
+  Depth Performance                  Gemini 335/336                             Gemini 335L/336L
+
+                              ≤±2% (1280 x 800 @ 2 m &            ≤±1% (1280 x 800 @ 2 m & 90% x 90% ROI)
+  Depth Accuracy
+                              90% x 90% ROI)                      ≤±2% (1280 x 800 @ 4 m & 80% x 80% ROI)
+
+                              ≤ 1.5% (1280 x 800 @ 2 m &          ≤ 0.8% (1280 x 800 @ 2 m & 90% x 90% ROI)
+  Spatial Precision
+                              90% x 90% ROI)                      ≤ 1.6% (1280 x 800 @ 4 m & 80% x 80% ROI)
+
+  Temporal Precision          ≤ 0.9% @2m                          ≤ 0.4% @2m
+
+                              ≥99.5% (1280 x 800 @ 2 m &          ≥99.5% (1280 x 800 @ 2 m & 90% x 90%
+  Fill Rate
+                              90% x 90% ROI)                      ROI)
+  Note:
+  1. The actual working range and accuracy may vary with the ambient illumination and the objects
+  being measured.
+  2. The test object is a reflectivity > 80% plane, and the reference range is 81% FOV (81% FOV is the
+  remaining center 81% of the depth map area after cropping 5% from the top, bottom, left and right of
+  the depth map) or 64% FOV (64% = 80% x 80% and of a similar definition).
+
+
+
+
+  3. The depth performance of each 3D camera is validated at the production line before shipping to
+  customers. The metrics reflect the depth performance under typical conditions. External impact
+  factors over 3D cameras’ whole lifespan may have significant impacts on their depth performance.
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        53
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                                                  Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+⚫                      Spatial Precision performance reference vs. Distance
+
+
+
+Typical Depth performance reference of spatial precision for Gemini 335/336
+
+
+                                                                Spatial Precision%
+                            4.00%
+                            3.50%
+       Spatial Precision%
+
+
+
+
+                            3.00%
+                            2.50%
+                            2.00%
+                            1.50%
+                            1.00%
+                            0.50%
+                            0.00%
+                                    0   500      1000    1500    2000      2500     3000   3500   4000     4500    5000      5500   6000
+                                                                                                                     Distance(mm)
+                                         Spatial Precision(25%FOV)                                Spatial Precision(64%FOV)
+                                         Spatial Precision(81%FOV)                                Spatial Precision(9%FOV)
+
+                                               Figure 5-1-3 Spatial Precision chart of Gemini 335/336
+
+
+Typical Depth performance reference of spatial precision for Gemini 335L/336L
+
+
+
+
+                                                                Spatial Precision%
+                       2.00%
+                       1.80%
+                       1.60%
+ Spatial Precision%
+
+
+
+
+                       1.40%
+                        1.20%
+                        1.00%
+                       0.80%
+                       0.60%
+                       0.40%
+                       0.20%
+                       0.00%
+                                500     1000      1500   2000       2500     3000     3500    4000       4500     5000    5500      6000
+
+                                                                                                                         Distance(mm)
+                                        Spatial Precision(25%FOV)                                 Spatial Precision(64%FOV)
+                                        Spatial Precision(81%FOV)                                 Spatial Precision(9%FOV)
+
+                                           Figure 5-1-4 Spatial Precision chart of Gemini 335L/336L
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                                                       54
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                              Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+⚫     Temporal Precision performance reference vs. Time
+
+Typical Depth performance reference of temporal precision for Gemini 335
+
+
+
+
+                                   Temporal Precision @2m
+ 0.50%
+
+
+ 0.45%
+
+
+ 0.40%
+
+
+ 0.35%
+                   9%FOV                    25%FOV                   64%FOV                       81%FOV
+
+                                             Max         Mean          Min
+
+
+
+
+                          Figure 5-1-5 Temporal Precision chart of Gemini 335
+
+
+
+Typical Depth performance reference of temporal precision for Gemini 335L
+
+
+
+
+                                    Temporal Precision @2m
+ 0.30%
+
+ 0.28%
+
+ 0.26%
+
+ 0.24%
+
+    0.22%
+
+ 0.20%
+                   9%FOV                     25%FOV                    64%FOV                      81%FOV
+
+                                              Max         Mean          Min
+
+
+
+
+                          Figure 5-1-6 Temporal Precision chart of Gemini 335L
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                         55
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                                           Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+⚫         Fill Rate performance reference vs. Distance:
+
+
+
+Typical Depth performance reference of fill rate for Gemini 335/336
+
+
+
+
+                                                             Fill Rate%
+                 100.00%
+                 99.00%
+    Fill Rate%
+
+
+
+
+                 98.00%
+                 97.00%
+                 96.00%
+                 95.00%
+                            0     500     1000    1500    2000     2500   3000     3500    4000      4500    5000 5500 6000
+                                                                                                              Distance(mm)
+
+
+                           Fill Rate(25%FOV)        Fill Rate(64%FOV)            Fill Rate(81%FOV)           Fill Rate(9%FOV)
+
+
+                                           Figure 5-1-7 Fill Rate chart of Gemini 335/336
+
+
+
+
+Typical Depth performance reference of fill rate for Gemini 335L/336L
+
+
+
+
+                                                             Fill Rate%
+                 100.00%
+
+                 99.00%
+    Fill Rate%
+
+
+
+
+                 98.00%
+
+                 97.00%
+
+                 96.00%
+
+                 95.00%
+                           500    1000     1500    2000     2500       3000   3500      4000      4500      5000    5500  6000
+                                                                                                                Distance(mm)
+
+                    Fill Rate(%)(25%FOV)           Fill Rate(64%FOV)          Fill Rate(81%FOV)             Fill Rate(%)(9%FOV)
+
+
+
+                                         Figure 5-1-8 Fill Rate chart of Gemini 335L/336L
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                                              56
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                              Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+5.2 Electrical Performance
+5.2.1 Power Supply
+The Gemini 330 Series requires Type-C power and it is important to ensure that the
+
+power output is standard and that the maximum current of the Type-C power port is
+1.5A or higher.
+5.2.2 Power Consumption
+Power consumption varies depending on the selected working mode.
+           Table 5-1-1 Gemini 330series typical configuration & tested power consumption Reference
+
+      Name                      Gemini 335 & Gemini 336                      Gemini 335L & Gemini 336L
+                      Laser power level: 6                              Laser power level: 6
+                      Disparity search range：128                        Disparity search range：256
+                      D2C：off                                           D2C：off
+ Typical
+                      Depth：1280 x 800 @ 30 fps Y16 AE On               Depth：1280 x 800 @ 30 fps Y16 AE On
+ configuration
+                      RGB: 1920 x 1080 @ 30 fps MJPEG AE On             RGB: 1280 x 720 @ 30 fps MJPEG AE On
+                      IR: Off                                           IR: Off
+                      IMU ODR (output data rate): 200Hz                 IMU ODR (output data rate): 200Hz
+
+ Average power
+                                             2.3 W                                           2.5W
+ consumption
+
+
+
+        Table 5-1-2 Gemini 330series Max Power Configuration & tested power consumption Reference
+
+      Name                      Gemini 335 & Gemini 336                      Gemini 335L & Gemini 336L
+                      Laser power level: 6                              Laser power level: 6
+                      Disparity search range：128                        Disparity search range：256
+
+                      D2C：off                                          D2C：off
+
+                      Depth：1280 x 800 @ 30 fps Y16 &                  Depth：1280 x 800 @ 30 fps Y16 &
+
+ Max Power            exposure:32ms                                    exposure:32ms
+
+ Configuration        RGB: 1920 x 1080 @ 30 fps MJPEG AE On            RGB: 1280 x 720 @ 30 fps MJPEG AE On
+
+                      IR: 1280 x 800 @ 30 fps Y8 &                     IR:1280 x 800 @ 30 fps Y16 &
+
+                      exposure:32ms                                    exposure:32ms
+
+                      IMU ODR (output data rate): 1000Hz               IMU ODR (output data rate): 1000Hz
+
+ Average power
+                                             3.0 W                                           3.0 W
+ consumption
+
+    *Note: The data in the above table are laboratory measurements and are for design reference only.
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                           57
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+5.2.3 Storage and Powered Conditions
+                       Table 5-1-3 Gemini 330 Series Storage and Powered Conditions
+ Condition                     Description                                         Min            Max       Unit
+                               Long term storage                                     0            60            ℃
+                               Short exposure represents temporary
+ Storage (Ambient),            max limits acceptable for                            -20           70            ℃
+ Not Powered                   transportation conditions
+                                                                                      Temperature / RH：
+                               Humidity
+                                                                                           60℃ / 95%
+                               The camera ambient temperature
+                                                                                    -10           45            ℃
+                               when powered (Gemini 335/336) [1]
+ Ambient, Powered
+                               The camera ambient temperature
+                                                                                    -10           50            ℃
+                               when powered (Gemini 335L/336L) [2]
+ LDM Protect
+                               The LDM temperature when powered                    N/A            73            ℃
+ Temperature
+                               The maximum temperature of the
+                               backside case occurs when the
+                               camera is operated in an ambient                      0            55            ℃
+                               temperature of 45°C
+ Backside Case
+                               (Gemini 335/336)
+ Temperature,
+                               The maximum temperature of the
+ Powered
+                               backside case occurs when the
+                               camera is operated in an ambient                      0            60            ℃
+                               temperature of 50°C
+                               (Gemini 335L/336L)
+Notes:
+ [1] For Gemini 335/336, the camera can operate at any resolution combination at 15fps within the temperature range
+ of -10°C to 45°C. When the camera is configured for high-resolution image output at 30fps and 60fps, due to the
+ significant increase in power consumption, the operating temperature range will be reduced to -10°C to 40°C.
+ [2] For Gemini 335L/336L, the camera can operate at any resolution combination at 15fps and 30 fps within the
+ temperature range of -10°C to 50°C. When the camera is configured for high-resolution image output at 60fps, due to
+ the significant increase in power consumption, the operating temperature range will be reduced to -10°C to 45°C.
+ [3] If users require operation over a wider temperature range, additional thermal management measures need to be
+ evaluated.
+
+
+
+
+5.2.4 ESD Performance
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                                58
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+                       Table 5-2-3 Gemini 335/336/335L/336L ESD Performance
+                                                                                                  Certification
+        Conditions                  Powered-On                   Powered-Off
+                                                                                                  Standards
+
+   Contact Discharge                ± 8KV Class A                ± 8KV Class A
+                                                                                              EN 61000-6-2
+      Air Discharge                ± 15KV Class A                ± 15KV Class A
+
+
+
+
+5.3 Physical Performance
+
+5.3.1 Ingress Protection
+                        Gemini 335/336 & 335L/336L Ingress Protection Information
+                                                                                                    Reference
+   Camera          IP Rating            Protection Ability               Conditions
+                                                                                                     Standard
+                                   ① Prevents solid objects
+                                   from entering the                 ① Insert the
+                                   camera.                           Type-C cable
+                                   ② Cannot completely               and tighten the
+   Gemini                          prevent dust from                 screws.
+                       IP5X                                                                   IEC 60529:2013
+   335/336                         entering the inside of            ② Multi-camera
+                                   the camera, but the               sync 8-pin
+                                   dust that does enter              interface not in
+                                   does not affect normal            use.
+                                   operation.
+                                   ① Completely prevents
+                      IP65         dust from entering the
+                                                                     ① Multi-camera
+                  (USB Type-       camera
+   Gemini                                                            sync 8-pin
+                        C          ② Prevents low-                                            IEC 60529:2013
+  335L/336L                                                          interface not in
+                  Connector:       pressure liquid spray
+                                                                     use.
+                      IP67)        from entering the
+                                   camera
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                              59
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+
+6. Firmware
+
+6.1 Firmware Update & Cautions
+Gemini 330series supports update the firmware via online or location, you can upgrade
+or downgrade as needed. To get the firmware and changelog: Firmware Release
+
+Please note the following considerations:
+
+     1.   You can update the firmware in any working mode or preset;
+
+     2. All data streams must be closed when update the firmware;
+
+     3. During    the firmware update, please ensure that the power supply and data
+
+          transmission cable connections are stable;
+
+     4. The camera will automatically restart after the firmware update is completed. You
+
+          can also re-plug the cable after completion and restart it manually;
+
+6.2 How to Update Firmware
+
+The simplest way to update the firmware is through the Orbbec Viewer tool, which
+
+supports both manual updates and online updates. For detailed instructions, please
+refer to the documentation: Update firmware
+
+
+6.3 Recovery
+Ensure the stability of cable during the update process to avoid upgrade failure. If the
+update process fails, disconnect the cable, re-insert it, and burn the product again. If
+re-burning is unsuccessful, the product may be damaged. Orbbec assumes no
+liability for any damages or losses resulting from the use of this product.
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        60
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+
+7. SDK
+
+Orbbec SDK is a flexible and modular platform for easy camera setup and runs on
+multiple platforms with a rich set of APIs. It supports camera access, device setup and
+configuration, data stream reading, processing, and viewing, RGB-D registration, and
+frame synchronization.
+     Its functions include:
+    •   Access and control of camera devices
+
+    •   Control of frame synchronization and alignment
+    •   Acquisition of point cloud data
+    •   Orbbec Viewer for camera testing and evaluation
+
+Please visit Orbbec SDK for the latest SDK.
+
+7.1 Temperature Sensor and Recording
+The temperature of camera core components can be obtained, including laser
+temperature, IR sensor temperature, and IMU sensor temperature, through API
+
+commands.
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        61
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+
+8. Use Guidance
+
+8.1 Packing List
+
+                              Table 8-1-1 Gemini 330 Series Package List
+
+  Packag          Package
+                                     Gemini 335/336                Gemini 335L/336L                   Notes
+   e Type            List
+                                                                                                  Minimum
+                                                                                                  batch
+     Bulk         Camera                                                                          packaging
+                                                                                                  quantity:
+                                                                                                  100pcs
+                                                                                                  Minimum
+                                                                                                  batch
+                  Camera                                                                          packaging
+                                                                                                  quantity:
+                                                                                                  20pcs
+
+
+                  1x Tripod
+
+
+
+
+                  1x Tripod
+                    Head
+     Box
+
+
+
+                    1x USB
+                 Cable(1m)
+
+
+
+
+                  1x Quick
+                Start Guide
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                          62
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+8.2 Initialization and Operation
+    •   Connect Gemini 335/336/335L/336L via the USB cable to the host PC
+    •   Download Orbbec SDK from Orbbec SDK
+
+    •   Use Orbbec Viewer to validate that images can be streamed from all sensors
+        with the following settings:
+             o   Depth stream: 848 x 480(default configuration)
+
+             o   Color stream: 1280 x 720(default configuration)
+             o   IMU enabled
+The detailed quick start guide refers to the documentation: Gemini 330 Series Quick
+
+Start Guide
+    •   If for any reason that the camera is not responding or not being detected,
+        please unplug all cables from the camera and replug the cable into the host PC
+
+        for resetting the camera state.
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        63
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+
+9. Regulatory Compliance
+
+These products are certified as follows:
+
+9.1 Laser Safety certification
+      Class 1 Laser Product under the
+      EN/IEC 60825-1:2014                                    U.S. FDA Accession Number: 2420619-000
+
+
+
+
+9.2 EMC Regulatory Compliance
+
+
+
+                                        FCC part 15 Declaration of
+         CE-Declaration                                                                           KC
+                                                  Conformity
+
+
+
+
+               UKCA                                     IC                                    RCM
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        64
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+9.3 Environment Regulatory Compliance
+
+RoHS 2.0, REACH, WEEE, TSCA, TPCH, 94/62/EC
+
+
+                RoHS                                   REACH                                  WEEE
+
+
+
+
+                TSCA                                   TPCH                                94/62/EC
+
+
+
+
+                                                       PASS                                   PASS
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        65
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+
+10. System Integration Guide
+
+Use outside of the specified conditions could cause the device to fail and/or function
+
+incorrectly. These conditions are applicable for the environment immediately around the
+
+device under all operational conditions. When used with an external enclosure, active
+
+temperature control and/or other cooling solutions are recommended to ensure the device
+
+is maintained within these ranges.
+
+10.1 Installation Recommendations
+1.   When using external housing around the camera for dust proofing, use foam inserts
+
+     or rubber gaskets between the front of the camera and the external housing.
+2.   Avoid external forces applied to the camera chassis during installation process.
+3.   Disassembling chassis will void the warranty.
+
+4.   For the detailed installation reference solution, please refer to Document Reference
+     solution & best practice - mounting
+
+10.2 Heat Dissipation
+1.   Avoid direct heat source around the camera.
+
+2.   Maximizing the space inside the external housing may help lower operating
+     temperature.
+3.   For the detailed heat dissipation reference solution, please refer to Document
+
+     Reference solution & best practice - thermal
+
+10.3 Cable Design Guide
+1.   It is recommended to use the included USB Type-C cable. If there is a need for longer
+     cable, please select a USB-IF certified cable that supports both power and data (< =
+
+     3.0 m length is recommended).
+2.   For the detailed cable design guide reference solution, please refer to Document
+     Reference design & best practice - cable
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        66
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+
+11. Cautions
+
+1. Follow the instructions carefully when operating the camera. Improper handling may
+lead to damage to the internal components.
+2. Do not drop the camera or expose the camera to mechanical stress.
+3. Do not attempt to modify the camera as such modifications may cause permanent
+damage or performance degradation.
+4. The temperature of the camera may rise during long periods of use.
+
+5. Do not touch the lens. Fingerprints on the lens may affect image quality.
+6. Keep the product beyond the reach of children or animals to avoid accidents.
+7. If the computer does not recognize the camera, verify that the cable meets the
+
+power and data transfer requirements, then replug it into the USB port to reconnect.
+8. This product is classified as a Class 1 Laser Product under the international standard
+EN/IEC 60825-1, Edition 3 (2014). Using controls, adjustments, or procedures other than
+those specified herein may result in hazardous radiation exposure.
+Safety and Handling Instructions:
+●Avoid powering on the product if any external damage was observed.
+●Do not attempt to open any portion of this product. There are no user serviceable
+parts.
+●Be cautious of invisible laser radiation. Avoid direct exposure to the beam.
+
+●To maintain compliance and safety standards, do not modify or service the product.
+Unauthorized modifications or servicing could result in emissions surpassing the Class
+1 safety level.
+
+●Only update the camera firmware with official releases that match the specific
+module SKU and revision to ensure proper functionality and safety.
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        67
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+Appendix A Multi-Camera Sync Interface
+Mechanical Diagram
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        68
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+Appendix B Gemini 335 2D Mechanical Diagram
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        69
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+Appendix C Gemini 336 2D Mechanical Diagram
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        70
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+Appendix D Gemini 335L 2D Mechanical Diagram
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        71
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+Appendix E Gemini 336L 2D Mechanical Diagram
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        72
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+                                                                             Gemini 330 Series ｜ Datasheet V1.7
+
+
+
+
+ORBBEC. All Rights Reserved. https://www.orbbec.com/                                                        73
+Note: Orbbec reserves the right to change any information in the document without prior notice.
+

@@ -1,0 +1,214 @@
+Starting >>> classify_camera_sim
+UpdateCTestConfiguration  from :/home/hanhan/Desktop/piper_classify_ws/build/classify_camera_sim/CTestConfiguration.ini
+Parse Config file:/home/hanhan/Desktop/piper_classify_ws/build/classify_camera_sim/CTestConfiguration.ini
+   Site: hanhan
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20261001-1809 - Experimental
+UpdateCTestConfiguration  from :/home/hanhan/Desktop/piper_classify_ws/build/classify_camera_sim/CTestConfiguration.ini
+Parse Config file:/home/hanhan/Desktop/piper_classify_ws/build/classify_camera_sim/CTestConfiguration.ini
+Test project /home/hanhan/Desktop/piper_classify_ws/build/classify_camera_sim
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: test_registration
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hanhan/Desktop/piper_classify_ws/build/classify_camera_sim/test_results/classify_camera_sim/test_registration.gtest.xml" "--package-name" "classify_camera_sim" "--output-file" "/home/hanhan/Desktop/piper_classify_ws/build/classify_camera_sim/ament_cmake_gtest/test_registration.txt" "--command" "/home/hanhan/Desktop/piper_classify_ws/build/classify_camera_sim/test_registration" "--gtest_output=xml:/home/hanhan/Desktop/piper_classify_ws/build/classify_camera_sim/test_results/classify_camera_sim/test_registration.gtest.xml"
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/hanhan/Desktop/piper_classify_ws/build/classify_camera_sim':
+1:  - /home/hanhan/Desktop/piper_classify_ws/build/classify_camera_sim/test_registration --gtest_output=xml:/home/hanhan/Desktop/piper_classify_ws/build/classify_camera_sim/test_results/classify_camera_sim/test_registration.gtest.xml
+1: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+1: [==========] Running 5 tests from 2 test suites.
+1: [----------] Global test environment set-up.
+1: [----------] 3 tests from Registration
+1: [ RUN      ] Registration.AppliesOpticalOffsetAndMillimetreUnits
+1: [       OK ] Registration.AppliesOpticalOffsetAndMillimetreUnits (1 ms)
+1: [ RUN      ] Registration.RejectsTooCloseDepthAndStereoNonOverlap
+1: [       OK ] Registration.RejectsTooCloseDepthAndStereoNonOverlap (1 ms)
+1: [ RUN      ] Registration.KeepsForegroundWhenMultipleDepthPixelsMapToOneColorPixel
+1: [       OK ] Registration.KeepsForegroundWhenMultipleDepthPixelsMapToOneColorPixel (0 ms)
+1: [----------] 3 tests from Registration (2 ms total)
+1: 
+1: [----------] 2 tests from DepthStress
+1: [ RUN      ] DepthStress.UsesMetresAndPreservesInvalidDepth
+1: [       OK ] DepthStress.UsesMetresAndPreservesInvalidDepth (2 ms)
+1: [ RUN      ] DepthStress.DropoutCanBeReproducedWithoutChangingBaseline
+1: [       OK ] DepthStress.DropoutCanBeReproducedWithoutChangingBaseline (2 ms)
+1: [----------] 2 tests from DepthStress (4 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 5 tests from 2 test suites ran. (6 ms total)
+1: [  PASSED  ] 5 tests.
+1: -- run_test.py: return code 0
+1: -- run_test.py: inject classname prefix into gtest result file '/home/hanhan/Desktop/piper_classify_ws/build/classify_camera_sim/test_results/classify_camera_sim/test_registration.gtest.xml'
+1: -- run_test.py: verify result file '/home/hanhan/Desktop/piper_classify_ws/build/classify_camera_sim/test_results/classify_camera_sim/test_registration.gtest.xml'
+1/1 Test #1: test_registration ................   Passed    0.19 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Label Time Summary:
+gtest    =   0.19 sec*proc (1 test)
+
+Total Test time (real) =   0.19 sec
+Finished <<< classify_camera_sim [0.29s]
+Starting >>> classify_scene_bridge
+UpdateCTestConfiguration  from :/home/hanhan/Desktop/piper_classify_ws/build/classify_scene_bridge/CTestConfiguration.ini
+Parse Config file:/home/hanhan/Desktop/piper_classify_ws/build/classify_scene_bridge/CTestConfiguration.ini
+   Site: hanhan
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20261001-1809 - Experimental
+UpdateCTestConfiguration  from :/home/hanhan/Desktop/piper_classify_ws/build/classify_scene_bridge/CTestConfiguration.ini
+Parse Config file:/home/hanhan/Desktop/piper_classify_ws/build/classify_scene_bridge/CTestConfiguration.ini
+Test project /home/hanhan/Desktop/piper_classify_ws/build/classify_scene_bridge
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: test_scene_tracker
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hanhan/Desktop/piper_classify_ws/build/classify_scene_bridge/test_results/classify_scene_bridge/test_scene_tracker.gtest.xml" "--package-name" "classify_scene_bridge" "--output-file" "/home/hanhan/Desktop/piper_classify_ws/build/classify_scene_bridge/ament_cmake_gtest/test_scene_tracker.txt" "--command" "/home/hanhan/Desktop/piper_classify_ws/build/classify_scene_bridge/test_scene_tracker" "--gtest_output=xml:/home/hanhan/Desktop/piper_classify_ws/build/classify_scene_bridge/test_results/classify_scene_bridge/test_scene_tracker.gtest.xml"
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/hanhan/Desktop/piper_classify_ws/build/classify_scene_bridge':
+1:  - /home/hanhan/Desktop/piper_classify_ws/build/classify_scene_bridge/test_scene_tracker --gtest_output=xml:/home/hanhan/Desktop/piper_classify_ws/build/classify_scene_bridge/test_results/classify_scene_bridge/test_scene_tracker.gtest.xml
+1: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+1: [==========] Running 4 tests from 2 test suites.
+1: [----------] Global test environment set-up.
+1: [----------] 3 tests from SceneTracker
+1: [ RUN      ] SceneTracker.ConfirmsThreeFramesAndRejectsOneFrameJump
+1: [       OK ] SceneTracker.ConfirmsThreeFramesAndRejectsOneFrameJump (0 ms)
+1: [ RUN      ] SceneTracker.AcceptsRealDisplacementAndExpiresMissingStream
+1: [       OK ] SceneTracker.AcceptsRealDisplacementAndExpiresMissingStream (0 ms)
+1: [ RUN      ] SceneTracker.QuarterTurnEquivalentAndRotationNeedsConfirmation
+1: [       OK ] SceneTracker.QuarterTurnEquivalentAndRotationNeedsConfirmation (0 ms)
+1: [----------] 3 tests from SceneTracker (0 ms total)
+1: 
+1: [----------] 1 test from SceneAssociation
+1: [ RUN      ] SceneAssociation.ReorderedSameColourAndAmbiguity
+1: [       OK ] SceneAssociation.ReorderedSameColourAndAmbiguity (0 ms)
+1: [----------] 1 test from SceneAssociation (0 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 4 tests from 2 test suites ran. (0 ms total)
+1: [  PASSED  ] 4 tests.
+1: -- run_test.py: return code 0
+1: -- run_test.py: inject classname prefix into gtest result file '/home/hanhan/Desktop/piper_classify_ws/build/classify_scene_bridge/test_results/classify_scene_bridge/test_scene_tracker.gtest.xml'
+1: -- run_test.py: verify result file '/home/hanhan/Desktop/piper_classify_ws/build/classify_scene_bridge/test_results/classify_scene_bridge/test_scene_tracker.gtest.xml'
+1/1 Test #1: test_scene_tracker ...............   Passed    0.16 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Label Time Summary:
+gtest    =   0.16 sec*proc (1 test)
+
+Total Test time (real) =   0.16 sec
+Finished <<< classify_scene_bridge [0.24s]
+Starting >>> classify_perception
+UpdateCTestConfiguration  from :/home/hanhan/Desktop/piper_classify_ws/build/classify_perception/CTestConfiguration.ini
+Parse Config file:/home/hanhan/Desktop/piper_classify_ws/build/classify_perception/CTestConfiguration.ini
+   Site: hanhan
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20261001-1809 - Experimental
+UpdateCTestConfiguration  from :/home/hanhan/Desktop/piper_classify_ws/build/classify_perception/CTestConfiguration.ini
+Parse Config file:/home/hanhan/Desktop/piper_classify_ws/build/classify_perception/CTestConfiguration.ini
+Test project /home/hanhan/Desktop/piper_classify_ws/build/classify_perception
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: test_block_geometry
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hanhan/Desktop/piper_classify_ws/build/classify_perception/test_results/classify_perception/test_block_geometry.gtest.xml" "--package-name" "classify_perception" "--output-file" "/home/hanhan/Desktop/piper_classify_ws/build/classify_perception/ament_cmake_gtest/test_block_geometry.txt" "--command" "/home/hanhan/Desktop/piper_classify_ws/build/classify_perception/test_block_geometry" "--gtest_output=xml:/home/hanhan/Desktop/piper_classify_ws/build/classify_perception/test_results/classify_perception/test_block_geometry.gtest.xml"
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/hanhan/Desktop/piper_classify_ws/build/classify_perception':
+1:  - /home/hanhan/Desktop/piper_classify_ws/build/classify_perception/test_block_geometry --gtest_output=xml:/home/hanhan/Desktop/piper_classify_ws/build/classify_perception/test_results/classify_perception/test_block_geometry.gtest.xml
+1: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+1: [==========] Running 4 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 4 tests from BlockGeometry
+1: [ RUN      ] BlockGeometry.FullTopAndNonuniformPerspectiveGiveSameCentre
+1: [       OK ] BlockGeometry.FullTopAndNonuniformPerspectiveGiveSameCentre (7 ms)
+1: [ RUN      ] BlockGeometry.RejectsSideOnlyAndCroppedTop
+1: [       OK ] BlockGeometry.RejectsSideOnlyAndCroppedTop (1 ms)
+1: [ RUN      ] BlockGeometry.RejectsWrongHeightAndRim
+1: [       OK ] BlockGeometry.RejectsWrongHeightAndRim (0 ms)
+1: [ RUN      ] BlockGeometry.RotatedSquareAndCroppedSquare
+1: [       OK ] BlockGeometry.RotatedSquareAndCroppedSquare (6 ms)
+1: [----------] 4 tests from BlockGeometry (14 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 4 tests from 1 test suite ran. (14 ms total)
+1: [  PASSED  ] 4 tests.
+1: -- run_test.py: return code 0
+1: -- run_test.py: inject classname prefix into gtest result file '/home/hanhan/Desktop/piper_classify_ws/build/classify_perception/test_results/classify_perception/test_block_geometry.gtest.xml'
+1: -- run_test.py: verify result file '/home/hanhan/Desktop/piper_classify_ws/build/classify_perception/test_results/classify_perception/test_block_geometry.gtest.xml'
+1/1 Test #1: test_block_geometry ..............   Passed    0.18 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Label Time Summary:
+gtest    =   0.18 sec*proc (1 test)
+
+Total Test time (real) =   0.18 sec
+Finished <<< classify_perception [0.26s]
+Starting >>> classify_task
+UpdateCTestConfiguration  from :/home/hanhan/Desktop/piper_classify_ws/build/classify_task/CTestConfiguration.ini
+Parse Config file:/home/hanhan/Desktop/piper_classify_ws/build/classify_task/CTestConfiguration.ini
+   Site: hanhan
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20261001-1809 - Experimental
+UpdateCTestConfiguration  from :/home/hanhan/Desktop/piper_classify_ws/build/classify_task/CTestConfiguration.ini
+Parse Config file:/home/hanhan/Desktop/piper_classify_ws/build/classify_task/CTestConfiguration.ini
+Test project /home/hanhan/Desktop/piper_classify_ws/build/classify_task
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: test_bin_layout
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hanhan/Desktop/piper_classify_ws/build/classify_task/test_results/classify_task/test_bin_layout.gtest.xml" "--package-name" "classify_task" "--output-file" "/home/hanhan/Desktop/piper_classify_ws/build/classify_task/ament_cmake_gtest/test_bin_layout.txt" "--command" "/home/hanhan/Desktop/piper_classify_ws/build/classify_task/test_bin_layout" "--gtest_output=xml:/home/hanhan/Desktop/piper_classify_ws/build/classify_task/test_results/classify_task/test_bin_layout.gtest.xml"
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/hanhan/Desktop/piper_classify_ws/build/classify_task':
+1:  - /home/hanhan/Desktop/piper_classify_ws/build/classify_task/test_bin_layout --gtest_output=xml:/home/hanhan/Desktop/piper_classify_ws/build/classify_task/test_results/classify_task/test_bin_layout.gtest.xml
+1: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+1: [==========] Running 2 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 2 tests from BinLayout
+1: [ RUN      ] BinLayout.CapacityAndSeparatedSlots
+1: [       OK ] BinLayout.CapacityAndSeparatedSlots (0 ms)
+1: [ RUN      ] BinLayout.ChecksCornersInRotatedBinAndOrientedOverlap
+1: [       OK ] BinLayout.ChecksCornersInRotatedBinAndOrientedOverlap (0 ms)
+1: [----------] 2 tests from BinLayout (0 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 2 tests from 1 test suite ran. (0 ms total)
+1: [  PASSED  ] 2 tests.
+1: -- run_test.py: return code 0
+1: -- run_test.py: inject classname prefix into gtest result file '/home/hanhan/Desktop/piper_classify_ws/build/classify_task/test_results/classify_task/test_bin_layout.gtest.xml'
+1: -- run_test.py: verify result file '/home/hanhan/Desktop/piper_classify_ws/build/classify_task/test_results/classify_task/test_bin_layout.gtest.xml'
+1/1 Test #1: test_bin_layout ..................   Passed    0.15 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Label Time Summary:
+gtest    =   0.15 sec*proc (1 test)
+
+Total Test time (real) =   0.15 sec
+Finished <<< classify_task [0.24s]
+
+Summary: 4 packages finished [1.86s]

@@ -1,0 +1,17 @@
+/**:
+  ros__parameters:
+    objects: [red, blue]
+    tcp_offset: 0.132
+    tool_tilt_degrees: 30.0
+    bin_tool_tilt_degrees: 45.0
+    pregrasp_distance: 0.075
+    lift_distance: 0.18
+    release_clearance: 0.025
+    gripper_grasp_position: 0.0225
+    planning_timeout: 30.0
+    velocity_scaling: 0.20
+    acceleration_scaling: 0.15
+    cartesian_jump_threshold: 10.0
+    vision_timeout: 20.0
+    auto_start: false
+    plan_only: false

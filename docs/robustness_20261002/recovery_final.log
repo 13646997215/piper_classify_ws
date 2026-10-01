@@ -1,0 +1,17 @@
+TRIAL_START: occlusion_cancel
+TRIAL_OK: occlusion_cancel
+Stopping workspace launch groups: 703152
+Classification simulation stopped; next launch loads the initial world.
+TRIAL_START: vision_timeout_fail
+TRIAL_OK: vision_timeout_fail
+Stopping workspace launch groups: 703874
+Classification simulation stopped; next launch loads the initial world.
+TRIAL_START: held_cancel
+TRIAL_OK: held_cancel
+Stopping workspace launch groups: 704814
+Classification simulation stopped; next launch loads the initial world.
+TRIAL_START: reset_after_cancel
+TRIAL_OK: reset_after_cancel
+Stopping workspace launch groups: 705635
+Classification simulation stopped; next launch loads the initial world.
+ROBUSTNESS_SUITE_OK: 4 trials

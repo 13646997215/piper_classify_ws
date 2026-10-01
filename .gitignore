@@ -1,0 +1,33 @@
+# colcon output and runtime logs
+/build/
+/install/
+/log/
+
+# Local editor state and language indexes
+/.vscode/
+/.idea/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+*~
+*.swp
+*.swo
+
+# Generated models contain workspace-specific absolute paths
+/src/description/classify_description/urdf/piper_sim.urdf
+/src/description/classify_description/urdf/piper_sim_rviz.urdf
+
+# Raw capture data and redundant local source archives
+/docs/**/*.npz
+/docs/closeout_20261002/source_snapshot.tar.gz
+/docs/gemini335_fov_20261001/reference/*.pdf
+/docs/task_local_check/
+/docs/*_local_check/
+
+# Credentials and private local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key

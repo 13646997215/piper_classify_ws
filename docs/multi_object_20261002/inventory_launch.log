@@ -1,0 +1,259 @@
+[INFO] [launch]: All log files can be found below /home/hanhan/Desktop/piper_classify_ws/log/classify_runtime/2026-10-02-02-37-17-429272-hanhan-756619
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [gzserver-1]: process started with pid [756632]
+[INFO] [align_rgbd-2]: process started with pid [756634]
+[INFO] [robot_state_publisher-3]: process started with pid [756636]
+[INFO] [spawn_entity.py-4]: process started with pid [756638]
+[INFO] [move_group-5]: process started with pid [756640]
+[INFO] [scene_bridge-6]: process started with pid [756642]
+[INFO] [detect_blocks-7]: process started with pid [756644]
+[INFO] [classify_task_node-8]: process started with pid [756646]
+[robot_state_publisher-3] [INFO] [1790879838.688898105] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-3] [INFO] [1790879838.689190880] [robot_state_publisher]: got segment camera_color_frame
+[robot_state_publisher-3] [INFO] [1790879838.689247140] [robot_state_publisher]: got segment camera_color_optical_frame
+[robot_state_publisher-3] [INFO] [1790879838.689271002] [robot_state_publisher]: got segment camera_depth_frame
+[robot_state_publisher-3] [INFO] [1790879838.689290862] [robot_state_publisher]: got segment camera_depth_optical_frame
+[robot_state_publisher-3] [INFO] [1790879838.689309769] [robot_state_publisher]: got segment camera_link
+[robot_state_publisher-3] [INFO] [1790879838.689328458] [robot_state_publisher]: got segment camera_optical_frame
+[robot_state_publisher-3] [INFO] [1790879838.689346893] [robot_state_publisher]: got segment gripper_base
+[robot_state_publisher-3] [INFO] [1790879838.689366591] [robot_state_publisher]: got segment link1
+[robot_state_publisher-3] [INFO] [1790879838.689385553] [robot_state_publisher]: got segment link2
+[robot_state_publisher-3] [INFO] [1790879838.689403551] [robot_state_publisher]: got segment link3
+[robot_state_publisher-3] [INFO] [1790879838.689422008] [robot_state_publisher]: got segment link4
+[robot_state_publisher-3] [INFO] [1790879838.689439626] [robot_state_publisher]: got segment link5
+[robot_state_publisher-3] [INFO] [1790879838.689456736] [robot_state_publisher]: got segment link6
+[robot_state_publisher-3] [INFO] [1790879838.689474146] [robot_state_publisher]: got segment link7
+[robot_state_publisher-3] [INFO] [1790879838.689492291] [robot_state_publisher]: got segment link8
+[robot_state_publisher-3] [INFO] [1790879838.689509851] [robot_state_publisher]: got segment world
+[move_group-5] [INFO] [1790879838.771218531] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[move_group-5] [INFO] [1790879838.771387609] [moveit_robot_model.robot_model]: Loading robot model 'piper'...
+[move_group-5] [INFO] [1790879838.771408024] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[move_group-5] [INFO] [1790879838.823755390] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-5] [INFO] [1790879838.824112882] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-5] [INFO] [1790879838.826175678] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-5] [INFO] [1790879838.827564478] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-5] [INFO] [1790879838.827646864] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[move_group-5] [INFO] [1790879838.830609463] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-5] [INFO] [1790879838.830670173] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-5] [INFO] [1790879838.833139063] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-5] [INFO] [1790879838.834086882] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-5] [WARN] [1790879838.834489488] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-5] [ERROR] [1790879838.834525034] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[move_group-5] [INFO] [1790879838.837553581] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[align_rgbd-2] [INFO] [1790879838.842567365] [gemini335_registration]: Gemini 335 D2C: separate optical centres, 16UC1 mm, nominal intrinsics; exact sensor pairing
+[move_group-5] [INFO] [1790879838.860304148] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[move_group-5] [INFO] [1790879838.864066209] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[move_group-5] [INFO] [1790879838.864106071] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[move_group-5] [INFO] [1790879838.864116561] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[move_group-5] [INFO] [1790879838.864164937] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-5] [INFO] [1790879838.864191605] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[move_group-5] [INFO] [1790879838.864199645] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-5] [INFO] [1790879838.864232761] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-5] [INFO] [1790879838.864241162] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[move_group-5] [INFO] [1790879838.864250399] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[move_group-5] [INFO] [1790879838.864270029] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-5] [INFO] [1790879838.864277199] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[move_group-5] [INFO] [1790879838.864282302] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-5] [INFO] [1790879838.864287707] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-5] [INFO] [1790879838.864292817] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-5] [INFO] [1790879838.864298758] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-5] [WARN] [1790879838.870656050] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[move_group-5] [INFO] [1790879838.936419536] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for piper_arm_controller
+[move_group-5] [INFO] [1790879838.941150205] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for piper_gripper_controller
+[move_group-5] [INFO] [1790879838.941567851] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790879838.941635095] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790879838.942528765] [moveit_ros.trajectory_execution_manager]: Trajectory execution is not managing controllers
+[move_group-5] [INFO] [1790879838.942622065] [move_group.move_group]: MoveGroup debug mode is ON
+[move_group-5] [INFO] [1790879838.989227921] [move_group.move_group]: 
+[move_group-5] 
+[move_group-5] ********************************************************
+[move_group-5] * MoveGroup using: 
+[move_group-5] *     - ApplyPlanningSceneService
+[move_group-5] *     - ClearOctomapService
+[move_group-5] *     - CartesianPathService
+[move_group-5] *     - ExecuteTrajectoryAction
+[move_group-5] *     - GetPlanningSceneService
+[move_group-5] *     - KinematicsService
+[move_group-5] *     - MoveAction
+[move_group-5] *     - MotionPlanService
+[move_group-5] *     - QueryPlannersService
+[move_group-5] *     - StateValidationService
+[move_group-5] ********************************************************
+[move_group-5] 
+[move_group-5] [INFO] [1790879838.989337080] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[move_group-5] [INFO] [1790879838.989366782] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[move_group-5] [96mLoading 'move_group/ApplyPlanningSceneService'...
+[move_group-5] [0m[96mLoading 'move_group/ClearOctomapService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupCartesianPathService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupGetPlanningSceneService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupKinematicsService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupMoveAction'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupPlanService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupQueryPlannersService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupStateValidationService'...
+[move_group-5] [0m[92m
+[move_group-5] You can start planning now!
+[move_group-5] 
+[scene_bridge-6] [INFO] [1790879839.029680233] [scene_bridge]: Planning scene ready: table top, four legs, red and blue bins
+[spawn_entity.py-4] [INFO] [1790879840.147081048] [spawn_piper]: Spawn Entity started
+[spawn_entity.py-4] [INFO] [1790879840.147694031] [spawn_piper]: Loading entity published on topic robot_description
+[spawn_entity.py-4] [INFO] [1790879840.151625929] [spawn_piper]: Waiting for entity xml on robot_description
+[spawn_entity.py-4] [INFO] [1790879840.163689888] [spawn_piper]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-4] [INFO] [1790879840.164234920] [spawn_piper]: Waiting for service /spawn_entity
+[gzserver-1] [INFO] [1790879841.021102728] [gazebo.classify_entity_state]: Publishing states of gazebo models at [/gazebo/model_states]
+[gzserver-1] [INFO] [1790879841.022781168] [gazebo.classify_entity_state]: Publishing states of gazebo links at [/gazebo/link_states]
+[spawn_entity.py-4] [INFO] [1790879841.172716062] [spawn_piper]: Calling service /spawn_entity
+[gzserver-1] [INFO] [1790879841.984780930] [camera.gemini335_color_controller]: Publishing camera info to [/camera/color/gazebo_camera_info]
+[spawn_entity.py-4] [INFO] [1790879841.999282184] [spawn_piper]: Spawn status: SpawnEntity: Successfully spawned entity [piper]
+[gzserver-1] [INFO] [1790879842.013433578] [camera.gemini335_depth_controller]: Publishing camera info to [/camera/native/gazebo_camera_info]
+[gzserver-1] [INFO] [1790879842.021045566] [camera.gemini335_depth_controller]: Publishing depth camera info to [/camera/native/depth/gazebo_camera_info]
+[gzserver-1] [INFO] [1790879842.022477133] [camera.gemini335_depth_controller]: Publishing pointcloud to [/camera/native/points]
+[gzserver-1] [INFO] [1790879842.123219800] [classify_contact_grasp]: Contact grasp active: both fingers, side normals, 50 ms contact; release on opening
+[gzserver-1] [INFO] [1790879842.160740277] [gazebo_ros2_control]: Loading gazebo_ros2_control plugin
+[gzserver-1] [INFO] [1790879842.170878549] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in namespace: /
+[gzserver-1] [INFO] [1790879842.170956676] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in ros 2 node: gazebo_ros2_control
+[gzserver-1] [INFO] [1790879842.180161502] [gazebo_ros2_control]: connected to service!! robot_state_publisher
+[gzserver-1] [INFO] [1790879842.181541645] [gazebo_ros2_control]: Received urdf from param server, parsing...
+[gzserver-1] [INFO] [1790879842.181648991] [gazebo_ros2_control]: Loading parameter files /home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/config/ros2_controllers.yaml
+[INFO] [spawn_entity.py-4]: process has finished cleanly [pid 756638]
+[INFO] [spawner-9]: process started with pid [756910]
+[INFO] [spawner-10]: process started with pid [756912]
+[INFO] [spawner-11]: process started with pid [756914]
+[gzserver-1] [INFO] [1790879842.203419020] [gazebo_ros2_control]: Loading joint: joint1
+[gzserver-1] [INFO] [1790879842.203510296] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790879842.203536620] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790879842.203561260] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790879842.203588122] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790879842.203605401] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790879842.203621281] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790879842.204508809] [gazebo_ros2_control]: Loading joint: joint2
+[gzserver-1] [INFO] [1790879842.204572636] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790879842.204589439] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790879842.204610137] [gazebo_ros2_control]: 			 found initial value: 0.872660
+[gzserver-1] [INFO] [1790879842.204634871] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790879842.204651103] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790879842.204668633] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790879842.204990889] [gazebo_ros2_control]: Loading joint: joint3
+[gzserver-1] [INFO] [1790879842.205014905] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790879842.205024835] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790879842.205037177] [gazebo_ros2_control]: 			 found initial value: -1.221730
+[gzserver-1] [INFO] [1790879842.205050135] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790879842.205059140] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790879842.205068103] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790879842.205328192] [gazebo_ros2_control]: Loading joint: joint4
+[gzserver-1] [INFO] [1790879842.205347665] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790879842.205362698] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790879842.205378900] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790879842.205397708] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790879842.205412906] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790879842.205425827] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790879842.205709430] [gazebo_ros2_control]: Loading joint: joint5
+[gzserver-1] [INFO] [1790879842.205735320] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790879842.205750397] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790879842.205769825] [gazebo_ros2_control]: 			 found initial value: 1.220000
+[gzserver-1] [INFO] [1790879842.205790176] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790879842.205804757] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790879842.205818967] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790879842.206144706] [gazebo_ros2_control]: Loading joint: joint6
+[gzserver-1] [INFO] [1790879842.206172849] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790879842.206296540] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790879842.206317521] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790879842.206337412] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790879842.206347300] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790879842.206356466] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790879842.207272637] [gazebo_ros2_control]: Loading joint: joint7
+[gzserver-1] [INFO] [1790879842.207347800] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790879842.207374322] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790879842.207398183] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790879842.207429909] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790879842.207452749] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790879842.207474762] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790879842.207956119] [gazebo_ros2_control]: Loading joint: joint8
+[gzserver-1] [INFO] [1790879842.208012094] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790879842.208036230] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790879842.208059400] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790879842.208089987] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790879842.208112655] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790879842.208135142] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790879842.209611228] [resource_manager]: Initialize hardware 'GazeboSystem' 
+[gzserver-1] [INFO] [1790879842.210050581] [resource_manager]: Successful initialization of hardware 'GazeboSystem'
+[gzserver-1] [INFO] [1790879842.210304152] [resource_manager]: 'configure' hardware 'GazeboSystem' 
+[gzserver-1] [INFO] [1790879842.210339644] [resource_manager]: Successful 'configure' of hardware 'GazeboSystem'
+[gzserver-1] [INFO] [1790879842.210360741] [resource_manager]: 'activate' hardware 'GazeboSystem' 
+[gzserver-1] [INFO] [1790879842.210376615] [resource_manager]: Successful 'activate' of hardware 'GazeboSystem'
+[gzserver-1] [INFO] [1790879842.210552663] [gazebo_ros2_control]: Loading controller_manager
+[gzserver-1] [WARN] [1790879842.260728967] [gazebo_ros2_control]:  Desired controller update period (0.01 s) is slower than the gazebo simulation period (0.001 s).
+[gzserver-1] [INFO] [1790879842.261312049] [gazebo_ros2_control]: Loaded gazebo_ros2_control.
+[gzserver-1] [INFO] [1790879843.316316856] [controller_manager]: Loading controller 'piper_joint_state_broadcaster'
+[spawner-9] [INFO] [1790879843.386929878] [spawner_piper_joint_state_broadcaster]: [94mLoaded [1mpiper_joint_state_broadcaster[0m
+[gzserver-1] [INFO] [1790879843.389153569] [controller_manager]: Configuring controller 'piper_joint_state_broadcaster'
+[gzserver-1] [INFO] [1790879843.389663545] [piper_joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[spawner-9] [INFO] [1790879843.427842573] [spawner_piper_joint_state_broadcaster]: [92mConfigured and activated [1mpiper_joint_state_broadcaster[0m
+[INFO] [spawner-9]: process has finished cleanly [pid 756910]
+[gzserver-1] [INFO] [1790879843.914099073] [controller_manager]: Loading controller 'piper_arm_controller'
+[gzserver-1] [WARN] [1790879843.955770666] [piper_arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[spawner-10] [INFO] [1790879844.019607613] [spawner_piper_arm_controller]: [94mLoaded [1mpiper_arm_controller[0m
+[gzserver-1] [INFO] [1790879844.026230334] [controller_manager]: Configuring controller 'piper_arm_controller'
+[gzserver-1] [INFO] [1790879844.026743156] [piper_arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-1] [INFO] [1790879844.026864653] [piper_arm_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[gzserver-1] [INFO] [1790879844.026963465] [piper_arm_controller]: Using 'splines' interpolation method.
+[gzserver-1] [INFO] [1790879844.032169724] [piper_arm_controller]: Controller state will be published at 50.00 Hz.
+[gzserver-1] [INFO] [1790879844.038819959] [piper_arm_controller]: Action status changes will be monitored at 20.00 Hz.
+[spawner-10] [INFO] [1790879844.088900534] [spawner_piper_arm_controller]: [92mConfigured and activated [1mpiper_arm_controller[0m
+[detect_blocks-7] [INFO] [1790879844.256083276] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710587,0.0283441) red=(0.499994,0.0735314,0.0283463) green=(0.400022,0.140357,0.0283564) blue=(0.399701,-0.139032,0.0283659)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[classify_task_node-8] [INFO] [1790879844.261417980] [classify_task]: DETECTING: initialize 
+[gzserver-1] [INFO] [1790879844.263705817] [controller_manager]: Loading controller 'piper_gripper_controller'
+[classify_task_node-8] [INFO] [1790879844.266961657] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[classify_task_node-8] [INFO] [1790879844.267042130] [moveit_robot_model.robot_model]: Loading robot model 'piper'...
+[classify_task_node-8] [INFO] [1790879844.267058636] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[INFO] [spawner-10]: process has finished cleanly [pid 756912]
+[gzserver-1] [WARN] [1790879844.294535946] [piper_gripper_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[classify_task_node-8] [INFO] [1790879844.304356869] [move_group_interface]: Ready to take commands for planning group arm.
+[classify_task_node-8] [INFO] [1790879844.324249480] [move_group_interface]: Ready to take commands for planning group gripper.
+[spawner-11] [INFO] [1790879844.336651340] [spawner_piper_gripper_controller]: [94mLoaded [1mpiper_gripper_controller[0m
+[gzserver-1] [INFO] [1790879844.339573068] [controller_manager]: Configuring controller 'piper_gripper_controller'
+[gzserver-1] [INFO] [1790879844.339833891] [piper_gripper_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-1] [INFO] [1790879844.339870853] [piper_gripper_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[gzserver-1] [INFO] [1790879844.339898121] [piper_gripper_controller]: Using 'splines' interpolation method.
+[gzserver-1] [INFO] [1790879844.341220812] [piper_gripper_controller]: Controller state will be published at 50.00 Hz.
+[gzserver-1] [INFO] [1790879844.344859783] [piper_gripper_controller]: Action status changes will be monitored at 20.00 Hz.
+[classify_task_node-8] [INFO] [1790879844.352667163] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[spawner-11] [INFO] [1790879844.382248703] [spawner_piper_gripper_controller]: [92mConfigured and activated [1mpiper_gripper_controller[0m
+[classify_task_node-8] [INFO] [1790879844.405716963] [classify_task]: DETECTING: confirm full inventory 
+[INFO] [spawner-11]: process has finished cleanly [pid 756914]
+[detect_blocks-7] [INFO] [1790879846.384873753] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[move_group-5] [INFO] [1790879847.268568683] [moveit_ros.trajectory_execution_manager]: Received event 'stop'
+[move_group-5] [INFO] [1790879847.268916356] [moveit_ros.trajectory_execution_manager]: Received event 'stop'
+[classify_task_node-8] [WARN] [1790879847.308701859] [classify_task]: TASK_CANCELLED: gripper retained; reset required before retry
+[classify_task_node-8] [INFO] [1790879847.308961430] [classify_task]: CLASSIFICATION_RESULT success=false succeeded=0 failed=0 elapsed=3.0s
+[detect_blocks-7] [INFO] [1790879848.489436363] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879850.517488174] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879852.786561387] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710587,0.0283344) red=(0.499977,0.0735649,0.0283339) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879855.118001010] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879857.214843610] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710587,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879859.346399770] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499977,0.0735649,0.0283339) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879861.586755848] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710587,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879863.812247150] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879865.829371661] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879868.037240841] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499977,0.0735649,0.0283339) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879870.194186935] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710587,0.0283344) red=(0.499977,0.0735649,0.0283339) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879872.346652366] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879874.478590423] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710587,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879876.566063470] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710587,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879878.636833107] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710587,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879880.725154181] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710588,0.0283344) red=(0.499977,0.0735649,0.0283339) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879882.716408893] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499977,0.0735649,0.0283339) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879884.667759602] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879886.813230194] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879888.991403367] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499977,0.0735649,0.0283339) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879891.362959655] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879893.493294964] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879895.558589550] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499977,0.0735649,0.0283339) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879897.653951071] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879899.719663314] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710587,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879901.929804158] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879903.950773575] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499977,0.0735649,0.0283339) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879906.019145515] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879908.289983616] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710589,0.0283344) red=(0.499977,0.0735649,0.0283339) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)
+[detect_blocks-7] [INFO] [1790879910.372348072] [detect_blocks]: Detected 4 reliable blocks: red=(0.400323,0.000710587,0.0283344) red=(0.499988,0.0735488,0.0283345) green=(0.400022,0.140357,0.0283525) blue=(0.399701,-0.139029,0.0283585)  (Reliable visible top surfaces; expected counts checked by scene bridge)

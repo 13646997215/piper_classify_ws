@@ -1,0 +1,12 @@
+load_errors=0
+model=piper links=9
+ link=base_link pose=0 0 0 0 -0 0 sensors=0
+ link=link1 pose=0 0 0 0 -0 0 sensors=0
+ link=link2 pose=0 0 0 0 -0 0 sensors=0
+ link=link3 pose=0 0 0 0 -0 0 sensors=0
+ link=link4 pose=0 0 0 0 -0 0 sensors=0
+ link=link5 pose=0 0 0 0 -0 0 sensors=0
+ link=link6 pose=0 0 0 0 -0 0 sensors=1
+ sensor=wrist_depth_sensor pose=-0.09294 0.01914 0.02915 -0.05907 0.00275 -1.58335
+ link=link7 pose=0 0 0 0 -0 0 sensors=0
+ link=link8 pose=0 0 0 0 -0 0 sensors=0

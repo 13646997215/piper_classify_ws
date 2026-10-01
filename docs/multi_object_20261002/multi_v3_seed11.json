@@ -1,0 +1,44 @@
+{
+  "profile": "multi",
+  "seed": 11,
+  "source_sha256": "ccdb214c469793f5dd54d263625adf7fc989cea2bab8af96fca18308d27a6feb",
+  "world": "/home/hanhan/Desktop/piper_classify_ws/docs/multi_object_20261002/multi_v3_seed11.world",
+  "world_sha256": "fd6c5000ee0d57633341f8745fbad402de65862c8e8d9e74b7eef632af6445fe",
+  "pickup_poses": {
+    "red_block": [
+      0.5000156825461245,
+      0.07317476965769978,
+      0.375,
+      0,
+      0,
+      0.3729650049150741
+    ],
+    "blue_block": [
+      0.5000238172780836,
+      -0.0647402345595664,
+      0.375,
+      0,
+      0,
+      -0.3039324432436416
+    ],
+    "red_block_2": [
+      0.39918824691245847,
+      -0.000393197474750949,
+      0.375,
+      0,
+      0,
+      0.1951512165469474
+    ],
+    "blue_block_2": [
+      0.4006192890687344,
+      -0.13961312303491755,
+      0.375,
+      0,
+      0,
+      -0.19052431819638319
+    ]
+  },
+  "obstacles": [],
+  "green_unchanged": true,
+  "limits": "Two red/two blue 50 mm cubes; oriented tops and two slots per bin; physics constraint grasp remains ideal"
+}

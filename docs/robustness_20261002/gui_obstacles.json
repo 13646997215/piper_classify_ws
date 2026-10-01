@@ -1,0 +1,190 @@
+{
+  "obstacle_between_bins": {
+    "position_error_m": 0.0,
+    "scene_object": {
+      "header": {
+        "stamp": {
+          "sec": 0,
+          "nanosec": 0
+        },
+        "frame_id": "world"
+      },
+      "pose": {
+        "position": {
+          "x": 0.53,
+          "y": 0.0,
+          "z": 0.39
+        },
+        "orientation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        }
+      },
+      "id": "obstacle_between_bins",
+      "type": {
+        "key": "",
+        "db": ""
+      },
+      "primitives": [
+        {
+          "type": 1,
+          "dimensions": [
+            0.055,
+            0.08,
+            0.08
+          ],
+          "polygon": {
+            "points": []
+          }
+        }
+      ],
+      "primitive_poses": [
+        {
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        }
+      ],
+      "meshes": [],
+      "mesh_poses": [],
+      "planes": [],
+      "plane_poses": [],
+      "subframe_names": [],
+      "subframe_poses": [],
+      "operation": "\u0000"
+    },
+    "gazebo": {
+      "name": "",
+      "pose": {
+        "position": {
+          "x": 0.53,
+          "y": 0.0,
+          "z": 0.39
+        },
+        "orientation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        }
+      },
+      "twist": {
+        "linear": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "angular": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "reference_frame": ""
+    }
+  },
+  "obstacle_front_corner": {
+    "position_error_m": 0.0,
+    "scene_object": {
+      "header": {
+        "stamp": {
+          "sec": 0,
+          "nanosec": 0
+        },
+        "frame_id": "world"
+      },
+      "pose": {
+        "position": {
+          "x": 0.25,
+          "y": -0.31,
+          "z": 0.39
+        },
+        "orientation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        }
+      },
+      "id": "obstacle_front_corner",
+      "type": {
+        "key": "",
+        "db": ""
+      },
+      "primitives": [
+        {
+          "type": 1,
+          "dimensions": [
+            0.065,
+            0.065,
+            0.08
+          ],
+          "polygon": {
+            "points": []
+          }
+        }
+      ],
+      "primitive_poses": [
+        {
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        }
+      ],
+      "meshes": [],
+      "mesh_poses": [],
+      "planes": [],
+      "plane_poses": [],
+      "subframe_names": [],
+      "subframe_poses": [],
+      "operation": "\u0000"
+    },
+    "gazebo": {
+      "name": "",
+      "pose": {
+        "position": {
+          "x": 0.25,
+          "y": -0.31,
+          "z": 0.39
+        },
+        "orientation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        }
+      },
+      "twist": {
+        "linear": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "angular": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "reference_frame": ""
+    }
+  }
+}

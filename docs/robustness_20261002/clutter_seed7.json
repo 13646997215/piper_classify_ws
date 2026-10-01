@@ -1,0 +1,61 @@
+{
+  "profile": "clutter",
+  "seed": 7,
+  "source_sha256": "ccdb214c469793f5dd54d263625adf7fc989cea2bab8af96fca18308d27a6feb",
+  "world": "/home/hanhan/Desktop/piper_classify_ws/docs/robustness_20261002/clutter_seed7.world",
+  "world_sha256": "0f67ce700d7ac68ba7ce40d116196f1b708cbb6f0482951f2f436db90c2a9a12",
+  "pickup_poses": {
+    "red_block": [
+      0.3878289897669969,
+      -0.01256942973871793,
+      0.375,
+      0.0,
+      0.0,
+      -1.57079632679
+    ],
+    "blue_block": [
+      0.3937168205147174,
+      -0.15539229367996849,
+      0.375,
+      0.0,
+      0.0,
+      -1.57079632679
+    ]
+  },
+  "obstacles": [
+    {
+      "name": "obstacle_between_bins",
+      "pose": [
+        0.53,
+        0.0,
+        0.39,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.055,
+        0.08,
+        0.08
+      ]
+    },
+    {
+      "name": "obstacle_front_corner",
+      "pose": [
+        0.25,
+        -0.31,
+        0.39,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.065,
+        0.065,
+        0.08
+      ]
+    }
+  ],
+  "green_unchanged": true,
+  "limits": "One 50 mm cube per colour; yaw unchanged; physics constraint grasp remains ideal"
+}

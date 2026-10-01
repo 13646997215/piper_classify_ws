@@ -1,0 +1,545 @@
+{
+  "source_label": "simulation",
+  "serial_label": "not_recorded",
+  "source_label_is_not_device_authentication": true,
+  "camera_info": {
+    "color": {
+      "header": {
+        "stamp": {
+          "sec": 7,
+          "nanosec": 836000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "height": 480,
+      "width": 640,
+      "distortion_model": "plumb_bob",
+      "d": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k": [
+        457.0073621574767,
+        0.0,
+        320.0,
+        0.0,
+        461.03571047307986,
+        240.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "r": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "p": [
+        457.0073621574767,
+        0.0,
+        320.0,
+        0.0,
+        0.0,
+        461.03571047307986,
+        240.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "binning_x": 0,
+      "binning_y": 0,
+      "roi": {
+        "x_offset": 0,
+        "y_offset": 0,
+        "height": 0,
+        "width": 0,
+        "do_rectify": false
+      }
+    },
+    "depth": {
+      "header": {
+        "stamp": {
+          "sec": 7,
+          "nanosec": 836000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "height": 480,
+      "width": 640,
+      "distortion_model": "plumb_bob",
+      "d": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k": [
+        457.0073621574767,
+        0.0,
+        320.0,
+        0.0,
+        461.03571047307986,
+        240.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "r": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "p": [
+        457.0073621574767,
+        0.0,
+        320.0,
+        0.0,
+        0.0,
+        461.03571047307986,
+        240.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "binning_x": 0,
+      "binning_y": 0,
+      "roi": {
+        "x_offset": 0,
+        "y_offset": 0,
+        "height": 0,
+        "width": 0,
+        "do_rectify": false
+      }
+    }
+  },
+  "pairs": [
+    {
+      "index": 0,
+      "color_header": {
+        "stamp": {
+          "sec": 4,
+          "nanosec": 902000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "depth_header": {
+        "stamp": {
+          "sec": 4,
+          "nanosec": 902000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "time_difference_sec": 0.0,
+      "depth_encoding": "16UC1",
+      "depth_units": "millimetres"
+    },
+    {
+      "index": 1,
+      "color_header": {
+        "stamp": {
+          "sec": 5,
+          "nanosec": 436000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "depth_header": {
+        "stamp": {
+          "sec": 5,
+          "nanosec": 436000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "time_difference_sec": 0.0,
+      "depth_encoding": "16UC1",
+      "depth_units": "millimetres"
+    },
+    {
+      "index": 2,
+      "color_header": {
+        "stamp": {
+          "sec": 5,
+          "nanosec": 968000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "depth_header": {
+        "stamp": {
+          "sec": 5,
+          "nanosec": 968000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "time_difference_sec": 0.0,
+      "depth_encoding": "16UC1",
+      "depth_units": "millimetres"
+    },
+    {
+      "index": 3,
+      "color_header": {
+        "stamp": {
+          "sec": 6,
+          "nanosec": 568000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "depth_header": {
+        "stamp": {
+          "sec": 6,
+          "nanosec": 568000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "time_difference_sec": 0.0,
+      "depth_encoding": "16UC1",
+      "depth_units": "millimetres"
+    },
+    {
+      "index": 4,
+      "color_header": {
+        "stamp": {
+          "sec": 7,
+          "nanosec": 101000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "depth_header": {
+        "stamp": {
+          "sec": 7,
+          "nanosec": 101000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "time_difference_sec": 0.0,
+      "depth_encoding": "16UC1",
+      "depth_units": "millimetres"
+    },
+    {
+      "index": 5,
+      "color_header": {
+        "stamp": {
+          "sec": 7,
+          "nanosec": 768000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "depth_header": {
+        "stamp": {
+          "sec": 7,
+          "nanosec": 768000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "time_difference_sec": 0.0,
+      "depth_encoding": "16UC1",
+      "depth_units": "millimetres"
+    }
+  ],
+  "latest_transforms": {
+    "link6<-camera_color_optical_frame": {
+      "header": {
+        "stamp": {
+          "sec": 0,
+          "nanosec": 0
+        },
+        "frame_id": "link6"
+      },
+      "child_frame_id": "camera_color_optical_frame",
+      "transform": {
+        "translation": {
+          "x": -0.09293999999999998,
+          "y": 0.019139999999999997,
+          "z": 0.029149999999999995
+        },
+        "rotation": {
+          "x": -0.019771935183866378,
+          "y": 0.021977727696679127,
+          "z": -0.7111916953181117,
+          "w": 0.7023762685163315
+        }
+      }
+    },
+    "base_link<-camera_color_optical_frame": {
+      "header": {
+        "stamp": {
+          "sec": 7,
+          "nanosec": 892000000
+        },
+        "frame_id": "base_link"
+      },
+      "child_frame_id": "camera_color_optical_frame",
+      "transform": {
+        "translation": {
+          "x": 0.21692147440235976,
+          "y": 0.019155779625286834,
+          "z": 0.46194462898285626
+        },
+        "rotation": {
+          "x": 0.665210936320141,
+          "y": -0.6578075871351283,
+          "z": 0.2524691352489103,
+          "w": -0.2470686630356211
+        }
+      }
+    },
+    "camera_depth_optical_frame<-camera_color_optical_frame": {
+      "header": {
+        "stamp": {
+          "sec": 0,
+          "nanosec": 0
+        },
+        "frame_id": "camera_depth_optical_frame"
+      },
+      "child_frame_id": "camera_color_optical_frame",
+      "transform": {
+        "translation": {
+          "x": 0.013999999999999957,
+          "y": 0.0,
+          "z": 0.002020000000000133
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        }
+      }
+    }
+  },
+  "missing_transforms": [],
+  "topic_types": {
+    "/attached_collision_object": [
+      "moveit_msgs/msg/AttachedCollisionObject"
+    ],
+    "/camera/color/camera_info": [
+      "sensor_msgs/msg/CameraInfo"
+    ],
+    "/camera/color/gazebo_camera_info": [
+      "sensor_msgs/msg/CameraInfo"
+    ],
+    "/camera/color/image_raw": [
+      "sensor_msgs/msg/Image"
+    ],
+    "/camera/color/image_raw/compressed": [
+      "sensor_msgs/msg/CompressedImage"
+    ],
+    "/camera/color/image_raw/compressedDepth": [
+      "sensor_msgs/msg/CompressedImage"
+    ],
+    "/camera/color/image_raw/theora": [
+      "theora_image_transport/msg/Packet"
+    ],
+    "/camera/depth/camera_info": [
+      "sensor_msgs/msg/CameraInfo"
+    ],
+    "/camera/depth/image_raw": [
+      "sensor_msgs/msg/Image"
+    ],
+    "/camera/native/depth/camera_info": [
+      "sensor_msgs/msg/CameraInfo"
+    ],
+    "/camera/native/depth/gazebo_camera_info": [
+      "sensor_msgs/msg/CameraInfo"
+    ],
+    "/camera/native/depth/image_raw": [
+      "sensor_msgs/msg/Image"
+    ],
+    "/camera/native/depth/image_raw/compressed": [
+      "sensor_msgs/msg/CompressedImage"
+    ],
+    "/camera/native/depth/image_raw/compressedDepth": [
+      "sensor_msgs/msg/CompressedImage"
+    ],
+    "/camera/native/depth/image_raw/theora": [
+      "theora_image_transport/msg/Packet"
+    ],
+    "/camera/native/gazebo_camera_info": [
+      "sensor_msgs/msg/CameraInfo"
+    ],
+    "/camera/native/image_raw": [
+      "sensor_msgs/msg/Image"
+    ],
+    "/camera/native/image_raw/compressed": [
+      "sensor_msgs/msg/CompressedImage"
+    ],
+    "/camera/native/image_raw/compressedDepth": [
+      "sensor_msgs/msg/CompressedImage"
+    ],
+    "/camera/native/image_raw/theora": [
+      "theora_image_transport/msg/Packet"
+    ],
+    "/camera/native/points": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/classify/detection_markers": [
+      "visualization_msgs/msg/MarkerArray"
+    ],
+    "/classify/detections": [
+      "classify_interfaces/msg/DetectedBlocks"
+    ],
+    "/classify/grasped_object": [
+      "std_msgs/msg/String"
+    ],
+    "/classify/result": [
+      "classify_interfaces/msg/TaskResult"
+    ],
+    "/classify/scene_markers": [
+      "visualization_msgs/msg/MarkerArray"
+    ],
+    "/classify/scene_status": [
+      "classify_interfaces/msg/SceneStatus"
+    ],
+    "/classify/status": [
+      "classify_interfaces/msg/TaskStatus"
+    ],
+    "/classify/task_markers": [
+      "visualization_msgs/msg/MarkerArray"
+    ],
+    "/clock": [
+      "rosgraph_msgs/msg/Clock"
+    ],
+    "/collision_object": [
+      "moveit_msgs/msg/CollisionObject"
+    ],
+    "/display_contacts": [
+      "visualization_msgs/msg/MarkerArray"
+    ],
+    "/display_planned_path": [
+      "moveit_msgs/msg/DisplayTrajectory"
+    ],
+    "/dynamic_joint_states": [
+      "control_msgs/msg/DynamicJointState"
+    ],
+    "/execute_trajectory/_action/feedback": [
+      "moveit_msgs/action/ExecuteTrajectory_FeedbackMessage"
+    ],
+    "/execute_trajectory/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/gazebo/link_states": [
+      "gazebo_msgs/msg/LinkStates"
+    ],
+    "/gazebo/model_states": [
+      "gazebo_msgs/msg/ModelStates"
+    ],
+    "/joint_states": [
+      "sensor_msgs/msg/JointState"
+    ],
+    "/monitored_planning_scene": [
+      "moveit_msgs/msg/PlanningScene"
+    ],
+    "/motion_plan_request": [
+      "moveit_msgs/msg/MotionPlanRequest"
+    ],
+    "/move_action/_action/feedback": [
+      "moveit_msgs/action/MoveGroup_FeedbackMessage"
+    ],
+    "/move_action/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/parameter_events": [
+      "rcl_interfaces/msg/ParameterEvent"
+    ],
+    "/performance_metrics": [
+      "gazebo_msgs/msg/PerformanceMetrics"
+    ],
+    "/piper_arm_controller/controller_state": [
+      "control_msgs/msg/JointTrajectoryControllerState"
+    ],
+    "/piper_arm_controller/follow_joint_trajectory/_action/feedback": [
+      "control_msgs/action/FollowJointTrajectory_FeedbackMessage"
+    ],
+    "/piper_arm_controller/follow_joint_trajectory/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/piper_arm_controller/joint_trajectory": [
+      "trajectory_msgs/msg/JointTrajectory"
+    ],
+    "/piper_arm_controller/state": [
+      "control_msgs/msg/JointTrajectoryControllerState"
+    ],
+    "/piper_arm_controller/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/piper_gripper_controller/controller_state": [
+      "control_msgs/msg/JointTrajectoryControllerState"
+    ],
+    "/piper_gripper_controller/follow_joint_trajectory/_action/feedback": [
+      "control_msgs/action/FollowJointTrajectory_FeedbackMessage"
+    ],
+    "/piper_gripper_controller/follow_joint_trajectory/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/piper_gripper_controller/joint_trajectory": [
+      "trajectory_msgs/msg/JointTrajectory"
+    ],
+    "/piper_gripper_controller/state": [
+      "control_msgs/msg/JointTrajectoryControllerState"
+    ],
+    "/piper_gripper_controller/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/piper_joint_state_broadcaster/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/planning_scene": [
+      "moveit_msgs/msg/PlanningScene"
+    ],
+    "/planning_scene_world": [
+      "moveit_msgs/msg/PlanningSceneWorld"
+    ],
+    "/robot_description": [
+      "std_msgs/msg/String"
+    ],
+    "/robot_description_semantic": [
+      "std_msgs/msg/String"
+    ],
+    "/rosout": [
+      "rcl_interfaces/msg/Log"
+    ],
+    "/tf": [
+      "tf2_msgs/msg/TFMessage"
+    ],
+    "/tf_static": [
+      "tf2_msgs/msg/TFMessage"
+    ],
+    "/trajectory_execution_event": [
+      "std_msgs/msg/String"
+    ],
+    "/wrist_depth_sensor/camera_info": [
+      "sensor_msgs/msg/CameraInfo"
+    ],
+    "/wrist_depth_sensor/depth/image_raw": [
+      "sensor_msgs/msg/Image"
+    ],
+    "/wrist_depth_sensor/image_raw": [
+      "sensor_msgs/msg/Image"
+    ]
+  },
+  "failure": null,
+  "successful_stream_capture": true,
+  "limitations": [
+    "CameraInfo/TF reflect this running driver; original hand-eye raw samples still required",
+    "Aligned depth CameraInfo may equal RGB; native depth intrinsics need native topic",
+    "No measured noise or calibration is automatically imported into the simulator"
+  ]
+}

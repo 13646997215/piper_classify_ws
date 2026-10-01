@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>classify_scene_bridge</name>
+  <version>0.1.0</version>
+  <description>Mirrors the fixed Gazebo workcell and RGB-D detected blocks into the MoveIt planning scene.</description>
+  <maintainer email="hanhan@example.com">hanhan</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>classify_interfaces</depend>
+  <depend>geometry_msgs</depend>
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>moveit_msgs</depend>
+  <depend>shape_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>visualization_msgs</depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

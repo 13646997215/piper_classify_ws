@@ -1,0 +1,232 @@
+[INFO] [launch]: All log files can be found below /home/hanhan/Desktop/piper_classify_ws/log/classify_runtime/2026-10-02-01-32-45-914034-hanhan-703152
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [gzserver-1]: process started with pid [703173]
+[INFO] [align_rgbd-2]: process started with pid [703175]
+[INFO] [robot_state_publisher-3]: process started with pid [703177]
+[INFO] [spawn_entity.py-4]: process started with pid [703179]
+[INFO] [move_group-5]: process started with pid [703181]
+[INFO] [scene_bridge-6]: process started with pid [703183]
+[INFO] [detect_blocks-7]: process started with pid [703185]
+[INFO] [classify_task_node-8]: process started with pid [703187]
+[robot_state_publisher-3] [INFO] [1790875967.699105676] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-3] [INFO] [1790875967.699323332] [robot_state_publisher]: got segment camera_color_frame
+[robot_state_publisher-3] [INFO] [1790875967.699346556] [robot_state_publisher]: got segment camera_color_optical_frame
+[robot_state_publisher-3] [INFO] [1790875967.699381215] [robot_state_publisher]: got segment camera_depth_frame
+[robot_state_publisher-3] [INFO] [1790875967.699393820] [robot_state_publisher]: got segment camera_depth_optical_frame
+[robot_state_publisher-3] [INFO] [1790875967.699402885] [robot_state_publisher]: got segment camera_link
+[robot_state_publisher-3] [INFO] [1790875967.699411286] [robot_state_publisher]: got segment camera_optical_frame
+[robot_state_publisher-3] [INFO] [1790875967.699419481] [robot_state_publisher]: got segment gripper_base
+[robot_state_publisher-3] [INFO] [1790875967.699427697] [robot_state_publisher]: got segment link1
+[robot_state_publisher-3] [INFO] [1790875967.699435602] [robot_state_publisher]: got segment link2
+[robot_state_publisher-3] [INFO] [1790875967.699443252] [robot_state_publisher]: got segment link3
+[robot_state_publisher-3] [INFO] [1790875967.699451325] [robot_state_publisher]: got segment link4
+[robot_state_publisher-3] [INFO] [1790875967.699459089] [robot_state_publisher]: got segment link5
+[robot_state_publisher-3] [INFO] [1790875967.699466661] [robot_state_publisher]: got segment link6
+[robot_state_publisher-3] [INFO] [1790875967.699474175] [robot_state_publisher]: got segment link7
+[robot_state_publisher-3] [INFO] [1790875967.699482058] [robot_state_publisher]: got segment link8
+[robot_state_publisher-3] [INFO] [1790875967.699489503] [robot_state_publisher]: got segment world
+[move_group-5] [INFO] [1790875967.774058686] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[move_group-5] [INFO] [1790875967.774247104] [moveit_robot_model.robot_model]: Loading robot model 'piper'...
+[move_group-5] [INFO] [1790875967.774273479] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[move_group-5] [INFO] [1790875967.812996601] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-5] [INFO] [1790875967.813273072] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-5] [INFO] [1790875967.814399685] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-5] [INFO] [1790875967.814907449] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-5] [INFO] [1790875967.814932888] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[move_group-5] [INFO] [1790875967.815261231] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-5] [INFO] [1790875967.815279670] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-5] [INFO] [1790875967.815654911] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-5] [INFO] [1790875967.816003863] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-5] [WARN] [1790875967.817628743] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-5] [ERROR] [1790875967.817671082] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[move_group-5] [INFO] [1790875967.821841666] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[move_group-5] [INFO] [1790875967.848349709] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[align_rgbd-2] [INFO] [1790875967.850030801] [gemini335_registration]: Gemini 335 D2C: separate optical centres, 16UC1 mm, nominal intrinsics; exact sensor pairing
+[move_group-5] [INFO] [1790875967.853824688] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[move_group-5] [INFO] [1790875967.853881033] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[move_group-5] [INFO] [1790875967.853894174] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[move_group-5] [INFO] [1790875967.853953814] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-5] [INFO] [1790875967.853992797] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[move_group-5] [INFO] [1790875967.854005941] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-5] [INFO] [1790875967.854037346] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-5] [INFO] [1790875967.854051965] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[move_group-5] [INFO] [1790875967.854066735] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[move_group-5] [INFO] [1790875967.854096615] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-5] [INFO] [1790875967.854108237] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[move_group-5] [INFO] [1790875967.854117462] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-5] [INFO] [1790875967.854126910] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-5] [INFO] [1790875967.854135777] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-5] [INFO] [1790875967.854144466] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-5] [WARN] [1790875967.861132681] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[move_group-5] [INFO] [1790875967.922738243] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for piper_arm_controller
+[move_group-5] [INFO] [1790875967.926760161] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for piper_gripper_controller
+[move_group-5] [INFO] [1790875967.927083079] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875967.927137397] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875967.927952809] [moveit_ros.trajectory_execution_manager]: Trajectory execution is not managing controllers
+[move_group-5] [INFO] [1790875967.927994454] [move_group.move_group]: MoveGroup debug mode is ON
+[move_group-5] [INFO] [1790875967.962077259] [move_group.move_group]: 
+[move_group-5] 
+[move_group-5] ********************************************************
+[move_group-5] * MoveGroup using: 
+[move_group-5] *     - ApplyPlanningSceneService
+[move_group-5] *     - ClearOctomapService
+[move_group-5] *     - CartesianPathService
+[move_group-5] *     - ExecuteTrajectoryAction
+[move_group-5] *     - GetPlanningSceneService
+[move_group-5] *     - KinematicsService
+[move_group-5] *     - MoveAction
+[move_group-5] *     - MotionPlanService
+[move_group-5] *     - QueryPlannersService
+[move_group-5] *     - StateValidationService
+[move_group-5] ********************************************************
+[move_group-5] 
+[move_group-5] [INFO] [1790875967.962163278] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[move_group-5] [INFO] [1790875967.962191983] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[move_group-5] [96mLoading 'move_group/ApplyPlanningSceneService'...
+[move_group-5] [0m[96mLoading 'move_group/ClearOctomapService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupCartesianPathService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupGetPlanningSceneService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupKinematicsService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupMoveAction'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupPlanService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupQueryPlannersService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupStateValidationService'...
+[move_group-5] [0m[92m
+[move_group-5] You can start planning now!
+[move_group-5] 
+[scene_bridge-6] [INFO] [1790875967.982608044] [scene_bridge]: Planning scene ready: table top, four legs, red and blue bins
+[spawn_entity.py-4] [INFO] [1790875968.671348657] [spawn_piper]: Spawn Entity started
+[spawn_entity.py-4] [INFO] [1790875968.672116172] [spawn_piper]: Loading entity published on topic robot_description
+[spawn_entity.py-4] [INFO] [1790875968.676649447] [spawn_piper]: Waiting for entity xml on robot_description
+[spawn_entity.py-4] [INFO] [1790875968.689311808] [spawn_piper]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-4] [INFO] [1790875968.689885289] [spawn_piper]: Waiting for service /spawn_entity
+[gzserver-1] [INFO] [1790875969.447014137] [gazebo.classify_entity_state]: Publishing states of gazebo models at [/gazebo/model_states]
+[spawn_entity.py-4] [INFO] [1790875969.447461403] [spawn_piper]: Calling service /spawn_entity
+[gzserver-1] [INFO] [1790875969.448752924] [gazebo.classify_entity_state]: Publishing states of gazebo links at [/gazebo/link_states]
+[gzserver-1] [INFO] [1790875970.281380854] [camera.gemini335_color_controller]: Publishing camera info to [/camera/color/gazebo_camera_info]
+[spawn_entity.py-4] [INFO] [1790875970.298451782] [spawn_piper]: Spawn status: SpawnEntity: Successfully spawned entity [piper]
+[gzserver-1] [INFO] [1790875970.310265718] [camera.gemini335_depth_controller]: Publishing camera info to [/camera/native/gazebo_camera_info]
+[gzserver-1] [INFO] [1790875970.314550468] [camera.gemini335_depth_controller]: Publishing depth camera info to [/camera/native/depth/gazebo_camera_info]
+[gzserver-1] [INFO] [1790875970.315795937] [camera.gemini335_depth_controller]: Publishing pointcloud to [/camera/native/points]
+[gzserver-1] [INFO] [1790875970.425395267] [classify_contact_grasp]: Contact grasp active: both fingers, side normals, 50 ms contact; release on opening
+[gzserver-1] [INFO] [1790875970.461864694] [gazebo_ros2_control]: Loading gazebo_ros2_control plugin
+[gzserver-1] [INFO] [1790875970.473696383] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in namespace: /
+[gzserver-1] [INFO] [1790875970.473804762] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in ros 2 node: gazebo_ros2_control
+[gzserver-1] [INFO] [1790875970.482552029] [gazebo_ros2_control]: connected to service!! robot_state_publisher
+[gzserver-1] [INFO] [1790875970.484329316] [gazebo_ros2_control]: Received urdf from param server, parsing...
+[gzserver-1] [INFO] [1790875970.484464489] [gazebo_ros2_control]: Loading parameter files /home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/config/ros2_controllers.yaml
+[INFO] [spawn_entity.py-4]: process has finished cleanly [pid 703179]
+[INFO] [spawner-9]: process started with pid [703447]
+[INFO] [spawner-10]: process started with pid [703449]
+[INFO] [spawner-11]: process started with pid [703451]
+[gzserver-1] [INFO] [1790875970.511250466] [gazebo_ros2_control]: Loading joint: joint1
+[gzserver-1] [INFO] [1790875970.511360310] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790875970.511385169] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875970.511409631] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790875970.511438888] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790875970.511457784] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790875970.511475044] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875970.513107956] [gazebo_ros2_control]: Loading joint: joint2
+[gzserver-1] [INFO] [1790875970.513164015] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790875970.513183264] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875970.513214043] [gazebo_ros2_control]: 			 found initial value: 0.872660
+[gzserver-1] [INFO] [1790875970.513239690] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790875970.513257349] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790875970.513274417] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875970.513492940] [gazebo_ros2_control]: Loading joint: joint3
+[gzserver-1] [INFO] [1790875970.513512598] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790875970.513529254] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875970.513546777] [gazebo_ros2_control]: 			 found initial value: -1.221730
+[gzserver-1] [INFO] [1790875970.513566293] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790875970.513581938] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790875970.513597017] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875970.513801021] [gazebo_ros2_control]: Loading joint: joint4
+[gzserver-1] [INFO] [1790875970.513819063] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790875970.513834437] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875970.513850495] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790875970.513868638] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790875970.513884136] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790875970.513900087] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875970.514091673] [gazebo_ros2_control]: Loading joint: joint5
+[gzserver-1] [INFO] [1790875970.514109926] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790875970.514126278] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875970.514145855] [gazebo_ros2_control]: 			 found initial value: 1.220000
+[gzserver-1] [INFO] [1790875970.514165074] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790875970.514180876] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790875970.514196195] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875970.514378764] [gazebo_ros2_control]: Loading joint: joint6
+[gzserver-1] [INFO] [1790875970.514397525] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790875970.514480193] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875970.514497525] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790875970.514516337] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790875970.514531605] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790875970.514547614] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875970.514751468] [gazebo_ros2_control]: Loading joint: joint7
+[gzserver-1] [INFO] [1790875970.514770067] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790875970.514785843] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875970.514800690] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790875970.514818992] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790875970.514835083] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790875970.514850073] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875970.515092497] [gazebo_ros2_control]: Loading joint: joint8
+[gzserver-1] [INFO] [1790875970.515112615] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790875970.515128921] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875970.515144863] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790875970.515163346] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790875970.515178470] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790875970.515194894] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875970.515533750] [resource_manager]: Initialize hardware 'GazeboSystem' 
+[gzserver-1] [INFO] [1790875970.515842476] [resource_manager]: Successful initialization of hardware 'GazeboSystem'
+[gzserver-1] [INFO] [1790875970.516044737] [resource_manager]: 'configure' hardware 'GazeboSystem' 
+[gzserver-1] [INFO] [1790875970.516072781] [resource_manager]: Successful 'configure' of hardware 'GazeboSystem'
+[gzserver-1] [INFO] [1790875970.516095773] [resource_manager]: 'activate' hardware 'GazeboSystem' 
+[gzserver-1] [INFO] [1790875970.516112705] [resource_manager]: Successful 'activate' of hardware 'GazeboSystem'
+[gzserver-1] [INFO] [1790875970.516265367] [gazebo_ros2_control]: Loading controller_manager
+[gzserver-1] [WARN] [1790875970.572672278] [gazebo_ros2_control]:  Desired controller update period (0.01 s) is slower than the gazebo simulation period (0.001 s).
+[gzserver-1] [INFO] [1790875970.574173101] [gazebo_ros2_control]: Loaded gazebo_ros2_control.
+[spawner-11] [INFO] [1790875971.399570463] [spawner_piper_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [INFO] [1790875971.424066650] [spawner_piper_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[gzserver-1] [INFO] [1790875972.304153467] [controller_manager]: Loading controller 'piper_gripper_controller'
+[gzserver-1] [WARN] [1790875972.346997997] [piper_gripper_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[spawner-11] [INFO] [1790875972.358479302] [spawner_piper_gripper_controller]: [94mLoaded [1mpiper_gripper_controller[0m
+[gzserver-1] [INFO] [1790875972.362300230] [controller_manager]: Loading controller 'piper_joint_state_broadcaster'
+[gzserver-1] [INFO] [1790875972.397876106] [controller_manager]: Configuring controller 'piper_gripper_controller'
+[gzserver-1] [INFO] [1790875972.398798539] [piper_gripper_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-1] [INFO] [1790875972.398879290] [piper_gripper_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[gzserver-1] [INFO] [1790875972.398961283] [piper_gripper_controller]: Using 'splines' interpolation method.
+[spawner-9] [INFO] [1790875972.400225982] [spawner_piper_joint_state_broadcaster]: [94mLoaded [1mpiper_joint_state_broadcaster[0m
+[gzserver-1] [INFO] [1790875972.402720040] [piper_gripper_controller]: Controller state will be published at 50.00 Hz.
+[gzserver-1] [INFO] [1790875972.416260005] [piper_gripper_controller]: Action status changes will be monitored at 20.00 Hz.
+[gzserver-1] [INFO] [1790875972.438893712] [controller_manager]: Configuring controller 'piper_joint_state_broadcaster'
+[gzserver-1] [INFO] [1790875972.439087870] [piper_joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[gzserver-1] [INFO] [1790875972.449008609] [controller_manager]: Loading controller 'piper_arm_controller'
+[gzserver-1] [WARN] [1790875972.476130092] [piper_arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[spawner-11] [INFO] [1790875972.501854759] [spawner_piper_gripper_controller]: [92mConfigured and activated [1mpiper_gripper_controller[0m
+[spawner-10] [INFO] [1790875972.519817897] [spawner_piper_arm_controller]: [94mLoaded [1mpiper_arm_controller[0m
+[gzserver-1] [INFO] [1790875972.522286199] [controller_manager]: Configuring controller 'piper_arm_controller'
+[gzserver-1] [INFO] [1790875972.522766566] [piper_arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-1] [INFO] [1790875972.522824409] [piper_arm_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[gzserver-1] [INFO] [1790875972.522950873] [piper_arm_controller]: Using 'splines' interpolation method.
+[spawner-9] [INFO] [1790875972.523425451] [spawner_piper_joint_state_broadcaster]: [92mConfigured and activated [1mpiper_joint_state_broadcaster[0m
+[gzserver-1] [INFO] [1790875972.524615385] [piper_arm_controller]: Controller state will be published at 50.00 Hz.
+[gzserver-1] [INFO] [1790875972.531519184] [piper_arm_controller]: Action status changes will be monitored at 20.00 Hz.
+[spawner-10] [INFO] [1790875972.567763280] [spawner_piper_arm_controller]: [92mConfigured and activated [1mpiper_arm_controller[0m
+[detect_blocks-7] [WARN] [1790875972.597297042] [detect_blocks]: Waiting for camera TF: Lookup would require extrapolation into the past.  Requested time 1.381000 but the earliest data is at time 2.036000, when looking up transform from frame [camera_color_optical_frame] to frame [base_link]
+[INFO] [spawner-11]: process has finished cleanly [pid 703451]
+[INFO] [spawner-9]: process has finished cleanly [pid 703447]
+[INFO] [spawner-10]: process has finished cleanly [pid 703449]
+[detect_blocks-7] [INFO] [1790875973.357474943] [detect_blocks]: Detected 3 reliable blocks: red=(0.399942,0.000737616,0.028372) green=(0.400041,0.140327,0.0283228) blue=(0.40013,-0.13907,0.0283406)  (Reliable top surfaces)
+[classify_task_node-8] [INFO] [1790875975.011506826] [classify_task]: DETECTING: initialize 
+[classify_task_node-8] [INFO] [1790875975.016734016] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[classify_task_node-8] [INFO] [1790875975.016800058] [moveit_robot_model.robot_model]: Loading robot model 'piper'...
+[classify_task_node-8] [INFO] [1790875975.016818369] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[classify_task_node-8] [INFO] [1790875975.048899861] [move_group_interface]: Ready to take commands for planning group arm.
+[classify_task_node-8] [INFO] [1790875975.061043771] [move_group_interface]: Ready to take commands for planning group gripper.
+[classify_task_node-8] [INFO] [1790875975.082740571] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[classify_task_node-8] [INFO] [1790875975.137161999] [classify_task]: DETECTING: wait for stable vision 
+[detect_blocks-7] [INFO] [1790875975.653921638] [detect_blocks]: Detected 2 reliable blocks: red=(0.399942,0.000737615,0.0283726) blue=(0.400133,-0.13907,0.0283429)  (Incomplete visibility; unreliable surfaces rejected)
+[move_group-5] [INFO] [1790875977.019990822] [moveit_ros.trajectory_execution_manager]: Received event 'stop'
+[move_group-5] [INFO] [1790875977.020285674] [moveit_ros.trajectory_execution_manager]: Received event 'stop'
+[classify_task_node-8] [WARN] [1790875977.038977188] [classify_task]: TASK_CANCELLED: gripper retained; reset required before retry
+[classify_task_node-8] [INFO] [1790875977.039178848] [classify_task]: CLASSIFICATION_RESULT success=false succeeded=0 failed=0 elapsed=2.0s

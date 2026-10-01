@@ -1,0 +1,10 @@
+Starting >>> classify_camera_sim
+Finished <<< classify_camera_sim [0.31s]
+Starting >>> classify_scene_bridge
+Finished <<< classify_scene_bridge [0.26s]
+Starting >>> classify_perception
+Finished <<< classify_perception [0.27s]
+Starting >>> classify_task
+Finished <<< classify_task [0.24s]
+
+Summary: 4 packages finished [1.97s]

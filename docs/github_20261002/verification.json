@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "source_changes_relative_to_closeout": [
+    "scripts/tools/build_urdf.sh"
+  ],
+  "removed_generated_source_files": [
+    "src/description/classify_description/urdf/piper_sim.urdf",
+    "src/description/classify_description/urdf/piper_sim_rviz.urdf"
+  ],
+  "repository": "https://github.com/13646997215/piper_classify_ws",
+  "visibility": "PUBLIC",
+  "branch": "main",
+  "relocated_model_mesh_count": 10,
+  "relocated_model_paths_resolve": true,
+  "original_workspace_path_absent_in_relocated_model": true,
+  "local_markdown_links_valid": true,
+  "ignored_artifacts_not_staged": true,
+  "credential_pattern_scan_found_matches": false,
+  "verified_utc": "2026-10-01T20:38:07.338970+00:00",
+  "fresh_bootstrap_packages": 3,
+  "fresh_full_build_packages": 9,
+  "scene_static_check": "passed",
+  "camera_static_check": "passed",
+  "launch_arguments_load": "passed",
+  "tests": {
+    "total": 20,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0
+  },
+  "physical_pick_place_rerun_for_publication": false,
+  "retained_test_reports": [
+    "docs/github_20261002/test_results/classify_perception/test_results/classify_perception/test_block_geometry.gtest.xml",
+    "docs/github_20261002/test_results/classify_scene_bridge/test_results/classify_scene_bridge/test_scene_tracker.gtest.xml",
+    "docs/github_20261002/test_results/classify_task/test_results/classify_task/test_bin_layout.gtest.xml",
+    "docs/github_20261002/test_results/classify_camera_sim/test_results/classify_camera_sim/test_registration.gtest.xml"
+  ]
+}

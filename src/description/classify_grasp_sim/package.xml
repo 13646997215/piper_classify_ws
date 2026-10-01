@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>classify_grasp_sim</name><version>0.1.0</version>
+  <description>Two-finger-contact triggered grasp constraint for Gazebo Classic.</description>
+  <maintainer email="hanhan@example.com">hanhan</maintainer><license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>gazebo_dev</depend><depend>gazebo_ros</depend><depend>rclcpp</depend><depend>std_msgs</depend>
+  <export><build_type>ament_cmake</build_type><gazebo_ros plugin_path="lib"/></export>
+</package>

@@ -1,0 +1,7 @@
+load_errors=0
+bin_red model_pose=0.22 0.42 0.35 0 -0 0 collisions=1 visuals=1
+ collision=collision pose=0 0 0 0 -0 0 box=0.13 0.13 0.012
+ visual=visual pose=0 0 0 0 -0 0 box=0.13 0.13 0.012
+bin_blue model_pose=-0.22 0.42 0.35 0 -0 0 collisions=1 visuals=1
+ collision=collision pose=0 0 0 0 -0 0 box=0.13 0.13 0.012
+ visual=visual pose=0 0 0 0 -0 0 box=0.13 0.13 0.012

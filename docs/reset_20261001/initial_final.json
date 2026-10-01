@@ -1,0 +1,184 @@
+{
+  "task": {
+    "header": {
+      "stamp": {
+        "sec": 149,
+        "nanosec": 600000000
+      },
+      "frame_id": "base_link"
+    },
+    "state": "IDLE",
+    "stage": "",
+    "current_object": "",
+    "target_bin": "",
+    "completed": 0,
+    "total": 2,
+    "succeeded": 0,
+    "failed": 0,
+    "gripper_open_ratio": 0.0002184985742860715,
+    "held_object": "",
+    "elapsed_sec": 0.0,
+    "detail": "Ready for /classify/start; green remains untouched",
+    "placed_objects": [],
+    "placed_poses": []
+  },
+  "scene": {
+    "header": {
+      "stamp": {
+        "sec": 149,
+        "nanosec": 600000000
+      },
+      "frame_id": "base_link"
+    },
+    "ready": true,
+    "camera_stable": true,
+    "fresh_colors": [
+      "red",
+      "green",
+      "blue"
+    ],
+    "stale_colors": [],
+    "detail": "Vision scene ready; Reliable top surfaces"
+  },
+  "joints": {
+    "header": {
+      "stamp": {
+        "sec": 149,
+        "nanosec": 677000000
+      },
+      "frame_id": "base_link"
+    },
+    "name": [
+      "joint2",
+      "joint3",
+      "joint5",
+      "joint6",
+      "joint1",
+      "joint4",
+      "joint7",
+      "joint8"
+    ],
+    "position": [
+      0.8508550397198427,
+      -1.1521278736716527,
+      1.1816481111680446,
+      -0.00028559109494796786,
+      -5.478248575307987e-05,
+      0.0001430297318298912,
+      7.646977987124418e-06,
+      5.73936640190589e-12
+    ],
+    "velocity": [
+      -0.01395701582252886,
+      0.04475042473998654,
+      -0.02581041965781597,
+      -0.0001443493593381028,
+      -2.8104766753799024e-05,
+      7.108595487236597e-05,
+      5.596987797157304e-06,
+      -1.4766317340714317e-06
+    ],
+    "effort": [
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ]
+  },
+  "old_result_present": false,
+  "entities": {
+    "red_block": {
+      "name": "",
+      "pose": {
+        "position": {
+          "x": 0.3999992007114244,
+          "y": -4.998031459206084e-09,
+          "z": 0.37499891769073257
+        },
+        "orientation": {
+          "x": 1.1466621570148294e-05,
+          "y": -1.1435170051719012e-05,
+          "z": -0.7071069736021238,
+          "w": 0.7071065885854827
+        }
+      },
+      "twist": {
+        "linear": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "angular": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "reference_frame": ""
+    },
+    "green_block": {
+      "name": "",
+      "pose": {
+        "position": {
+          "x": 0.3999992007114245,
+          "y": 0.1399999950019684,
+          "z": 0.37499891769073257
+        },
+        "orientation": {
+          "x": 1.1466621569460247e-05,
+          "y": -1.1435170051029644e-05,
+          "z": -0.7071069736021238,
+          "w": 0.7071065885854827
+        }
+      },
+      "twist": {
+        "linear": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "angular": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "reference_frame": ""
+    },
+    "blue_block": {
+      "name": "",
+      "pose": {
+        "position": {
+          "x": 0.3999992007114245,
+          "y": -0.14000000499803125,
+          "z": 0.37499891769073257
+        },
+        "orientation": {
+          "x": 1.146662156965968e-05,
+          "y": -1.143517005240375e-05,
+          "z": -0.7071069736021238,
+          "w": 0.7071065885854827
+        }
+      },
+      "twist": {
+        "linear": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "angular": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "reference_frame": ""
+    }
+  },
+  "initial_arm_max_error_rad": 0.06960212632834728,
+  "passed": true
+}

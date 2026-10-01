@@ -1,0 +1,32 @@
+[INFO] [1790852299.746229498] [classify_task]: DETECTING: initialize 
+[INFO] [1790852299.752404533] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[INFO] [1790852299.752472338] [moveit_robot_model.robot_model]: Loading robot model 'piper'...
+[INFO] [1790852299.752484500] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[INFO] [1790852299.783182358] [move_group_interface]: Ready to take commands for planning group arm.
+[INFO] [1790852299.797597951] [move_group_interface]: Ready to take commands for planning group gripper.
+[INFO] [1790852299.816426302] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[INFO] [1790852299.868363140] [classify_task]: DETECTING: wait for stable vision 
+[INFO] [1790852300.168864314] [classify_task]: PLANNING: MTC pick and place 
+[INFO] [1790852300.170968762] [classify_task]: VISION_TARGET red xyz=(0.38213 0.03038 0.02836); bin=(0.520 -0.220 0.040)
+[INFO] [1790852300.217569752] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[INFO] [1790852300.220970571] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[INFO] [1790852300.221003621] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[INFO] [1790852300.221012664] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[INFO] [1790852300.221049857] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[INFO] [1790852300.221077977] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[INFO] [1790852300.221085800] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1790852300.221105626] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1790852300.221114327] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[INFO] [1790852300.221123324] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[INFO] [1790852300.221142395] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[INFO] [1790852300.221148783] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[INFO] [1790852300.221153763] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[INFO] [1790852300.221158932] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[INFO] [1790852300.221163984] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[INFO] [1790852300.221169082] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[INFO] [1790852300.230412393] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[ERROR] [1790852300.306907277] [classify_task]: TASK_FAILED: MTC planning failed: Failing stage(s):
+lift object (0/1): CartesianPath: min_fraction not met. Achieved: 0.016393
+
+[INFO] [1790852300.307291016] [classify_task]: CLASSIFICATION_RESULT success=false succeeded=0 failed=1 elapsed=0.6s
+[INFO] [1790852553.423617091] [rclcpp]: signal_handler(SIGINT/SIGTERM)

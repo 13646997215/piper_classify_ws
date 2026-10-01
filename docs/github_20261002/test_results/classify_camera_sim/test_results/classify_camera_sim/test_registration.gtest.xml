@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="5" failures="0" disabled="0" errors="0" time="0.01" timestamp="2026-10-02T04:37:13" name="AllTests">
+  <testsuite name="Registration" tests="3" failures="0" disabled="0" errors="0" time="0.002" timestamp="2026-10-02T04:37:13">
+    <testcase name="AppliesOpticalOffsetAndMillimetreUnits" status="run" result="completed" time="0.001" timestamp="2026-10-02T04:37:13" classname="classify_camera_sim.Registration" />
+    <testcase name="RejectsTooCloseDepthAndStereoNonOverlap" status="run" result="completed" time="0.001" timestamp="2026-10-02T04:37:13" classname="classify_camera_sim.Registration" />
+    <testcase name="KeepsForegroundWhenMultipleDepthPixelsMapToOneColorPixel" status="run" result="completed" time="0" timestamp="2026-10-02T04:37:13" classname="classify_camera_sim.Registration" />
+  </testsuite>
+  <testsuite name="DepthStress" tests="2" failures="0" disabled="0" errors="0" time="0.008" timestamp="2026-10-02T04:37:13">
+    <testcase name="UsesMetresAndPreservesInvalidDepth" status="run" result="completed" time="0.005" timestamp="2026-10-02T04:37:13" classname="classify_camera_sim.DepthStress" />
+    <testcase name="DropoutCanBeReproducedWithoutChangingBaseline" status="run" result="completed" time="0.003" timestamp="2026-10-02T04:37:13" classname="classify_camera_sim.DepthStress" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,108 @@
+# =============================================================================
+# ros2_controllers.yaml — Gazebo 中的 ros2_control 控制器配置
+# =============================================================================
+# 三个控制器：
+#   piper_joint_state_broadcaster  广播所有 8 个关节状态到 /joint_states
+#   piper_arm_controller           手臂 6 关节（FollowJointTrajectory）
+#   piper_gripper_controller       夹爪 2 关节（FollowJointTrajectory）
+#
+# ⚠ 夹爪为什么合并成一个控制器？
+#   piper 夹爪两指同电机、镜像联动，URDF 中是 joint7[0,0.035] 与 joint8[-0.035,0]
+#   正确关系是 joint8 = -joint7（等值反号）
+#   Gazebo Classic 11.10.2 **不支持 SDF <mimic>**（已实测确认），
+#   所以必须靠"一次轨迹下发同时给两个关节"来实现物理同步。
+#   官方 piper_gazebo 的做法是 3 个 JTC + 一个 Python 镜像节点，
+#   我们合并为 1 个 JTC，更简单且必然同步。
+# =============================================================================
+
+controller_manager:
+  ros__parameters:
+    update_rate: 100          # 控制循环频率 Hz
+
+    piper_joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    piper_arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    piper_gripper_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+# -----------------------------------------------------------------------------
+# 关节状态广播
+#   必须包含全部 8 个关节，否则 MoveIt 拿不到夹爪状态
+# -----------------------------------------------------------------------------
+piper_joint_state_broadcaster:
+  ros__parameters:
+    joints:
+      - joint1
+      - joint2
+      - joint3
+      - joint4
+      - joint5
+      - joint6
+      - joint7
+      - joint8
+    # 老版本 ros2_control 用这个名字，新版用 joints
+    # joint_names: [joint1, joint2, joint3, joint4, joint5, joint6, joint7, joint8]
+
+
+# -----------------------------------------------------------------------------
+# 手臂控制器：6 个旋转关节
+# -----------------------------------------------------------------------------
+piper_arm_controller:
+  ros__parameters:
+    joints:
+      - joint1
+      - joint2
+      - joint3
+      - joint4
+      - joint5
+      - joint6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    # 轨迹平滑参数
+    state_publish_rate: 50.0
+    action_monitor_rate: 20.0
+    allow_partial_joints_goal: false
+    # joint1 上限 2.618 rad 但做分类任务用不到，给个安全余量
+    constraints:
+      stopped_velocity_tolerance: 0.01
+      goal_time: 2.0
+      # joint1: 0.5
+      # joint2: 0.5
+      # joint3: 0.5
+      # joint4: 0.5
+      # joint5: 0.5
+      # joint6: 0.5
+
+
+# -----------------------------------------------------------------------------
+# 夹爪控制器：2 个镜像移动关节
+#   下发时务必给对称值，例如：
+#     全开  joint7=0.035   joint8=-0.035
+#     全闭  joint7=0.0005  joint8=-0.0005
+#   速度设 0.1 m/s（慢速，便于观察抓取过程）
+# -----------------------------------------------------------------------------
+piper_gripper_controller:
+  ros__parameters:
+    joints:
+      - joint7
+      - joint8
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    state_publish_rate: 50.0
+    action_monitor_rate: 20.0
+    allow_partial_joints_goal: false
+    constraints:
+      stopped_velocity_tolerance: 0.001
+      goal_time: 1.0
+      joint7: 0.1
+      joint8: 0.1

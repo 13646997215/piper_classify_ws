@@ -1,0 +1,6 @@
+Starting >>> classify_scene_bridge
+Finished <<< classify_scene_bridge [46.6s]
+Starting >>> classify_task
+Finished <<< classify_task [1min 3s]
+
+Summary: 2 packages finished [1min 50s]

@@ -1,0 +1,69 @@
+{
+  "batch_contact": {
+    "passed": true,
+    "elapsed_sec": 84.304665963,
+    "green_displacement_mm": 9.796383593750245e-06,
+    "scene_errors_mm": null,
+    "mtc_solutions": null
+  },
+  "displaced_final": {
+    "passed": true,
+    "elapsed_sec": 80.480018029,
+    "green_displacement_mm": 0.007817974801545778,
+    "scene_errors_mm": {
+      "blue_block": 0.0,
+      "green_block": 0.5816987296783934,
+      "red_block": 0.0
+    },
+    "mtc_solutions": [
+      {
+        "task_id": "hanhan_550199_123711638270176",
+        "trajectories": 16
+      },
+      {
+        "task_id": "hanhan_550199_123711641625024",
+        "trajectories": 16
+      }
+    ]
+  },
+  "baseline_final": {
+    "passed": true,
+    "elapsed_sec": 86.433058159,
+    "green_displacement_mm": 0.0013456896473729148,
+    "scene_errors_mm": {
+      "blue_block": 0.0,
+      "green_block": 0.5436764991923415,
+      "red_block": 0.0
+    },
+    "mtc_solutions": [
+      {
+        "task_id": "hanhan_551441_131488012163440",
+        "trajectories": 16
+      },
+      {
+        "task_id": "hanhan_551441_131488016213200",
+        "trajectories": 16
+      }
+    ]
+  },
+  "gui_final": {
+    "passed": true,
+    "elapsed_sec": 85.084174111,
+    "green_displacement_mm": 0.00781337918665709,
+    "scene_errors_mm": {
+      "blue_block": 0.0015764190051278386,
+      "green_block": 0.4820217802615327,
+      "red_block": 0.0
+    },
+    "mtc_solutions": [
+      {
+        "task_id": "hanhan_556866_138607927116688",
+        "trajectories": 16
+      },
+      {
+        "task_id": "hanhan_556866_138607932037968",
+        "trajectories": 16
+      }
+    ]
+  }
+}

@@ -1,0 +1,4632 @@
+{
+  "world": "/home/hanhan/Desktop/piper_classify_ws/docs/multi_object_20261002/multi_seed7.world",
+  "target_count": 4,
+  "passed": false,
+  "failure": "Full inventory never became fresh",
+  "statuses": [
+    {
+      "header": {
+        "stamp": {
+          "sec": 0,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 0,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 0,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 0,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 0,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 1,
+          "nanosec": 100000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 1,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 1,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 1,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 1,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 1,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00041669041400621993,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 2,
+          "nanosec": 100000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0004469850028491695,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 2,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0004813093146997257,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 2,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0005156388242407438,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 2,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0005519880659178256,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 2,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0005863194296920588,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 2,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006206604091272466,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 3,
+          "nanosec": 100000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034143948778,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 3,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036170531059,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 3,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034339576076,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 3,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167735525007,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 3,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036577332229,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 4,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167689638174,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 4,
+          "nanosec": 100000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169448355714,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 4,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000626903477863376,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 4,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167431602939,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 4,
+          "nanosec": 700000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169428758196,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 4,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169452189599,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 4,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167384717596,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 5,
+          "nanosec": 100000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034528662786,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 5,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036373497203,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 5,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167737258193,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 5,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036077897503,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 5,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034468815074,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 6,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036731075557,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 6,
+          "nanosec": 100000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167597768259,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 6,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034482868598,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 6,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169664738028,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 6,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036061163301,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 6,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167629834732,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 6,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167734351548,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 7,
+          "nanosec": 100000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000626903400009185,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 7,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167399491502,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 7,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036494554734,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 7,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169423846631,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 7,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036496045308,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 8,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000626916782553487,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 8,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167694136782,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 8,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034714133993,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 8,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034247383459,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 8,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167687644033,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 9,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034425250405,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 9,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036257014413,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 9,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034516487862,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 9,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169773882584,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 9,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169416769727,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 10,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034381421653,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 10,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169820846205,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 10,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034567024435,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 10,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034256275861,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 10,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036354836231,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 11,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167523565221,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 11,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169087275544,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 11,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034001797193,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 11,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167499179168,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 11,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00062690345664981,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 11,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036171145909,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 12,
+          "nanosec": 100000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000626903475127672,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 12,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034625298933,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 12,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167778580338,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 12,
+          "nanosec": 700000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036561801774,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 12,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000626903437769181,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 13,
+          "nanosec": 100000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169303789757,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 13,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036504116298,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 13,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269168973586988,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 13,
+          "nanosec": 700000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167600400911,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 13,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036478224159,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 14,
+          "nanosec": 100000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036538545164,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 14,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034571307178,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 14,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169683897917,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 14,
+          "nanosec": 700000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167425075984,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 14,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167738444308,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 15,
+          "nanosec": 100000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167537510999,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 15,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167557739489,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 15,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036181798301,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 15,
+          "nanosec": 700000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034667817403,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 15,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034457016466,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 16,
+          "nanosec": 100000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169816351546,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 16,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169046851754,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 16,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169885177339,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 16,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036617315158,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 16,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036122606795,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 17,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034539608096,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 17,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034574440856,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 17,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036345167481,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 17,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167492038499,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 17,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167760670132,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 18,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034289071366,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 18,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167002364746,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 18,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036470041394,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 18,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167946185836,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 18,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036185946671,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 19,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034356481669,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 19,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034403660613,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 19,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169259941732,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 19,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169742081843,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 19,
+          "nanosec": 700000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034159974595,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 19,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034619893558,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 20,
+          "nanosec": 100000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034241098276,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 20,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036339126152,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 20,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034636377313,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 20,
+          "nanosec": 700000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169751838038,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 20,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167698869521,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 21,
+          "nanosec": 100000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036476980212,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 21,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167627108798,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 21,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169667445321,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 21,
+          "nanosec": 700000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036230272456,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 21,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036260742685,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 22,
+          "nanosec": 100000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169539413254,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 22,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034781543298,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 22,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034492426661,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 22,
+          "nanosec": 700000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034594429634,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 22,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169481059993,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 23,
+          "nanosec": 100000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034410171036,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 23,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167369275185,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 23,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167911857934,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 23,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169457988645,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 23,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169451215906,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 24,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167404597227,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 24,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034728886969,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 24,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000626916947599044,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 24,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167671612878,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 24,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269170015213477,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 25,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034401187674,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 25,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169145135299,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 25,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036273502355,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 25,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169561318082,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 25,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169496010565,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 26,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034764975454,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 26,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000626916770906662,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 26,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036527226625,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 26,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036631262615,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 26,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036406916042,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 27,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034485632937,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 27,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169491606962,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 27,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169372684143,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 27,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169303503095,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 27,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034532963933,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 28,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034405990773,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 28,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00062691678360233,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 28,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167572118987,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 28,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269035902924073,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 28,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036304266388,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 29,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169344304843,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 29,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036476546392,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 29,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036574212041,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 29,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000626903644100969,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 29,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000626916751482523,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 30,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167355774356,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 30,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169124040562,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 30,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034703302901,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 30,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036298378546,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 30,
+          "nanosec": 700000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169307518356,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 30,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036074916227,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 31,
+          "nanosec": 100000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169755611428,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 31,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036380614182,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 31,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269035864605365,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 31,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034538257519,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 31,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169505094883,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 32,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034521075429,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 32,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167248888721,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 32,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269166830543194,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 32,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034378886407,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 32,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167787775002,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 33,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036386926285,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 33,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169826776085,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 33,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034663705706,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 33,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034612910914,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 33,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036214272582,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 34,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000626916897199335,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 34,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167654487252,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 34,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034580284715,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 34,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169423433771,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 34,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036685345259,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 35,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000626903447879241,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 35,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036515475741,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 35,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167731374873,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 35,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036567326288,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 35,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034204478192,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 36,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000626916920320629,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 36,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000626916735515688,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 36,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034739377986,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 36,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00062691674712327,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 36,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000626916754522298,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 37,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169492125197,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 37,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034526860652,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 37,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269167499995256,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 37,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269169744229173,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 37,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034402901648,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 37,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269034289063347,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 38,
+          "nanosec": 100000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 4,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0006269036502735863,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    }
+  ],
+  "results": []
+}

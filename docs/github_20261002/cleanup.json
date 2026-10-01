@@ -1,0 +1,2740 @@
+{
+  "date": "2026-10-02",
+  "archive_outside_repository": "piper_classify_ws_local_evidence_20261002.tar.gz",
+  "raw_capture_count": 530,
+  "removed": [
+    {
+      "path": "docs/robustness_20261002/camera_capture_final/sample_01.npz",
+      "bytes": 169527,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/robustness_20261002/camera_capture_final/sample_02.npz",
+      "bytes": 169762,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/robustness_20261002/camera_capture_final/sample_00.npz",
+      "bytes": 169381,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/robustness_20261002/camera_capture_final/sample_05.npz",
+      "bytes": 169379,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/robustness_20261002/camera_capture_final/sample_03.npz",
+      "bytes": 169899,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/robustness_20261002/camera_capture_final/sample_04.npz",
+      "bytes": 169851,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/robustness_20261002/runs_v2/baseline_b/camera_reference/sample_01.npz",
+      "bytes": 43569,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/robustness_20261002/runs_v2/baseline_b/camera_reference/sample_02.npz",
+      "bytes": 43569,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/robustness_20261002/runs_v2/baseline_b/camera_reference/sample_00.npz",
+      "bytes": 43569,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/robustness_20261002/runs_v2/baseline_b/camera_reference/sample_05.npz",
+      "bytes": 43569,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/robustness_20261002/runs_v2/baseline_b/camera_reference/sample_03.npz",
+      "bytes": 43569,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/robustness_20261002/runs_v2/baseline_b/camera_reference/sample_04.npz",
+      "bytes": 43569,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0000.npz",
+      "bytes": 52073,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0075.npz",
+      "bytes": 65343,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0084.npz",
+      "bytes": 50091,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0073.npz",
+      "bytes": 65594,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0113.npz",
+      "bytes": 87633,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0041.npz",
+      "bytes": 65835,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0009.npz",
+      "bytes": 52073,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0094.npz",
+      "bytes": 51939,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0161.npz",
+      "bytes": 64949,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0040.npz",
+      "bytes": 64881,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0038.npz",
+      "bytes": 67035,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0003.npz",
+      "bytes": 52074,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0048.npz",
+      "bytes": 51939,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0049.npz",
+      "bytes": 51940,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0058.npz",
+      "bytes": 50164,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0096.npz",
+      "bytes": 53480,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0139.npz",
+      "bytes": 61899,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0158.npz",
+      "bytes": 61854,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0115.npz",
+      "bytes": 82370,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0148.npz",
+      "bytes": 59872,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0138.npz",
+      "bytes": 68507,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0136.npz",
+      "bytes": 64503,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0006.npz",
+      "bytes": 52073,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0164.npz",
+      "bytes": 52241,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0129.npz",
+      "bytes": 51938,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0095.npz",
+      "bytes": 51858,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0107.npz",
+      "bytes": 87635,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0092.npz",
+      "bytes": 51939,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0146.npz",
+      "bytes": 59873,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0087.npz",
+      "bytes": 51939,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0066.npz",
+      "bytes": 66473,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0117.npz",
+      "bytes": 69657,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0047.npz",
+      "bytes": 51939,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0111.npz",
+      "bytes": 87634,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0088.npz",
+      "bytes": 51939,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0052.npz",
+      "bytes": 51940,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0017.npz",
+      "bytes": 51976,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0110.npz",
+      "bytes": 87635,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0120.npz",
+      "bytes": 70618,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0036.npz",
+      "bytes": 66352,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0074.npz",
+      "bytes": 65593,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0018.npz",
+      "bytes": 52893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0014.npz",
+      "bytes": 52074,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0008.npz",
+      "bytes": 52073,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0012.npz",
+      "bytes": 52073,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0135.npz",
+      "bytes": 58351,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0011.npz",
+      "bytes": 52073,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0026.npz",
+      "bytes": 67152,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0051.npz",
+      "bytes": 52192,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0142.npz",
+      "bytes": 63588,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0108.npz",
+      "bytes": 87635,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0170.npz",
+      "bytes": 51939,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0082.npz",
+      "bytes": 57904,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0010.npz",
+      "bytes": 52073,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0028.npz",
+      "bytes": 66708,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0060.npz",
+      "bytes": 57131,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0131.npz",
+      "bytes": 51938,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0143.npz",
+      "bytes": 60961,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0118.npz",
+      "bytes": 79020,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0077.npz",
+      "bytes": 66922,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0076.npz",
+      "bytes": 64708,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0064.npz",
+      "bytes": 67710,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0021.npz",
+      "bytes": 62913,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0033.npz",
+      "bytes": 66706,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0086.npz",
+      "bytes": 51939,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0157.npz",
+      "bytes": 63183,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0153.npz",
+      "bytes": 59562,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0093.npz",
+      "bytes": 52191,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0112.npz",
+      "bytes": 87635,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0150.npz",
+      "bytes": 59873,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0123.npz",
+      "bytes": 59966,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0119.npz",
+      "bytes": 77269,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0156.npz",
+      "bytes": 58706,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0163.npz",
+      "bytes": 59536,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0103.npz",
+      "bytes": 69926,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0151.npz",
+      "bytes": 59873,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0078.npz",
+      "bytes": 66905,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0029.npz",
+      "bytes": 66708,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0055.npz",
+      "bytes": 51939,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0147.npz",
+      "bytes": 59871,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0032.npz",
+      "bytes": 66707,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0100.npz",
+      "bytes": 64240,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0166.npz",
+      "bytes": 52191,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0065.npz",
+      "bytes": 65300,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0004.npz",
+      "bytes": 52075,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0043.npz",
+      "bytes": 62032,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0024.npz",
+      "bytes": 66619,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0002.npz",
+      "bytes": 52073,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0134.npz",
+      "bytes": 52207,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0167.npz",
+      "bytes": 51939,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0124.npz",
+      "bytes": 54936,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0079.npz",
+      "bytes": 66239,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0126.npz",
+      "bytes": 51939,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0098.npz",
+      "bytes": 66225,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0105.npz",
+      "bytes": 83784,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0152.npz",
+      "bytes": 59872,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0169.npz",
+      "bytes": 51939,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0097.npz",
+      "bytes": 59459,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0162.npz",
+      "bytes": 65718,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0128.npz",
+      "bytes": 51939,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0090.npz",
+      "bytes": 51939,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0165.npz",
+      "bytes": 51939,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0149.npz",
+      "bytes": 59872,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0039.npz",
+      "bytes": 66913,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0168.npz",
+      "bytes": 52190,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0061.npz",
+      "bytes": 61946,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0027.npz",
+      "bytes": 66593,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0081.npz",
+      "bytes": 61987,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0063.npz",
+      "bytes": 67198,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0031.npz",
+      "bytes": 66707,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0171.npz",
+      "bytes": 51939,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0109.npz",
+      "bytes": 87635,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0054.npz",
+      "bytes": 51939,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0025.npz",
+      "bytes": 66917,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0106.npz",
+      "bytes": 87632,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0056.npz",
+      "bytes": 52270,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0020.npz",
+      "bytes": 59695,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0083.npz",
+      "bytes": 53136,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0130.npz",
+      "bytes": 51938,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0045.npz",
+      "bytes": 54206,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0122.npz",
+      "bytes": 66408,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0116.npz",
+      "bytes": 69941,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0007.npz",
+      "bytes": 52073,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0034.npz",
+      "bytes": 66707,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0145.npz",
+      "bytes": 59873,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0050.npz",
+      "bytes": 51940,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0044.npz",
+      "bytes": 58375,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0121.npz",
+      "bytes": 69891,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0091.npz",
+      "bytes": 51938,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0005.npz",
+      "bytes": 52074,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0104.npz",
+      "bytes": 69581,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0132.npz",
+      "bytes": 51939,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0057.npz",
+      "bytes": 51233,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0080.npz",
+      "bytes": 61820,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0019.npz",
+      "bytes": 55395,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0125.npz",
+      "bytes": 52590,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0069.npz",
+      "bytes": 65593,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0062.npz",
+      "bytes": 63796,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0067.npz",
+      "bytes": 65593,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0072.npz",
+      "bytes": 65594,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0016.npz",
+      "bytes": 52075,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0070.npz",
+      "bytes": 65594,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0102.npz",
+      "bytes": 77686,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0155.npz",
+      "bytes": 62798,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0144.npz",
+      "bytes": 59279,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0085.npz",
+      "bytes": 51718,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0154.npz",
+      "bytes": 57836,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0071.npz",
+      "bytes": 65594,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0042.npz",
+      "bytes": 64714,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0133.npz",
+      "bytes": 52229,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0127.npz",
+      "bytes": 51939,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0035.npz",
+      "bytes": 66707,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0013.npz",
+      "bytes": 52073,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0053.npz",
+      "bytes": 52192,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0141.npz",
+      "bytes": 62603,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0160.npz",
+      "bytes": 66653,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0046.npz",
+      "bytes": 52531,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0022.npz",
+      "bytes": 64631,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0159.npz",
+      "bytes": 62267,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0114.npz",
+      "bytes": 87308,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0137.npz",
+      "bytes": 64988,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0037.npz",
+      "bytes": 66978,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0099.npz",
+      "bytes": 68813,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0030.npz",
+      "bytes": 66708,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0140.npz",
+      "bytes": 62223,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0023.npz",
+      "bytes": 67257,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0001.npz",
+      "bytes": 52073,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0068.npz",
+      "bytes": 65594,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0101.npz",
+      "bytes": 77264,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0059.npz",
+      "bytes": 52379,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0015.npz",
+      "bytes": 52073,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_20261001/live_motion/frame_0089.npz",
+      "bytes": 52191,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0000.npz",
+      "bytes": 325848,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0075.npz",
+      "bytes": 343196,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0084.npz",
+      "bytes": 348156,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0073.npz",
+      "bytes": 342956,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0113.npz",
+      "bytes": 375232,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0041.npz",
+      "bytes": 348491,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0009.npz",
+      "bytes": 325848,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0094.npz",
+      "bytes": 322517,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0161.npz",
+      "bytes": 337267,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0040.npz",
+      "bytes": 344097,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0038.npz",
+      "bytes": 346512,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0003.npz",
+      "bytes": 325848,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0048.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0049.npz",
+      "bytes": 324895,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0058.npz",
+      "bytes": 353157,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0096.npz",
+      "bytes": 340023,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0139.npz",
+      "bytes": 316266,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0158.npz",
+      "bytes": 311444,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0115.npz",
+      "bytes": 377914,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0148.npz",
+      "bytes": 324951,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0138.npz",
+      "bytes": 326246,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0136.npz",
+      "bytes": 348714,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0006.npz",
+      "bytes": 325848,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0164.npz",
+      "bytes": 338464,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0129.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0095.npz",
+      "bytes": 328121,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0107.npz",
+      "bytes": 375231,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0092.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0146.npz",
+      "bytes": 324951,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0087.npz",
+      "bytes": 324894,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0066.npz",
+      "bytes": 342956,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0117.npz",
+      "bytes": 379324,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0047.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0111.npz",
+      "bytes": 375231,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0088.npz",
+      "bytes": 324894,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0052.npz",
+      "bytes": 324894,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0017.npz",
+      "bytes": 331668,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0110.npz",
+      "bytes": 375231,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0120.npz",
+      "bytes": 361759,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0036.npz",
+      "bytes": 338570,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0074.npz",
+      "bytes": 343283,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0018.npz",
+      "bytes": 346954,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0014.npz",
+      "bytes": 326015,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0008.npz",
+      "bytes": 325849,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0012.npz",
+      "bytes": 325848,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0135.npz",
+      "bytes": 348977,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0011.npz",
+      "bytes": 325848,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0026.npz",
+      "bytes": 341445,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0051.npz",
+      "bytes": 324894,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0142.npz",
+      "bytes": 319227,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0108.npz",
+      "bytes": 375232,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0170.npz",
+      "bytes": 324891,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0082.npz",
+      "bytes": 344604,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0010.npz",
+      "bytes": 325848,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0028.npz",
+      "bytes": 338973,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0060.npz",
+      "bytes": 342840,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0131.npz",
+      "bytes": 324894,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0143.npz",
+      "bytes": 323067,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0118.npz",
+      "bytes": 378470,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0077.npz",
+      "bytes": 346269,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0076.npz",
+      "bytes": 344185,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0064.npz",
+      "bytes": 344856,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0021.npz",
+      "bytes": 350696,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0033.npz",
+      "bytes": 338974,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0086.npz",
+      "bytes": 324894,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0157.npz",
+      "bytes": 315846,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0153.npz",
+      "bytes": 326365,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0093.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0112.npz",
+      "bytes": 375232,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0150.npz",
+      "bytes": 324951,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0123.npz",
+      "bytes": 335233,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0119.npz",
+      "bytes": 370751,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0156.npz",
+      "bytes": 321364,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0163.npz",
+      "bytes": 351503,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0103.npz",
+      "bytes": 379808,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0151.npz",
+      "bytes": 324951,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0078.npz",
+      "bytes": 347699,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0029.npz",
+      "bytes": 338973,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0055.npz",
+      "bytes": 289482,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0147.npz",
+      "bytes": 324952,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0032.npz",
+      "bytes": 338973,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0100.npz",
+      "bytes": 367612,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0166.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0065.npz",
+      "bytes": 344963,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0004.npz",
+      "bytes": 325848,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0043.npz",
+      "bytes": 350876,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0024.npz",
+      "bytes": 346331,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0002.npz",
+      "bytes": 326015,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0134.npz",
+      "bytes": 324590,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0167.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0124.npz",
+      "bytes": 322189,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0079.npz",
+      "bytes": 347696,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0126.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0098.npz",
+      "bytes": 353600,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0105.npz",
+      "bytes": 375231,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0152.npz",
+      "bytes": 324952,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0169.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0097.npz",
+      "bytes": 342664,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0162.npz",
+      "bytes": 344720,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0128.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0090.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0165.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0149.npz",
+      "bytes": 324951,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0172.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0039.npz",
+      "bytes": 344938,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0168.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0061.npz",
+      "bytes": 352903,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0027.npz",
+      "bytes": 339900,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0081.npz",
+      "bytes": 348190,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0063.npz",
+      "bytes": 349708,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0031.npz",
+      "bytes": 338943,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0171.npz",
+      "bytes": 324894,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0109.npz",
+      "bytes": 375231,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0054.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0025.npz",
+      "bytes": 344128,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0106.npz",
+      "bytes": 375232,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0056.npz",
+      "bytes": 347315,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0020.npz",
+      "bytes": 348927,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0083.npz",
+      "bytes": 349359,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0130.npz",
+      "bytes": 324894,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0045.npz",
+      "bytes": 348098,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0122.npz",
+      "bytes": 342653,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0116.npz",
+      "bytes": 380664,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0007.npz",
+      "bytes": 326014,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0034.npz",
+      "bytes": 338973,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0145.npz",
+      "bytes": 324951,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0050.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0044.npz",
+      "bytes": 348337,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0121.npz",
+      "bytes": 352289,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0091.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0005.npz",
+      "bytes": 326014,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0104.npz",
+      "bytes": 377063,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0132.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0057.npz",
+      "bytes": 350938,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0080.npz",
+      "bytes": 350111,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0019.npz",
+      "bytes": 347353,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0125.npz",
+      "bytes": 324894,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0069.npz",
+      "bytes": 343282,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0062.npz",
+      "bytes": 348427,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0067.npz",
+      "bytes": 343188,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0072.npz",
+      "bytes": 343283,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0016.npz",
+      "bytes": 324793,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0070.npz",
+      "bytes": 342957,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0102.npz",
+      "bytes": 381032,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0155.npz",
+      "bytes": 319114,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0144.npz",
+      "bytes": 326523,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0085.npz",
+      "bytes": 289048,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0154.npz",
+      "bytes": 326014,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0071.npz",
+      "bytes": 343188,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0042.npz",
+      "bytes": 352315,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0133.npz",
+      "bytes": 324894,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0127.npz",
+      "bytes": 324894,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0035.npz",
+      "bytes": 338973,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0013.npz",
+      "bytes": 326014,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0053.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0141.npz",
+      "bytes": 313672,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0160.npz",
+      "bytes": 315885,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0046.npz",
+      "bytes": 333682,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0022.npz",
+      "bytes": 348228,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0159.npz",
+      "bytes": 314736,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0114.npz",
+      "bytes": 375515,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0137.npz",
+      "bytes": 345003,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0037.npz",
+      "bytes": 340431,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0099.npz",
+      "bytes": 359743,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0030.npz",
+      "bytes": 338980,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0140.npz",
+      "bytes": 312606,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0023.npz",
+      "bytes": 346953,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0001.npz",
+      "bytes": 325849,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0068.npz",
+      "bytes": 342956,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0101.npz",
+      "bytes": 376672,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0059.npz",
+      "bytes": 351284,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0015.npz",
+      "bytes": 325848,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/fixed_live/frame_0089.npz",
+      "bytes": 324893,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0000.npz",
+      "bytes": 287684,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0075.npz",
+      "bytes": 337262,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0084.npz",
+      "bytes": 340780,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0073.npz",
+      "bytes": 340201,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0113.npz",
+      "bytes": 342017,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0041.npz",
+      "bytes": 343265,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0009.npz",
+      "bytes": 287731,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0094.npz",
+      "bytes": 292306,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0161.npz",
+      "bytes": 326284,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0040.npz",
+      "bytes": 337870,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0038.npz",
+      "bytes": 333704,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0003.npz",
+      "bytes": 287697,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0048.npz",
+      "bytes": 286444,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0049.npz",
+      "bytes": 286444,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0058.npz",
+      "bytes": 339072,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0096.npz",
+      "bytes": 297988,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0139.npz",
+      "bytes": 301797,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0158.npz",
+      "bytes": 295122,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0115.npz",
+      "bytes": 353168,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0148.npz",
+      "bytes": 316490,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0138.npz",
+      "bytes": 302920,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0136.npz",
+      "bytes": 343177,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0006.npz",
+      "bytes": 287730,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0164.npz",
+      "bytes": 298775,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0129.npz",
+      "bytes": 286445,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0095.npz",
+      "bytes": 293834,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0107.npz",
+      "bytes": 342018,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0092.npz",
+      "bytes": 286445,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0146.npz",
+      "bytes": 316494,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0087.npz",
+      "bytes": 286445,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0066.npz",
+      "bytes": 336519,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0117.npz",
+      "bytes": 346497,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0047.npz",
+      "bytes": 286445,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0111.npz",
+      "bytes": 342017,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0088.npz",
+      "bytes": 286444,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0052.npz",
+      "bytes": 286444,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0017.npz",
+      "bytes": 323783,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0110.npz",
+      "bytes": 342017,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0120.npz",
+      "bytes": 331130,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0036.npz",
+      "bytes": 327460,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0074.npz",
+      "bytes": 339521,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0018.npz",
+      "bytes": 340695,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0014.npz",
+      "bytes": 287685,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0008.npz",
+      "bytes": 287730,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0012.npz",
+      "bytes": 287684,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0135.npz",
+      "bytes": 338716,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0011.npz",
+      "bytes": 287730,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0026.npz",
+      "bytes": 324150,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0051.npz",
+      "bytes": 286446,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0142.npz",
+      "bytes": 305421,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0108.npz",
+      "bytes": 342018,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0170.npz",
+      "bytes": 286445,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0082.npz",
+      "bytes": 344203,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0010.npz",
+      "bytes": 287684,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0028.npz",
+      "bytes": 328667,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0060.npz",
+      "bytes": 343562,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0131.npz",
+      "bytes": 286445,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0143.npz",
+      "bytes": 306944,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0118.npz",
+      "bytes": 339080,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0077.npz",
+      "bytes": 335369,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0076.npz",
+      "bytes": 338558,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0064.npz",
+      "bytes": 341880,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0021.npz",
+      "bytes": 342248,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0033.npz",
+      "bytes": 328667,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0086.npz",
+      "bytes": 286445,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0157.npz",
+      "bytes": 299343,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0153.npz",
+      "bytes": 316341,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0093.npz",
+      "bytes": 286444,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0112.npz",
+      "bytes": 342017,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0150.npz",
+      "bytes": 316490,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0123.npz",
+      "bytes": 304999,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0119.npz",
+      "bytes": 335312,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0156.npz",
+      "bytes": 303568,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0163.npz",
+      "bytes": 344868,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0103.npz",
+      "bytes": 339142,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0151.npz",
+      "bytes": 316494,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0078.npz",
+      "bytes": 344177,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0029.npz",
+      "bytes": 328667,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0055.npz",
+      "bytes": 291885,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0147.npz",
+      "bytes": 316494,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0032.npz",
+      "bytes": 329241,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0100.npz",
+      "bytes": 325935,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0166.npz",
+      "bytes": 286446,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0065.npz",
+      "bytes": 338625,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0004.npz",
+      "bytes": 287729,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0043.npz",
+      "bytes": 343598,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0024.npz",
+      "bytes": 332899,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0002.npz",
+      "bytes": 287730,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0134.npz",
+      "bytes": 294192,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0167.npz",
+      "bytes": 286446,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0124.npz",
+      "bytes": 295425,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0079.npz",
+      "bytes": 345529,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0126.npz",
+      "bytes": 286445,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0098.npz",
+      "bytes": 313661,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0105.npz",
+      "bytes": 346715,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0152.npz",
+      "bytes": 316490,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0169.npz",
+      "bytes": 286444,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0097.npz",
+      "bytes": 306010,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0162.npz",
+      "bytes": 339725,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0128.npz",
+      "bytes": 286445,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0090.npz",
+      "bytes": 286445,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0165.npz",
+      "bytes": 286445,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0149.npz",
+      "bytes": 316490,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0172.npz",
+      "bytes": 286445,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0039.npz",
+      "bytes": 336808,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0168.npz",
+      "bytes": 286445,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0061.npz",
+      "bytes": 344078,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0027.npz",
+      "bytes": 328666,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0081.npz",
+      "bytes": 339624,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0063.npz",
+      "bytes": 339946,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0031.npz",
+      "bytes": 329241,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0171.npz",
+      "bytes": 286445,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0109.npz",
+      "bytes": 342016,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0054.npz",
+      "bytes": 286445,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0025.npz",
+      "bytes": 328827,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0106.npz",
+      "bytes": 342017,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0056.npz",
+      "bytes": 337516,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0020.npz",
+      "bytes": 343433,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0083.npz",
+      "bytes": 338003,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0130.npz",
+      "bytes": 286444,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0045.npz",
+      "bytes": 319433,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0122.npz",
+      "bytes": 324866,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0116.npz",
+      "bytes": 340198,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0007.npz",
+      "bytes": 287730,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0034.npz",
+      "bytes": 328665,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0145.npz",
+      "bytes": 316490,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0050.npz",
+      "bytes": 286444,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0044.npz",
+      "bytes": 337214,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0121.npz",
+      "bytes": 322092,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0091.npz",
+      "bytes": 286445,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0005.npz",
+      "bytes": 287685,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0104.npz",
+      "bytes": 344653,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0132.npz",
+      "bytes": 286446,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0057.npz",
+      "bytes": 340121,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0080.npz",
+      "bytes": 342127,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0019.npz",
+      "bytes": 345167,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0125.npz",
+      "bytes": 288865,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0069.npz",
+      "bytes": 339433,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0062.npz",
+      "bytes": 343435,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0067.npz",
+      "bytes": 339434,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0072.npz",
+      "bytes": 340200,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0016.npz",
+      "bytes": 294995,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0070.npz",
+      "bytes": 340201,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0102.npz",
+      "bytes": 341638,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0155.npz",
+      "bytes": 307291,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0144.npz",
+      "bytes": 314609,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0085.npz",
+      "bytes": 306133,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0154.npz",
+      "bytes": 315164,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0071.npz",
+      "bytes": 339434,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0042.npz",
+      "bytes": 342190,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0133.npz",
+      "bytes": 286444,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0127.npz",
+      "bytes": 286444,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0035.npz",
+      "bytes": 329363,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0013.npz",
+      "bytes": 287684,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0053.npz",
+      "bytes": 286445,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0141.npz",
+      "bytes": 297267,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0160.npz",
+      "bytes": 307337,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0046.npz",
+      "bytes": 286444,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0022.npz",
+      "bytes": 334255,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0159.npz",
+      "bytes": 300097,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0114.npz",
+      "bytes": 342016,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0137.npz",
+      "bytes": 333884,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0037.npz",
+      "bytes": 333154,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0099.npz",
+      "bytes": 320219,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0030.npz",
+      "bytes": 328666,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0140.npz",
+      "bytes": 299785,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0023.npz",
+      "bytes": 335169,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0001.npz",
+      "bytes": 287730,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0068.npz",
+      "bytes": 340198,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0101.npz",
+      "bytes": 332652,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0059.npz",
+      "bytes": 341052,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0015.npz",
+      "bytes": 287731,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/perception_motion_20260930/baseline/frame_0089.npz",
+      "bytes": 286444,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/closeout_20261002/source_snapshot.tar.gz",
+      "bytes": 3289520,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "docs/gemini335_fov_20261001/reference/Gemini330_USB_V1.7.pdf",
+      "bytes": 3554068,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "Screenshot from 2026-09-29 16-31-56.png",
+      "bytes": 123492,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": ".vscode/settings.json",
+      "bytes": 1831,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": ".vscode/c_cpp_properties.json",
+      "bytes": 978,
+      "action": "archived_outside_workspace"
+    },
+    {
+      "path": "build/",
+      "action": "deleted_regenerable_directory"
+    },
+    {
+      "path": "install/",
+      "action": "deleted_regenerable_directory"
+    },
+    {
+      "path": "log/",
+      "action": "deleted_regenerable_directory"
+    },
+    {
+      "path": ".vscode/",
+      "action": "deleted_regenerable_directory"
+    },
+    {
+      "path": "docs/audit_20260930/__pycache__/",
+      "action": "deleted_cache"
+    },
+    {
+      "path": "scripts/tools/__pycache__/",
+      "action": "deleted_cache"
+    },
+    {
+      "path": "src/perception/classify_perception/launch/__pycache__/",
+      "action": "deleted_cache"
+    },
+    {
+      "path": "src/bringup/classify_bringup/launch/__pycache__/",
+      "action": "deleted_cache"
+    },
+    {
+      "path": "src/moveit/classify_moveit_config/launch/__pycache__/",
+      "action": "deleted_cache"
+    },
+    {
+      "path": "src/description/classify_description/launch/__pycache__/",
+      "action": "deleted_cache"
+    },
+    {
+      "path": "src/task/classify_task/launch/__pycache__/",
+      "action": "deleted_cache"
+    },
+    {
+      "path": "$3",
+      "action": "deleted_generated_or_invalid_file"
+    },
+    {
+      "path": "src/description/classify_description/urdf/piper_sim.urdf",
+      "action": "deleted_generated_or_invalid_file"
+    },
+    {
+      "path": "src/description/classify_description/urdf/piper_sim_rviz.urdf",
+      "action": "deleted_generated_or_invalid_file"
+    }
+  ],
+  "archive_sha256": "51e948c812982977e686988f031c9799e0120a89ba785473d661cd95f3edde11",
+  "archive_bytes": 113779611
+}

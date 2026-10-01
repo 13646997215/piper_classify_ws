@@ -1,0 +1,99 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /MotionPlanning1
+  - Class: rviz_common/Views
+    Name: Views
+  - Class: moveit_task_constructor/Motion Planning Tasks
+    Name: Motion Planning Tasks
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Alpha: 0.5
+      Cell Size: 0.1
+      Plane Cell Count: 20
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Name: Detected blocks
+      Enabled: false
+      Topic:
+        Value: /classify/detection_markers
+      Value: false
+    - Class: rviz_default_plugins/MarkerArray
+      Name: Confirmed blocks and vision status
+      Enabled: true
+      Topic:
+        Value: /classify/scene_markers
+      Value: true
+    - Class: moveit_rviz_plugin/MotionPlanning
+      Name: MotionPlanning
+      Enabled: true
+      Move Group Namespace: ""
+      MoveIt Allow Active Planning: true
+      MoveIt Allow Execute: true
+      MoveIt Allow Planning: true
+      MoveIt Planning Group: arm
+      MoveIt Planning Attempts: 10
+      MoveIt Planning Time: 5.0
+      MoveIt Goal Tolerance: 0.01
+      MoveIt Velocity Scaling: 0.10
+      MoveIt Accel Scaling: 0.10
+      MoveIt Query Goal State: true
+      MoveIt Query Start State: false
+      Planning Scene Topic: monitored_planning_scene
+      Robot Description: robot_description
+      Planned Path:
+        Enabled: true
+        Loop Animation: true
+        State Display Time: 0.05 s
+        Trajectory Topic: display_planned_path
+      Planning Request:
+        Enabled: true
+      Scene Robot:
+        Enabled: true
+        Robot Alpha: 1
+      Scene Geometry:
+        Enabled: true
+      Value: true
+    - Class: moveit_task_constructor/Motion Planning Tasks
+      Name: MTC task solutions
+      Enabled: true
+      Robot Description: robot_description
+      Task Solution Topic: /classify_mtc/solution
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Name: Classification progress
+      Enabled: true
+      Topic:
+        Value: /classify/task_markers
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: world
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 2.12
+      Focal Point:
+        X: 0.296
+        Y: 0.0
+        Z: 0.464
+      Name: Current View
+      Pitch: 0.665
+      Target Frame: world
+      Yaw: 0.985
+Window Geometry:
+  Height: 900
+  Width: 1450

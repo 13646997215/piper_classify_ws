@@ -1,0 +1,113 @@
+[INFO] [1790853555.175185715] [classify_task]: DETECTING: initialize 
+[INFO] [1790853555.181667857] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[INFO] [1790853555.181726190] [moveit_robot_model.robot_model]: Loading robot model 'piper'...
+[INFO] [1790853555.181737658] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[INFO] [1790853555.219259173] [move_group_interface]: Ready to take commands for planning group arm.
+[INFO] [1790853555.233536424] [move_group_interface]: Ready to take commands for planning group gripper.
+[INFO] [1790853555.256588545] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[INFO] [1790853557.212661442] [classify_task]: DETECTING: wait for stable vision 
+[INFO] [1790853558.213860424] [classify_task]: PLANNING: MTC pick and place 
+[INFO] [1790853558.216236797] [classify_task]: VISION_TARGET red xyz=(0.39989 0.00070 0.02839); bin=(0.520 -0.220 0.040)
+[INFO] [1790853558.273783820] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[INFO] [1790853558.277552078] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[INFO] [1790853558.277581215] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[INFO] [1790853558.277591039] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[INFO] [1790853558.277632325] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[INFO] [1790853558.277660917] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[INFO] [1790853558.277670088] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1790853558.277691996] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1790853558.277701501] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[INFO] [1790853558.277712073] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[INFO] [1790853558.277733351] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[INFO] [1790853558.277740916] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[INFO] [1790853558.277746801] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[INFO] [1790853558.277753324] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[INFO] [1790853558.277759402] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[INFO] [1790853558.277765332] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[INFO] [1790853558.295108279] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1790853558.388025122] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1790853558.462775326] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1790853558.499584410] [classify_task]: PICKING: open gripper 
+[INFO] [1790853558.500784063] [move_group_interface]: Execute request accepted
+[INFO] [1790853562.756381568] [move_group_interface]: Execute request success!
+[INFO] [1790853562.758120819] [classify_task]: PICKING: move above object 
+[INFO] [1790853562.759289340] [move_group_interface]: Execute request accepted
+[INFO] [1790853568.161897278] [move_group_interface]: Execute request success!
+[INFO] [1790853568.163668800] [classify_task]: PICKING: approach object 
+[INFO] [1790853568.164474018] [move_group_interface]: Execute request accepted
+[INFO] [1790853571.067156157] [move_group_interface]: Execute request success!
+[INFO] [1790853571.068635070] [classify_task]: PICKING: allow finger contact 
+[INFO] [1790853571.069271280] [classify_task]: PICKING: close gripper 
+[INFO] [1790853571.070142092] [move_group_interface]: Execute request accepted
+[INFO] [1790853573.075500133] [move_group_interface]: Execute request success!
+[INFO] [1790853573.376270055] [classify_task]: PICKING: attach object 
+[INFO] [1790853573.377514036] [classify_task]: PICKING: lift object 
+[INFO] [1790853573.378582644] [move_group_interface]: Execute request accepted
+[INFO] [1790853578.683774875] [move_group_interface]: Execute request success!
+[INFO] [1790853578.686795372] [classify_task]: PHYSICAL_LIFT_OK red z=0.20798
+[INFO] [1790853578.686899031] [classify_task]: PLACING: carry above bin 
+[INFO] [1790853578.689822261] [move_group_interface]: Execute request accepted
+[INFO] [1790853584.242513840] [move_group_interface]: Execute request success!
+[INFO] [1790853584.243769468] [classify_task]: PLACING: lower above bin 
+[INFO] [1790853584.244769657] [move_group_interface]: Execute request accepted
+[INFO] [1790853586.452968195] [move_group_interface]: Execute request success!
+[INFO] [1790853586.454138583] [classify_task]: PLACING: release gripper 
+[INFO] [1790853586.455023303] [move_group_interface]: Execute request accepted
+[INFO] [1790853588.407130066] [move_group_interface]: Execute request success!
+[INFO] [1790853588.408459239] [classify_task]: PLACING: detach object 
+[INFO] [1790853588.409350243] [classify_task]: PLACING: settle in bin 
+[INFO] [1790853589.911709841] [classify_task]: PROGRESS 1/2: red -> bin_red
+[INFO] [1790853589.911856737] [classify_task]: PHYSICAL_PLACE_OK red xyz=(0.52739 -0.22021 0.04000)
+[INFO] [1790853589.911907642] [classify_task]: PLACING: restore finger collision 
+[INFO] [1790853589.912537844] [classify_task]: PLACING: retreat from bin 
+[INFO] [1790853589.913482463] [move_group_interface]: Execute request accepted
+[INFO] [1790853592.018007740] [move_group_interface]: Execute request success!
+[INFO] [1790853592.018903080] [classify_task]: PLACING: return home 
+[INFO] [1790853592.020023732] [move_group_interface]: Execute request accepted
+[INFO] [1790853599.523503127] [move_group_interface]: Execute request success!
+[INFO] [1790853599.524909912] [classify_task]: DETECTING: wait for stable vision 
+[INFO] [1790853600.125531954] [classify_task]: PLANNING: MTC pick and place 
+[INFO] [1790853600.127000420] [classify_task]: VISION_TARGET blue xyz=(0.40018 -0.13907 0.02837); bin=(0.520 0.220 0.040)
+[INFO] [1790853600.150842437] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1790853600.246858696] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1790853600.320555697] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1790853600.353294905] [classify_task]: PICKING: open gripper 
+[INFO] [1790853600.353993118] [classify_task]: PICKING: move above object 
+[INFO] [1790853600.354963178] [move_group_interface]: Execute request accepted
+[INFO] [1790853606.157481618] [move_group_interface]: Execute request success!
+[INFO] [1790853606.158446770] [classify_task]: PICKING: approach object 
+[INFO] [1790853606.159518300] [move_group_interface]: Execute request accepted
+[INFO] [1790853609.063574304] [move_group_interface]: Execute request success!
+[INFO] [1790853609.064398512] [classify_task]: PICKING: allow finger contact 
+[INFO] [1790853609.065054553] [classify_task]: PICKING: close gripper 
+[INFO] [1790853609.065790276] [move_group_interface]: Execute request accepted
+[INFO] [1790853611.067808863] [move_group_interface]: Execute request success!
+[INFO] [1790853611.369398486] [classify_task]: PICKING: attach object 
+[INFO] [1790853611.370305945] [classify_task]: PICKING: lift object 
+[INFO] [1790853611.371335647] [move_group_interface]: Execute request accepted
+[INFO] [1790853616.523972989] [move_group_interface]: Execute request success!
+[INFO] [1790853616.525788074] [classify_task]: PHYSICAL_LIFT_OK blue z=0.20798
+[INFO] [1790853616.525905446] [classify_task]: PLACING: carry above bin 
+[INFO] [1790853616.527139364] [move_group_interface]: Execute request accepted
+[INFO] [1790853624.929995027] [move_group_interface]: Execute request success!
+[INFO] [1790853624.931835302] [classify_task]: PLACING: lower above bin 
+[INFO] [1790853624.932675859] [move_group_interface]: Execute request accepted
+[INFO] [1790853627.134864299] [move_group_interface]: Execute request success!
+[INFO] [1790853627.136412902] [classify_task]: PLACING: release gripper 
+[INFO] [1790853627.137334211] [move_group_interface]: Execute request accepted
+[INFO] [1790853629.139753633] [move_group_interface]: Execute request success!
+[INFO] [1790853629.141064536] [classify_task]: PLACING: detach object 
+[INFO] [1790853629.141970161] [classify_task]: PLACING: settle in bin 
+[INFO] [1790853630.644169123] [classify_task]: PROGRESS 2/2: blue -> bin_blue
+[INFO] [1790853630.644433892] [classify_task]: PHYSICAL_PLACE_OK blue xyz=(0.52704 0.21967 0.04000)
+[INFO] [1790853630.644574409] [classify_task]: PLACING: restore finger collision 
+[INFO] [1790853630.645428658] [classify_task]: PLACING: retreat from bin 
+[INFO] [1790853630.646613135] [move_group_interface]: Execute request accepted
+[INFO] [1790853632.749099777] [move_group_interface]: Execute request success!
+[INFO] [1790853632.750253575] [classify_task]: PLACING: return home 
+[INFO] [1790853632.751191868] [move_group_interface]: Execute request accepted
+[INFO] [1790853640.256971137] [move_group_interface]: Execute request success!
+[INFO] [1790853640.258825505] [classify_task]: DONE: batch complete Red/blue placed; green unchanged; arm returned home
+[INFO] [1790853640.259135959] [classify_task]: CLASSIFICATION_RESULT success=true succeeded=2 failed=0 elapsed=85.1s
+[INFO] [1790853640.259191838] [classify_task]: red   | bin_red  | base xyz 0.5274 -0.2202 0.0400
+[INFO] [1790853640.259266831] [classify_task]: blue  | bin_blue | base xyz 0.5270 0.2197 0.0400

@@ -1,0 +1,92 @@
+Starting >>> classify_grasp_sim
+--- stderr: classify_grasp_sim
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+  CMakeLists.txt:4 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_BUILD_PARALLEL_LEVEL
+
+
+---
+Finished <<< classify_grasp_sim [32.1s]
+Starting >>> classify_interfaces
+--- stderr: classify_interfaces
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_BUILD_PARALLEL_LEVEL
+
+
+---
+Finished <<< classify_interfaces [12.8s]
+Starting >>> classify_scene_bridge
+--- stderr: classify_scene_bridge
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_BUILD_PARALLEL_LEVEL
+
+
+---
+Finished <<< classify_scene_bridge [41.4s]
+Starting >>> classify_moveit_config
+--- stderr: classify_moveit_config
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_BUILD_PARALLEL_LEVEL
+
+
+---
+Finished <<< classify_moveit_config [19.0s]
+Starting >>> classify_perception
+--- stderr: classify_perception
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_BUILD_PARALLEL_LEVEL
+
+
+---
+Finished <<< classify_perception [36.6s]
+Starting >>> classify_task
+--- stderr: classify_task
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_BUILD_PARALLEL_LEVEL
+
+
+In file included from /home/hanhan/Desktop/piper_classify_ws/src/task/classify_task/src/classify_task.cpp:12:
+/home/hanhan/Desktop/piper_classify_ws/src/task/classify_task/src/bin_layout.hpp: In function ‘bool classify_task::separated(const Isometry3d&, const Isometry3d&, double)’:
+/home/hanhan/Desktop/piper_classify_ws/src/task/classify_task/src/bin_layout.hpp:41:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   41 |     if (axis.norm()<1e-8) continue;axis.normalize();double radius=0;
+      |     ^~
+/home/hanhan/Desktop/piper_classify_ws/src/task/classify_task/src/bin_layout.hpp:41:36: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   41 |     if (axis.norm()<1e-8) continue;axis.normalize();double radius=0;
+      |                                    ^~~~
+---
+Finished <<< classify_task [1min 3s]
+Starting >>> classify_bringup
+--- stderr: classify_bringup
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_BUILD_PARALLEL_LEVEL
+
+
+---
+Finished <<< classify_bringup [0.87s]
+
+Summary: 7 packages finished [3min 27s]
+  7 packages had stderr output: classify_bringup classify_grasp_sim classify_interfaces classify_moveit_config classify_perception classify_scene_bridge classify_task

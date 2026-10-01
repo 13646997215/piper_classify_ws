@@ -1,0 +1,61 @@
+{
+  "stage": "S9 multi-object",
+  "date": "2026-10-02",
+  "accepted": [
+    {
+      "case": "batch_b",
+      "record": "batch_b/record.json",
+      "passed": true,
+      "elapsed_sec": 162.572471482,
+      "succeeded": 4,
+      "failed": 0,
+      "green_displacement_mm": 0.007816753404239018
+    },
+    {
+      "case": "gui_stress",
+      "record": "gui_stress/record.json",
+      "passed": true,
+      "elapsed_sec": 168.579324634,
+      "succeeded": 4,
+      "failed": 0,
+      "green_displacement_mm": 0.0
+    },
+    {
+      "case": "baseline",
+      "record": "baseline/record.json",
+      "passed": true,
+      "elapsed_sec": 84.183163773,
+      "succeeded": 2,
+      "failed": 0,
+      "green_displacement_mm": 0.007813561303630518
+    },
+    {
+      "case": "capacity",
+      "record": "capacity/record.json",
+      "passed": true,
+      "elapsed_sec": 0.137926477,
+      "succeeded": 0,
+      "failed": 1,
+      "green_displacement_mm": null
+    },
+    {
+      "case": "inventory",
+      "record": "inventory/record.json",
+      "passed": true,
+      "elapsed_sec": 3.047794541,
+      "succeeded": 0,
+      "failed": 0,
+      "green_displacement_mm": null
+    }
+  ],
+  "core_test_summary": "Summary: 20 tests, 0 errors, 0 failures, 0 skipped",
+  "runtime_stopped": true,
+  "limits": "Simulation only; one green reference; two 50 mm cubes per target colour verified. Noise is an optional stress input, not measured device behaviour.",
+  "config_sha256": {
+    "src/description/classify_description/worlds/classify.world": "ccdb214c469793f5dd54d263625adf7fc989cea2bab8af96fca18308d27a6feb",
+    "src/description/classify_description/config/gemini335.yaml": "c0541d886a8d6ac2e12bb7c43df7c7f826bccf4c9757e541117a1a2b6d6325d4",
+    "src/description/classify_description/config/workcell.yaml": "c0932fa8d5a94440847d87925bd1b8f6f01edc27e6588caeffd9f6ef4b4a4d0d",
+    "docs/multi_object_20261002/multi_v3_seed7.world": "25541167f5f2a62baed9cd397871a73c6c4bbff85fc3b133d0436457798aa028",
+    "docs/multi_object_20261002/multi_v3_seed11.world": "fd6c5000ee0d57633341f8745fbad402de65862c8e8d9e74b7eef632af6445fe"
+  }
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "case": "baseline_a",
+    "passed": false,
+    "error": "can't set attribute 'clients'"
+  }
+]

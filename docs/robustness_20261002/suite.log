@@ -1,0 +1,11 @@
+TRIAL_START: baseline_a
+Stopping workspace launch groups: 686293
+Classification simulation stopped; next launch loads the initial world.
+Traceback (most recent call last):
+  File "/home/hanhan/Desktop/piper_classify_ws/scripts/tools/verify_robustness.py", line 178, in <module>
+    if __name__=='__main__':main()
+  File "/home/hanhan/Desktop/piper_classify_ws/scripts/tools/verify_robustness.py", line 153, in main
+    check=Check();initial=check.ready(world)
+  File "/home/hanhan/Desktop/piper_classify_ws/scripts/tools/verify_robustness.py", line 41, in __init__
+    self.clients={name:self.create_client(kind,name) for name,kind in [
+AttributeError: can't set attribute 'clients'

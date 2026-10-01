@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>classify_perception</name>
+  <version>0.1.0</version>
+  <description>Wrist RGB-D color and 3D workpiece localization.</description>
+  <maintainer email="hanhan@example.com">hanhan</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>cv_bridge</depend>
+  <depend>classify_interfaces</depend>
+  <depend>message_filters</depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+  <build_depend>libopencv-dev</build_depend>
+  <exec_depend>classify_description</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

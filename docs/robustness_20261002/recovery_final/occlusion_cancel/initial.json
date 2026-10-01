@@ -1,0 +1,141 @@
+{
+  "initial_positions": {
+    "red": {
+      "name": "",
+      "pose": {
+        "position": {
+          "x": 0.3999992007114244,
+          "y": -4.998031459206084e-09,
+          "z": 0.37499891769073257
+        },
+        "orientation": {
+          "x": 1.1466621570148294e-05,
+          "y": -1.1435170051719012e-05,
+          "z": -0.7071069736021238,
+          "w": 0.7071065885854827
+        }
+      },
+      "twist": {
+        "linear": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "angular": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "reference_frame": ""
+    },
+    "green": {
+      "name": "",
+      "pose": {
+        "position": {
+          "x": 0.3999992007114245,
+          "y": 0.1399999950019684,
+          "z": 0.37499891769073257
+        },
+        "orientation": {
+          "x": 1.1466621569460247e-05,
+          "y": -1.1435170051029644e-05,
+          "z": -0.7071069736021238,
+          "w": 0.7071065885854827
+        }
+      },
+      "twist": {
+        "linear": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "angular": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "reference_frame": ""
+    },
+    "blue": {
+      "name": "",
+      "pose": {
+        "position": {
+          "x": 0.3999992007114245,
+          "y": -0.14000000499803125,
+          "z": 0.37499891769073257
+        },
+        "orientation": {
+          "x": 1.146662156965968e-05,
+          "y": -1.143517005240375e-05,
+          "z": -0.7071069736021238,
+          "w": 0.7071065885854827
+        }
+      },
+      "twist": {
+        "linear": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "angular": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "reference_frame": ""
+    }
+  },
+  "task": {
+    "header": {
+      "stamp": {
+        "sec": 3,
+        "nanosec": 0
+      },
+      "frame_id": "base_link"
+    },
+    "state": "IDLE",
+    "stage": "",
+    "current_object": "",
+    "target_bin": "",
+    "completed": 0,
+    "total": 2,
+    "succeeded": 0,
+    "failed": 0,
+    "gripper_open_ratio": 0.0004193440841716535,
+    "held_object": "",
+    "elapsed_sec": 0.0,
+    "detail": "Ready for /classify/start; green remains untouched",
+    "placed_objects": [],
+    "placed_poses": []
+  },
+  "scene": {
+    "header": {
+      "stamp": {
+        "sec": 3,
+        "nanosec": 200000000
+      },
+      "frame_id": "base_link"
+    },
+    "ready": true,
+    "camera_stable": true,
+    "fresh_colors": [
+      "red",
+      "green",
+      "blue"
+    ],
+    "stale_colors": [],
+    "detail": "Vision scene ready; Reliable top surfaces"
+  },
+  "collision_ids": [
+    "bin_blue",
+    "bin_red",
+    "blue_block",
+    "green_block",
+    "red_block",
+    "table_legs",
+    "table_top"
+  ]
+}

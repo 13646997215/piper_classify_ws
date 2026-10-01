@@ -1,0 +1,677 @@
+[INFO] [launch]: All log files can be found below /home/hanhan/Desktop/piper_classify_ws/log/classify_runtime/2026-10-02-01-22-10-727305-hanhan-694110
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [gzserver-1]: process started with pid [694122]
+[INFO] [align_rgbd-2]: process started with pid [694124]
+[INFO] [robot_state_publisher-3]: process started with pid [694126]
+[INFO] [spawn_entity.py-4]: process started with pid [694128]
+[INFO] [move_group-5]: process started with pid [694130]
+[INFO] [scene_bridge-6]: process started with pid [694132]
+[INFO] [detect_blocks-7]: process started with pid [694134]
+[INFO] [classify_task_node-8]: process started with pid [694136]
+[robot_state_publisher-3] [INFO] [1790875332.485736541] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-3] [INFO] [1790875332.486110161] [robot_state_publisher]: got segment camera_color_frame
+[robot_state_publisher-3] [INFO] [1790875332.486138889] [robot_state_publisher]: got segment camera_color_optical_frame
+[robot_state_publisher-3] [INFO] [1790875332.486154004] [robot_state_publisher]: got segment camera_depth_frame
+[robot_state_publisher-3] [INFO] [1790875332.486167003] [robot_state_publisher]: got segment camera_depth_optical_frame
+[robot_state_publisher-3] [INFO] [1790875332.486180086] [robot_state_publisher]: got segment camera_link
+[robot_state_publisher-3] [INFO] [1790875332.486193251] [robot_state_publisher]: got segment camera_optical_frame
+[robot_state_publisher-3] [INFO] [1790875332.486213502] [robot_state_publisher]: got segment gripper_base
+[robot_state_publisher-3] [INFO] [1790875332.486226983] [robot_state_publisher]: got segment link1
+[robot_state_publisher-3] [INFO] [1790875332.486239379] [robot_state_publisher]: got segment link2
+[robot_state_publisher-3] [INFO] [1790875332.486251528] [robot_state_publisher]: got segment link3
+[robot_state_publisher-3] [INFO] [1790875332.486263504] [robot_state_publisher]: got segment link4
+[robot_state_publisher-3] [INFO] [1790875332.486275227] [robot_state_publisher]: got segment link5
+[robot_state_publisher-3] [INFO] [1790875332.486286803] [robot_state_publisher]: got segment link6
+[robot_state_publisher-3] [INFO] [1790875332.486299141] [robot_state_publisher]: got segment link7
+[robot_state_publisher-3] [INFO] [1790875332.486310984] [robot_state_publisher]: got segment link8
+[robot_state_publisher-3] [INFO] [1790875332.486322683] [robot_state_publisher]: got segment world
+[move_group-5] [INFO] [1790875332.541834171] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[move_group-5] [INFO] [1790875332.541996246] [moveit_robot_model.robot_model]: Loading robot model 'piper'...
+[move_group-5] [INFO] [1790875332.542015775] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[align_rgbd-2] [INFO] [1790875332.584343810] [gemini335_registration]: Gemini 335 D2C: separate optical centres, 16UC1 mm, nominal intrinsics; exact sensor pairing
+[move_group-5] [INFO] [1790875332.610387845] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-5] [INFO] [1790875332.610695052] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-5] [INFO] [1790875332.612050753] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-5] [INFO] [1790875332.612926523] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-5] [INFO] [1790875332.612963145] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[move_group-5] [INFO] [1790875332.613566608] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-5] [INFO] [1790875332.613593870] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-5] [INFO] [1790875332.614241720] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-5] [INFO] [1790875332.614843345] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-5] [WARN] [1790875332.615292552] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-5] [ERROR] [1790875332.615321939] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[move_group-5] [INFO] [1790875332.617588786] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[move_group-5] [INFO] [1790875332.658899754] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[move_group-5] [INFO] [1790875332.666479722] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[move_group-5] [INFO] [1790875332.666547596] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[move_group-5] [INFO] [1790875332.666562751] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[move_group-5] [INFO] [1790875332.666630784] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-5] [INFO] [1790875332.666675502] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[move_group-5] [INFO] [1790875332.666691324] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-5] [INFO] [1790875332.666726351] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-5] [INFO] [1790875332.666741267] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[move_group-5] [INFO] [1790875332.666756528] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[move_group-5] [INFO] [1790875332.666790573] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-5] [INFO] [1790875332.666802191] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[move_group-5] [INFO] [1790875332.666812178] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-5] [INFO] [1790875332.666822402] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-5] [INFO] [1790875332.666831818] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-5] [INFO] [1790875332.666841656] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-5] [WARN] [1790875332.676618101] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[move_group-5] [INFO] [1790875332.810088993] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for piper_arm_controller
+[move_group-5] [INFO] [1790875332.813291583] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for piper_gripper_controller
+[move_group-5] [INFO] [1790875332.813607685] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875332.813645329] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875332.814272996] [moveit_ros.trajectory_execution_manager]: Trajectory execution is not managing controllers
+[move_group-5] [INFO] [1790875332.814305326] [move_group.move_group]: MoveGroup debug mode is ON
+[move_group-5] [INFO] [1790875332.849900140] [move_group.move_group]: 
+[move_group-5] 
+[move_group-5] ********************************************************
+[move_group-5] * MoveGroup using: 
+[move_group-5] *     - ApplyPlanningSceneService
+[move_group-5] *     - ClearOctomapService
+[move_group-5] *     - CartesianPathService
+[move_group-5] *     - ExecuteTrajectoryAction
+[move_group-5] *     - GetPlanningSceneService
+[move_group-5] *     - KinematicsService
+[move_group-5] *     - MoveAction
+[move_group-5] *     - MotionPlanService
+[move_group-5] *     - QueryPlannersService
+[move_group-5] *     - StateValidationService
+[move_group-5] ********************************************************
+[move_group-5] 
+[move_group-5] [INFO] [1790875332.849981731] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[move_group-5] [INFO] [1790875332.849999147] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[move_group-5] [96mLoading 'move_group/ApplyPlanningSceneService'...
+[move_group-5] [0m[96mLoading 'move_group/ClearOctomapService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupCartesianPathService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupGetPlanningSceneService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupKinematicsService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupMoveAction'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupPlanService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupQueryPlannersService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupStateValidationService'...
+[move_group-5] [0m[92m
+[move_group-5] You can start planning now!
+[move_group-5] 
+[scene_bridge-6] [WARN] [1790875332.854394846] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[scene_bridge-6] [INFO] [1790875332.866300366] [scene_bridge]: Planning scene ready: table top, four legs, red and blue bins
+[spawn_entity.py-4] [INFO] [1790875333.360116967] [spawn_piper]: Spawn Entity started
+[spawn_entity.py-4] [INFO] [1790875333.360844186] [spawn_piper]: Loading entity published on topic robot_description
+[spawn_entity.py-4] [INFO] [1790875333.364376161] [spawn_piper]: Waiting for entity xml on robot_description
+[spawn_entity.py-4] [INFO] [1790875333.378416411] [spawn_piper]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-4] [INFO] [1790875333.379394759] [spawn_piper]: Waiting for service /spawn_entity
+[spawn_entity.py-4] [INFO] [1790875334.639973358] [spawn_piper]: Calling service /spawn_entity
+[gzserver-1] [INFO] [1790875334.673790936] [gazebo.classify_entity_state]: Publishing states of gazebo models at [/gazebo/model_states]
+[gzserver-1] [INFO] [1790875334.675979216] [gazebo.classify_entity_state]: Publishing states of gazebo links at [/gazebo/link_states]
+[gzserver-1] [INFO] [1790875335.507891195] [camera.gemini335_color_controller]: Publishing camera info to [/camera/color/gazebo_camera_info]
+[spawn_entity.py-4] [INFO] [1790875335.522711097] [spawn_piper]: Spawn status: SpawnEntity: Successfully spawned entity [piper]
+[gzserver-1] [INFO] [1790875335.535872707] [camera.gemini335_depth_controller]: Publishing camera info to [/camera/native/gazebo_camera_info]
+[gzserver-1] [INFO] [1790875335.541903847] [camera.gemini335_depth_controller]: Publishing depth camera info to [/camera/native/depth/gazebo_camera_info]
+[gzserver-1] [INFO] [1790875335.543346652] [camera.gemini335_depth_controller]: Publishing pointcloud to [/camera/native/points]
+[gzserver-1] [INFO] [1790875335.650905430] [classify_contact_grasp]: Contact grasp active: both fingers, side normals, 50 ms contact; release on opening
+[gzserver-1] [INFO] [1790875335.694160922] [gazebo_ros2_control]: Loading gazebo_ros2_control plugin
+[gzserver-1] [INFO] [1790875335.706584531] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in namespace: /
+[gzserver-1] [INFO] [1790875335.706694705] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in ros 2 node: gazebo_ros2_control
+[gzserver-1] [INFO] [1790875335.715621794] [gazebo_ros2_control]: connected to service!! robot_state_publisher
+[gzserver-1] [INFO] [1790875335.716855859] [gazebo_ros2_control]: Received urdf from param server, parsing...
+[gzserver-1] [INFO] [1790875335.716991598] [gazebo_ros2_control]: Loading parameter files /home/hanhan/Desktop/piper_classify_ws/src/description/classify_description/config/ros2_controllers.yaml
+[INFO] [spawn_entity.py-4]: process has finished cleanly [pid 694128]
+[INFO] [spawner-9]: process started with pid [694406]
+[INFO] [spawner-10]: process started with pid [694409]
+[INFO] [spawner-11]: process started with pid [694411]
+[gzserver-1] [INFO] [1790875335.751953660] [gazebo_ros2_control]: Loading joint: joint1
+[gzserver-1] [INFO] [1790875335.752091788] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790875335.752130798] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875335.752168431] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790875335.752223887] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790875335.752255190] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790875335.752280191] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875335.753764673] [gazebo_ros2_control]: Loading joint: joint2
+[gzserver-1] [INFO] [1790875335.753863602] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790875335.753898788] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875335.753958177] [gazebo_ros2_control]: 			 found initial value: 0.872660
+[gzserver-1] [INFO] [1790875335.753994244] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790875335.754017899] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790875335.754041303] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875335.754582968] [gazebo_ros2_control]: Loading joint: joint3
+[gzserver-1] [INFO] [1790875335.754638058] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790875335.754664270] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875335.754690693] [gazebo_ros2_control]: 			 found initial value: -1.221730
+[gzserver-1] [INFO] [1790875335.754720749] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790875335.754743192] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790875335.754764775] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875335.755734115] [gazebo_ros2_control]: Loading joint: joint4
+[gzserver-1] [INFO] [1790875335.755802467] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790875335.755828731] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875335.755852943] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790875335.755885475] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790875335.755909877] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790875335.755935164] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875335.756434341] [gazebo_ros2_control]: Loading joint: joint5
+[gzserver-1] [INFO] [1790875335.756487722] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790875335.756514022] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875335.756568073] [gazebo_ros2_control]: 			 found initial value: 1.220000
+[gzserver-1] [INFO] [1790875335.756599289] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790875335.756623447] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790875335.756647270] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875335.757125592] [gazebo_ros2_control]: Loading joint: joint6
+[gzserver-1] [INFO] [1790875335.757182489] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790875335.757330620] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875335.757370786] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790875335.757403648] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790875335.757428337] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790875335.757452871] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875335.758720841] [gazebo_ros2_control]: Loading joint: joint7
+[gzserver-1] [INFO] [1790875335.758781416] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790875335.758801794] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875335.758819783] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790875335.758846031] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790875335.758863125] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790875335.758879646] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875335.759138814] [gazebo_ros2_control]: Loading joint: joint8
+[gzserver-1] [INFO] [1790875335.759158333] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1790875335.759174574] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875335.759190366] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1790875335.759220970] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1790875335.759238187] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1790875335.759251804] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1790875335.760736188] [resource_manager]: Initialize hardware 'GazeboSystem' 
+[gzserver-1] [INFO] [1790875335.761299006] [resource_manager]: Successful initialization of hardware 'GazeboSystem'
+[gzserver-1] [INFO] [1790875335.761607890] [resource_manager]: 'configure' hardware 'GazeboSystem' 
+[gzserver-1] [INFO] [1790875335.761651007] [resource_manager]: Successful 'configure' of hardware 'GazeboSystem'
+[gzserver-1] [INFO] [1790875335.761675705] [resource_manager]: 'activate' hardware 'GazeboSystem' 
+[gzserver-1] [INFO] [1790875335.761693813] [resource_manager]: Successful 'activate' of hardware 'GazeboSystem'
+[gzserver-1] [INFO] [1790875335.761889576] [gazebo_ros2_control]: Loading controller_manager
+[gzserver-1] [WARN] [1790875335.827781487] [gazebo_ros2_control]:  Desired controller update period (0.01 s) is slower than the gazebo simulation period (0.001 s).
+[gzserver-1] [INFO] [1790875335.828285580] [gazebo_ros2_control]: Loaded gazebo_ros2_control.
+[gzserver-1] [INFO] [1790875337.494135614] [controller_manager]: Loading controller 'piper_joint_state_broadcaster'
+[spawner-9] [INFO] [1790875337.585463945] [spawner_piper_joint_state_broadcaster]: [94mLoaded [1mpiper_joint_state_broadcaster[0m
+[gzserver-1] [INFO] [1790875337.589294563] [controller_manager]: Configuring controller 'piper_joint_state_broadcaster'
+[gzserver-1] [INFO] [1790875337.590038437] [piper_joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[spawner-9] [INFO] [1790875337.640145683] [spawner_piper_joint_state_broadcaster]: [92mConfigured and activated [1mpiper_joint_state_broadcaster[0m
+[gzserver-1] [INFO] [1790875337.830389748] [controller_manager]: Loading controller 'piper_gripper_controller'
+[INFO] [spawner-9]: process has finished cleanly [pid 694406]
+[gzserver-1] [WARN] [1790875337.887526380] [piper_gripper_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[spawner-11] [INFO] [1790875337.934830611] [spawner_piper_gripper_controller]: [94mLoaded [1mpiper_gripper_controller[0m
+[gzserver-1] [INFO] [1790875337.938374867] [controller_manager]: Configuring controller 'piper_gripper_controller'
+[gzserver-1] [INFO] [1790875337.938684124] [piper_gripper_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-1] [INFO] [1790875337.938747763] [piper_gripper_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[gzserver-1] [INFO] [1790875337.938855235] [piper_gripper_controller]: Using 'splines' interpolation method.
+[gzserver-1] [INFO] [1790875337.942052191] [piper_gripper_controller]: Controller state will be published at 50.00 Hz.
+[gzserver-1] [INFO] [1790875337.945962580] [piper_gripper_controller]: Action status changes will be monitored at 20.00 Hz.
+[gzserver-1] [INFO] [1790875337.994969414] [controller_manager]: Loading controller 'piper_arm_controller'
+[spawner-11] [INFO] [1790875337.998486074] [spawner_piper_gripper_controller]: [92mConfigured and activated [1mpiper_gripper_controller[0m
+[gzserver-1] [WARN] [1790875338.049086211] [piper_arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[spawner-10] [INFO] [1790875338.095131113] [spawner_piper_arm_controller]: [94mLoaded [1mpiper_arm_controller[0m
+[gzserver-1] [INFO] [1790875338.097615933] [controller_manager]: Configuring controller 'piper_arm_controller'
+[gzserver-1] [INFO] [1790875338.098041341] [piper_arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-1] [INFO] [1790875338.098088105] [piper_arm_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[gzserver-1] [INFO] [1790875338.098199152] [piper_arm_controller]: Using 'splines' interpolation method.
+[gzserver-1] [INFO] [1790875338.099340065] [piper_arm_controller]: Controller state will be published at 50.00 Hz.
+[gzserver-1] [INFO] [1790875338.104409220] [piper_arm_controller]: Action status changes will be monitored at 20.00 Hz.
+[spawner-10] [INFO] [1790875338.140475542] [spawner_piper_arm_controller]: [92mConfigured and activated [1mpiper_arm_controller[0m
+[INFO] [spawner-11]: process has finished cleanly [pid 694411]
+[INFO] [spawner-10]: process has finished cleanly [pid 694409]
+[detect_blocks-7] [INFO] [1790875338.863819043] [detect_blocks]: Detected 3 reliable blocks: red=(0.399757,0.000417755,0.0283647) green=(0.400482,0.140329,0.0283164) blue=(0.40002,-0.139077,0.0283457)  (Reliable top surfaces)
+[detect_blocks-7] [INFO] [1790875340.937177343] [detect_blocks]: Detected 3 reliable blocks: red=(0.399757,0.000417756,0.0283647) green=(0.400482,0.140329,0.0283164) blue=(0.40002,-0.139077,0.0283457)  (Reliable top surfaces)
+[classify_task_node-8] [INFO] [1790875342.504881633] [classify_task]: DETECTING: initialize 
+[classify_task_node-8] [INFO] [1790875342.510597920] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[classify_task_node-8] [INFO] [1790875342.510671868] [moveit_robot_model.robot_model]: Loading robot model 'piper'...
+[classify_task_node-8] [INFO] [1790875342.510684183] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[classify_task_node-8] [INFO] [1790875342.543568442] [move_group_interface]: Ready to take commands for planning group arm.
+[classify_task_node-8] [INFO] [1790875342.563246794] [move_group_interface]: Ready to take commands for planning group gripper.
+[classify_task_node-8] [INFO] [1790875342.584922171] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[classify_task_node-8] [INFO] [1790875342.640531079] [classify_task]: DETECTING: wait for stable vision 
+[classify_task_node-8] [INFO] [1790875342.640829286] [classify_task]: PLANNING: MTC pick and place 
+[classify_task_node-8] [INFO] [1790875342.642278854] [classify_task]: VISION_TARGET red xyz=(0.39976 0.00042 0.02836); bin=(0.520 -0.220 0.040)
+[classify_task_node-8] [INFO] [1790875342.693193886] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[classify_task_node-8] [INFO] [1790875342.696820380] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[classify_task_node-8] [INFO] [1790875342.696859192] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[classify_task_node-8] [INFO] [1790875342.696868566] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[classify_task_node-8] [INFO] [1790875342.696908984] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[classify_task_node-8] [INFO] [1790875342.696936190] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[classify_task_node-8] [INFO] [1790875342.696945031] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[classify_task_node-8] [INFO] [1790875342.696966028] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[classify_task_node-8] [INFO] [1790875342.696975117] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[classify_task_node-8] [INFO] [1790875342.696984815] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[classify_task_node-8] [INFO] [1790875342.697004705] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[classify_task_node-8] [INFO] [1790875342.697011381] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[classify_task_node-8] [INFO] [1790875342.697016574] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[classify_task_node-8] [INFO] [1790875342.697022095] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[classify_task_node-8] [INFO] [1790875342.697027391] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[classify_task_node-8] [INFO] [1790875342.697032561] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[classify_task_node-8] [INFO] [1790875342.713757620] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[classify_task_node-8] [INFO] [1790875342.796812769] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[classify_task_node-8] [INFO] [1790875342.846487105] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[classify_task_node-8] [INFO] [1790875342.882241473] [classify_task]: PICKING: open gripper 
+[move_group-5] [INFO] [1790875342.883070268] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[classify_task_node-8] [INFO] [1790875342.883414295] [move_group_interface]: Execute request accepted
+[move_group-5] [INFO] [1790875342.883473210] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-5] [INFO] [1790875342.883542482] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875342.883584345] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875342.883798381] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-5] [INFO] [1790875342.884035800] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-5] [INFO] [1790875342.884145305] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875342.884192207] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875342.884521011] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to piper_gripper_controller
+[gzserver-1] [INFO] [1790875342.886032789] [piper_gripper_controller]: Received new action goal
+[gzserver-1] [INFO] [1790875342.886295315] [piper_gripper_controller]: Accepted new action goal
+[move_group-5] [INFO] [1790875342.886736947] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: piper_gripper_controller started execution
+[move_group-5] [INFO] [1790875342.886792857] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[detect_blocks-7] [INFO] [1790875342.954186745] [detect_blocks]: Detected 3 reliable blocks: red=(0.399757,0.000417755,0.0283647) green=(0.400482,0.140329,0.0283164) blue=(0.40002,-0.139077,0.0283457)  (Reliable top surfaces)
+[detect_blocks-7] [INFO] [1790875344.932685008] [detect_blocks]: Detected 3 reliable blocks: red=(0.399757,0.000417756,0.0283647) green=(0.400482,0.140329,0.0283164) blue=(0.40002,-0.139077,0.0283457)  (Reliable top surfaces)
+[detect_blocks-7] [INFO] [1790875347.143058306] [detect_blocks]: Detected 3 reliable blocks: red=(0.399757,0.000417756,0.0283647) green=(0.400482,0.140329,0.0283164) blue=(0.40002,-0.139077,0.0283457)  (Reliable top surfaces)
+[gzserver-1] [INFO] [1790875347.158757151] [piper_gripper_controller]: Goal reached, success!
+[move_group-5] [INFO] [1790875347.189018534] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'piper_gripper_controller' successfully finished
+[move_group-5] [INFO] [1790875347.189283087] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-5] [INFO] [1790875347.189501525] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[classify_task_node-8] [INFO] [1790875347.192530184] [move_group_interface]: Execute request success!
+[classify_task_node-8] [INFO] [1790875347.195292643] [classify_task]: PICKING: move above object 
+[move_group-5] [INFO] [1790875347.200024144] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-5] [INFO] [1790875347.200437025] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-5] [INFO] [1790875347.200504512] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875347.200539647] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875347.200707874] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-5] [INFO] [1790875347.200887305] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-5] [INFO] [1790875347.200941449] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875347.200979305] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[classify_task_node-8] [INFO] [1790875347.200450924] [move_group_interface]: Execute request accepted
+[move_group-5] [INFO] [1790875347.201262612] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to piper_arm_controller
+[move_group-5] [INFO] [1790875347.202429336] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: piper_arm_controller started execution
+[move_group-5] [INFO] [1790875347.202468819] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-1] [INFO] [1790875347.201912091] [piper_arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1790875347.202037975] [piper_arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1790875352.749707508] [piper_arm_controller]: Goal reached, success!
+[move_group-5] [INFO] [1790875352.753799566] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'piper_arm_controller' successfully finished
+[move_group-5] [INFO] [1790875352.753925684] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-5] [INFO] [1790875352.754892443] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[classify_task_node-8] [INFO] [1790875352.755393697] [move_group_interface]: Execute request success!
+[classify_task_node-8] [INFO] [1790875352.757719309] [classify_task]: PICKING: approach object 
+[move_group-5] [INFO] [1790875352.758944416] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-5] [INFO] [1790875352.759108688] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-5] [INFO] [1790875352.759153506] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875352.759185544] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875352.759333181] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-5] [INFO] [1790875352.759485976] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-5] [INFO] [1790875352.759537103] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875352.759575525] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875352.759793421] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to piper_arm_controller
+[classify_task_node-8] [INFO] [1790875352.759285537] [move_group_interface]: Execute request accepted
+[gzserver-1] [INFO] [1790875352.760312913] [piper_arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1790875352.760427878] [piper_arm_controller]: Accepted new action goal
+[move_group-5] [INFO] [1790875352.762008622] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: piper_arm_controller started execution
+[move_group-5] [INFO] [1790875352.762055511] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-1] [INFO] [1790875356.550119889] [piper_arm_controller]: Goal reached, success!
+[move_group-5] [INFO] [1790875356.564195615] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'piper_arm_controller' successfully finished
+[move_group-5] [INFO] [1790875356.564397164] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-5] [INFO] [1790875356.567125318] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[classify_task_node-8] [INFO] [1790875356.568560088] [move_group_interface]: Execute request success!
+[classify_task_node-8] [INFO] [1790875356.570306129] [classify_task]: PICKING: allow finger contact 
+[classify_task_node-8] [INFO] [1790875356.573935909] [classify_task]: PICKING: close gripper 
+[move_group-5] [INFO] [1790875356.574677232] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-5] [INFO] [1790875356.574864206] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-5] [INFO] [1790875356.574916285] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875356.574949444] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875356.575034627] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-5] [INFO] [1790875356.575271572] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-5] [INFO] [1790875356.575336228] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875356.575372373] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875356.575624100] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to piper_gripper_controller
+[classify_task_node-8] [INFO] [1790875356.575734940] [move_group_interface]: Execute request accepted
+[gzserver-1] [INFO] [1790875356.576034029] [piper_gripper_controller]: Received new action goal
+[gzserver-1] [INFO] [1790875356.576133188] [piper_gripper_controller]: Accepted new action goal
+[move_group-5] [INFO] [1790875356.577289594] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: piper_gripper_controller started execution
+[move_group-5] [INFO] [1790875356.577324803] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[detect_blocks-7] [INFO] [1790875358.180131476] [detect_blocks]: Detected 0 reliable blocks:  (Incomplete visibility; unreliable surfaces rejected)
+[gzserver-1] [INFO] [1790875358.676581863] [classify_contact_grasp]: CONTACT_GRASP red_block joint7=0.02314 (two fingers, 50 ms)
+[gzserver-1] [INFO] [1790875358.774569505] [piper_gripper_controller]: Goal reached, success!
+[move_group-5] [INFO] [1790875358.778375213] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'piper_gripper_controller' successfully finished
+[move_group-5] [INFO] [1790875358.778545213] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-5] [INFO] [1790875358.778720898] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[classify_task_node-8] [INFO] [1790875358.779231061] [move_group_interface]: Execute request success!
+[classify_task_node-8] [INFO] [1790875359.080776691] [classify_task]: PICKING: attach object 
+[classify_task_node-8] [INFO] [1790875359.082488467] [classify_task]: PICKING: lift object 
+[move_group-5] [INFO] [1790875359.083265018] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-5] [INFO] [1790875359.083409520] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-5] [INFO] [1790875359.083443031] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875359.083470043] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875359.083582194] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-5] [INFO] [1790875359.083730130] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-5] [INFO] [1790875359.083815846] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875359.083857089] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875359.084093990] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to piper_arm_controller
+[classify_task_node-8] [INFO] [1790875359.083512383] [move_group_interface]: Execute request accepted
+[gzserver-1] [INFO] [1790875359.084569496] [piper_arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1790875359.084693798] [piper_arm_controller]: Accepted new action goal
+[move_group-5] [INFO] [1790875359.085010837] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: piper_arm_controller started execution
+[move_group-5] [INFO] [1790875359.085044885] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-1] [INFO] [1790875364.258050846] [piper_arm_controller]: Goal reached, success!
+[move_group-5] [INFO] [1790875364.285655596] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'piper_arm_controller' successfully finished
+[move_group-5] [INFO] [1790875364.285812068] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-5] [INFO] [1790875364.285952377] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[classify_task_node-8] [INFO] [1790875364.286354996] [move_group_interface]: Execute request success!
+[classify_task_node-8] [INFO] [1790875364.290511740] [classify_task]: PHYSICAL_LIFT_OK red z=0.20798
+[classify_task_node-8] [INFO] [1790875364.290613136] [classify_task]: PLACING: carry above bin 
+[move_group-5] [INFO] [1790875364.291155844] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-5] [INFO] [1790875364.291297536] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-5] [INFO] [1790875364.291332449] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875364.291357230] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875364.291445238] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-5] [INFO] [1790875364.291592684] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-5] [INFO] [1790875364.291640837] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875364.291663750] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875364.291875794] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to piper_arm_controller
+[classify_task_node-8] [INFO] [1790875364.291440807] [move_group_interface]: Execute request accepted
+[gzserver-1] [INFO] [1790875364.292237819] [piper_arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1790875364.292335170] [piper_arm_controller]: Accepted new action goal
+[move_group-5] [INFO] [1790875364.292664132] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: piper_arm_controller started execution
+[move_group-5] [INFO] [1790875364.292702554] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[detect_blocks-7] [INFO] [1790875364.483029463] [detect_blocks]: Detected 0 reliable blocks:  (Incomplete visibility; unreliable surfaces rejected)
+[gzserver-1] [INFO] [1790875369.561712634] [piper_arm_controller]: Goal reached, success!
+[move_group-5] [INFO] [1790875369.593249993] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'piper_arm_controller' successfully finished
+[move_group-5] [INFO] [1790875369.593473462] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-5] [INFO] [1790875369.593647162] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[classify_task_node-8] [INFO] [1790875369.594014054] [move_group_interface]: Execute request success!
+[classify_task_node-8] [INFO] [1790875369.595981193] [classify_task]: PLACING: lower above bin 
+[move_group-5] [INFO] [1790875369.596572022] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-5] [INFO] [1790875369.596742862] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-5] [INFO] [1790875369.596786328] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875369.596817598] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875369.596915880] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-5] [INFO] [1790875369.597090796] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-5] [INFO] [1790875369.597158838] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875369.597187086] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[classify_task_node-8] [INFO] [1790875369.596765886] [move_group_interface]: Execute request accepted
+[move_group-5] [INFO] [1790875369.597396767] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to piper_arm_controller
+[gzserver-1] [INFO] [1790875369.597673597] [piper_arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1790875369.597750687] [piper_arm_controller]: Accepted new action goal
+[move_group-5] [INFO] [1790875369.598001645] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: piper_arm_controller started execution
+[move_group-5] [INFO] [1790875369.598034707] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[detect_blocks-7] [INFO] [1790875369.878968297] [detect_blocks]: Detected 0 reliable blocks:  (Incomplete visibility; unreliable surfaces rejected)
+[gzserver-1] [INFO] [1790875371.672796936] [piper_arm_controller]: Goal reached, success!
+[move_group-5] [INFO] [1790875371.698374578] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'piper_arm_controller' successfully finished
+[move_group-5] [INFO] [1790875371.698544318] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-5] [INFO] [1790875371.698646192] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[classify_task_node-8] [INFO] [1790875371.699004936] [move_group_interface]: Execute request success!
+[classify_task_node-8] [INFO] [1790875371.700623342] [classify_task]: PLACING: release gripper 
+[move_group-5] [INFO] [1790875371.701123403] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[classify_task_node-8] [INFO] [1790875371.701309496] [move_group_interface]: Execute request accepted
+[move_group-5] [INFO] [1790875371.701341939] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-5] [INFO] [1790875371.701389943] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875371.701409949] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875371.701468853] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-5] [INFO] [1790875371.701586472] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-5] [INFO] [1790875371.701657147] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875371.701695215] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875371.701914560] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to piper_gripper_controller
+[gzserver-1] [INFO] [1790875371.702324348] [piper_gripper_controller]: Received new action goal
+[gzserver-1] [INFO] [1790875371.702401299] [piper_gripper_controller]: Accepted new action goal
+[move_group-5] [INFO] [1790875371.702768585] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: piper_gripper_controller started execution
+[move_group-5] [INFO] [1790875371.702799502] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[detect_blocks-7] [INFO] [1790875371.839080306] [detect_blocks]: Detected 0 reliable blocks:  (Incomplete visibility; unreliable surfaces rejected)
+[gzserver-1] [INFO] [1790875372.356817992] [classify_contact_grasp]: CONTACT_RELEASE red_block
+[gzserver-1] [INFO] [1790875373.631402532] [piper_gripper_controller]: Goal reached, success!
+[move_group-5] [INFO] [1790875373.653088001] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'piper_gripper_controller' successfully finished
+[move_group-5] [INFO] [1790875373.653197515] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-5] [INFO] [1790875373.653317386] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[classify_task_node-8] [INFO] [1790875373.653606720] [move_group_interface]: Execute request success!
+[classify_task_node-8] [INFO] [1790875373.655377821] [classify_task]: PLACING: detach object 
+[classify_task_node-8] [INFO] [1790875373.656297796] [classify_task]: PLACING: settle in bin 
+[detect_blocks-7] [INFO] [1790875373.985116515] [detect_blocks]: Detected 0 reliable blocks:  (Incomplete visibility; unreliable surfaces rejected)
+[classify_task_node-8] [INFO] [1790875375.160170524] [classify_task]: PROGRESS 1/2: red -> bin_red
+[classify_task_node-8] [INFO] [1790875375.160464219] [classify_task]: PHYSICAL_PLACE_OK red xyz=(0.52750 -0.22018 0.04000)
+[classify_task_node-8] [INFO] [1790875375.160539181] [classify_task]: PLACING: restore finger collision 
+[classify_task_node-8] [INFO] [1790875375.161386246] [classify_task]: PLACING: retreat from bin 
+[move_group-5] [INFO] [1790875375.162170731] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-5] [INFO] [1790875375.162325930] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-5] [INFO] [1790875375.162356045] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875375.162378732] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[classify_task_node-8] [INFO] [1790875375.162428591] [move_group_interface]: Execute request accepted
+[move_group-5] [INFO] [1790875375.162454936] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-5] [INFO] [1790875375.162600769] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-5] [INFO] [1790875375.162681004] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875375.162709016] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875375.162928935] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to piper_arm_controller
+[gzserver-1] [INFO] [1790875375.163296352] [piper_arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1790875375.163406678] [piper_arm_controller]: Accepted new action goal
+[move_group-5] [INFO] [1790875375.163663905] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: piper_arm_controller started execution
+[move_group-5] [INFO] [1790875375.163704882] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-1] [INFO] [1790875377.225431237] [piper_arm_controller]: Goal reached, success!
+[move_group-5] [INFO] [1790875377.264252126] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'piper_arm_controller' successfully finished
+[move_group-5] [INFO] [1790875377.264357467] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-5] [INFO] [1790875377.264463235] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[classify_task_node-8] [INFO] [1790875377.264842276] [move_group_interface]: Execute request success!
+[classify_task_node-8] [INFO] [1790875377.265785837] [classify_task]: PLACING: return home 
+[move_group-5] [INFO] [1790875377.266418156] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-5] [INFO] [1790875377.266508339] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-5] [INFO] [1790875377.266529457] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875377.266546664] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875377.266612091] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[classify_task_node-8] [INFO] [1790875377.266700849] [move_group_interface]: Execute request accepted
+[move_group-5] [INFO] [1790875377.266712727] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-5] [INFO] [1790875377.266768695] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875377.266797096] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875377.266975905] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to piper_arm_controller
+[gzserver-1] [INFO] [1790875377.267375085] [piper_arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1790875377.267453805] [piper_arm_controller]: Accepted new action goal
+[move_group-5] [INFO] [1790875377.267655296] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: piper_arm_controller started execution
+[move_group-5] [INFO] [1790875377.267665296] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[detect_blocks-7] [INFO] [1790875377.404931018] [detect_blocks]: Detected 0 reliable blocks:  (Incomplete visibility; unreliable surfaces rejected)
+[gzserver-1] [INFO] [1790875384.698392646] [piper_arm_controller]: Goal reached, success!
+[move_group-5] [INFO] [1790875384.718664362] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'piper_arm_controller' successfully finished
+[move_group-5] [INFO] [1790875384.718782334] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-5] [INFO] [1790875384.718909488] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[classify_task_node-8] [INFO] [1790875384.719251540] [move_group_interface]: Execute request success!
+[classify_task_node-8] [INFO] [1790875384.721006224] [classify_task]: DETECTING: wait for stable vision 
+[detect_blocks-7] [INFO] [1790875384.902440062] [detect_blocks]: Detected 2 reliable blocks: green=(0.400071,0.140292,0.0284072) blue=(0.400269,-0.139027,0.0283855)  (Incomplete visibility; unreliable surfaces rejected)
+[classify_task_node-8] [INFO] [1790875384.921338435] [classify_task]: PLANNING: MTC pick and place 
+[classify_task_node-8] [INFO] [1790875384.922492889] [classify_task]: VISION_TARGET blue xyz=(0.40002 -0.13908 0.02835); bin=(0.520 0.220 0.040)
+[classify_task_node-8] [INFO] [1790875384.952918885] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[classify_task_node-8] [INFO] [1790875385.015939337] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[classify_task_node-8] [INFO] [1790875385.069999413] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[classify_task_node-8] [INFO] [1790875385.107551393] [classify_task]: PICKING: open gripper 
+[classify_task_node-8] [INFO] [1790875385.108371613] [classify_task]: PICKING: move above object 
+[move_group-5] [INFO] [1790875385.109096408] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-5] [INFO] [1790875385.109305822] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-5] [INFO] [1790875385.109360373] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875385.109393383] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[classify_task_node-8] [INFO] [1790875385.109378874] [move_group_interface]: Execute request accepted
+[move_group-5] [INFO] [1790875385.109524455] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-5] [INFO] [1790875385.109698666] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-5] [INFO] [1790875385.109766293] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875385.109796839] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875385.110000581] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to piper_arm_controller
+[gzserver-1] [INFO] [1790875385.110356579] [piper_arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1790875385.110445902] [piper_arm_controller]: Accepted new action goal
+[move_group-5] [INFO] [1790875385.110761952] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: piper_arm_controller started execution
+[move_group-5] [INFO] [1790875385.110794403] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-1] [INFO] [1790875390.860403747] [piper_arm_controller]: Goal reached, success!
+[move_group-5] [INFO] [1790875390.861275703] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'piper_arm_controller' successfully finished
+[move_group-5] [INFO] [1790875390.861392854] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-5] [INFO] [1790875390.861490603] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[classify_task_node-8] [INFO] [1790875390.861781870] [move_group_interface]: Execute request success!
+[classify_task_node-8] [INFO] [1790875390.863380841] [classify_task]: PICKING: approach object 
+[move_group-5] [INFO] [1790875390.863965810] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-5] [INFO] [1790875390.864093189] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-5] [INFO] [1790875390.864126415] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875390.864153662] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875390.864256629] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-5] [INFO] [1790875390.864376955] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-5] [INFO] [1790875390.864432605] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875390.864458914] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875390.864641001] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to piper_arm_controller
+[classify_task_node-8] [INFO] [1790875390.864126895] [move_group_interface]: Execute request accepted
+[gzserver-1] [INFO] [1790875390.864926200] [piper_arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1790875390.865007206] [piper_arm_controller]: Accepted new action goal
+[move_group-5] [INFO] [1790875390.865278220] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: piper_arm_controller started execution
+[move_group-5] [INFO] [1790875390.865310409] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[detect_blocks-7] [INFO] [1790875391.188306896] [detect_blocks]: Detected 0 reliable blocks:  (Incomplete visibility; unreliable surfaces rejected)
+[detect_blocks-7] [INFO] [1790875393.592397874] [detect_blocks]: Detected 0 reliable blocks:  (Incomplete visibility; unreliable surfaces rejected)
+[gzserver-1] [INFO] [1790875393.736863838] [piper_arm_controller]: Goal reached, success!
+[move_group-5] [INFO] [1790875393.766069133] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'piper_arm_controller' successfully finished
+[move_group-5] [INFO] [1790875393.766238694] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-5] [INFO] [1790875393.766380700] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[classify_task_node-8] [INFO] [1790875393.766818447] [move_group_interface]: Execute request success!
+[classify_task_node-8] [INFO] [1790875393.767810542] [classify_task]: PICKING: allow finger contact 
+[classify_task_node-8] [INFO] [1790875393.768762787] [classify_task]: PICKING: close gripper 
+[move_group-5] [INFO] [1790875393.769567987] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-5] [INFO] [1790875393.769739719] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-5] [INFO] [1790875393.769783124] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875393.769814777] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875393.769918419] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[classify_task_node-8] [INFO] [1790875393.769761510] [move_group_interface]: Execute request accepted
+[move_group-5] [INFO] [1790875393.770063847] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-5] [INFO] [1790875393.770133148] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875393.770162619] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875393.770379760] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to piper_gripper_controller
+[gzserver-1] [INFO] [1790875393.770749471] [piper_gripper_controller]: Received new action goal
+[gzserver-1] [INFO] [1790875393.770851663] [piper_gripper_controller]: Accepted new action goal
+[move_group-5] [INFO] [1790875393.771118087] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: piper_gripper_controller started execution
+[move_group-5] [INFO] [1790875393.771146213] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[detect_blocks-7] [INFO] [1790875395.580995321] [detect_blocks]: Detected 0 reliable blocks:  (Incomplete visibility; unreliable surfaces rejected)
+[gzserver-1] [INFO] [1790875395.649063410] [classify_contact_grasp]: CONTACT_GRASP blue_block joint7=0.02315 (two fingers, 50 ms)
+[gzserver-1] [INFO] [1790875395.704255102] [piper_gripper_controller]: Goal reached, success!
+[move_group-5] [INFO] [1790875395.721673162] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'piper_gripper_controller' successfully finished
+[move_group-5] [INFO] [1790875395.721822533] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-5] [INFO] [1790875395.721949934] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[classify_task_node-8] [INFO] [1790875395.722432453] [move_group_interface]: Execute request success!
+[classify_task_node-8] [INFO] [1790875396.023606798] [classify_task]: PICKING: attach object 
+[classify_task_node-8] [INFO] [1790875396.024661780] [classify_task]: PICKING: lift object 
+[move_group-5] [INFO] [1790875396.025297116] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-5] [INFO] [1790875396.025440375] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-5] [INFO] [1790875396.025470409] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875396.025492613] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875396.025562135] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[classify_task_node-8] [INFO] [1790875396.025502281] [move_group_interface]: Execute request accepted
+[move_group-5] [INFO] [1790875396.025672693] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-5] [INFO] [1790875396.025746479] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875396.025776347] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875396.025982447] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to piper_arm_controller
+[gzserver-1] [INFO] [1790875396.026269852] [piper_arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1790875396.026333232] [piper_arm_controller]: Accepted new action goal
+[move_group-5] [INFO] [1790875396.026540565] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: piper_arm_controller started execution
+[move_group-5] [INFO] [1790875396.026565905] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-1] [INFO] [1790875400.879999320] [piper_arm_controller]: Goal reached, success!
+[move_group-5] [INFO] [1790875400.927251627] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'piper_arm_controller' successfully finished
+[move_group-5] [INFO] [1790875400.927360207] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-5] [INFO] [1790875400.927508897] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[classify_task_node-8] [INFO] [1790875400.928013228] [move_group_interface]: Execute request success!
+[classify_task_node-8] [INFO] [1790875400.930849698] [classify_task]: PHYSICAL_LIFT_OK blue z=0.20798
+[classify_task_node-8] [INFO] [1790875400.930940605] [classify_task]: PLACING: carry above bin 
+[move_group-5] [INFO] [1790875400.931518390] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-5] [INFO] [1790875400.931651207] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-5] [INFO] [1790875400.931678253] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875400.931698742] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875400.931793280] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[classify_task_node-8] [INFO] [1790875400.931799539] [move_group_interface]: Execute request accepted
+[move_group-5] [INFO] [1790875400.931897972] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-5] [INFO] [1790875400.931974267] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875400.932002618] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875400.932198894] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to piper_arm_controller
+[gzserver-1] [INFO] [1790875400.932668545] [piper_arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1790875400.932777005] [piper_arm_controller]: Accepted new action goal
+[move_group-5] [INFO] [1790875400.933086562] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: piper_arm_controller started execution
+[move_group-5] [INFO] [1790875400.933112207] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[detect_blocks-7] [INFO] [1790875401.013217209] [detect_blocks]: Detected 0 reliable blocks:  (Incomplete visibility; unreliable surfaces rejected)
+[gzserver-1] [INFO] [1790875408.973270857] [piper_arm_controller]: Goal reached, success!
+[move_group-5] [INFO] [1790875408.983774160] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'piper_arm_controller' successfully finished
+[move_group-5] [INFO] [1790875408.983903948] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-5] [INFO] [1790875408.984021504] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[classify_task_node-8] [INFO] [1790875408.984376282] [move_group_interface]: Execute request success!
+[classify_task_node-8] [INFO] [1790875408.986031070] [classify_task]: PLACING: lower above bin 
+[move_group-5] [INFO] [1790875408.986555312] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-5] [INFO] [1790875408.986705163] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-5] [INFO] [1790875408.986745467] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875408.986774648] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875408.986874491] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-5] [INFO] [1790875408.987006424] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-5] [INFO] [1790875408.987061446] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875408.987089957] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875408.987292628] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to piper_arm_controller
+[classify_task_node-8] [INFO] [1790875408.986953305] [move_group_interface]: Execute request accepted
+[gzserver-1] [INFO] [1790875408.987572579] [piper_arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1790875408.987657880] [piper_arm_controller]: Accepted new action goal
+[move_group-5] [INFO] [1790875408.987942333] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: piper_arm_controller started execution
+[move_group-5] [INFO] [1790875408.987971332] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[detect_blocks-7] [INFO] [1790875409.328150729] [detect_blocks]: Detected 0 reliable blocks:  (Incomplete visibility; unreliable surfaces rejected)
+[gzserver-1] [INFO] [1790875411.110227523] [piper_arm_controller]: Goal reached, success!
+[move_group-5] [INFO] [1790875411.138411625] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'piper_arm_controller' successfully finished
+[move_group-5] [INFO] [1790875411.138608945] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-5] [INFO] [1790875411.138734303] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[classify_task_node-8] [INFO] [1790875411.139151595] [move_group_interface]: Execute request success!
+[classify_task_node-8] [INFO] [1790875411.140585393] [classify_task]: PLACING: release gripper 
+[move_group-5] [INFO] [1790875411.141070389] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-5] [INFO] [1790875411.141214559] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-5] [INFO] [1790875411.141249685] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875411.141276882] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[classify_task_node-8] [INFO] [1790875411.141235046] [move_group_interface]: Execute request accepted
+[move_group-5] [INFO] [1790875411.141358882] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-5] [INFO] [1790875411.141485886] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-5] [INFO] [1790875411.141540338] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875411.141574628] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875411.141792757] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to piper_gripper_controller
+[gzserver-1] [INFO] [1790875411.142163691] [piper_gripper_controller]: Received new action goal
+[gzserver-1] [INFO] [1790875411.142247999] [piper_gripper_controller]: Accepted new action goal
+[move_group-5] [INFO] [1790875411.142444408] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: piper_gripper_controller started execution
+[move_group-5] [INFO] [1790875411.142463309] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[detect_blocks-7] [INFO] [1790875411.398699461] [detect_blocks]: Detected 0 reliable blocks:  (Incomplete visibility; unreliable surfaces rejected)
+[gzserver-1] [INFO] [1790875411.815360189] [classify_contact_grasp]: CONTACT_RELEASE blue_block
+[gzserver-1] [INFO] [1790875413.087656749] [piper_gripper_controller]: Goal reached, success!
+[move_group-5] [INFO] [1790875413.092907515] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'piper_gripper_controller' successfully finished
+[move_group-5] [INFO] [1790875413.093018004] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-5] [INFO] [1790875413.093114989] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[classify_task_node-8] [INFO] [1790875413.093492270] [move_group_interface]: Execute request success!
+[classify_task_node-8] [INFO] [1790875413.094589887] [classify_task]: PLACING: detach object 
+[classify_task_node-8] [INFO] [1790875413.095274044] [classify_task]: PLACING: settle in bin 
+[detect_blocks-7] [INFO] [1790875413.336660245] [detect_blocks]: Detected 0 reliable blocks:  (Incomplete visibility; unreliable surfaces rejected)
+[classify_task_node-8] [INFO] [1790875414.599214032] [classify_task]: PROGRESS 2/2: blue -> bin_blue
+[classify_task_node-8] [INFO] [1790875414.599394027] [classify_task]: PHYSICAL_PLACE_OK blue xyz=(0.52723 0.21967 0.04000)
+[classify_task_node-8] [INFO] [1790875414.599457667] [classify_task]: PLACING: restore finger collision 
+[classify_task_node-8] [INFO] [1790875414.600352581] [classify_task]: PLACING: retreat from bin 
+[move_group-5] [INFO] [1790875414.600839219] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-5] [INFO] [1790875414.600991297] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-5] [INFO] [1790875414.601032145] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875414.601061964] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875414.601174626] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-5] [INFO] [1790875414.601327244] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-5] [INFO] [1790875414.601392130] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875414.601422702] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[classify_task_node-8] [INFO] [1790875414.601100104] [move_group_interface]: Execute request accepted
+[move_group-5] [INFO] [1790875414.601607558] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to piper_arm_controller
+[move_group-5] [INFO] [1790875414.602257850] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: piper_arm_controller started execution
+[move_group-5] [INFO] [1790875414.602268053] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-1] [INFO] [1790875414.601912908] [piper_arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1790875414.602003027] [piper_arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1790875416.667056386] [piper_arm_controller]: Goal reached, success!
+[move_group-5] [INFO] [1790875416.702691305] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'piper_arm_controller' successfully finished
+[move_group-5] [INFO] [1790875416.702837329] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-5] [INFO] [1790875416.702938422] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[classify_task_node-8] [INFO] [1790875416.703261344] [move_group_interface]: Execute request success!
+[classify_task_node-8] [INFO] [1790875416.704176040] [classify_task]: PLACING: return home 
+[move_group-5] [INFO] [1790875416.704723348] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-5] [INFO] [1790875416.704873153] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-5] [INFO] [1790875416.704905173] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875416.704930839] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875416.705023679] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-5] [INFO] [1790875416.705150470] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-5] [INFO] [1790875416.705216335] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-5] [INFO] [1790875416.705252151] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[classify_task_node-8] [INFO] [1790875416.704986478] [move_group_interface]: Execute request accepted
+[move_group-5] [INFO] [1790875416.705453377] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to piper_arm_controller
+[move_group-5] [INFO] [1790875416.706105613] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: piper_arm_controller started execution
+[move_group-5] [INFO] [1790875416.706128934] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gzserver-1] [INFO] [1790875416.705786807] [piper_arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1790875416.705865729] [piper_arm_controller]: Accepted new action goal
+[detect_blocks-7] [INFO] [1790875417.019849380] [detect_blocks]: Detected 0 reliable blocks:  (Incomplete visibility; unreliable surfaces rejected)
+[gzserver-1] [INFO] [1790875424.125301954] [piper_arm_controller]: Goal reached, success!
+[move_group-5] [INFO] [1790875424.156784996] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'piper_arm_controller' successfully finished
+[move_group-5] [INFO] [1790875424.156895343] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-5] [INFO] [1790875424.157026873] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[classify_task_node-8] [INFO] [1790875424.157439438] [move_group_interface]: Execute request success!
+[classify_task_node-8] [INFO] [1790875424.161320663] [classify_task]: DONE: batch complete Red/blue placed; green unchanged; arm returned home
+[classify_task_node-8] [INFO] [1790875424.161540106] [classify_task]: CLASSIFICATION_RESULT success=true succeeded=2 failed=0 elapsed=81.7s
+[classify_task_node-8] [INFO] [1790875424.161586537] [classify_task]: red   | bin_red  | base xyz 0.5275 -0.2202 0.0400
+[classify_task_node-8] [INFO] [1790875424.161615937] [classify_task]: blue  | bin_blue | base xyz 0.5272 0.2197 0.0400
+[detect_blocks-7] [INFO] [1790875424.319635292] [detect_blocks]: Detected 1 reliable blocks: green=(0.400066,0.14029,0.0284068)  (Incomplete visibility; unreliable surfaces rejected)

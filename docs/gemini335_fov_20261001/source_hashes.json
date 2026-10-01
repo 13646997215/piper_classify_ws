@@ -1,0 +1,6 @@
+{
+  "src/description/classify_description/config/gemini335.yaml": "c0541d886a8d6ac2e12bb7c43df7c7f826bccf4c9757e541117a1a2b6d6325d4",
+  "src/description/classify_description/urdf/piper_sim.urdf": "629b70aebb98157920fc4cadc16606344e2045ae87d56a6cda734e26a420a0e4",
+  "scripts/tools/select_camera_profile.py": "874a61b87b2ef4c4d240527b1090efa0de57e34eff13e1390debeabe5cd6a155",
+  "scripts/tools/verify_camera_model.py": "0c0dbfd08e9a96efe43c88f54916e53fad3af7a4547f4c5fa8da33b2f569fbce"
+}

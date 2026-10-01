@@ -1,0 +1,48 @@
+[INFO] [1790851657.435874064] [classify_task]: DETECTING: initialize 
+[INFO] [1790851657.442836979] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[INFO] [1790851657.442929738] [moveit_robot_model.robot_model]: Loading robot model 'piper'...
+[INFO] [1790851657.442952215] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[INFO] [1790851657.476179927] [move_group_interface]: Ready to take commands for planning group arm.
+[INFO] [1790851657.488446999] [move_group_interface]: Ready to take commands for planning group gripper.
+[INFO] [1790851657.509452862] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[INFO] [1790851657.560540836] [classify_task]: DETECTING: wait for stable vision 
+[INFO] [1790851657.560728210] [classify_task]: PLANNING: MTC pick and place 
+[INFO] [1790851657.562966880] [classify_task]: VISION_TARGET red xyz=(0.40012 0.00074 0.02839); bin=(0.520 -0.220 0.040)
+[INFO] [1790851657.606032080] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[INFO] [1790851657.608986533] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[INFO] [1790851657.609017103] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[INFO] [1790851657.609028073] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[INFO] [1790851657.609062918] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[INFO] [1790851657.609085749] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[INFO] [1790851657.609093077] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1790851657.609110755] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1790851657.609118772] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[INFO] [1790851657.609127209] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[INFO] [1790851657.609144048] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[INFO] [1790851657.609150200] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[INFO] [1790851657.609154960] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[INFO] [1790851657.609159698] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[INFO] [1790851657.609164212] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[INFO] [1790851657.609168744] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[INFO] [1790851657.617148867] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1790851657.681332655] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1790851657.729983754] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1790851657.760891104] [classify_task]: PICKING: open gripper 
+[INFO] [1790851657.763003280] [move_group_interface]: Execute request accepted
+[INFO] [1790851662.013354485] [move_group_interface]: Execute request success!
+[INFO] [1790851662.015445829] [classify_task]: PICKING: move above object 
+[INFO] [1790851662.016379672] [move_group_interface]: Execute request accepted
+[INFO] [1790851667.319393708] [move_group_interface]: Execute request success!
+[INFO] [1790851667.320498786] [classify_task]: PICKING: approach object 
+[INFO] [1790851667.321528208] [move_group_interface]: Execute request accepted
+[INFO] [1790851670.226454240] [move_group_interface]: Execute request success!
+[INFO] [1790851670.227968909] [classify_task]: PICKING: allow finger contact 
+[INFO] [1790851670.228903344] [classify_task]: PICKING: close gripper 
+[INFO] [1790851670.229712324] [move_group_interface]: Execute request accepted
+[INFO] [1790851672.181922751] [move_group_interface]: Execute request success!
+[INFO] [1790851672.482770948] [classify_task]: PICKING: attach object 
+[INFO] [1790851672.483955977] [classify_task]: PICKING: lift object 
+[INFO] [1790851672.484760629] [move_group_interface]: Execute request accepted
+[INFO] [1790851677.437148806] [move_group_interface]: Execute request success!
+[ERROR] [1790851677.439019118] [classify_task]: TASK_FAILED: Physical grasp failed: cube did not follow the lift
+[INFO] [1790851823.537934924] [rclcpp]: signal_handler(SIGINT/SIGTERM)

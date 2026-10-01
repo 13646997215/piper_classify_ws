@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="5" failures="0" disabled="0" errors="0" time="0" timestamp="2026-10-02T04:37:13" name="AllTests">
+  <testsuite name="SceneTracker" tests="4" failures="0" disabled="0" errors="0" time="0" timestamp="2026-10-02T04:37:13">
+    <testcase name="ConfirmsThreeFramesAndRejectsOneFrameJump" status="run" result="completed" time="0" timestamp="2026-10-02T04:37:13" classname="classify_scene_bridge.SceneTracker" />
+    <testcase name="AcceptsRealDisplacementAndExpiresMissingStream" status="run" result="completed" time="0" timestamp="2026-10-02T04:37:13" classname="classify_scene_bridge.SceneTracker" />
+    <testcase name="QuarterTurnEquivalentAndRotationNeedsConfirmation" status="run" result="completed" time="0" timestamp="2026-10-02T04:37:13" classname="classify_scene_bridge.SceneTracker" />
+    <testcase name="AllowsOnlyAlreadyAcceptedSmallClockLead" status="run" result="completed" time="0" timestamp="2026-10-02T04:37:13" classname="classify_scene_bridge.SceneTracker" />
+  </testsuite>
+  <testsuite name="SceneAssociation" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2026-10-02T04:37:13">
+    <testcase name="ReorderedSameColourAndAmbiguity" status="run" result="completed" time="0" timestamp="2026-10-02T04:37:13" classname="classify_scene_bridge.SceneAssociation" />
+  </testsuite>
+</testsuites>

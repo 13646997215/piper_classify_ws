@@ -1,0 +1,175 @@
+[
+  {
+    "case": "baseline_a",
+    "passed": true,
+    "green_displacement_mm": 0.0,
+    "elapsed_sec": 81.656905473,
+    "evidence": "runs_v2/baseline_a"
+  },
+  {
+    "case": "baseline_b",
+    "passed": true,
+    "green_displacement_mm": 0.0,
+    "elapsed_sec": 81.407171773,
+    "evidence": "runs_v2/baseline_b"
+  },
+  {
+    "case": "clutter_stress",
+    "passed": true,
+    "green_displacement_mm": 0.0,
+    "elapsed_sec": 80.862265844,
+    "evidence": "runs_v2/clutter_stress"
+  },
+  {
+    "case": "occlusion_cancel",
+    "passed": true,
+    "reference_reacquired": {
+      "header": {
+        "stamp": {
+          "sec": 6,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "ready": false,
+      "camera_stable": true,
+      "fresh_colors": [
+        "green",
+        "blue"
+      ],
+      "stale_colors": [
+        "red"
+      ],
+      "detail": "Vision scene unavailable; stale/unconfirmed: red; Reliable top surfaces"
+    },
+    "result": {
+      "header": {
+        "stamp": {
+          "sec": 6,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "success": false,
+      "succeeded": 0,
+      "failed": 0,
+      "elapsed_sec": 2.027896062,
+      "detail": "Task cancelled; gripper retained; reset required before retry",
+      "objects": [],
+      "bins": [],
+      "final_poses": []
+    },
+    "no_motion_while_occluded": true,
+    "restart_requires_reset": true,
+    "evidence": "recovery_final/occlusion_cancel"
+  },
+  {
+    "case": "vision_timeout_fail",
+    "passed": true,
+    "reference_reacquired": {
+      "header": {
+        "stamp": {
+          "sec": 25,
+          "nanosec": 100000000
+        },
+        "frame_id": "base_link"
+      },
+      "ready": false,
+      "camera_stable": true,
+      "fresh_colors": [
+        "green",
+        "blue"
+      ],
+      "stale_colors": [
+        "red"
+      ],
+      "detail": "Vision scene unavailable; stale/unconfirmed: red; Reliable top surfaces"
+    },
+    "result": {
+      "header": {
+        "stamp": {
+          "sec": 24,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "success": false,
+      "succeeded": 0,
+      "failed": 1,
+      "elapsed_sec": 20.137750711,
+      "detail": "Fresh stable vision unavailable for red and green reference",
+      "objects": [],
+      "bins": [],
+      "final_poses": []
+    },
+    "no_motion_while_occluded": true,
+    "restart_requires_reset": true,
+    "evidence": "recovery_final/vision_timeout_fail"
+  },
+  {
+    "case": "held_cancel",
+    "passed": true,
+    "cancel_response_sec": 0.003385143994819373,
+    "stopped_joint_max_change": 8.055183363886442e-05,
+    "status": {
+      "header": {
+        "stamp": {
+          "sec": 20,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "CANCELLED",
+      "stage": "lift object",
+      "current_object": "red",
+      "target_bin": "bin_red",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6625829860151838,
+      "held_object": "red_block",
+      "elapsed_sec": 15.415272696,
+      "detail": "Task cancelled; gripper retained; reset required before retry",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    "result": {
+      "header": {
+        "stamp": {
+          "sec": 17,
+          "nanosec": 700000000
+        },
+        "frame_id": "base_link"
+      },
+      "success": false,
+      "succeeded": 0,
+      "failed": 0,
+      "elapsed_sec": 15.415272696,
+      "detail": "Task cancelled; gripper retained; reset required before retry",
+      "objects": [],
+      "bins": [],
+      "final_poses": []
+    },
+    "restart_requires_reset": true,
+    "evidence": "recovery_final/held_cancel"
+  },
+  {
+    "case": "reset_after_cancel",
+    "passed": true,
+    "reset_restored_initial": true,
+    "evidence": "recovery_final/reset_after_cancel"
+  },
+  {
+    "case": "gui_clutter_stress",
+    "passed": true,
+    "elapsed_sec": 83.75462375,
+    "green_displacement_mm": 0.0,
+    "scene_errors_mm": {
+      "blue_block": 0.0007906017430831753,
+      "green_block": 0.41271806480405476,
+      "red_block": 0.0
+    },
+    "evidence": "gui_batch_final"
+  }
+]
