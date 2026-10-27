@@ -7,3 +7,5 @@
 *.jpg binary
 *.jpeg binary
 *.pdf binary
+# Preserve original whitespace in dated validation logs.
+docs/**/*.log whitespace=-blank-at-eol

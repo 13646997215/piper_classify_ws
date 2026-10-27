@@ -5,6 +5,7 @@
   "active_document_missing_targets": [],
   "credential_values_printed": false,
   "staged_file_count": 389,
-  "staged_payload_bytes": 30538232,
-  "staged_index_scan_passed": true
+  "staged_index_scan_passed": true,
+  "staged_payload_bytes_before_audit_metadata": 30538232,
+  "audit_scope": "Staged snapshot before the initial release commit; audit metadata was added afterwards."
 }
