@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-28",
+  "prior_published_history_blobs_scanned": 404,
+  "prior_published_credential_pattern_findings": 0,
+  "nonempty_literal_client_credentials": 0,
+  "private_ignored_backup_files_sanitized": 35,
+  "private_credential_occurrences_redacted": 136,
+  "credential_values_printed": false,
+  "rewrite_public_history_required": false,
+  "default_cloud_parsing_enabled": false,
+  "public_template_key_empty": true,
+  "private_env_file_ignored": true,
+  "api_network_calls_in_tests": false
+}

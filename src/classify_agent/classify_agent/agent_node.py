@@ -37,7 +37,7 @@ TERMINAL_STATES = ("DONE", "FAILED", "CANCELLED", "HOLDING")
 class LanguageAgent(Node):
     def __init__(self) -> None:
         super().__init__('classify_language_agent')
-        self.declare_parameter('use_llm', True)
+        self.declare_parameter('use_llm', False)
         self.declare_parameter('llm_model', 'deepseek-chat')
         self.declare_parameter('llm_base_url', 'https://api.deepseek.com')
         self.declare_parameter('llm_api_key_env', 'DEEPSEEK_API_KEY')

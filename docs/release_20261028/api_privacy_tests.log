@@ -1,0 +1,16 @@
+Starting >>> classify_voice
+--- stderr: classify_voice
+
+=============================== warnings summary ===============================
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+  Warning: SelectableGroups dict interface is deprecated. Use select.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+---
+Finished <<< classify_voice [0.75s]
+Starting >>> classify_agent
+Finished <<< classify_agent [0.67s]
+
+Summary: 2 packages finished [1.63s]
+  1 package had stderr output: classify_voice

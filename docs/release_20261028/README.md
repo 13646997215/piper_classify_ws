@@ -75,3 +75,11 @@
 交付时已停止本项目测试进程，保留本机可用的构建结果。源码与选定证据提交到原公开仓库 `13646997215/piper_classify_ws` 的 main；具体提交号以 Git 历史为准。
 
 发布检查见 [publish_checks.json](publish_checks.json)，交付关闭状态见 [closeout.json](closeout.json)。
+
+## API 隐私补充检查
+
+用户要求使用者自行接入 API。检查此前公开的 404 个历史 blob 与客户端凭据赋值，未发现真实密钥；公开的 DeepSeek 地址/模型名只是通用服务示例。队友拷来的忽略目录构建日志及环境快照中有凭据格式值，原发布流程已把它们移到工作区外权限 0700 的私有备份，未进入 Git。本次对其中 35 份文本文件的 136 处检测值进行脱敏，未打印密钥；未改写 Git 历史。
+
+主代理默认关闭 LLM，即使终端继承 Key 也不会自动使用。仅提交空白 `.env.example`；使用者复制到被忽略的 `.env` 并填写自己的 Key，手动加载后显式 `use_llm:=true`。可通过端点、模型与密钥环境变量参数接入自己的兼容服务。客户端异常会屏蔽已提交的 Key，避免服务商鉴权错误把密钥带入日志。
+
+新增 3 项隐私回归测试通过；当前 colcon 汇总为 49 tests、零失败/零跳过，未进行网络 API 调用。详情见 [api_privacy.json](api_privacy.json)、[测试日志](api_privacy_tests.log) 和 [汇总](api_privacy_test_results.log)。原表格的 46 项属于首次整理时的验收记录。

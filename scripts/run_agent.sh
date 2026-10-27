@@ -3,7 +3,7 @@
 # Usage:
 #   bash scripts/run_agent.sh
 #   bash scripts/run_agent.sh --ros-args -p use_voice:=true -p enable_tts:=true
-#   DEEPSEEK_API_KEY=... bash scripts/run_agent.sh
+#   After configuring your own key: bash scripts/run_agent.sh --ros-args -p use_llm:=true
 set -eo pipefail
 
 WS_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"

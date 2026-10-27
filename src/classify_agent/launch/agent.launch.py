@@ -8,7 +8,7 @@ from launch_ros.parameter_descriptions import ParameterValue
 
 def generate_launch_description():
     return LaunchDescription([
-        DeclareLaunchArgument('use_llm', default_value='true'),
+        DeclareLaunchArgument('use_llm', default_value='false'),
         DeclareLaunchArgument('use_voice', default_value='false'),
         DeclareLaunchArgument('enable_tts', default_value='false'),
         DeclareLaunchArgument('llm_model', default_value='deepseek-chat'),

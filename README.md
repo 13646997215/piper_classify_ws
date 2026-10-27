@@ -2,7 +2,7 @@
 
 基于 **Ubuntu 22.04 / ROS 2 Humble / Gazebo Classic 11 / MoveIt 2 + MTC 0.1.3**。Piper 腕部 Gemini 335 RGB-D 模型定位 50 mm 方块，执行碰撞检查、接触夹持和入盒核对；支持 RViz 手动操作、三块基线、五块同色多目标场景，以及可选文本/语音代理。
 
-2026-10-28 整理的是队友在原工程上扩展的版本：**11 个 ROS 包**，新增 `classify_agent`、`classify_voice` 和 `/classify/command` 服务。本次干净构建 11 包、46 项检查零失败，三块 2/2 与五块压力场景 4/4 均通过。当前构建、回归与整理清单见 [本次发布记录](docs/release_20261028/README.md)；早期验收记录保留各自日期，不等同于新版本验证。
+2026-10-28 整理的是队友在原工程上扩展的版本：**11 个 ROS 包**，新增 `classify_agent`、`classify_voice` 和 `/classify/command` 服务。本次干净构建 11 包、49 项检查零失败，三块 2/2 与五块压力场景 4/4 均通过。当前构建、回归与整理清单见 [本次发布记录](docs/release_20261028/README.md)；早期验收记录保留各自日期，不等同于新版本验证。
 
 本项目运行于仿真，没有真机 CAN 执行后端。语音识别需另行安装模型和音频依赖；纯文本规则解析及基础分拣无需 API Key。
 
@@ -135,13 +135,28 @@ bash scripts/run_agent.sh --ros-args -p use_llm:=false \
   -p command:="把红色方块放到蓝色盒子里"
 ```
 
-启用 LLM 时，按需将 `openai` SDK 安装到运行 ROS 节点的同一 Python 环境，并从环境变量读取密钥。默认端点为 DeepSeek，可通过 `llm_model`、`llm_base_url`、`llm_api_key_env` 参数覆盖；调用方式参考 [DeepSeek 官方文档](https://api-docs.deepseek.com/)。未配置密钥时使用规则解析。
+**LLM 默认关闭**，即使终端已有 API Key，也不会自动使用。使用者需自行申请密钥、填入本地配置并显式启用。仓库只提供密钥为空的 [.env.example](.env.example)；`.env` 不上传，也不会被程序自动加载。
+
+按需将 `openai` SDK 安装到运行 ROS 节点的同一 Python 环境，再使用自己的 Key：
 
 ```bash
 python3 -m pip install --user openai
-export DEEPSEEK_API_KEY='<自己的密钥>'
-bash scripts/run_agent.sh
+cp -n .env.example .env
+# 编辑 .env，填入自己的 DEEPSEEK_API_KEY；不要修改公开的 .env.example
+set -a; source .env; set +a
+bash scripts/run_agent.sh --ros-args -p use_llm:=true
 ```
+
+公开的 DeepSeek 地址和 `deepseek-chat` 只是默认服务示例，不是队友的私人账号或凭据。使用其他兼容服务时，可自行指定 `llm_model`、`llm_base_url`、`llm_api_key_env`；例如将自己的密钥保存在 `MY_LLM_API_KEY` 环境变量，再运行：
+
+```bash
+bash scripts/run_agent.sh --ros-args -p use_llm:=true \
+  -p llm_api_key_env:=MY_LLM_API_KEY \
+  -p llm_base_url:=https://your-provider.example/v1 \
+  -p llm_model:=your-model-name
+```
+
+未启用或没有 Key 时保留规则解析。API 错误日志会屏蔽已提交的密钥；不要分享本地 `.env`、构建环境快照或未经检查的原始日志。
 
 语音为可选功能，不随仓库分发模型。按 [faster-whisper 官方用法](https://github.com/SYSTRAN/faster-whisper) 下载完整模型，例如较小的 base 模型：
 

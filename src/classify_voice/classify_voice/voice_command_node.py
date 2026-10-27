@@ -184,7 +184,8 @@ class VoiceCommandNode(Node):
                 return [parsed]
             return parsed
         except Exception as e:
-            self.get_logger().error(f'DeepSeek API 调用失败: {e}')
+            detail = str(e).replace(self.deepseek_api_key, '[REDACTED]')
+            self.get_logger().error(f'DeepSeek API 调用失败: {detail}')
             return None
 
     def _execute_actions(self, actions):

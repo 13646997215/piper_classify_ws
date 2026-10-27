@@ -43,7 +43,6 @@ bash scripts/reset_classify.sh
 
 ```bash
 cd ~/piper_classify_ws
-export DEEPSEEK_API_KEY=你的key        # 不设置也能用规则解析兜底
 bash scripts/run_agent.sh
 ```
 
@@ -74,11 +73,13 @@ bash scripts/run_agent.sh --ros-args -p enable_tts:=true
 
 ## LLM 配置
 
-默认使用 DeepSeek：
+默认只使用本地规则解析，`use_llm=false`；不会因为终端已有密钥就自动调用云端。使用者自行接入 API，仓库不含真实 Key。以公开 DeepSeek 服务为例：
 
 ```bash
-export DEEPSEEK_API_KEY=...
-bash scripts/run_agent.sh
+cp -n .env.example .env
+# 在本地 .env 中填写自己的 Key；.env 被 Git 忽略
+set -a; source .env; set +a
+bash scripts/run_agent.sh --ros-args -p use_llm:=true
 ```
 
 也可换成本地 OpenAI 兼容端点，例如 Ollama：
@@ -87,11 +88,12 @@ bash scripts/run_agent.sh
 ollama serve
 ollama pull qwen2.5:7b
 DEEPSEEK_API_KEY=ollama bash scripts/run_agent.sh --ros-args \
+  -p use_llm:=true \
   -p llm_model:=qwen2.5:7b \
   -p llm_base_url:=http://localhost:11434/v1
 ```
 
-当前节点从 `DEEPSEEK_API_KEY` 读取密钥；本地端点可用 `DEEPSEEK_API_KEY=ollama` 占位。不要把真实密钥写入仓库。
+当前节点从 `DEEPSEEK_API_KEY` 读取密钥；也可用 `llm_api_key_env` 指定其他环境变量名，配合 `llm_base_url`、`llm_model` 接入自己的服务。本地端点可用 `DEEPSEEK_API_KEY=ollama` 占位。不要把真实密钥写入源码、公开示例或日志。
 
 ## 任务接口
 

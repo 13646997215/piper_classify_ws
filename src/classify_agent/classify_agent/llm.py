@@ -55,4 +55,5 @@ class LLMClient:
                     content = content[4:]
             return json.loads(content)
         except Exception as error:  # network, auth, malformed JSON, ...
-            return {"_error": str(error)}
+            # Some providers echo the submitted key in authentication errors.
+            return {"_error": str(error).replace(self.api_key, '[REDACTED]')}
