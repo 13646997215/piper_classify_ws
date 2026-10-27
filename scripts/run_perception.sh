@@ -11,6 +11,7 @@ if [ ! -f "${WS_ROOT}/install/local_setup.bash" ]; then
   exit 1
 fi
 source "${WS_ROOT}/install/local_setup.bash"
+source "${WS_ROOT}/scripts/tools/runtime_env.sh"
 if [ "$(ros2 pkg prefix classify_perception)" != "${WS_ROOT}/install/classify_perception" ]; then
   echo "classify_perception resolved outside this workspace" >&2
   exit 1

@@ -1,0 +1,19 @@
+[INFO] [1791603037.909530954] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[INFO] [1791603037.909586991] [moveit_robot_model.robot_model]: Loading robot model 'piper'...
+[INFO] [1791603037.909595388] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[INFO] [1791603037.980381570] [move_group_interface]: Ready to take commands for planning group gripper.
+[INFO] [1791603037.980531301] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1791603038.987886153] [move_group_interface]: Planning request accepted
+[INFO] [1791603039.020554557] [move_group_interface]: Planning request complete!
+[INFO] [1791603039.020848064] [move_group_interface]: time taken to generate plan: 0.0294286 seconds
+[INFO] [1791603039.021304569] [move_group_interface]: Execute request accepted
+[INFO] [1791603042.373094996] [move_group_interface]: Execute request success!
+[INFO] [1791603042.374977292] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[INFO] [1791603042.382540467] [verify_gripper_motion]: GRIPPER_OPEN_OK: measured joint7=0.03492 m joint8=-0.03491 m
+[INFO] [1791603042.382833056] [move_group_interface]: MoveGroup action client/server ready
+[INFO] [1791603042.383530709] [move_group_interface]: Planning request accepted
+[INFO] [1791603042.410713514] [move_group_interface]: Planning request complete!
+[INFO] [1791603042.411111720] [move_group_interface]: time taken to generate plan: 0.0225452 seconds
+[INFO] [1791603042.411585330] [move_group_interface]: Execute request accepted
+[INFO] [1791603045.713393254] [move_group_interface]: Execute request success!
+[INFO] [1791603045.713888203] [verify_gripper_motion]: GRIPPER_CLOSED_OK: measured joint7=0.00053 m joint8=-0.00054 m

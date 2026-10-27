@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "joints": {
+    "joint2": 0.8544880077537593,
+    "joint3": -1.1637681495116061,
+    "joint5": 1.1883122199301965,
+    "joint6": -0.00024412161715758884,
+    "joint1": -4.656642534062172e-05,
+    "joint4": 0.00012200976842535738,
+    "joint7": 3.0075047490308817e-06,
+    "joint8": 8.003571782278836e-09
+  },
+  "home_max_error_rad": 0.05796185048839386,
+  "home_tolerance_rad": 0.065,
+  "status": {
+    "header": {
+      "stamp": {
+        "sec": 97,
+        "nanosec": 900000000
+      },
+      "frame_id": "base_link"
+    },
+    "state": "IDLE",
+    "stage": "",
+    "current_object": "",
+    "target_bin": "",
+    "completed": 0,
+    "total": 2,
+    "succeeded": 0,
+    "failed": 0,
+    "gripper_open_ratio": 8.591415504693923e-05,
+    "held_object": "",
+    "elapsed_sec": 0.0,
+    "detail": "Ready for /classify/start; green remains untouched",
+    "placed_objects": [],
+    "placed_poses": []
+  },
+  "positions_world": {
+    "red_block": [
+      0.39999920032045383,
+      -4.842789070661831e-09,
+      0.3749989177075813
+    ],
+    "green_block": [
+      0.39999920032045394,
+      0.13999999515721093,
+      0.3749989177075813
+    ],
+    "blue_block": [
+      0.3999992003204539,
+      -0.1400000048427889,
+      0.3749989177075813
+    ]
+  },
+  "initial_position_errors_mm": {
+    "red_block": 0.001345684847484847,
+    "green_block": 0.0013456848474189282,
+    "blue_block": 0.0013456848474512166
+  },
+  "scene_ready": {
+    "success": true,
+    "message": "Vision scene ready; Reliable visible top surfaces; expected counts checked by scene bridge"
+  },
+  "model_names": [
+    "ground_plane",
+    "table",
+    "red_block",
+    "green_block",
+    "blue_block",
+    "bin_red",
+    "bin_blue",
+    "piper"
+  ]
+}

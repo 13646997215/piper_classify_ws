@@ -1,0 +1,24 @@
+Starting >>> classify_camera_sim
+Finished <<< classify_camera_sim [0.18s]
+Starting >>> classify_grasp_sim
+Finished <<< classify_grasp_sim [0.11s]
+Starting >>> classify_interfaces
+Finished <<< classify_interfaces [3.98s]
+Starting >>> classify_voice
+Finished <<< classify_voice [1.04s]
+Starting >>> classify_agent
+Finished <<< classify_agent [0.85s]
+Starting >>> classify_description
+Finished <<< classify_description [0.23s]
+Starting >>> classify_scene_bridge
+Finished <<< classify_scene_bridge [12.5s]
+Starting >>> classify_moveit_config
+Finished <<< classify_moveit_config [0.10s]
+Starting >>> classify_perception
+Finished <<< classify_perception [10.2s]
+Starting >>> classify_task
+Finished <<< classify_task [20.5s]
+Starting >>> classify_bringup
+Finished <<< classify_bringup [0.06s]
+
+Summary: 11 packages finished [50.1s]

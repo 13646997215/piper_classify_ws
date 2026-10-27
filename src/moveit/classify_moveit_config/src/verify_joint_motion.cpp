@@ -1,6 +1,7 @@
 #include <algorithm>
 #include <cmath>
 #include <memory>
+#include <stdexcept>
 #include <thread>
 #include <vector>
 
@@ -24,7 +25,18 @@ int main(int argc, char** argv)
     arm.setMaxVelocityScalingFactor(0.10);
     arm.setMaxAccelerationScalingFactor(0.10);
 
-    const auto start = arm.getCurrentJointValues();
+    // Start the monitor before recording the return target. A newly created
+    // monitor can otherwise expose the robot model's zero defaults before
+    // /clock and the first joint-state sample have arrived.
+    if (!arm.startStateMonitor(5.0)) {
+      throw std::runtime_error("No complete joint state received; refusing to move");
+    }
+    const auto measured_start = arm.getCurrentState(5.0);
+    if (!measured_start) {
+      throw std::runtime_error("Current robot state unavailable; refusing to move");
+    }
+    std::vector<double> start;
+    measured_start->copyJointGroupPositions("arm", start);
     if (start.size() != 6) {
       RCLCPP_ERROR(node->get_logger(), "Expected 6 arm joint states, got %zu", start.size());
     } else {
@@ -57,8 +69,9 @@ int main(int argc, char** argv)
             if (arm.plan(back) == moveit::core::MoveItErrorCode::SUCCESS &&
                 arm.execute(back) == moveit::core::MoveItErrorCode::SUCCESS) {
               const auto restored = arm.getCurrentJointValues();
-              if (restored.size() == 6 && std::abs(restored.at(0) - start.at(0)) < 0.02) {
-                RCLCPP_INFO(node->get_logger(), "RESTORE_OK: joint1 returned to %.5f rad", restored.at(0));
+              if (restored.size() == 6 && std::equal(restored.begin(), restored.end(), start.begin(),
+                    [](double actual, double initial) { return std::abs(actual - initial) < 0.02; })) {
+                RCLCPP_INFO(node->get_logger(), "RESTORE_OK: all 6 joints returned; joint1 %.5f rad", restored.at(0));
                 result = 0;
               } else {
                 RCLCPP_ERROR(node->get_logger(), "Return trajectory ended outside tolerance");

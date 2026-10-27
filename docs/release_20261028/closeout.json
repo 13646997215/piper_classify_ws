@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-28T01:47:26.748218+08:00",
+  "simulation_stopped": true,
+  "complete_launch_groups": [],
+  "workspace_owned_processes": [],
+  "launch_pid_record_exists": false,
+  "old_workspace_source_modified": false,
+  "new_build_results_retained_locally": true,
+  "build_results_published": false,
+  "backup_directory": "/home/hanhan/Desktop/piper_classify_ws_release_backup_20261028_012507"
+}

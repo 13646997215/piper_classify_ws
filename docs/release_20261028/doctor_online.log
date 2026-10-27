@@ -1,0 +1,99 @@
+╔══════════════════════════════════════════════════════════════╗
+║   piper_classify_ws 综合体检 / 在线验证                    ║
+╚══════════════════════════════════════════════════════════════╝
+脚本版本 : 2026-10-10.3
+工作空间 : /home/hanhan/Desktop/piper_classify_ws
+报告文件 : /home/hanhan/piper_doctor_20261028_013423_57999.log
+DDS 模式 : inherit（默认沿用；显式参数仅对本次进程生效）
+
+════════════════════════════════════════════════════════
+  [1/8] 操作系统与 ROS 2 环境
+════════════════════════════════════════════════════════
+  [ OK  ]  Ubuntu 22.04.5 LTS  内核 6.8.0-138-generic
+  [ OK  ]  ROS 2 Humble 已安装
+  [ OK  ]  gazebo: Gazebo multi-robot simulator, version 11.10.2
+  [ OK  ]  colcon 已安装
+ROS_DISTRO=humble
+RMW 默认实现=(未显式设置, 由 ros2 默认决定)
+
+════════════════════════════════════════════════════════
+  [2/8] 图形栈 / 离屏渲染能力  (Gazebo 相机出图的前提)
+════════════════════════════════════════════════════════
+[classify env] Fast DDS RGB-D profile: /home/hanhan/Desktop/piper_classify_ws/scripts/config/fastdds_local.xml (32 MiB per participant)
+  [INFO]  DISPLAY=:0；XAUTHORITY=/run/user/1000/gdm/Xauthority
+  [ OK  ]  OpenGL 渲染器 = Mesa Intel(R) Graphics (RPL-P)
+  [INFO]  /dev/dri: by-path card1 card2 renderD128 renderD129 
+  [INFO]  nvidia-smi 只证明驱动接口可访问，不证明本次 GLX 使用该 GPU
+NVIDIA GeForce RTX 4060 Laptop GPU, 580.178.04
+
+════════════════════════════════════════════════════════
+  [3/8] DDS 共享内存与文件描述符（仅检查，不自动清理或挂载）
+════════════════════════════════════════════════════════
+  /dev/shm 总量=7839 MB，可用=7383 MB，Fast DDS 文件=39
+  [ OK  ]  未发现共享内存可用空间不足的证据
+  [INFO]  文件可能属于活跃 ROS 进程；数量不能证明残留或损坏，不执行 rm
+  [INFO]  确有 SHM 错误时，先停止相关 ROS 进程，再按官方工具 fastdds shm clean 检查清理
+  文件描述符上限=1048576，硬限制=1048576（本次不修改）
+
+════════════════════════════════════════════════════════
+  [4/8] 系统资源
+════════════════════════════════════════════════════════
+  CPU 核心数 = 16   负载 = 2.59 2.42 1.89
+  内存 总量 15.3 GB / 可用 8.4 GB
+  [ OK  ]  可用内存 8.4 GB
+  家目录磁盘剩余 19.4 GB
+
+════════════════════════════════════════════════════════
+  [5/8] 工作空间与 URDF 完整性
+════════════════════════════════════════════════════════
+  [ OK  ]  工作空间存在: /home/hanhan/Desktop/piper_classify_ws
+  [ OK  ]  9 个 ROS 包全部已构建
+  [ OK  ]  piper_sim.urdf 存在 (516 行)
+  [ OK  ]  网格路径与当前工作空间一致
+  [ OK  ]  10 个网格文件全部就位
+  [ OK  ]  含 gazebo_ros2_control 插件
+
+════════════════════════════════════════════════════════
+  [6/8] 残留进程与重复启动
+════════════════════════════════════════════════════════
+  本工作区 gzserver PID=57623, DISPLAY=:0
+  [INFO]  本工作区已有 1 个完整启动进程组；不将其自动认定为残留
+
+════════════════════════════════════════════════════════
+  [7/8] 本次进程的 DDS 配置（不写 ~/.bashrc）
+════════════════════════════════════════════════════════
+  [INFO]  沿用当前 RMW 与配置；不声称已启用/验证 SHM
+  RMW=rmw_fastrtps_cpp
+  FASTRTPS_DEFAULT_PROFILES_FILE=/home/hanhan/Desktop/piper_classify_ws/scripts/config/fastdds_local.xml
+  [ OK  ]  工作空间 overlay 已加载
+  ROS_DOMAIN_ID=42
+
+════════════════════════════════════════════════════════
+  [8/8] 验证
+════════════════════════════════════════════════════════
+  [INFO]  仅探测本工作区已有仿真，体检结束不停止它
+  [ OK  ]  三个控制器已 active（只证明控制链路，不证明相机可用）
+  先等待 DDS 发现和图像首帧（最多 5 秒），随后测量 12.0 秒
+
+  ── 相机接收测量（墙钟 12.0 秒；配置 15.0 fps）──
+  [OK] /camera/color/image_raw: 14.98 Hz，180 帧，最大无数据间隔 0.078 s，发布者=1
+         实测 ('rgb8', 640, 480, 'camera_color_optical_frame')；期望 ('rgb8', 640, 480, 'camera_color_optical_frame')；属性一致
+  [OK] /camera/native/depth/image_raw: 14.90 Hz，179 帧，最大无数据间隔 0.079 s，发布者=1
+         实测 ('32FC1', 640, 480, 'camera_depth_optical_frame')；期望 ('32FC1', 640, 480, 'camera_depth_optical_frame')；属性一致
+  [OK] /camera/depth/image_raw: 14.98 Hz，180 帧，最大无数据间隔 0.084 s，发布者=1
+         实测 ('16UC1', 640, 480, 'camera_color_optical_frame')；期望 ('16UC1', 640, 480, 'camera_color_optical_frame')；属性一致
+  /clock 实测 RTF≈0.999；暂停/过慢也可能导致墙钟看门狗失效
+
+  detections: 55 条，最近 3 块，Reliable visible top surfaces; expected counts checked by scene bridge
+  scene_status: ready=True，Vision scene ready; Reliable visible top surfaces; expected counts checked by scene bridge
+  /classify/scene_ready -> success=True: Vision scene ready; Reliable visible top surfaces; expected counts checked by scene bridge
+  功能判定=True；稳定性要求：所有图像属性正确且最大无数据间隔 < 0.8 s
+===ONLINE_VERDICT=PASS===
+  [ OK  ]  在线检查通过
+
+════════════════════════════════════════════════════════
+  汇总
+════════════════════════════════════════════════════════
+  脚本版本=2026-10-10.3；在线结果=PASS；警告=0；失败=0
+  完整报告: /home/hanhan/piper_doctor_20261028_013423_57999.log
+  [INFO]  本次在线检查通过；完整抓放验收仍使用项目原有步骤

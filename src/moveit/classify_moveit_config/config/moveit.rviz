@@ -1,453 +1,455 @@
 Panels:
-- Class: rviz_common/Displays
-  Help Height: 70
-  Name: Displays
-  Property Tree Widget:
+  - Class: rviz_common/Displays
+    Help Height: 138
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /MotionPlanning1
+      Splitter Ratio: 0.5
+    Tree Height: 270
+  - Class: rviz_common/Views
     Expanded:
-    - /MotionPlanning1
+      - /Current View1
+    Name: Views
     Splitter Ratio: 0.5
-  Tree Height: 86
-- Class: rviz_common/Views
-  Expanded:
-  - /Current View1
-  Name: Views
-  Splitter Ratio: 0.5
-- Class: moveit_task_constructor/Motion Planning Tasks
-  Global Settings:
-    Task View Settings:
-      Old task handling: Keep
-      Show Computation Times: true
-      Task Expansion: All Expanded
-  Name: Motion Planning Tasks
-  Tasks View:
-    property_splitter:
-    - 251
-    - 87
-    solution_sorting:
-      column: 0
-      order: 1
-    solutions_splitter:
-    - 459
-    - 229
-    solutions_view_columns: null
-    tasks_view_columns:
-    - 272
-    - 57
-    - 57
-    - 57
+  - Class: moveit_task_constructor/Motion Planning Tasks
+    Global Settings:
+      Task View Settings:
+        Old task handling: Keep
+        Show Computation Times: true
+        Task Expansion: All Expanded
+    Name: Motion Planning Tasks
+    Tasks View:
+      property_splitter:
+        - 146
+        - 146
+      solution_sorting:
+        column: 0
+        order: 1
+      solutions_splitter:
+        - 46
+        - 46
+      solutions_view_columns: ~
+      tasks_view_columns:
+        - 200
+        - 110
+        - 110
+        - 110
 Visualization Manager:
-  Class: ''
+  Class: ""
   Displays:
-  - Alpha: 0.5
-    Cell Size: 0.10000000149011612
-    Class: rviz_default_plugins/Grid
-    Color: 160; 160; 164
-    Enabled: true
-    Line Style:
-      Line Width: 0.029999999329447746
-      Value: Lines
-    Name: Grid
-    Normal Cell Count: 0
-    Offset:
-      X: 0
-      Y: 0
-      Z: 0
-    Plane: XY
-    Plane Cell Count: 20
-    Reference Frame: <Fixed Frame>
-    Value: true
-  - Class: rviz_default_plugins/MarkerArray
-    Enabled: false
-    Name: Detected blocks
-    Namespaces: {}
-    Topic:
-      Depth: 5
-      Durability Policy: Volatile
-      History Policy: Keep Last
-      Reliability Policy: Reliable
-      Value: /classify/detection_markers
-    Value: false
-  - Class: rviz_default_plugins/MarkerArray
-    Enabled: true
-    Name: Confirmed blocks and vision status
-    Namespaces:
-      confirmed_blocks: true
-      vision_status: true
-    Topic:
-      Depth: 5
-      Durability Policy: Volatile
-      History Policy: Keep Last
-      Reliability Policy: Reliable
-      Value: /classify/scene_markers
-    Value: true
-  - Acceleration_Scaling_Factor: 0.1
-    Class: moveit_rviz_plugin/MotionPlanning
-    Enabled: true
-    Move Group Namespace: ''
-    MoveIt_Allow_Approximate_IK: false
-    MoveIt_Allow_External_Program: false
-    MoveIt_Allow_Replanning: false
-    MoveIt_Allow_Sensor_Positioning: false
-    MoveIt_Planning_Attempts: 10
-    MoveIt_Planning_Time: 5
-    MoveIt_Use_Cartesian_Path: false
-    MoveIt_Use_Constraint_Aware_IK: false
-    MoveIt_Workspace:
-      Center:
+    - Alpha: 0.5
+      Cell Size: 0.10000000149011612
+      Class: rviz_default_plugins/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
         X: 0
         Y: 0
         Z: 0
-      Size:
-        X: 2
-        Y: 2
-        Z: 2
-    Name: MotionPlanning
-    Planned Path:
-      Color Enabled: false
+      Plane: XY
+      Plane Cell Count: 20
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: false
+      Name: Detected blocks
+      Namespaces:
+        {}
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /classify/detection_markers
+      Value: false
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Name: Confirmed blocks and vision status
+      Namespaces:
+        confirmed_blocks: true
+        vision_status: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /classify/scene_markers
+      Value: true
+    - Acceleration_Scaling_Factor: 0.1
+      Class: moveit_rviz_plugin/MotionPlanning
+      Enabled: true
+      Move Group Namespace: ""
+      MoveIt_Allow_Approximate_IK: false
+      MoveIt_Allow_External_Program: false
+      MoveIt_Allow_Replanning: false
+      MoveIt_Allow_Sensor_Positioning: false
+      MoveIt_Planning_Attempts: 10
+      MoveIt_Planning_Time: 5
+      MoveIt_Use_Cartesian_Path: false
+      MoveIt_Use_Constraint_Aware_IK: false
+      MoveIt_Workspace:
+        Center:
+          X: 0
+          Y: 0
+          Z: 0
+        Size:
+          X: 2
+          Y: 2
+          Z: 2
+      Name: MotionPlanning
+      Planned Path:
+        Color Enabled: false
+        Interrupt Display: false
+        Links:
+          All Links Enabled: true
+          Expand Joint Details: false
+          Expand Link Details: false
+          Expand Tree: false
+          Link Tree Style: Links in Alphabetic Order
+          base_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          camera_color_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          camera_color_optical_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          camera_depth_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          camera_depth_optical_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          camera_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          camera_optical_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          gripper_base:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link5:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link6:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link7:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link8:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          world:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+        Loop Animation: true
+        Robot Alpha: 0.5
+        Robot Color: 150; 50; 150
+        Show Robot Collision: false
+        Show Robot Visual: true
+        Show Trail: false
+        State Display Time: 0.05 s
+        Trail Step Size: 1
+        Trajectory Topic: display_planned_path
+        Use Sim Time: false
+      Planning Metrics:
+        Payload: 1
+        Show Joint Torques: false
+        Show Manipulability: false
+        Show Manipulability Index: false
+        Show Weight Limit: false
+        TextHeight: 0.07999999821186066
+      Planning Request:
+        Colliding Link Color: 255; 0; 0
+        Goal State Alpha: 1
+        Goal State Color: 250; 128; 0
+        Interactive Marker Size: 0
+        Joint Violation Color: 255; 0; 255
+        Planning Group: arm
+        Query Goal State: true
+        Query Start State: false
+        Show Workspace: false
+        Start State Alpha: 1
+        Start State Color: 0; 255; 0
+      Planning Scene Topic: monitored_planning_scene
+      Robot Description: robot_description
+      Scene Geometry:
+        Scene Alpha: 0.8999999761581421
+        Scene Color: 50; 230; 50
+        Scene Display Time: 0.009999999776482582
+        Show Scene Geometry: true
+        Voxel Coloring: Z-Axis
+        Voxel Rendering: Occupied Voxels
+      Scene Robot:
+        Attached Body Color: 150; 50; 150
+        Links:
+          All Links Enabled: true
+          Expand Joint Details: false
+          Expand Link Details: false
+          Expand Tree: false
+          Link Tree Style: Links in Alphabetic Order
+          base_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          camera_color_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          camera_color_optical_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          camera_depth_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          camera_depth_optical_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          camera_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          camera_optical_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          gripper_base:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link5:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link6:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link7:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link8:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          world:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+        Robot Alpha: 1
+        Show Robot Collision: false
+        Show Robot Visual: true
+      Value: true
+      Velocity_Scaling_Factor: 0.1
+    - Class: moveit_task_constructor/Motion Planning Tasks
+      Enabled: true
       Interrupt Display: false
-      Links:
-        All Links Enabled: true
-        Expand Joint Details: false
-        Expand Link Details: false
-        Expand Tree: false
-        Link Tree Style: Links in Alphabetic Order
-        base_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        camera_color_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_color_optical_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_depth_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_depth_optical_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        camera_optical_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        gripper_base:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link1:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link2:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link3:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link4:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link5:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link6:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link7:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link8:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        world:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-      Loop Animation: true
-      Robot Alpha: 0.5
-      Robot Color: 150; 50; 150
-      Show Robot Collision: false
-      Show Robot Visual: true
+      Loop Animation: false
+      Markers:
+        All at once?: false
+        Value: false
+        ik frame: true
+        target frame: true
+      Name: MTC task solutions
+      Robot:
+        Fixed Robot Color: 150; 50; 150
+        Links:
+          All Links Enabled: true
+          Expand Joint Details: false
+          Expand Link Details: false
+          Expand Tree: false
+          Link Tree Style: Links in Alphabetic Order
+          base_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          camera_color_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          camera_color_optical_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          camera_depth_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          camera_depth_optical_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          camera_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          camera_optical_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          gripper_base:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link5:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link6:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link7:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link8:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          world:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+        Robot Alpha: 0.5
+        Show Robot Collision: false
+        Show Robot Visual: false
+        Use Fixed Robot Color: false
+        Value: ""
+      Robot Description: robot_description
+      Scene:
+        Attached Body Color: 150; 50; 150
+        Scene Alpha: 0.8999999761581421
+        Scene Color: 50; 230; 50
+        Value: false
+        Voxel Coloring: Z-Axis
+        Voxel Rendering: Occupied Voxels
       Show Trail: false
       State Display Time: 0.05 s
+      Task Solution Topic: /classify_mtc/solution
+      Tasks:
+        red_block to red bin: 1
       Trail Step Size: 1
-      Trajectory Topic: display_planned_path
-      Use Sim Time: false
-    Planning Metrics:
-      Payload: 1
-      Show Joint Torques: false
-      Show Manipulability: false
-      Show Manipulability Index: false
-      Show Weight Limit: false
-      TextHeight: 0.07999999821186066
-    Planning Request:
-      Colliding Link Color: 255; 0; 0
-      Goal State Alpha: 1
-      Goal State Color: 250; 128; 0
-      Interactive Marker Size: 0
-      Joint Violation Color: 255; 0; 255
-      Planning Group: arm
-      Query Goal State: true
-      Query Start State: false
-      Show Workspace: false
-      Start State Alpha: 1
-      Start State Color: 0; 255; 0
-    Planning Scene Topic: monitored_planning_scene
-    Robot Description: robot_description
-    Scene Geometry:
-      Scene Alpha: 0.8999999761581421
-      Scene Color: 50; 230; 50
-      Scene Display Time: 0.009999999776482582
-      Show Scene Geometry: true
-      Voxel Coloring: Z-Axis
-      Voxel Rendering: Occupied Voxels
-    Scene Robot:
-      Attached Body Color: 150; 50; 150
-      Links:
-        All Links Enabled: true
-        Expand Joint Details: false
-        Expand Link Details: false
-        Expand Tree: false
-        Link Tree Style: Links in Alphabetic Order
-        base_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        camera_color_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_color_optical_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_depth_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_depth_optical_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        camera_optical_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        gripper_base:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link1:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link2:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link3:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link4:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link5:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link6:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link7:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link8:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        world:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-      Robot Alpha: 1
-      Show Robot Collision: false
-      Show Robot Visual: true
-    Value: true
-    Velocity_Scaling_Factor: 0.1
-  - Class: moveit_task_constructor/Motion Planning Tasks
-    Enabled: true
-    Interrupt Display: false
-    Loop Animation: false
-    Markers:
-      All at once?: false
-      Value: false
-      ik frame: true
-      target frame: true
-    Name: MTC task solutions
-    Robot:
-      Fixed Robot Color: 150; 50; 150
-      Links:
-        All Links Enabled: true
-        Expand Joint Details: false
-        Expand Link Details: false
-        Expand Tree: false
-        Link Tree Style: Links in Alphabetic Order
-        base_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        camera_color_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_color_optical_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_depth_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_depth_optical_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        camera_optical_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        gripper_base:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link1:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link2:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link3:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link4:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link5:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link6:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link7:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link8:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        world:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-      Robot Alpha: 0.5
-      Show Robot Collision: false
-      Show Robot Visual: false
-      Use Fixed Robot Color: false
-      Value: ''
-    Robot Description: robot_description
-    Scene:
-      Attached Body Color: 150; 50; 150
-      Scene Alpha: 0.8999999761581421
-      Scene Color: 50; 230; 50
-      Value: false
-      Voxel Coloring: Z-Axis
-      Voxel Rendering: Occupied Voxels
-    Show Trail: false
-    State Display Time: 0.05 s
-    Task Solution Topic: /classify_mtc/solution
-    Tasks: {}
-    Trail Step Size: 1
-    Value: true
-  - Class: rviz_default_plugins/MarkerArray
-    Enabled: true
-    Name: Classification progress
-    Namespaces:
-      task_status: true
-    Topic:
-      Depth: 5
-      Durability Policy: Volatile
-      History Policy: Keep Last
-      Reliability Policy: Reliable
-      Value: /classify/task_markers
-    Value: true
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Name: Classification progress
+      Namespaces:
+        task_status: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /classify/task_markers
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -455,10 +457,10 @@ Visualization Manager:
     Frame Rate: 30
   Name: root
   Tools:
-  - Class: rviz_default_plugins/Interact
-    Hide Inactive Objects: true
-  - Class: rviz_default_plugins/MoveCamera
-  - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/Interact
+      Hide Inactive Objects: true
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
   Transformation:
     Current:
       Class: rviz_default_plugins/TF
@@ -485,24 +487,24 @@ Visualization Manager:
       Target Frame: world
       Value: Orbit (rviz_default_plugins)
       Yaw: 0.9850000143051147
-    Saved: null
+    Saved: ~
 Window Geometry:
   Displays:
-    collapsed: false
-  Height: 920
-  Hide Left Dock: false
+    collapsed: true
+  Height: 1472
+  Hide Left Dock: true
   Hide Right Dock: false
   MTC task solutions - Slider:
     collapsed: false
   Motion Planning Tasks:
-    collapsed: false
+    collapsed: true
   MotionPlanning:
-    collapsed: false
+    collapsed: true
   MotionPlanning - Trajectory Slider:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd0000000100000000000002b40000033efc0200000005fb00000036004d005400430020007400610073006b00200073006f006c007500740069006f006e00730020002d00200053006c00690064006500720000000000ffffffff0000004100fffffffb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000004100fffffffc0000003d000001a80000019a0100001cfa000000000100000002fb0000002a004d006f00740069006f006e00200050006c0061006e006e0069006e00670020005400610073006b00730100000000ffffffff000000cd00fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670100000000000002b4000001f300fffffffb000000100044006900730070006c00610079007301000001eb000000d9000000c900fffffffb0000000a0056006900650077007301000002ca000000b1000000a400ffffff000002f00000033e00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000100000000000003a3000005cffc0200000005fb00000036004d005400430020007400610073006b00200073006f006c007500740069006f006e00730020002d00200053006c00690064006500720000000000ffffffff0000007a00fffffffb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000007a00fffffffc0000006e000003030000000000fffffffaffffffff0100000002fb0000002a004d006f00740069006f006e00200050006c0061006e006e0069006e00670020005400610073006b00730000000000ffffffff0000016700fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670000000000000002b4000003a300fffffffb000000100044006900730070006c006100790073000000037d000001820000018200fffffffb0000000a00560069006500770073000000050b000001320000013200ffffff000005aa0000052400000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Views:
-    collapsed: false
+    collapsed: true
   Width: 1450
-  X: 120
-  Y: 27
+  X: 608
+  Y: 54

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>classify_agent</name>
+  <version>0.1.0</version>
+  <description>
+    Natural-language task agent for the Piper classification demo. It turns
+    text or speech into a validated high-level robot command, then monitors the
+    existing perception/MTC task. The LLM never emits joint angles or raw poses.
+  </description>
+  <maintainer email="wujian@todo.todo">wujian</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>classify_interfaces</depend>
+
+  <exec_depend>python3-numpy</exec_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <!-- Optional voice stack (install with pip, not rosdep):
+       python3 -m pip install faster-whisper sounddevice openai -->
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

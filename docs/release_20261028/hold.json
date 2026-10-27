@@ -1,0 +1,2745 @@
+{
+  "case": "hold",
+  "passed": true,
+  "home_while_holding": {
+    "accepted": false,
+    "message": "Failure, cancellation or holding; reset the simulation first"
+  },
+  "green_displacement_mm": 0.0,
+  "statuses": [
+    {
+      "header": {
+        "stamp": {
+          "sec": 34,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00040482255733296244,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 34,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00040482256844267124,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 34,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0004048085650124591,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 34,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00040482236883352237,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 35,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00040480857863062805,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 35,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00040482231848556994,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 35,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0004048223662931512,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 35,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "initialize",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0004048223662931512,
+      "held_object": "",
+      "elapsed_sec": 0.000270274,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 35,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00040482255614922584,
+      "held_object": "",
+      "elapsed_sec": 0.073724694,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 35,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PLANNING",
+      "stage": "MTC pick and hold",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00040482255614922584,
+      "held_object": "",
+      "elapsed_sec": 0.074717621,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 35,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00040480856001011125,
+      "held_object": "",
+      "elapsed_sec": 0.136106034,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 35,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000673719539671089,
+      "held_object": "",
+      "elapsed_sec": 0.197663793,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 35,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.012742889035930646,
+      "held_object": "",
+      "elapsed_sec": 0.397625164,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 36,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.041873948991549496,
+      "held_object": "",
+      "elapsed_sec": 0.597604113,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 36,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0881695474708994,
+      "held_object": "",
+      "elapsed_sec": 0.797604113,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 36,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.14510828507521847,
+      "held_object": "",
+      "elapsed_sec": 0.997588223,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 36,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.20222801048688885,
+      "held_object": "",
+      "elapsed_sec": 1.197576596,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 36,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.25934773590151455,
+      "held_object": "",
+      "elapsed_sec": 1.397570993,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 37,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.3164674613188304,
+      "held_object": "",
+      "elapsed_sec": 1.597545486,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 37,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.3735871867385578,
+      "held_object": "",
+      "elapsed_sec": 1.797534714,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 37,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.4307069121604244,
+      "held_object": "",
+      "elapsed_sec": 1.997510943,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 37,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.48782663758413985,
+      "held_object": "",
+      "elapsed_sec": 2.197491427,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 37,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.5449463630093131,
+      "held_object": "",
+      "elapsed_sec": 2.397500072,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 38,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6020660884356199,
+      "held_object": "",
+      "elapsed_sec": 2.597445892,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 38,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6591858138626655,
+      "held_object": "",
+      "elapsed_sec": 2.797442605,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 38,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.716305539290143,
+      "held_object": "",
+      "elapsed_sec": 2.997420806,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 38,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.7734252647176441,
+      "held_object": "",
+      "elapsed_sec": 3.197410942,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 38,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.8305449901447856,
+      "held_object": "",
+      "elapsed_sec": 3.397405673,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 39,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.8876647155711632,
+      "held_object": "",
+      "elapsed_sec": 3.597403645,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 39,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9405861511624678,
+      "held_object": "",
+      "elapsed_sec": 3.79737174,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 39,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9771427897318767,
+      "held_object": "",
+      "elapsed_sec": 3.997313816,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 39,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "open gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9965635106737618,
+      "held_object": "",
+      "elapsed_sec": 4.197343669,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 39,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 1.0,
+      "held_object": "",
+      "elapsed_sec": 4.340246457,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 39,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 1.0,
+      "held_object": "",
+      "elapsed_sec": 4.397292909,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 40,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999999999942922,
+      "held_object": "",
+      "elapsed_sec": 4.597302959,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 40,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 1.0,
+      "held_object": "",
+      "elapsed_sec": 4.797308344,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 40,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 1.0,
+      "held_object": "",
+      "elapsed_sec": 4.997283915,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 40,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 1.0,
+      "held_object": "",
+      "elapsed_sec": 5.197269059,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 40,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 1.0,
+      "held_object": "",
+      "elapsed_sec": 5.397243202,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 41,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 1.0,
+      "held_object": "",
+      "elapsed_sec": 5.597206356,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 41,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 1.0,
+      "held_object": "",
+      "elapsed_sec": 5.79723415,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 41,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999999619269585,
+      "held_object": "",
+      "elapsed_sec": 5.997172304,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 41,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999997726040356,
+      "held_object": "",
+      "elapsed_sec": 6.197168639,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 41,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999995363791865,
+      "held_object": "",
+      "elapsed_sec": 6.397156476,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 42,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999992056997534,
+      "held_object": "",
+      "elapsed_sec": 6.59710207,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 42,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999989326801552,
+      "held_object": "",
+      "elapsed_sec": 6.797125734,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 42,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.999998478697026,
+      "held_object": "",
+      "elapsed_sec": 6.997074953,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 42,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999981797392989,
+      "held_object": "",
+      "elapsed_sec": 7.197094948,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 42,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999977592787207,
+      "held_object": "",
+      "elapsed_sec": 7.397090813,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 43,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999973160409515,
+      "held_object": "",
+      "elapsed_sec": 7.597077652,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 43,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999966490439111,
+      "held_object": "",
+      "elapsed_sec": 7.797057103,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 43,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999963803512142,
+      "held_object": "",
+      "elapsed_sec": 7.997030059,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 43,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999958965115591,
+      "held_object": "",
+      "elapsed_sec": 8.197005566,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 43,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999954085613513,
+      "held_object": "",
+      "elapsed_sec": 8.39696072,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 44,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999949175744259,
+      "held_object": "",
+      "elapsed_sec": 8.597091787,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 44,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999944280865363,
+      "held_object": "",
+      "elapsed_sec": 8.796931249,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 44,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999939659740981,
+      "held_object": "",
+      "elapsed_sec": 8.996985993,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 44,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999931644183238,
+      "held_object": "",
+      "elapsed_sec": 9.196896091,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 44,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999932655988658,
+      "held_object": "",
+      "elapsed_sec": 9.396888471,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 45,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.999992586492349,
+      "held_object": "",
+      "elapsed_sec": 9.596910126,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 45,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999928736587718,
+      "held_object": "",
+      "elapsed_sec": 9.796893995,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 45,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "move above object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999927735828625,
+      "held_object": "",
+      "elapsed_sec": 9.996843083,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 45,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "approach object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999927533811561,
+      "held_object": "",
+      "elapsed_sec": 10.19293284,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 45,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "approach object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999927534868904,
+      "held_object": "",
+      "elapsed_sec": 10.196820394,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 45,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "approach object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999922186562142,
+      "held_object": "",
+      "elapsed_sec": 10.396846982,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 46,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "approach object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999924741575551,
+      "held_object": "",
+      "elapsed_sec": 10.596836273,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 46,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "approach object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999921011689027,
+      "held_object": "",
+      "elapsed_sec": 10.796766033,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 46,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "approach object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999915685026906,
+      "held_object": "",
+      "elapsed_sec": 10.996781649,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 46,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "approach object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.999990866234422,
+      "held_object": "",
+      "elapsed_sec": 11.196769226,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 46,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "approach object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999900344971498,
+      "held_object": "",
+      "elapsed_sec": 11.396768502,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 47,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "approach object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999884207613066,
+      "held_object": "",
+      "elapsed_sec": 11.596760065,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 47,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "approach object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999881893134617,
+      "held_object": "",
+      "elapsed_sec": 11.79672777,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 47,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "approach object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999874045668952,
+      "held_object": "",
+      "elapsed_sec": 11.996674424,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 47,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "approach object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999868007996433,
+      "held_object": "",
+      "elapsed_sec": 12.196643416,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 47,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "approach object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999863945392652,
+      "held_object": "",
+      "elapsed_sec": 12.396662389,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 48,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "approach object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999860921842894,
+      "held_object": "",
+      "elapsed_sec": 12.596695851,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 48,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "approach object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999859063982388,
+      "held_object": "",
+      "elapsed_sec": 12.796630743,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 48,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "approach object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999849050160892,
+      "held_object": "",
+      "elapsed_sec": 12.996610752,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 48,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "allow finger contact",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999858094772378,
+      "held_object": "",
+      "elapsed_sec": 13.095444644,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 48,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "close gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9999858094772378,
+      "held_object": "",
+      "elapsed_sec": 13.095837868,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 48,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "close gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9986244369266265,
+      "held_object": "",
+      "elapsed_sec": 13.196589921,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 48,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "close gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9831848858330167,
+      "held_object": "",
+      "elapsed_sec": 13.396614109,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 49,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "close gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.9506134402035112,
+      "held_object": "",
+      "elapsed_sec": 13.596561274,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 49,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "close gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.900933307531179,
+      "held_object": "",
+      "elapsed_sec": 13.79655094,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 49,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "close gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.8437943873334983,
+      "held_object": "",
+      "elapsed_sec": 13.996523981,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 49,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "close gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.7866515038093073,
+      "held_object": "",
+      "elapsed_sec": 14.196512028,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 49,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "close gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.7297061052549587,
+      "held_object": "",
+      "elapsed_sec": 14.396510364,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 50,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "close gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6871457579414014,
+      "held_object": "",
+      "elapsed_sec": 14.596494825,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 50,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "close gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6634654385496305,
+      "held_object": "",
+      "elapsed_sec": 14.796463439,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 50,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "close gripper",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6567974994224556,
+      "held_object": "blue_block",
+      "elapsed_sec": 14.996460281,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 50,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "attach object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6567420463670055,
+      "held_object": "blue_block",
+      "elapsed_sec": 15.04943791,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 50,
+          "nanosec": 500000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6567420463670055,
+      "held_object": "blue_block",
+      "elapsed_sec": 15.050254853,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 50,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6569871190734522,
+      "held_object": "blue_block",
+      "elapsed_sec": 15.196432231,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 50,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6569760210825915,
+      "held_object": "blue_block",
+      "elapsed_sec": 15.396433077,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 51,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6569668340515293,
+      "held_object": "blue_block",
+      "elapsed_sec": 15.596401414,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 51,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6569827689659892,
+      "held_object": "blue_block",
+      "elapsed_sec": 15.796407569,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 51,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6570313727527937,
+      "held_object": "blue_block",
+      "elapsed_sec": 15.996353819,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 51,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6569472845637347,
+      "held_object": "blue_block",
+      "elapsed_sec": 16.196350228,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 51,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6569722247622255,
+      "held_object": "blue_block",
+      "elapsed_sec": 16.396337897,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 52,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6569523040967407,
+      "held_object": "blue_block",
+      "elapsed_sec": 16.596339884,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 52,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6569660024893337,
+      "held_object": "blue_block",
+      "elapsed_sec": 16.796349406,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 52,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6569136332567883,
+      "held_object": "blue_block",
+      "elapsed_sec": 16.996347663,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 52,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6568925121423235,
+      "held_object": "blue_block",
+      "elapsed_sec": 17.196318641,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 52,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6568861289099187,
+      "held_object": "blue_block",
+      "elapsed_sec": 17.396294719,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 53,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6568875408591763,
+      "held_object": "blue_block",
+      "elapsed_sec": 17.596288831,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 53,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6568878939953446,
+      "held_object": "blue_block",
+      "elapsed_sec": 17.796274465,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 53,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6568878411171388,
+      "held_object": "blue_block",
+      "elapsed_sec": 17.99634842,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 53,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6568880696871852,
+      "held_object": "blue_block",
+      "elapsed_sec": 18.19626765,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 53,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6568887758064362,
+      "held_object": "blue_block",
+      "elapsed_sec": 18.396319318,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 54,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6568883706674867,
+      "held_object": "blue_block",
+      "elapsed_sec": 18.596280313,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 54,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6568881776699497,
+      "held_object": "blue_block",
+      "elapsed_sec": 18.796192937,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 54,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6568883617352616,
+      "held_object": "blue_block",
+      "elapsed_sec": 18.996192548,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 54,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6568857494701485,
+      "held_object": "blue_block",
+      "elapsed_sec": 19.196165858,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 54,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6568878388557151,
+      "held_object": "blue_block",
+      "elapsed_sec": 19.396182735,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 55,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6568893379046912,
+      "held_object": "blue_block",
+      "elapsed_sec": 19.596137001,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 55,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "PICKING",
+      "stage": "lift object",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.6568895257948116,
+      "held_object": "blue_block",
+      "elapsed_sec": 19.796146239,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 55,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "HOLDING",
+      "stage": "holding",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.656888642147841,
+      "held_object": "blue_block",
+      "elapsed_sec": 19.907231961,
+      "detail": "Object held above the table; reset the simulation before another command",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 55,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "HOLDING",
+      "stage": "holding",
+      "current_object": "blue_block",
+      "target_bin": "hold",
+      "completed": 0,
+      "total": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.656888642147841,
+      "held_object": "blue_block",
+      "elapsed_sec": 19.907359339,
+      "detail": "Object held above the table; reset the simulation before another command",
+      "placed_objects": [],
+      "placed_poses": []
+    }
+  ],
+  "results": [
+    {
+      "header": {
+        "stamp": {
+          "sec": 55,
+          "nanosec": 300000000
+        },
+        "frame_id": "base_link"
+      },
+      "success": true,
+      "succeeded": 0,
+      "failed": 0,
+      "elapsed_sec": 19.907359339,
+      "detail": "Object held above the table; reset the simulation before another command",
+      "objects": [],
+      "bins": [],
+      "final_poses": [],
+      "physical_objects": []
+    }
+  ]
+}

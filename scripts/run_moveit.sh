@@ -24,6 +24,7 @@ if [ ! -f "${WS_ROOT}/install/local_setup.bash" ]; then
   exit 1
 fi
 source "${WS_ROOT}/install/local_setup.bash"
+source "${WS_ROOT}/scripts/tools/runtime_env.sh"
 if [ "$(ros2 pkg prefix classify_moveit_config)" != "${WS_ROOT}/install/classify_moveit_config" ]; then
   echo "classify_moveit_config resolved outside this workspace" >&2
   exit 1

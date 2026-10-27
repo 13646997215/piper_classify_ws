@@ -1,0 +1,38 @@
+# 终端1 1. 进入工作空间
+cd ~/piper_classify_ws
+
+# 2. 加载 ROS 2 和项目环境
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+
+# 3. 启动分拣仿真（默认不自动运动）
+bash scripts/run_classify.sh
+
+# 终端2 1. 进入工作空间
+cd ~/piper_classify_ws
+
+# 2. 加载环境
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+
+# 3. 必须设置和仿真相同的 ROS 域 ID
+export ROS_DOMAIN_ID=42
+
+# 4. 可选：启用大模型意图解析（不设置则使用确定性规则解析）
+export DEEPSEEK_API_KEY=你的key
+
+# 5. 启动文本/语音语言 agent
+bash scripts/run_agent.sh
+ros2 run classify_voice voice_command_node
+
+# 输入示例：
+#   把红色方块放到蓝色盒子里
+#   拿一个蓝色方块
+#   桌上有几个红块
+#   回家 / 停止 / 扫描 / quit
+# 语音模式：
+#   bash scripts/run_agent.sh --ros-args -p use_voice:=true
+#   然后在提示符输入 voice
+
+# 旧的固定动作语音节点（可选，保留兼容）：
+# ros2 run classify_voice voice_command_node

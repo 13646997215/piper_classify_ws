@@ -1,0 +1,34 @@
+Starting >>> classify_camera_sim
+Finished <<< classify_camera_sim [0.10s]
+Starting >>> classify_grasp_sim
+Finished <<< classify_grasp_sim [0.02s]
+Starting >>> classify_interfaces
+Finished <<< classify_interfaces [0.02s]
+Starting >>> classify_voice
+--- stderr: classify_voice
+
+=============================== warnings summary ===============================
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+  Warning: SelectableGroups dict interface is deprecated. Use select.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+---
+Finished <<< classify_voice [0.78s]
+Starting >>> classify_agent
+Finished <<< classify_agent [0.51s]
+Starting >>> classify_description
+Finished <<< classify_description [0.69s]
+Starting >>> classify_scene_bridge
+Finished <<< classify_scene_bridge [0.10s]
+Starting >>> classify_moveit_config
+Finished <<< classify_moveit_config [0.03s]
+Starting >>> classify_perception
+Finished <<< classify_perception [0.11s]
+Starting >>> classify_task
+Finished <<< classify_task [0.09s]
+Starting >>> classify_bringup
+Finished <<< classify_bringup [0.02s]
+
+Summary: 11 packages finished [2.70s]
+  1 package had stderr output: classify_voice

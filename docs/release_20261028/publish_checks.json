@@ -1,0 +1,10 @@
+{
+  "credential_pattern_findings": [],
+  "large_file_findings": [],
+  "runtime_cache_paths_in_candidates": [],
+  "active_document_missing_targets": [],
+  "credential_values_printed": false,
+  "staged_file_count": 389,
+  "staged_payload_bytes": 30538232,
+  "staged_index_scan_passed": true
+}

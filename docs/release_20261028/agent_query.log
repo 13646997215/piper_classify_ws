@@ -1,0 +1,7 @@
+[classify env] Fast DDS RGB-D profile: /home/hanhan/Desktop/piper_classify_ws/scripts/config/fastdds_local.xml (32 MiB per participant)
+[INFO] [1793122604.257310040] [classify_language_agent]: Language agent ready. Type a command, type "voice" to record, or type "quit" to exit.
+
+你说: 桌上有几个蓝块
+[task] {"intent": "count", "colors": ["blue"], "quantity": 0, "target_bin": "", "selector": "nearest", "reply": "", "source": "rule"}
+[status] DONE home 0/0
+[agent] 当前可见: blue 1 个

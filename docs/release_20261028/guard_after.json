@@ -1,0 +1,2703 @@
+{
+  "case": "guard",
+  "passed": true,
+  "home_after_failure": {
+    "accepted": false,
+    "message": "Failure, cancellation or holding; reset the simulation first"
+  },
+  "batch_after_failure": {
+    "success": false,
+    "message": "Task running, terminal failure/cancellation, or objects already placed; reset the simulation before retrying"
+  },
+  "green_displacement_mm": 0.0,
+  "statuses": [
+    {
+      "header": {
+        "stamp": {
+          "sec": 1,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287969866372535,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 1,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289661248629297,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 2,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289658637391053,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 2,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528796726531013,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 2,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528968114122649,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 2,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289686996125197,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 2,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289683629050614,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 3,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000352896552796852,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 3,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287943256005316,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 3,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528794340295737,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 3,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000352879615848017,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 3,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "IDLE",
+      "stage": "",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 2,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287964395308655,
+      "held_object": "",
+      "elapsed_sec": 0.0,
+      "detail": "Ready for /classify/start; green remains untouched",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 3,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "initialize",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287964395308655,
+      "held_object": "",
+      "elapsed_sec": 0.000405641,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 3,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287937527700783,
+      "held_object": "",
+      "elapsed_sec": 0.085427046,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 4,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287963390219425,
+      "held_object": "",
+      "elapsed_sec": 0.19650169,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 4,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528796358441091,
+      "held_object": "",
+      "elapsed_sec": 0.396635913,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 4,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289655377429953,
+      "held_object": "",
+      "elapsed_sec": 0.596592522,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 4,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528796390307897,
+      "held_object": "",
+      "elapsed_sec": 0.796610721,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 4,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528965387798095,
+      "held_object": "",
+      "elapsed_sec": 0.996713284,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 5,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528965580312456,
+      "held_object": "",
+      "elapsed_sec": 1.196643403,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 5,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528967972388214,
+      "held_object": "",
+      "elapsed_sec": 1.396652956,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 5,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528796478076726,
+      "held_object": "",
+      "elapsed_sec": 1.596657468,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 5,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528967822998968,
+      "held_object": "",
+      "elapsed_sec": 1.796692546,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 5,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528796521082949,
+      "held_object": "",
+      "elapsed_sec": 1.996658227,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 6,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528796604736061,
+      "held_object": "",
+      "elapsed_sec": 2.196715591,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 6,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528968015114678,
+      "held_object": "",
+      "elapsed_sec": 2.396672007,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 6,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000352879410680931,
+      "held_object": "",
+      "elapsed_sec": 2.596686959,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 6,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287968404733614,
+      "held_object": "",
+      "elapsed_sec": 2.79672642,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 6,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289684950968417,
+      "held_object": "",
+      "elapsed_sec": 2.996743384,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 7,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287940126332694,
+      "held_object": "",
+      "elapsed_sec": 3.196701146,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 7,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528797063774182,
+      "held_object": "",
+      "elapsed_sec": 3.396698052,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 7,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528794352720696,
+      "held_object": "",
+      "elapsed_sec": 3.596695609,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 7,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528968228479162,
+      "held_object": "",
+      "elapsed_sec": 3.79669771,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 7,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528968059275895,
+      "held_object": "",
+      "elapsed_sec": 3.996749815,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 8,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289686214611443,
+      "held_object": "",
+      "elapsed_sec": 4.196784452,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 8,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528796271392319,
+      "held_object": "",
+      "elapsed_sec": 4.396745456,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 8,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528968168172958,
+      "held_object": "",
+      "elapsed_sec": 4.596758466,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 8,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287942317853167,
+      "held_object": "",
+      "elapsed_sec": 4.796726034,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 8,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528966037933491,
+      "held_object": "",
+      "elapsed_sec": 4.996756913,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 9,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289656514323744,
+      "held_object": "",
+      "elapsed_sec": 5.196724563,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 9,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528794270908276,
+      "held_object": "",
+      "elapsed_sec": 5.396747698,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 9,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287964720907914,
+      "held_object": "",
+      "elapsed_sec": 5.596753175,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 9,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528794261336471,
+      "held_object": "",
+      "elapsed_sec": 5.796789295,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 9,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528796171807985,
+      "held_object": "",
+      "elapsed_sec": 5.9968124,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 10,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528965992597085,
+      "held_object": "",
+      "elapsed_sec": 6.196816616,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 10,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287941050037366,
+      "held_object": "",
+      "elapsed_sec": 6.396787228,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 10,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289655499953136,
+      "held_object": "",
+      "elapsed_sec": 6.596796719,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 10,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528796659132434,
+      "held_object": "",
+      "elapsed_sec": 6.796817192,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 10,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287965311368055,
+      "held_object": "",
+      "elapsed_sec": 6.996838098,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 11,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528968155417712,
+      "held_object": "",
+      "elapsed_sec": 7.196822635,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 11,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528967381695782,
+      "held_object": "",
+      "elapsed_sec": 7.396827021,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 11,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528968102767272,
+      "held_object": "",
+      "elapsed_sec": 7.596829203,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 11,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528965854960312,
+      "held_object": "",
+      "elapsed_sec": 7.796857505,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 11,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289684494395124,
+      "held_object": "",
+      "elapsed_sec": 7.996796577,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 12,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528794106088457,
+      "held_object": "",
+      "elapsed_sec": 8.196834437,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 12,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528968417608286,
+      "held_object": "",
+      "elapsed_sec": 8.396806749,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 12,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289657853817093,
+      "held_object": "",
+      "elapsed_sec": 8.596821394,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 12,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528796350723922,
+      "held_object": "",
+      "elapsed_sec": 8.796785752,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 12,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289661156772637,
+      "held_object": "",
+      "elapsed_sec": 8.996872002,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 13,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289679137604646,
+      "held_object": "",
+      "elapsed_sec": 9.196905855,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 13,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287937680409303,
+      "held_object": "",
+      "elapsed_sec": 9.396856181,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 13,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289658688637636,
+      "held_object": "",
+      "elapsed_sec": 9.59692002,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 13,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289681228388203,
+      "held_object": "",
+      "elapsed_sec": 9.796915323,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 13,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000352879467865297,
+      "held_object": "",
+      "elapsed_sec": 9.996957067,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 14,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287958836930364,
+      "held_object": "",
+      "elapsed_sec": 10.196945324,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 14,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289656656446787,
+      "held_object": "",
+      "elapsed_sec": 10.396964574,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 14,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287943140518854,
+      "held_object": "",
+      "elapsed_sec": 10.596968871,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 14,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528796524175259,
+      "held_object": "",
+      "elapsed_sec": 10.796905359,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 14,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.000352879664686809,
+      "held_object": "",
+      "elapsed_sec": 10.996955499,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 15,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528968003308172,
+      "held_object": "",
+      "elapsed_sec": 11.196914133,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 15,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289684093809835,
+      "held_object": "",
+      "elapsed_sec": 11.396910235,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 15,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528965770351613,
+      "held_object": "",
+      "elapsed_sec": 11.596977122,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 15,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528965382869757,
+      "held_object": "",
+      "elapsed_sec": 11.796981235,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 15,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528967878228696,
+      "held_object": "",
+      "elapsed_sec": 11.997030666,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 16,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287941608925334,
+      "held_object": "",
+      "elapsed_sec": 12.197001987,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 16,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287969578915454,
+      "held_object": "",
+      "elapsed_sec": 12.396988902,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 16,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528796637507245,
+      "held_object": "",
+      "elapsed_sec": 12.597010159,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 16,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528967746305499,
+      "held_object": "",
+      "elapsed_sec": 12.796990614,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 16,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287967283250814,
+      "held_object": "",
+      "elapsed_sec": 12.99700686,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 17,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287943620979887,
+      "held_object": "",
+      "elapsed_sec": 13.197020027,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 17,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528794195497741,
+      "held_object": "",
+      "elapsed_sec": 13.397014007,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 17,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289657420735127,
+      "held_object": "",
+      "elapsed_sec": 13.597004992,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 17,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528968319959534,
+      "held_object": "",
+      "elapsed_sec": 13.797056958,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 17,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528793811577884,
+      "held_object": "",
+      "elapsed_sec": 13.997064828,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 18,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289680305303873,
+      "held_object": "",
+      "elapsed_sec": 14.197065382,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 18,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289655346796526,
+      "held_object": "",
+      "elapsed_sec": 14.397044375,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 18,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289678737829603,
+      "held_object": "",
+      "elapsed_sec": 14.597026065,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 18,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528968162824078,
+      "held_object": "",
+      "elapsed_sec": 14.797060608,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 18,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289661233200184,
+      "held_object": "",
+      "elapsed_sec": 14.997110645,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 19,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528794390143295,
+      "held_object": "",
+      "elapsed_sec": 15.197018165,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 19,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528796069718983,
+      "held_object": "",
+      "elapsed_sec": 15.397062889,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 19,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528796566078985,
+      "held_object": "",
+      "elapsed_sec": 15.597110609,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 19,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287942526390537,
+      "held_object": "",
+      "elapsed_sec": 15.797093041,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 19,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528796154624112,
+      "held_object": "",
+      "elapsed_sec": 15.997097616,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 20,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287947466743216,
+      "held_object": "",
+      "elapsed_sec": 16.197153031,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 20,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528796622615789,
+      "held_object": "",
+      "elapsed_sec": 16.397119674,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 20,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528793896458752,
+      "held_object": "",
+      "elapsed_sec": 16.597111164,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 20,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528794285640569,
+      "held_object": "",
+      "elapsed_sec": 16.797105955,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 20,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528966085507494,
+      "held_object": "",
+      "elapsed_sec": 16.997122556,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 21,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287938239639114,
+      "held_object": "",
+      "elapsed_sec": 17.197155641,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 21,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528796731381064,
+      "held_object": "",
+      "elapsed_sec": 17.397168243,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 21,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528796468199442,
+      "held_object": "",
+      "elapsed_sec": 17.597163204,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 21,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528965905332378,
+      "held_object": "",
+      "elapsed_sec": 17.797170817,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 21,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289662868726864,
+      "held_object": "",
+      "elapsed_sec": 17.9972408,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 22,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287964553611583,
+      "held_object": "",
+      "elapsed_sec": 18.197176183,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 22,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287965663961465,
+      "held_object": "",
+      "elapsed_sec": 18.397167543,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 22,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289667975383336,
+      "held_object": "",
+      "elapsed_sec": 18.597186982,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 22,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528966090940596,
+      "held_object": "",
+      "elapsed_sec": 18.797192517,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 22,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528796618819001,
+      "held_object": "",
+      "elapsed_sec": 18.997142713,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 23,
+          "nanosec": 0
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287944210195607,
+      "held_object": "",
+      "elapsed_sec": 19.197161051,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 23,
+          "nanosec": 200000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528794398480345,
+      "held_object": "",
+      "elapsed_sec": 19.397190786,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 23,
+          "nanosec": 400000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035287962638347347,
+      "held_object": "",
+      "elapsed_sec": 19.597170939,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 23,
+          "nanosec": 600000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.00035289681143577453,
+      "held_object": "",
+      "elapsed_sec": 19.797169447,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 23,
+          "nanosec": 800000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "DETECTING",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "gripper_open_ratio": 0.0003528968043496737,
+      "held_object": "",
+      "elapsed_sec": 19.997203441,
+      "detail": "",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 23,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "FAILED",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 1,
+      "gripper_open_ratio": 0.0003528796790269627,
+      "held_object": "",
+      "elapsed_sec": 20.10696993,
+      "detail": "Requested fresh objects not available in the current view",
+      "placed_objects": [],
+      "placed_poses": []
+    },
+    {
+      "header": {
+        "stamp": {
+          "sec": 23,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "state": "FAILED",
+      "stage": "select requested objects",
+      "current_object": "",
+      "target_bin": "",
+      "completed": 0,
+      "total": 0,
+      "succeeded": 0,
+      "failed": 1,
+      "gripper_open_ratio": 0.0003528796790269627,
+      "held_object": "",
+      "elapsed_sec": 20.107061793,
+      "detail": "Requested fresh objects not available in the current view",
+      "placed_objects": [],
+      "placed_poses": []
+    }
+  ],
+  "results": [
+    {
+      "header": {
+        "stamp": {
+          "sec": 23,
+          "nanosec": 900000000
+        },
+        "frame_id": "base_link"
+      },
+      "success": false,
+      "succeeded": 0,
+      "failed": 1,
+      "elapsed_sec": 20.107061793,
+      "detail": "Requested fresh objects not available in the current view",
+      "objects": [],
+      "bins": [],
+      "final_poses": [],
+      "physical_objects": []
+    }
+  ]
+}

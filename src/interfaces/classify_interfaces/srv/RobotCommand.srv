@@ -1,0 +1,12 @@
+# High-level robot command produced from natural language.
+# The language agent validates the user's words; this is the robot-facing
+# contract. The task node still enforces workspace, collision and grasp safety.
+
+string intent        # pick_place | pick_hold | home
+string[] colors      # target colours, e.g. ["red"] or ["red", "blue"]
+int32 quantity       # pick_place: 0 = all; >0 = requested count; pick_hold: 1 only
+string target_bin    # "red" | "blue" | "" (empty = same colour as the object)
+string selector      # nearest | leftmost | rightmost | first
+---
+bool accepted
+string message

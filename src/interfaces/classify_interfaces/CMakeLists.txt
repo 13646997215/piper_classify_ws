@@ -12,6 +12,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SceneStatus.msg"
   "msg/TaskStatus.msg"
   "msg/TaskResult.msg"
+  "srv/RobotCommand.srv"
   DEPENDENCIES std_msgs geometry_msgs
 )
 

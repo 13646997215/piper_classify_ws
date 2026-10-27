@@ -1,0 +1,68 @@
+[
+  {
+    "name": "classify_agent",
+    "path": "src/classify_agent",
+    "version": "0.1.0",
+    "build_type": "ament_python"
+  },
+  {
+    "name": "classify_bringup",
+    "path": "src/bringup/classify_bringup",
+    "version": "0.1.0",
+    "build_type": "ament_cmake"
+  },
+  {
+    "name": "classify_camera_sim",
+    "path": "src/perception/classify_camera_sim",
+    "version": "0.1.0",
+    "build_type": "ament_cmake"
+  },
+  {
+    "name": "classify_description",
+    "path": "src/description/classify_description",
+    "version": "1.0.0",
+    "build_type": "ament_cmake"
+  },
+  {
+    "name": "classify_grasp_sim",
+    "path": "src/description/classify_grasp_sim",
+    "version": "0.1.0",
+    "build_type": "ament_cmake"
+  },
+  {
+    "name": "classify_interfaces",
+    "path": "src/interfaces/classify_interfaces",
+    "version": "0.1.0",
+    "build_type": "ament_cmake"
+  },
+  {
+    "name": "classify_moveit_config",
+    "path": "src/moveit/classify_moveit_config",
+    "version": "0.1.0",
+    "build_type": "ament_cmake"
+  },
+  {
+    "name": "classify_perception",
+    "path": "src/perception/classify_perception",
+    "version": "0.1.0",
+    "build_type": "ament_cmake"
+  },
+  {
+    "name": "classify_scene_bridge",
+    "path": "src/bringup/classify_scene_bridge",
+    "version": "0.1.0",
+    "build_type": "ament_cmake"
+  },
+  {
+    "name": "classify_task",
+    "path": "src/task/classify_task",
+    "version": "0.1.0",
+    "build_type": "ament_cmake"
+  },
+  {
+    "name": "classify_voice",
+    "path": "src/classify_voice",
+    "version": "0.1.0",
+    "build_type": "ament_python"
+  }
+]

@@ -1,5 +1,25 @@
+# Copyright 2026 piper_classify_ws contributors
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
 """
-================================================================================
+Launch the Piper classification scene in Gazebo Classic.
+
 gazebo.launch.py — 在 Gazebo Classic 中启动 Piper + 分类场景 + ros2_control
 ================================================================================
 
@@ -62,25 +82,31 @@ from launch_ros.parameter_descriptions import ParameterValue
 def generate_launch_description():
     pkg_share = get_package_share_directory('classify_description')
     gazebo_share = get_package_share_directory('gazebo_ros')
-    with open(os.path.join(pkg_share,'config','gemini335.yaml')) as stream:
+    with open(os.path.join(pkg_share, 'config', 'gemini335.yaml')) as stream:
         sensor_profile = yaml.safe_load(stream)
     rgb, depth = sensor_profile['color'], sensor_profile['depth']
     if any(abs(value) > 1e-12 for value in rgb['distortion']):
-        raise ValueError('Nonzero device distortion needs a matching render model; do not change CameraInfo alone')
+        raise ValueError(
+            'Nonzero device distortion needs a matching render model; '
+            'do not change CameraInfo alone')
     if (rgb['width'], rgb['height']) != (depth['width'], depth['height']):
         raise ValueError('Current registration profile requires equal native RGB/depth dimensions')
-    registration = Node(package='classify_camera_sim', executable='align_rgbd', output='screen', parameters=[{
-        'use_sim_time': LaunchConfiguration('use_sim_time'),
-        'color_intrinsics': [rgb[k] for k in ('fx','fy','cx','cy')],
-        'depth_intrinsics': [depth[k] for k in ('fx','fy','cx','cy')],
-        'color_origin_in_depth': depth['color_origin_in_depth_optical_m'],
-        'min_z': depth['min_z_m'], 'max_z': depth['far_m'],
-        'stereo_baseline': depth['stereo_baseline_m'],
-        'width': rgb['width'], 'height': rgb['height'],
-        'depth_noise_stddev_m': ParameterValue(LaunchConfiguration('depth_noise_stddev_m'), value_type=float),
-        'depth_dropout_probability': ParameterValue(LaunchConfiguration('depth_dropout_probability'), value_type=float),
-        'stress_seed': ParameterValue(LaunchConfiguration('stress_seed'), value_type=int),
-    }])
+    registration = Node(
+        package='classify_camera_sim', executable='align_rgbd',
+        output='screen', parameters=[{
+            'use_sim_time': LaunchConfiguration('use_sim_time'),
+            'color_intrinsics': [rgb[k] for k in ('fx', 'fy', 'cx', 'cy')],
+            'depth_intrinsics': [depth[k] for k in ('fx', 'fy', 'cx', 'cy')],
+            'color_origin_in_depth': depth['color_origin_in_depth_optical_m'],
+            'min_z': depth['min_z_m'], 'max_z': depth['far_m'],
+            'stereo_baseline': depth['stereo_baseline_m'],
+            'width': rgb['width'], 'height': rgb['height'],
+            'depth_noise_stddev_m': ParameterValue(
+                LaunchConfiguration('depth_noise_stddev_m'), value_type=float),
+            'depth_dropout_probability': ParameterValue(
+                LaunchConfiguration('depth_dropout_probability'), value_type=float),
+            'stress_seed': ParameterValue(LaunchConfiguration('stress_seed'), value_type=int),
+        }])
 
     use_sim_time = LaunchConfiguration('use_sim_time')
     use_rviz = LaunchConfiguration('use_rviz')

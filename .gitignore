@@ -31,3 +31,10 @@ __pycache__/
 !.env.example
 *.pem
 *.key
+
+# Optional ASR weights and download caches stay local
+/faster-whisper-*/
+/models/
+.cache/
+*.egg-info/
+/dist/

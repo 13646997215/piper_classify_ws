@@ -1,0 +1,7 @@
+table: x [-0.100, +0.620], y [-0.420, +0.420], top z=0.350
+red_block: x [+0.375, +0.425], y [-0.025, +0.025], bottom z=0.350
+green_block: x [+0.375, +0.425], y [+0.115, +0.165], bottom z=0.350
+blue_block: x [+0.375, +0.425], y [-0.165, -0.115], bottom z=0.350
+bin_red: x [+0.455, +0.585], y [-0.285, -0.155], bottom z=0.350, pieces=5
+bin_blue: x [+0.455, +0.585], y [+0.155, +0.285], bottom z=0.350, pieces=5
+scene check passed: structural and geometry checks

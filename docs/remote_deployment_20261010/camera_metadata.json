@@ -1,0 +1,968 @@
+{
+  "source_label": "simulation",
+  "serial_label": "not_recorded",
+  "source_label_is_not_device_authentication": true,
+  "camera_info": {
+    "color": {
+      "header": {
+        "stamp": {
+          "sec": 31,
+          "nanosec": 402000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "height": 480,
+      "width": 640,
+      "distortion_model": "plumb_bob",
+      "d": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k": [
+        457.0073621574767,
+        0.0,
+        320.0,
+        0.0,
+        461.03571047307986,
+        240.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "r": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "p": [
+        457.0073621574767,
+        0.0,
+        320.0,
+        0.0,
+        0.0,
+        461.03571047307986,
+        240.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "binning_x": 0,
+      "binning_y": 0,
+      "roi": {
+        "x_offset": 0,
+        "y_offset": 0,
+        "height": 0,
+        "width": 0,
+        "do_rectify": false
+      }
+    },
+    "depth": {
+      "header": {
+        "stamp": {
+          "sec": 31,
+          "nanosec": 402000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "height": 480,
+      "width": 640,
+      "distortion_model": "plumb_bob",
+      "d": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k": [
+        457.0073621574767,
+        0.0,
+        320.0,
+        0.0,
+        461.03571047307986,
+        240.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "r": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "p": [
+        457.0073621574767,
+        0.0,
+        320.0,
+        0.0,
+        0.0,
+        461.03571047307986,
+        240.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "binning_x": 0,
+      "binning_y": 0,
+      "roi": {
+        "x_offset": 0,
+        "y_offset": 0,
+        "height": 0,
+        "width": 0,
+        "do_rectify": false
+      }
+    }
+  },
+  "pairs": [
+    {
+      "index": 0,
+      "color_header": {
+        "stamp": {
+          "sec": 28,
+          "nanosec": 535000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "depth_header": {
+        "stamp": {
+          "sec": 28,
+          "nanosec": 535000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "time_difference_sec": 0.0,
+      "depth_encoding": "16UC1",
+      "depth_units": "millimetres",
+      "image_time_transforms": {
+        "link6<-camera_color_optical_frame": {
+          "header": {
+            "stamp": {
+              "sec": 28,
+              "nanosec": 535000000
+            },
+            "frame_id": "link6"
+          },
+          "child_frame_id": "camera_color_optical_frame",
+          "transform": {
+            "translation": {
+              "x": -0.09293999999999998,
+              "y": 0.019139999999999997,
+              "z": 0.029149999999999995
+            },
+            "rotation": {
+              "x": -0.019771935183866378,
+              "y": 0.021977727696679127,
+              "z": -0.7111916953181117,
+              "w": 0.7023762685163315
+            }
+          }
+        },
+        "base_link<-camera_color_optical_frame": {
+          "header": {
+            "stamp": {
+              "sec": 28,
+              "nanosec": 535000000
+            },
+            "frame_id": "base_link"
+          },
+          "child_frame_id": "camera_color_optical_frame",
+          "transform": {
+            "translation": {
+              "x": 0.21681385181144394,
+              "y": 0.019119239360744677,
+              "z": 0.4672037967395681
+            },
+            "rotation": {
+              "x": 0.6646996229679201,
+              "y": -0.6574700891291356,
+              "z": 0.2536008721060431,
+              "w": -0.2481815681993442
+            }
+          }
+        },
+        "camera_depth_optical_frame<-camera_color_optical_frame": {
+          "header": {
+            "stamp": {
+              "sec": 28,
+              "nanosec": 535000000
+            },
+            "frame_id": "camera_depth_optical_frame"
+          },
+          "child_frame_id": "camera_color_optical_frame",
+          "transform": {
+            "translation": {
+              "x": 0.013999999999999901,
+              "y": 1.1102230246251565e-16,
+              "z": 0.0020199999999999663
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          }
+        }
+      },
+      "missing_image_time_transforms": []
+    },
+    {
+      "index": 1,
+      "color_header": {
+        "stamp": {
+          "sec": 29,
+          "nanosec": 67000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "depth_header": {
+        "stamp": {
+          "sec": 29,
+          "nanosec": 67000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "time_difference_sec": 0.0,
+      "depth_encoding": "16UC1",
+      "depth_units": "millimetres",
+      "image_time_transforms": {
+        "link6<-camera_color_optical_frame": {
+          "header": {
+            "stamp": {
+              "sec": 29,
+              "nanosec": 67000000
+            },
+            "frame_id": "link6"
+          },
+          "child_frame_id": "camera_color_optical_frame",
+          "transform": {
+            "translation": {
+              "x": -0.09293999999999998,
+              "y": 0.019139999999999997,
+              "z": 0.029149999999999995
+            },
+            "rotation": {
+              "x": -0.019771935183866378,
+              "y": 0.021977727696679127,
+              "z": -0.7111916953181117,
+              "w": 0.7023762685163315
+            }
+          }
+        },
+        "base_link<-camera_color_optical_frame": {
+          "header": {
+            "stamp": {
+              "sec": 29,
+              "nanosec": 67000000
+            },
+            "frame_id": "base_link"
+          },
+          "child_frame_id": "camera_color_optical_frame",
+          "transform": {
+            "translation": {
+              "x": 0.21681385181008114,
+              "y": 0.01911923936665898,
+              "z": 0.46720379673841966
+            },
+            "rotation": {
+              "x": 0.6646996229940957,
+              "y": -0.65747008910147,
+              "z": 0.2536008721292591,
+              "w": -0.24818156817880585
+            }
+          }
+        },
+        "camera_depth_optical_frame<-camera_color_optical_frame": {
+          "header": {
+            "stamp": {
+              "sec": 29,
+              "nanosec": 67000000
+            },
+            "frame_id": "camera_depth_optical_frame"
+          },
+          "child_frame_id": "camera_color_optical_frame",
+          "transform": {
+            "translation": {
+              "x": 0.013999999999999957,
+              "y": 1.1102230246251565e-16,
+              "z": 0.0020199999999999663
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          }
+        }
+      },
+      "missing_image_time_transforms": []
+    },
+    {
+      "index": 2,
+      "color_header": {
+        "stamp": {
+          "sec": 29,
+          "nanosec": 601000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "depth_header": {
+        "stamp": {
+          "sec": 29,
+          "nanosec": 601000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "time_difference_sec": 0.0,
+      "depth_encoding": "16UC1",
+      "depth_units": "millimetres",
+      "image_time_transforms": {
+        "link6<-camera_color_optical_frame": {
+          "header": {
+            "stamp": {
+              "sec": 29,
+              "nanosec": 601000000
+            },
+            "frame_id": "link6"
+          },
+          "child_frame_id": "camera_color_optical_frame",
+          "transform": {
+            "translation": {
+              "x": -0.09293999999999998,
+              "y": 0.019139999999999997,
+              "z": 0.029149999999999995
+            },
+            "rotation": {
+              "x": -0.019771935183866378,
+              "y": 0.021977727696679127,
+              "z": -0.7111916953181117,
+              "w": 0.7023762685163315
+            }
+          }
+        },
+        "base_link<-camera_color_optical_frame": {
+          "header": {
+            "stamp": {
+              "sec": 29,
+              "nanosec": 601000000
+            },
+            "frame_id": "base_link"
+          },
+          "child_frame_id": "camera_color_optical_frame",
+          "transform": {
+            "translation": {
+              "x": 0.21681385180958504,
+              "y": 0.01911923936979773,
+              "z": 0.46720379673849904
+            },
+            "rotation": {
+              "x": 0.6646996230009792,
+              "y": -0.6574700890944477,
+              "z": 0.25360087212571625,
+              "w": -0.2481815681825938
+            }
+          }
+        },
+        "camera_depth_optical_frame<-camera_color_optical_frame": {
+          "header": {
+            "stamp": {
+              "sec": 29,
+              "nanosec": 601000000
+            },
+            "frame_id": "camera_depth_optical_frame"
+          },
+          "child_frame_id": "camera_color_optical_frame",
+          "transform": {
+            "translation": {
+              "x": 0.013999999999999957,
+              "y": 0.0,
+              "z": 0.0020199999999999663
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          }
+        }
+      },
+      "missing_image_time_transforms": []
+    },
+    {
+      "index": 3,
+      "color_header": {
+        "stamp": {
+          "sec": 30,
+          "nanosec": 134000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "depth_header": {
+        "stamp": {
+          "sec": 30,
+          "nanosec": 134000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "time_difference_sec": 0.0,
+      "depth_encoding": "16UC1",
+      "depth_units": "millimetres",
+      "image_time_transforms": {
+        "link6<-camera_color_optical_frame": {
+          "header": {
+            "stamp": {
+              "sec": 30,
+              "nanosec": 134000000
+            },
+            "frame_id": "link6"
+          },
+          "child_frame_id": "camera_color_optical_frame",
+          "transform": {
+            "translation": {
+              "x": -0.09293999999999998,
+              "y": 0.019139999999999997,
+              "z": 0.029149999999999995
+            },
+            "rotation": {
+              "x": -0.019771935183866378,
+              "y": 0.021977727696679127,
+              "z": -0.7111916953181117,
+              "w": 0.7023762685163315
+            }
+          }
+        },
+        "base_link<-camera_color_optical_frame": {
+          "header": {
+            "stamp": {
+              "sec": 30,
+              "nanosec": 134000000
+            },
+            "frame_id": "base_link"
+          },
+          "child_frame_id": "camera_color_optical_frame",
+          "transform": {
+            "translation": {
+              "x": 0.2168138517885958,
+              "y": 0.019119239605245315,
+              "z": 0.4672037968111941
+            },
+            "rotation": {
+              "x": 0.6646996228762054,
+              "y": -0.6574700892334892,
+              "z": 0.2536008706789904,
+              "w": -0.24818156962674762
+            }
+          }
+        },
+        "camera_depth_optical_frame<-camera_color_optical_frame": {
+          "header": {
+            "stamp": {
+              "sec": 30,
+              "nanosec": 134000000
+            },
+            "frame_id": "camera_depth_optical_frame"
+          },
+          "child_frame_id": "camera_color_optical_frame",
+          "transform": {
+            "translation": {
+              "x": 0.01400000000000004,
+              "y": 0.0,
+              "z": 0.0020199999999999663
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          }
+        }
+      },
+      "missing_image_time_transforms": []
+    },
+    {
+      "index": 4,
+      "color_header": {
+        "stamp": {
+          "sec": 30,
+          "nanosec": 667000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "depth_header": {
+        "stamp": {
+          "sec": 30,
+          "nanosec": 667000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "time_difference_sec": 0.0,
+      "depth_encoding": "16UC1",
+      "depth_units": "millimetres",
+      "image_time_transforms": {
+        "link6<-camera_color_optical_frame": {
+          "header": {
+            "stamp": {
+              "sec": 30,
+              "nanosec": 667000000
+            },
+            "frame_id": "link6"
+          },
+          "child_frame_id": "camera_color_optical_frame",
+          "transform": {
+            "translation": {
+              "x": -0.09293999999999998,
+              "y": 0.019139999999999997,
+              "z": 0.029149999999999995
+            },
+            "rotation": {
+              "x": -0.019771935183866378,
+              "y": 0.021977727696679127,
+              "z": -0.7111916953181117,
+              "w": 0.7023762685163315
+            }
+          }
+        },
+        "base_link<-camera_color_optical_frame": {
+          "header": {
+            "stamp": {
+              "sec": 30,
+              "nanosec": 667000000
+            },
+            "frame_id": "base_link"
+          },
+          "child_frame_id": "camera_color_optical_frame",
+          "transform": {
+            "translation": {
+              "x": 0.21681385181105967,
+              "y": 0.019119239364586066,
+              "z": 0.4672037967396497
+            },
+            "rotation": {
+              "x": 0.6646996229763883,
+              "y": -0.6574700891204763,
+              "z": 0.2536008721018105,
+              "w": -0.24818156820392898
+            }
+          }
+        },
+        "camera_depth_optical_frame<-camera_color_optical_frame": {
+          "header": {
+            "stamp": {
+              "sec": 30,
+              "nanosec": 667000000
+            },
+            "frame_id": "camera_depth_optical_frame"
+          },
+          "child_frame_id": "camera_color_optical_frame",
+          "transform": {
+            "translation": {
+              "x": 0.01400000000000004,
+              "y": 0.0,
+              "z": 0.0020200000000000773
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          }
+        }
+      },
+      "missing_image_time_transforms": []
+    },
+    {
+      "index": 5,
+      "color_header": {
+        "stamp": {
+          "sec": 31,
+          "nanosec": 201000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "depth_header": {
+        "stamp": {
+          "sec": 31,
+          "nanosec": 201000000
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "time_difference_sec": 0.0,
+      "depth_encoding": "16UC1",
+      "depth_units": "millimetres",
+      "image_time_transforms": {
+        "link6<-camera_color_optical_frame": {
+          "header": {
+            "stamp": {
+              "sec": 31,
+              "nanosec": 201000000
+            },
+            "frame_id": "link6"
+          },
+          "child_frame_id": "camera_color_optical_frame",
+          "transform": {
+            "translation": {
+              "x": -0.09293999999999998,
+              "y": 0.019139999999999997,
+              "z": 0.029149999999999995
+            },
+            "rotation": {
+              "x": -0.019771935183866378,
+              "y": 0.021977727696679127,
+              "z": -0.7111916953181117,
+              "w": 0.7023762685163315
+            }
+          }
+        },
+        "base_link<-camera_color_optical_frame": {
+          "header": {
+            "stamp": {
+              "sec": 31,
+              "nanosec": 201000000
+            },
+            "frame_id": "base_link"
+          },
+          "child_frame_id": "camera_color_optical_frame",
+          "transform": {
+            "translation": {
+              "x": 0.2168138518103819,
+              "y": 0.019119239366513864,
+              "z": 0.46720379673824425
+            },
+            "rotation": {
+              "x": 0.6646996229938874,
+              "y": -0.6574700891018775,
+              "z": 0.25360087212918353,
+              "w": -0.2481815681783613
+            }
+          }
+        },
+        "camera_depth_optical_frame<-camera_color_optical_frame": {
+          "header": {
+            "stamp": {
+              "sec": 31,
+              "nanosec": 201000000
+            },
+            "frame_id": "camera_depth_optical_frame"
+          },
+          "child_frame_id": "camera_color_optical_frame",
+          "transform": {
+            "translation": {
+              "x": 0.01400000000000004,
+              "y": -1.1102230246251565e-16,
+              "z": 0.0020199999999999108
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          }
+        }
+      },
+      "missing_image_time_transforms": []
+    }
+  ],
+  "latest_transforms": {
+    "link6<-camera_color_optical_frame": {
+      "header": {
+        "stamp": {
+          "sec": 0,
+          "nanosec": 0
+        },
+        "frame_id": "link6"
+      },
+      "child_frame_id": "camera_color_optical_frame",
+      "transform": {
+        "translation": {
+          "x": -0.09293999999999998,
+          "y": 0.019139999999999997,
+          "z": 0.029149999999999995
+        },
+        "rotation": {
+          "x": -0.019771935183866378,
+          "y": 0.021977727696679127,
+          "z": -0.7111916953181117,
+          "w": 0.7023762685163315
+        }
+      }
+    },
+    "base_link<-camera_color_optical_frame": {
+      "header": {
+        "stamp": {
+          "sec": 31,
+          "nanosec": 463000000
+        },
+        "frame_id": "base_link"
+      },
+      "child_frame_id": "camera_color_optical_frame",
+      "transform": {
+        "translation": {
+          "x": 0.21681385180951074,
+          "y": 0.019119239371773667,
+          "z": 0.4672037967384653
+        },
+        "rotation": {
+          "x": 0.6646996230053613,
+          "y": -0.6574700890900739,
+          "z": 0.25360087212335836,
+          "w": -0.2481815681848534
+        }
+      }
+    },
+    "camera_depth_optical_frame<-camera_color_optical_frame": {
+      "header": {
+        "stamp": {
+          "sec": 0,
+          "nanosec": 0
+        },
+        "frame_id": "camera_depth_optical_frame"
+      },
+      "child_frame_id": "camera_color_optical_frame",
+      "transform": {
+        "translation": {
+          "x": 0.014000000000000012,
+          "y": 2.220446049250313e-16,
+          "z": 0.0020200000000000218
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        }
+      }
+    }
+  },
+  "missing_transforms": [],
+  "topic_types": {
+    "/attached_collision_object": [
+      "moveit_msgs/msg/AttachedCollisionObject"
+    ],
+    "/camera/color/camera_info": [
+      "sensor_msgs/msg/CameraInfo"
+    ],
+    "/camera/color/gazebo_camera_info": [
+      "sensor_msgs/msg/CameraInfo"
+    ],
+    "/camera/color/image_raw": [
+      "sensor_msgs/msg/Image"
+    ],
+    "/camera/depth/camera_info": [
+      "sensor_msgs/msg/CameraInfo"
+    ],
+    "/camera/depth/image_raw": [
+      "sensor_msgs/msg/Image"
+    ],
+    "/camera/native/depth/camera_info": [
+      "sensor_msgs/msg/CameraInfo"
+    ],
+    "/camera/native/depth/gazebo_camera_info": [
+      "sensor_msgs/msg/CameraInfo"
+    ],
+    "/camera/native/depth/image_raw": [
+      "sensor_msgs/msg/Image"
+    ],
+    "/camera/native/gazebo_camera_info": [
+      "sensor_msgs/msg/CameraInfo"
+    ],
+    "/camera/native/image_raw": [
+      "sensor_msgs/msg/Image"
+    ],
+    "/camera/native/points": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/classify/detection_markers": [
+      "visualization_msgs/msg/MarkerArray"
+    ],
+    "/classify/detections": [
+      "classify_interfaces/msg/DetectedBlocks"
+    ],
+    "/classify/grasped_object": [
+      "std_msgs/msg/String"
+    ],
+    "/classify/result": [
+      "classify_interfaces/msg/TaskResult"
+    ],
+    "/classify/scene_markers": [
+      "visualization_msgs/msg/MarkerArray"
+    ],
+    "/classify/scene_status": [
+      "classify_interfaces/msg/SceneStatus"
+    ],
+    "/classify/status": [
+      "classify_interfaces/msg/TaskStatus"
+    ],
+    "/classify/task_markers": [
+      "visualization_msgs/msg/MarkerArray"
+    ],
+    "/classify_mtc/description": [
+      "moveit_task_constructor_msgs/msg/TaskDescription"
+    ],
+    "/clock": [
+      "rosgraph_msgs/msg/Clock"
+    ],
+    "/collision_object": [
+      "moveit_msgs/msg/CollisionObject"
+    ],
+    "/display_contacts": [
+      "visualization_msgs/msg/MarkerArray"
+    ],
+    "/display_planned_path": [
+      "moveit_msgs/msg/DisplayTrajectory"
+    ],
+    "/dynamic_joint_states": [
+      "control_msgs/msg/DynamicJointState"
+    ],
+    "/execute_task_solution/_action/feedback": [
+      "moveit_task_constructor_msgs/action/ExecuteTaskSolution_FeedbackMessage"
+    ],
+    "/execute_task_solution/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/execute_trajectory/_action/feedback": [
+      "moveit_msgs/action/ExecuteTrajectory_FeedbackMessage"
+    ],
+    "/execute_trajectory/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/gazebo/link_states": [
+      "gazebo_msgs/msg/LinkStates"
+    ],
+    "/gazebo/model_states": [
+      "gazebo_msgs/msg/ModelStates"
+    ],
+    "/joint_states": [
+      "sensor_msgs/msg/JointState"
+    ],
+    "/monitored_planning_scene": [
+      "moveit_msgs/msg/PlanningScene"
+    ],
+    "/motion_plan_request": [
+      "moveit_msgs/msg/MotionPlanRequest"
+    ],
+    "/move_action/_action/feedback": [
+      "moveit_msgs/action/MoveGroup_FeedbackMessage"
+    ],
+    "/move_action/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/parameter_events": [
+      "rcl_interfaces/msg/ParameterEvent"
+    ],
+    "/performance_metrics": [
+      "gazebo_msgs/msg/PerformanceMetrics"
+    ],
+    "/piper_arm_controller/controller_state": [
+      "control_msgs/msg/JointTrajectoryControllerState"
+    ],
+    "/piper_arm_controller/follow_joint_trajectory/_action/feedback": [
+      "control_msgs/action/FollowJointTrajectory_FeedbackMessage"
+    ],
+    "/piper_arm_controller/follow_joint_trajectory/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/piper_arm_controller/joint_trajectory": [
+      "trajectory_msgs/msg/JointTrajectory"
+    ],
+    "/piper_arm_controller/state": [
+      "control_msgs/msg/JointTrajectoryControllerState"
+    ],
+    "/piper_arm_controller/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/piper_gripper_controller/controller_state": [
+      "control_msgs/msg/JointTrajectoryControllerState"
+    ],
+    "/piper_gripper_controller/follow_joint_trajectory/_action/feedback": [
+      "control_msgs/action/FollowJointTrajectory_FeedbackMessage"
+    ],
+    "/piper_gripper_controller/follow_joint_trajectory/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/piper_gripper_controller/joint_trajectory": [
+      "trajectory_msgs/msg/JointTrajectory"
+    ],
+    "/piper_gripper_controller/state": [
+      "control_msgs/msg/JointTrajectoryControllerState"
+    ],
+    "/piper_gripper_controller/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/piper_joint_state_broadcaster/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/planning_scene": [
+      "moveit_msgs/msg/PlanningScene"
+    ],
+    "/planning_scene_world": [
+      "moveit_msgs/msg/PlanningSceneWorld"
+    ],
+    "/recognized_object_array": [
+      "object_recognition_msgs/msg/RecognizedObjectArray"
+    ],
+    "/robot_description": [
+      "std_msgs/msg/String"
+    ],
+    "/robot_description_semantic": [
+      "std_msgs/msg/String"
+    ],
+    "/rosout": [
+      "rcl_interfaces/msg/Log"
+    ],
+    "/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback": [
+      "visualization_msgs/msg/InteractiveMarkerFeedback"
+    ],
+    "/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update": [
+      "visualization_msgs/msg/InteractiveMarkerUpdate"
+    ],
+    "/tf": [
+      "tf2_msgs/msg/TFMessage"
+    ],
+    "/tf_static": [
+      "tf2_msgs/msg/TFMessage"
+    ],
+    "/trajectory_execution_event": [
+      "std_msgs/msg/String"
+    ],
+    "/wrist_depth_sensor/camera_info": [
+      "sensor_msgs/msg/CameraInfo"
+    ],
+    "/wrist_depth_sensor/depth/image_raw": [
+      "sensor_msgs/msg/Image"
+    ],
+    "/wrist_depth_sensor/image_raw": [
+      "sensor_msgs/msg/Image"
+    ]
+  },
+  "failure": null,
+  "successful_stream_capture": true,
+  "limitations": [
+    "CameraInfo/TF reflect this running driver; original hand-eye raw samples still required",
+    "Aligned depth CameraInfo may equal RGB; native depth intrinsics need native topic",
+    "No measured noise or calibration is automatically imported into the simulator"
+  ]
+}
